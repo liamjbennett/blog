@@ -1,9 +1,0 @@
----
-layout: post
-title: "welcome"
-date: 2013-08-11 17:50
-comments: true
-categories: 
----
-
-This is the first test post - content
