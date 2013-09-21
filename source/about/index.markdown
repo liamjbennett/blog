@@ -6,3 +6,9 @@ comments: true
 sharing: true
 footer: true
 ---
+
+Email: liamjbennett@gmail.com
+<br/>
+Twitter: <a href="https://twitter.com/liamjbennett">@liamjbennett</a>
+<br/>
+Github: <a href="https://github.com/liamjbennett">github.com/liamjbennett</a>

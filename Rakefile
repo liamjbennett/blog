@@ -22,6 +22,7 @@ blog_index_dir  = 'source'    # directory for your blog's index page (if you put
 deploy_dir      = "_deploy"   # deploy directory (for Github pages deployment)
 stash_dir       = "_stash"    # directory to stash posts for speedy generation
 posts_dir       = "_posts"    # directory for blog files
+drafts_dir      = "_drafts"   # directory for draft posts
 themes_dir      = ".themes"   # directory for blog files
 new_post_ext    = "markdown"  # default new post file extension when using the new_post task
 new_page_ext    = "markdown"  # default new page file extension when using the new_page task
@@ -89,6 +90,35 @@ task :preview do
   [jekyllPid, compassPid, rackupPid].each { |pid| Process.wait(pid) }
 end
 
+desc "Begin a new draft in #{source_dir}/#{drafts_dir}"
+task :new_draft, :title do |t, args|
+  filename = `rake new_post['#{args.title}']`
+  posts_path = "#{source_dir}/#{posts_dir}"
+  drafts_path = "#{source_dir}/#{drafts_dir}"
+  mkdir_p drafts_path
+  destination = "#{drafts_path}/#{filename.strip}"
+  FileUtils.mv("#{posts_path}/#{filename.strip}", destination)
+  puts "Created draft at #{destination}"
+  `open #{destination}`
+end
+
+desc "Move a draft to #{source_dir}/#{posts_dir} when you're ready"
+task :promote_draft do
+  drafts_path = "#{source_dir}/#{drafts_dir}"
+  Dir.glob("#{drafts_path}/*.*").each_with_index do |draft, idx|
+    draft_shortname = draft.gsub(/#{drafts_path}\//, '')
+    puts "  [#{idx}]  #{draft_shortname}"
+  end
+
+  index_to_promote = ask("Promote which draft?", ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'])
+  drafts_path = "#{source_dir}/#{drafts_dir}"
+  source = Dir.glob("#{drafts_path}/*.*")[index_to_promote.to_i]
+  filename = source.gsub(/#{drafts_path}\//, '')
+  destination = "#{source_dir}/#{posts_dir}/#{filename}"
+  FileUtils.mv(source, destination)
+  puts "Promoted to #{destination}"
+end
+
 # usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to "new-post")
 desc "Begin a new post in #{source_dir}/#{posts_dir}"
 task :new_post, :title do |t, args|
@@ -99,7 +129,8 @@ task :new_post, :title do |t, args|
   end
   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
   mkdir_p "#{source_dir}/#{posts_dir}"
-  filename = "#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
+  basename = "#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
+  filename = "#{source_dir}/#{posts_dir}/#{basename}"
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
