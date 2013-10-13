@@ -12,3 +12,5 @@ Email: liamjbennett@gmail.com
 Twitter: <a href="https://twitter.com/liamjbennett">@liamjbennett</a>
 <br/>
 Github: <a href="https://github.com/liamjbennett">github.com/liamjbennett</a>
+
+CV: <a href="about/cv/index.html">CV</a>

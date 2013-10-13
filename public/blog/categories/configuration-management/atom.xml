@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: ruby | Motivated Automator]]></title>
-  <link href="http://yoursite.com/blog/categories/ruby/atom.xml" rel="self"/>
+  <title><![CDATA[Category: configuration-management | Motivated Automator]]></title>
+  <link href="http://yoursite.com/blog/categories/configuration-management/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
   <updated>2013-10-13T17:08:56+01:00</updated>
   <id>http://yoursite.com/</id>
