@@ -4,7 +4,7 @@
   <title><![CDATA[Motivated Automator]]></title>
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2013-12-11T16:52:49+00:00</updated>
+  <updated>2013-12-11T17:00:44+00:00</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[Liam Bennett]]></name>
@@ -83,8 +83,15 @@
 
 <h3>References</h3>
 
-<p><a name="968504594f013f0067f2c0f7ec5c5fb8">[1] <a href="http://www.craigdunn.org/2012/05/239/">http://www.craigdunn.org/2012/05/239/</a> </a>
-<a name="9031aeaf735f6dffb9872a8328853a5f">[2] <a href="http://www.slideshare.net/PuppetLabs/roles-talk">http://www.slideshare.net/PuppetLabs/roles-talk</a> </a></p>
+<ul style="list-style-type: none; padding:0; margin:0;">
+  <li>
+    <a name="968504594f013f0067f2c0f7ec5c5fb8">[1] http://www.craigdunn.org/2012/05/239/ </a>
+  </li>
+  <li>
+    <a name="9031aeaf735f6dffb9872a8328853a5f">[2] http://www.slideshare.net/PuppetLabs/roles-talk </a>
+  </li>
+</ul>
+
 ]]></content>
   </entry>
   

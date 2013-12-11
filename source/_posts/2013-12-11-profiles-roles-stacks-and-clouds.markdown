@@ -62,5 +62,11 @@ Do I have any code to show? Not yet. What I have is lots and lots of questions .
 If you want to discuss this more then reach out to me on twitter <a href="https://twitter.com/liamjbennett">@liamjbennett</a>
 
 ###References
-<a name="968504594f013f0067f2c0f7ec5c5fb8">[1] http://www.craigdunn.org/2012/05/239/ </a>
-<a name="9031aeaf735f6dffb9872a8328853a5f">[2] http://www.slideshare.net/PuppetLabs/roles-talk </a>
+<ul style="list-style-type: none; padding:0; margin:0;">
+  <li>
+    <a name="968504594f013f0067f2c0f7ec5c5fb8">[1] http://www.craigdunn.org/2012/05/239/ </a>
+  </li>
+  <li>
+    <a name="9031aeaf735f6dffb9872a8328853a5f">[2] http://www.slideshare.net/PuppetLabs/roles-talk </a>
+  </li>
+</ul>

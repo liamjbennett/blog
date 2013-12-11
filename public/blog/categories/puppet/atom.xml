@@ -4,7 +4,7 @@
   <title><![CDATA[Category: puppet | Motivated Automator]]></title>
   <link href="http://yoursite.com/blog/categories/puppet/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2013-12-11T16:52:50+00:00</updated>
+  <updated>2013-12-11T17:00:44+00:00</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[Liam Bennett]]></name>
@@ -12,6 +12,88 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[profiles, roles, stacks and clouds]]></title>
+    <link href="http://yoursite.com/blog/2013/12/11/profiles-roles-stacks-and-clouds/"/>
+    <updated>2013-12-11T12:06:00+00:00</updated>
+    <id>http://yoursite.com/blog/2013/12/11/profiles-roles-stacks-and-clouds</id>
+    <content type="html"><![CDATA[<p>One of the more recent patterns in structuring out puppet manifests is: roles and profiles <a href="#968504594f013f0067f2c0f7ec5c5fb8">[1]</a> <a href="#9031aeaf735f6dffb9872a8328853a5f">[2]</a>. The summary is this: profiles are a collection of classes/modules and roles are a collection of profiles. Having started to re-factor our own infratructure with this pattern recently there was one question that cam immediately to mind .. what&rsquo;s next?</p>
+
+<p>Roles and profiles is all about abstraction. With roles all I have to care about is what &ldquo;type&rdquo; of node I am building:</p>
+
+<pre><code>class role::www inherits role { 
+  include profile::tomcat
+}
+</code></pre>
+
+<p>But what is the next abstraction? How far can we abstract?</p>
+
+<h3>Stack</h3>
+
+<p>Can we group together those nodes and roles? What I would like to see is the &ldquo;stack&rdquo; ..</p>
+
+<pre><code>define stack::webstack(
+  $node_webserver,
+  $node_appserver,
+  $node_dbserver
+) {
+     node $node_webserver {
+       include role::webserver
+     }
+
+     node $node_appserver {
+       include role::appserver
+     }
+
+     node $node_dbserver {
+       include role::dbserver
+     }
+ }
+</code></pre>
+
+<p>This does use the node declarations rather than the ENC but it can allow us to scale out small indeependant infrastucture quickly.</p>
+
+<h3>Cloud</h3>
+
+<p>Puppet also is now moving beyound the server to network swtiches and embedded hardware. Can we also extend out thinking beyond the 3-tier web stack? Can we use puppet to manage independent regions or independent clouds? I would like to see something like the following &hellip;</p>
+
+<pre><code>define cloud::region(
+  $stack
+  $network
+) {
+  include $stack
+
+  network_route { $network:
+    ensure    =&gt; 'present',
+    gateway   =&gt; '10.0.2.2',
+    interface =&gt; 'eth0',
+    netmask   =&gt; '255.255.255.0',
+    network   =&gt; '172.17.67.0'
+  }
+}
+</code></pre>
+
+<p>Do I have any code to show? Not yet. What I have is lots and lots of questions ..</p>
+
+<br/><br/>
+
+
+<p>If you want to discuss this more then reach out to me on twitter <a href="https://twitter.com/liamjbennett">@liamjbennett</a></p>
+
+<h3>References</h3>
+
+<ul style="list-style-type: none; padding:0; margin:0;">
+  <li>
+    <a name="968504594f013f0067f2c0f7ec5c5fb8">[1] http://www.craigdunn.org/2012/05/239/ </a>
+  </li>
+  <li>
+    <a name="9031aeaf735f6dffb9872a8328853a5f">[2] http://www.slideshare.net/PuppetLabs/roles-talk </a>
+  </li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Puppet on Windows - Part 2]]></title>
