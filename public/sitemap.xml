@@ -10,7 +10,11 @@
     </url>
     <url>
         <loc>http://yoursite.com/blog/2013/10/06/puppet-on-windows-part-1/</loc>
-        <lastmod>2013-10-13T17:08:51+01:00</lastmod>
+        <lastmod>2013-12-11T11:32:16+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://yoursite.com/blog/2013/12/11/puppet-on-windows-part-2/</loc>
+        <lastmod>2013-12-11T11:38:25+00:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/about/cv/</loc>
@@ -22,19 +26,19 @@
     </url>
     <url>
         <loc>http://yoursite.com/archives/</loc>
-        <lastmod>2013-10-13T17:08:51+01:00</lastmod>
+        <lastmod>2013-12-11T11:38:25+00:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/archives/</loc>
-        <lastmod>2013-10-13T17:08:51+01:00</lastmod>
+        <lastmod>2013-12-11T11:38:25+00:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/</loc>
-        <lastmod>2013-10-13T17:08:51+01:00</lastmod>
+        <lastmod>2013-12-11T11:38:25+00:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/</loc>
-        <lastmod>2013-10-13T17:08:51+01:00</lastmod>
+        <lastmod>2013-12-11T11:38:25+00:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/robots.txt</loc>
