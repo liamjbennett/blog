@@ -2,18 +2,18 @@
 layout: post
 title: "profiles, roles, stacks and clouds"
 date: 2013-12-11 12:06
-comments: true
-categories: configuration-management, puppet  
+comments: false
+categories: configuration-management puppet  
 ---
 One of the more recent patterns in structuring out puppet manifests is: roles and profiles [[1]](#968504594f013f0067f2c0f7ec5c5fb8) [[2]](#9031aeaf735f6dffb9872a8328853a5f). The summary is this: profiles are a collection of classes/modules and roles are a collection of profiles. Having started to re-factor our own infratructure with this pattern recently there was one question that cam immediately to mind .. what's next?
 
 Roles and profiles is all about abstraction. With roles all I have to care about is what "type" of node I am building:
 
-    class role::www inherits role { 
+    class role::www inherits role {
       include profile::tomcat
     }
 
-But what is the next abstraction? How far can we abstract? 
+But what is the next abstraction? How far can we abstract?
 
 ###Stack
 Can we group together those nodes and roles? What I would like to see is the "stack" ..
@@ -56,7 +56,7 @@ Puppet also is now moving beyound the server to network swtiches and embedded ha
       }
     }
 
-Do I have any code to show? Not yet. What I have is lots and lots of questions .. 
+Do I have any code to show? Not yet. What I have is lots and lots of questions ..
 
 <br/><br/>
 If you want to discuss this more then reach out to me on twitter <a href="https://twitter.com/liamjbennett">@liamjbennett</a>

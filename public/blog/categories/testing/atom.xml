@@ -4,7 +4,7 @@
   <title><![CDATA[Category: testing | Motivated Automator]]></title>
   <link href="http://yoursite.com/blog/categories/testing/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2013-12-11T17:00:45+00:00</updated>
+  <updated>2014-12-22T13:15:07+00:00</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[Liam Bennett]]></name>
@@ -12,6 +12,43 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[testing puppet with beaker pt 3 - testing roles and profiles]]></title>
+    <link href="http://yoursite.com/blog/2014/09/01/testing-puppet-with-beaker-pt-dot-3-testing-roles/"/>
+    <updated>2014-09-01T12:06:00+01:00</updated>
+    <id>http://yoursite.com/blog/2014/09/01/testing-puppet-with-beaker-pt-dot-3-testing-roles</id>
+    <content type="html"><![CDATA[<p>The third installation in this series cover the usecase of testing roles and profiles.</p>
+
+<p><a href="http://tech.opentable.co.uk/blog/2014/09/01/testing-puppet-with-beaker-pt-dot-3-testing-roles/">http://tech.opentable.co.uk/blog/2014/09/01/testing-puppet-with-beaker-pt-dot-3-testing-roles/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[testing puppet with beaker pt 2 - the windows story]]></title>
+    <link href="http://yoursite.com/blog/2014/09/01/testing-puppet-with-beaker-pt-dot-2-the-windows-story/"/>
+    <updated>2014-09-01T12:06:00+01:00</updated>
+    <id>http://yoursite.com/blog/2014/09/01/testing-puppet-with-beaker-pt-dot-2-the-windows-story</id>
+    <content type="html"><![CDATA[<p>The second instalment in the series on the Beaker testing tool.</p>
+
+<p>This post covers the work that was done to enhance the tool for testing windows systems.</p>
+
+<p><a href="http://tech.opentable.co.uk/blog/2014/09/01/testing-puppet-with-beaker-pt-dot-2-the-windows-story/">http://tech.opentable.co.uk/blog/2014/09/01/testing-puppet-with-beaker-pt-dot-2-the-windows-story/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[testing puppet with beaker]]></title>
+    <link href="http://yoursite.com/blog/2014/04/04/testing-puppet-with-beaker/"/>
+    <updated>2014-04-04T12:06:00+01:00</updated>
+    <id>http://yoursite.com/blog/2014/04/04/testing-puppet-with-beaker</id>
+    <content type="html"><![CDATA[<p>The first instalment of a series of posts covering the Puppet testing tool Beaker (<a href="https://github.com/puppetlabs/beaker">https://github.com/puppetlabs/beaker</a>)</p>
+
+<p>This first post is an initial introduction.</p>
+
+<p><a href="http://tech.opentable.co.uk/blog/2014/04/04/testing-puppet-with-beaker/">http://tech.opentable.co.uk/blog/2014/04/04/testing-puppet-with-beaker/</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[thoughts on scaling cucumber]]></title>
@@ -85,8 +122,6 @@
   </li>
 </ul>
 
-
-<p></p>
 ]]></content>
   </entry>
   

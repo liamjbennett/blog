@@ -2,8 +2,8 @@
 layout: post
 title: "Why I am Blogging Again"
 date: 2013-09-03 07:49
-comments: true
-categories: 
+comments: false
+categories:
 ---
 
 It has been far too long since I last found myself writing any tl;dr content. Like the vast majority, this is at least my third attempt, my third tool and who knows if it will stick although I am now using the octopress/github setup. I am now writing along side my the rest of my code, so I think that it will be gaining traction that way.
@@ -15,4 +15,3 @@ I am also going to be commenting on my day-to-day work and my observations of cu
 <br/>
 
 And with that all taken into consideration lets do this thing …
-

@@ -2,8 +2,8 @@
 layout: post
 title: "puppet on Windows - part 1"
 date: 2013-10-06 14:56
-comments: true
-categories: configuration-management puppet ruby Windows 
+comments: false
+categories: configuration-management puppet ruby windows
 ---
 I have recently spent some time working with puppet, in particular working on writing modules for Windows and I wanted to share some of my thoughts and experiences that I learnt along the way.
 
@@ -22,7 +22,7 @@ The first thing is get to know Powershell [[1]](#aaf77b1d1120543427c88d09b8b11fa
 
 Next up is the big daddy of them all - the MSDN/TechNet documentation [[3]](#0533b0d73a6d8c4dbcc37b1eb665edee). This is a huge archive that contains documentation on every built in library, utility and registry setting that comes with Windows. The more you work in the Windows world the more you will find yourself staring at its pages - that's if you can find the one your looking for. A lot time was spent while writing my first Windows modules tracking down useful documentation - installation prerequisites, silent install options, config files options, registry tweaks. Digging all of this out can be time consuming but in the end totally worth it. <b></i>Do your module users a favour and put links to these documents either in your README or in your wiki - it will save the pain for us all.</i></b>
 
-The Windows registry is the final weapon in your toolbox. If you've ever even looked at a Windows machine before then this is not news to you but your going to learn this more than you have ever done so before. Firstly it will help you in making sure your configurations are idempotent but also most Windows applications these days have both documented and undocumented registry tweaks so it would be good to expose some of them in your modules. 
+The Windows registry is the final weapon in your toolbox. If you've ever even looked at a Windows machine before then this is not news to you but your going to learn this more than you have ever done so before. Firstly it will help you in making sure your configurations are idempotent but also most Windows applications these days have both documented and undocumented registry tweaks so it would be good to expose some of them in your modules.
 
 ###The 3 classic problems: Packaging, ISOs and reboots
 When discussing windows with other puppet users the three topics that always come up are windows packaging, installing large applications that are distributed via ISOs and how best to manage system changes that require reboots.
@@ -86,7 +86,7 @@ The benefit of this approach is that you probably already have this sort of shar
 The disadvantage of this approach is that firstly, not all applications support this approach and secondly you will have to make sure that the network server is added to your local intranet security settings. Luckily the later can be fixed using the puppetlabs-registry module [[9]](#37c5bf3536a4757afb731a719efe546b).
 
 #####Mounted Network drive/folder
-The other approach to this problem is to mount a network share either as a drive or a folder. Simon Dean has written a net_share module [[10]](#dcf341f86b8dec6f7940a2e084647e9b) for this. 
+The other approach to this problem is to mount a network share either as a drive or a folder. Simon Dean has written a net_share module [[10]](#dcf341f86b8dec6f7940a2e084647e9b) for this.
 
     net_share {'PuppetTest':
         ensure        => present,
@@ -99,7 +99,7 @@ The other approach to this problem is to mount a network share either as a drive
 
 This approach has the benefit that packages are installed as if they were from a local drive - many applications were written making this assumption. The disadvantage as stated above is that you can unnecessarily expose other applications to your users that you may not want to. There may be ways to mitigate this by mounting then dismounting the drive pre and post-install or mounting to a hidden folder but both approaches seem like a work-around.
 
-My thoughts on the best of these methods to use really varies depending upon the size and complexity of the applications that I am trying to work with. Up to this point I have mostly been working with the network share approach but this required making registry entries and that seems a little nasty. I think that a better approach would be to write an provider just for iso files and use that as a vehicle to work through some of these use-cases. 
+My thoughts on the best of these methods to use really varies depending upon the size and complexity of the applications that I am trying to work with. Up to this point I have mostly been working with the network share approach but this required making registry entries and that seems a little nasty. I think that a better approach would be to write an provider just for iso files and use that as a vehicle to work through some of these use-cases.
 
 I will discuss my experiences of using these approaches in a future post where I discuss in more detail the modules that I have written but for now I suggest you go and look at all these available methods and choose the one that best suits your existing environment and security needs.
 
@@ -116,7 +116,7 @@ Up until very recently this a big problem for windows users. May packages requir
        subscribe       => Package['Microsoft .NET Framework 4.5'],
      }
 
-Actually I like having reboots within the manifest - it helps prove my idempotence. This module is still being worked on by puppetlabs and at the time of writing there were issues for puppet users running ruby 1.8.x [[12]](#91b2bceeb7f198bd25be62f0e062fe84) but it's a great solution to the problem. 
+Actually I like having reboots within the manifest - it helps prove my idempotence. This module is still being worked on by puppetlabs and at the time of writing there were issues for puppet users running ruby 1.8.x [[12]](#91b2bceeb7f198bd25be62f0e062fe84) but it's a great solution to the problem.
 
 
 ###Summary
