@@ -2,51 +2,51 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://yoursite.com/blog/2013/09/03/why-i-am-blogging-again/</loc>
-        <lastmod>2014-12-22T12:59:41+00:00</lastmod>
+        <lastmod>2015-09-11T10:10:56+01:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/2013/09/08/thoughts-on-scaling-cucumber/</loc>
-        <lastmod>2014-12-22T12:59:55+00:00</lastmod>
+        <lastmod>2015-09-11T10:10:56+01:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/2013/10/06/puppet-on-windows-part-1/</loc>
-        <lastmod>2014-12-22T13:00:07+00:00</lastmod>
+        <lastmod>2015-09-11T10:10:56+01:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/2013/12/11/puppet-on-windows-part-2/</loc>
-        <lastmod>2013-12-11T11:38:25+00:00</lastmod>
+        <lastmod>2015-09-11T10:10:56+01:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/2013/12/11/profiles-roles-stacks-and-clouds/</loc>
-        <lastmod>2014-12-22T13:00:14+00:00</lastmod>
+        <lastmod>2015-09-11T10:10:56+01:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/2014/04/04/testing-puppet-with-beaker/</loc>
-        <lastmod>2014-12-22T13:11:23+00:00</lastmod>
+        <lastmod>2015-09-11T10:10:56+01:00</lastmod>
     </url>
     <url>
         <loc>
             http://yoursite.com/blog/2014/09/01/testing-puppet-with-beaker-pt-dot-2-the-windows-story/
         </loc>
-        <lastmod>2014-12-22T13:13:43+00:00</lastmod>
+        <lastmod>2015-09-11T10:10:56+01:00</lastmod>
     </url>
     <url>
         <loc>
             http://yoursite.com/blog/2014/09/01/testing-puppet-with-beaker-pt-dot-3-testing-roles/
         </loc>
-        <lastmod>2014-12-22T13:14:54+00:00</lastmod>
+        <lastmod>2015-09-11T10:10:56+01:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/2014/10/06/puppetconf-2014-part-1/</loc>
-        <lastmod>2014-12-22T13:09:05+00:00</lastmod>
+        <lastmod>2015-09-11T10:10:56+01:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/2014/10/06/puppetconf-2014-part-2/</loc>
-        <lastmod>2014-12-22T13:06:16+00:00</lastmod>
+        <lastmod>2015-09-11T10:10:56+01:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/2014/10/06/puppetconf-2014-part-3/</loc>
-        <lastmod>2014-12-22T13:05:34+00:00</lastmod>
+        <lastmod>2015-09-11T10:10:56+01:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/about/cv/</loc>
