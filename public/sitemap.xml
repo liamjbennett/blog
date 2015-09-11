@@ -57,6 +57,10 @@
         <lastmod>2015-09-11T10:25:26+01:00</lastmod>
     </url>
     <url>
+        <loc>http://yoursite.com/blog/2015/09/11/windows-talk/</loc>
+        <lastmod>2015-09-11T10:42:16+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://yoursite.com/about/cv/</loc>
         <lastmod>2015-05-22T15:24:21+01:00</lastmod>
     </url>
@@ -66,19 +70,19 @@
     </url>
     <url>
         <loc>http://yoursite.com/archives/</loc>
-        <lastmod>2015-09-11T10:25:26+01:00</lastmod>
+        <lastmod>2015-09-11T10:42:16+01:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/archives/</loc>
-        <lastmod>2015-09-11T10:25:26+01:00</lastmod>
+        <lastmod>2015-09-11T10:42:16+01:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/</loc>
-        <lastmod>2015-09-11T10:25:26+01:00</lastmod>
+        <lastmod>2015-09-11T10:42:16+01:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/</loc>
-        <lastmod>2015-09-11T10:25:26+01:00</lastmod>
+        <lastmod>2015-09-11T10:42:16+01:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/robots.txt</loc>
