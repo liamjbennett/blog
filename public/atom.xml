@@ -4,7 +4,7 @@
   <title><![CDATA[Motivated Automator]]></title>
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-09-11T10:12:06+01:00</updated>
+  <updated>2015-09-11T10:26:17+01:00</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[Liam Bennett]]></name>
@@ -12,6 +12,72 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[[Quick Update] - 23-Mar-2015]]></title>
+    <link href="http://yoursite.com/blog/2015/03/23/quick-update/"/>
+    <updated>2015-03-23T08:50:00+00:00</updated>
+    <id>http://yoursite.com/blog/2015/03/23/quick-update</id>
+    <content type="html"><![CDATA[<p>Ok, so you’ve seen the date of this post. I’m not exactly as regular with these posts as I would like but it seems that I do in fact still have things to write about.</p>
+
+<h4> Foreman</h4>
+
+<p>One of the big things that I have been working on recently has been in puppetizing the foreman infrastructure used at OpenTable. Thankfully this is quite a mature community and there has already been a lot of work done however one limitation that I found was that I wanted to actually use puppet to configure foreman after I had installed it.</p>
+
+<p>For anyone that has actually spent some time with foreman you will know that entity model is a little complex and it can take a long time to configure with settings specific to your organization. Having a somewhat ageing foreman installation meant that we were suffering from the problems of any aging, snow-flaked system, namely it was flakey and no one wanted to make changes to it. This is when I decided that this was a good opportunity to extend the already existing puppet module to support this entity model with custom types/providers.</p>
+
+<p>This was my first foray into writing types and providers so it took a little longer than might be expected and took several iterations to get the code working and more importantly, performant. Writing types and providers is still one of those areas that I don’t think is a well documented process and is not for the unexperienced. For the majority of my time I had <a href="">this</a> wonder blog open, in addition to <a href="">the book</a> and the <a href="">puppet documentation</a> on the subject. Only with the arsenal of resources available was I able to tackle the challenge. Thankfully a couple of weeks of hacking later and I managed to have types for all the major foreman components: operatingsystems, configuration templates, provisioning profiles etc.</p>
+
+<p>Take a look at my work and see what you think &hellip;</p>
+
+<h4>puppet-community</h4>
+
+<p>Puppet community is a github organization that has been developing for some time now. The idea behind the project/community is provide a shared space for puppet modules to live and be developed. It’s key benefits are really just starting to develop but are quite useful &ndash; shared build scripts, shared testing infrastructure and shared development and PR management. The hope is that with the experience that is found in the community the quality of the modules in the community as a whole will increase.</p>
+
+<p>Being a separate non-corporate, non-individual entity means that when a primary author moves organizations and/or does not have the time to work on a module any more they have people who will continue to support it. This is huge, as anyone who has any more than about 5 modules on the forge will tell you &ndash; managing PRs and releasing updates can become a big job pretty fast. I know there are 8 modules authored by me personally and over 10 authored by myself and my OpenTable colleagues &ndash; this was becoming a full time job.</p>
+
+<p>As you might be able to assume by this point, I am a huge fan of the project and I have been moving both my own personal modules as well as a number of OpenTable modules into the community. I won’t discuss this aspect any further, because there will be a much larger post of the subject &ndash; but be assured, it’s very exciting and a good move for all the users of all the modules I have written.</p>
+
+<h4>puppet notes</h4>
+
+<p>Finally anther small thing I have been working on is externalizing the notes I have been keeping about puppet over the last couple of years.  These notes over everything from weird edge-cases you might run into, certain style guides and by far the largest part of the notes is on different code patterns I have been and my comments on them. As you might expect there is lots of content in there on several different approaches to the same problem &ndash; I have been doing my best to document these, including when I think they can be used and trying to pick a favourite.  I’d love for you to take a look and let me know your thoughts.</p>
+
+<p>* * *</p>
+
+<p>Hopefully by now you are not too bored and have found some interesting things. In which case you should absolutely reach out to be at <a href="https://twitter.com/liamjbennett">@liamjbennett</a> and let me know your thoughts.</p>
+
+<p>Until next time …..</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[[Quick Update] - 12-Mar-2015]]></title>
+    <link href="http://yoursite.com/blog/2015/03/12/quick-update/"/>
+    <updated>2015-03-12T08:50:00+00:00</updated>
+    <id>http://yoursite.com/blog/2015/03/12/quick-update</id>
+    <content type="html"><![CDATA[<p>It has recently been commented by a few individuals that I am a poor communicator of some of the interesting things that I am usually hacking on. I guess they are right and I thought that rather than wait and do a big-bang style blog post of the usual multi-thousand word variety that I would start trying to write these little posts in about 30 minutes and see how that works out. By the time your reading this I will have likely already written several and managed to build up a least a little motivation in writing again.</p>
+
+<p>* * *</p>
+
+<p>With all that in mind, what have I actually been working on recently?</p>
+
+<h4>The slow road towards linux on the desktop</h4>
+
+<p>Like almost all of my peers, it seems that for a number of years now I have been spending 40+ hours a week curled up with my macbook only to be dissatisfied with the operating system that it comes with. I have already seen a number people start to make the transition to Linux or BSD on the desktop and I think that 2015 might be the year for me (if you’re reading this after 2015 &ndash; don’t laugh too hard because I really meant it). With that target in mind I have been spending some time reducing my tooling to only those things that are cross-platform, preferring the command-line and making a note of all those things that I might have to keep OS X around for. So far in the past few months I have changed my password manager (1password to lastpass) my editor (atom to tmux+vim) and made a good list of things I like on OS X (RoyalTSX and VMware fusion) none of which seems to be blocking my transition. I am sure that this little project might turn into one of those big-bang blogs &ndash; but don’t hold your breath ;)</p>
+
+<h4>A few more updates with testing puppet on windows</h4>
+
+<p>So I wrote (this) post a while back and I have continue to work on the project and getting the changes that need to made into the master branch of beaker for everyone to use easily. This is almost done now so over the next few weeks you should be able to really start testing those modules &ndash; with our packer images of course.</p>
+
+<h4>Updates to those packer images</h4>
+
+<p>From the download numbers it seems like a number of your like using those windows images that I created so I am very happy about that. If you go and take another look at the page on atlas you should see that there a number of new versions there now that you might want to play with. We unfortunately had to temporally close-source the packer templates behind those images while we dealt with an issue with the bitvise installation, although expect this to be open again very soon. In addition to that I am very excited with the things going on over at the packer-community project. It seems like the plugins are now there so that we will eventually be able to remove the bitvise dependency completely, which is exciting.</p>
+
+<p>* * *</p>
+
+<p>Ok, so that’s enough for this first 30-minute update, but don’t worry I have plenty more updates to come in the following days so stay tuned for that.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[puppetconf 2014 - part 3]]></title>
