@@ -7,7 +7,7 @@ categories: windows, conferences
 ---
 Last week I was kindly invited to participate in the first WinOps (http://winops.org/) conference in London.
 
-<img src="images/winops-logo.png" height="200" width="200" align="center"/>
+<img src="/images/winops-logo.png" height="200" width="200" align="center"/>
 
 I have been skirting around the edges of the microsoft world for some time now and when I saw this conference appear I thought it would be a good opportunity to chat with those individuals whom are fully immersed in windows but may have a different devops journey to my own.
 
@@ -23,11 +23,11 @@ After these though provoking talks and some more interesting discussion over lun
 
 Firstly I was invited to be a member of the panel discussion Infrastructure as Code. On this panel were representatives of DSC,Chef,Puppet and Ansible. I was there to represent the non-vendor view (my preference towards puppet was made clear). Most of the questions veered towards to more basic IaC principles: Why manage as text files (code)?, Thoughts on SCCM?, Where do I start? I think the most personally interesting part of this panel was that all of the panel members seemed to agree - something that was unexpected on my part.
 
-<img src="images/winops-2015-01.jpg"/>
+<img src="/images/winops-2015-01.jpg"/>
 
 Next, I was unexpectedly asked to also fill in some space on the CI/CD for Windows panel. This was again about some core principles: deployments and packaging. While this was basic, it’s been a few years since my job has been focused on this so it was good to get back to basics and also being forced into justifying my opinions. We had a great chat about packaging on windows and the options available, as well as how to manage database deployments and orchestration. It’s great to know that there has been a long of work done here in the windows space and it’s all a lot better than when I was going it 2-3 years ago.
 
-<img src="images/winops-2015-02.jpg"/>
+<img src="/images/winops-2015-02.jpg"/>
 
 Over all I found this to be a great little conference with a diverse range of people with lots of challenges. Most of the companies represented might be at the start of their devops journey but there are a lot of passionate people focussed on helping improve this space. Now that microsoft is also embracing this, most of these companies and engineers feel much more comfortable in moving forward. I think it’s going to be an exciting few years ahead for those in the windows world.
 
