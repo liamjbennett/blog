@@ -9,7 +9,7 @@
 
 <meta name="author" content="Liam Bennett"> 
 
-<meta name="description" content="I gave another talk this week to the folks over at Ve Interactive. It&rsquo;s been a while since I last did a talk and I enjoyed it alot. Lots of &hellip;"> <meta name="keywords" content="">
+<meta name="description" content="Last week I was kindly invited to participate in the first WinOps (http://winops.org/) conference in London. I have been skirting around the edges &hellip;"> <meta name="keywords" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -93,6 +93,73 @@ $(document).ready(
 </header>
 
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2015/09/28/winops-2015/">
+		
+			Winops 2015</a>
+	</h2>
+	<div class="entry-content">
+		<p>Last week I was kindly invited to participate in the first WinOps (<a href="http://winops.org/">http://winops.org/</a>) conference in London.</p>
+
+<p><img src="images/winops-logo.png" height="200" width="200" align="center"/></p>
+
+<p>I have been skirting around the edges of the microsoft world for some time now and when I saw this conference appear I thought it would be a good opportunity to chat with those individuals whom are fully immersed in windows but may have a different devops journey to my own.</p>
+
+<p>I will be honest, I was fully expecting to walk into a room full of suited business types looking to buy the devops and discuss ROI. Thankfully that trope was only in my own head (aren’t they always!) and I what I really discovered was a group of engineers very like myself but from very different backgrounds.</p>
+
+<p>Most of the attendees were from large enterprises with diverse environments (not all were 100% windows). This meant that they were coming to the discussion with problems like: big legacy systems, enterprise tooling and licensing agreements &ndash; something for which I have up to this point managed to only view from a safe distance. They were also coming from a background of being new to devops and some were still struggling with continuous delivery pipelines. This reminded me that for all the advances that have been made in the devops discussions there are always going to be people who are new so we can’t always make assumptions of knowledge &ndash; something we often do when in a bit of an echo chamber.</p>
+
+<p>I won’t go through all the talks &ndash; they were all fantastic and a great overview of the current state of the universe for windows (thanks Stephen Thair and John Rakowski)</p>
+
+<p>I will point out one however, the talk from JustEat’s Peter Mounce, who discusses their infrastructure and the journey from hand-build machines in their own datacenter to windows servers in AWS that are regularly destroyed. This was a great talk to give to this audience because it demonstrated that even in the world of windows, where the perception is that everything is a little bit more difficult, that things like this are actually possible. I am sure that we (OpenTable) will be looking more and more at this as we to move to the path of trying to destroy more of our infrastructure on a regular basis. (note: I am not going to say immutable here &ndash; more on that some other time)</p>
+
+<p>After these though provoking talks and some more interesting discussion over lunch it was time for me to step up and try and sound like I know what I am talking about.</p>
+
+<p>Firstly I was invited to be a member of the panel discussion Infrastructure as Code. On this panel were representatives of DSC,Chef,Puppet and Ansible. I was there to represent the non-vendor view (my preference towards puppet was made clear). Most of the questions veered towards to more basic IaC principles: Why manage as text files (code)?, Thoughts on SCCM?, Where do I start? I think the most personally interesting part of this panel was that all of the panel members seemed to agree &ndash; something that was unexpected on my part.</p>
+
+<p><img src="images/winops-2015-01.jpg"/></p>
+
+<p>Next, I was unexpectedly asked to also fill in some space on the CI/CD for Windows panel. This was again about some core principles: deployments and packaging. While this was basic, it’s been a few years since my job has been focused on this so it was good to get back to basics and also being forced into justifying my opinions. We had a great chat about packaging on windows and the options available, as well as how to manage database deployments and orchestration. It’s great to know that there has been a long of work done here in the windows space and it’s all a lot better than when I was going it 2-3 years ago.</p>
+
+<p><img src="images/winops-2015-02.jpg"/></p>
+
+<p>Over all I found this to be a great little conference with a diverse range of people with lots of challenges. Most of the companies represented might be at the start of their devops journey but there are a lot of passionate people focussed on helping improve this space. Now that microsoft is also embracing this, most of these companies and engineers feel much more comfortable in moving forward. I think it’s going to be an exciting few years ahead for those in the windows world.</p>
+
+<p>Note: you might also want to read this great post from Hannah Foxwell who beat me to it in reviewing:
+<a href="http://hannahfoxwell.net/2015/09/25/review-of-winops-2015/">http://hannahfoxwell.net/2015/09/25/review-of-winops-2015/</a></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-09-28T12:48:00+01:00" pubdate data-updated="true">Sep 28<span>th</span>, 2015</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/conferences/'>conferences</a>, <a class='category' href='/blog/categories/windows/'>windows,</a>
+
+
+</div>
+	
+</div></article>
 
 
     <article class="post">
@@ -518,119 +585,6 @@ $(document).ready(
 
 
 	<a class='category' href='/blog/categories/beaker/'>beaker</a>, <a class='category' href='/blog/categories/configuration-management/'>configuration-management</a>, <a class='category' href='/blog/categories/puppet/'>puppet</a>, <a class='category' href='/blog/categories/testing/'>testing</a>
-
-
-</div>
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/12/11/profiles-roles-stacks-and-clouds/">
-		
-			Profiles, Roles, Stacks and Clouds</a>
-	</h2>
-	<div class="entry-content">
-		<p>One of the more recent patterns in structuring out puppet manifests is: roles and profiles <a href="#968504594f013f0067f2c0f7ec5c5fb8">[1]</a> <a href="#9031aeaf735f6dffb9872a8328853a5f">[2]</a>. The summary is this: profiles are a collection of classes/modules and roles are a collection of profiles. Having started to re-factor our own infratructure with this pattern recently there was one question that cam immediately to mind .. what&rsquo;s next?</p>
-
-<p>Roles and profiles is all about abstraction. With roles all I have to care about is what &ldquo;type&rdquo; of node I am building:</p>
-
-<pre><code>class role::www inherits role {
-  include profile::tomcat
-}
-</code></pre>
-
-<p>But what is the next abstraction? How far can we abstract?</p>
-
-<h3>Stack</h3>
-
-<p>Can we group together those nodes and roles? What I would like to see is the &ldquo;stack&rdquo; ..</p>
-
-<pre><code>define stack::webstack(
-  $node_webserver,
-  $node_appserver,
-  $node_dbserver
-) {
-     node $node_webserver {
-       include role::webserver
-     }
-
-     node $node_appserver {
-       include role::appserver
-     }
-
-     node $node_dbserver {
-       include role::dbserver
-     }
- }
-</code></pre>
-
-<p>This does use the node declarations rather than the ENC but it can allow us to scale out small indeependant infrastucture quickly.</p>
-
-<h3>Cloud</h3>
-
-<p>Puppet also is now moving beyound the server to network swtiches and embedded hardware. Can we also extend out thinking beyond the 3-tier web stack? Can we use puppet to manage independent regions or independent clouds? I would like to see something like the following &hellip;</p>
-
-<pre><code>define cloud::region(
-  $stack
-  $network
-) {
-  include $stack
-
-  network_route { $network:
-    ensure    =&gt; 'present',
-    gateway   =&gt; '10.0.2.2',
-    interface =&gt; 'eth0',
-    netmask   =&gt; '255.255.255.0',
-    network   =&gt; '172.17.67.0'
-  }
-}
-</code></pre>
-
-<p>Do I have any code to show? Not yet. What I have is lots and lots of questions ..</p>
-
-<br/><br/>
-
-
-<p>If you want to discuss this more then reach out to me on twitter <a href="https://twitter.com/liamjbennett">@liamjbennett</a></p>
-
-<h3>References</h3>
-
-<ul style="list-style-type: none; padding:0; margin:0;">
-  <li>
-    <a name="968504594f013f0067f2c0f7ec5c5fb8">[1] http://www.craigdunn.org/2012/05/239/ </a>
-  </li>
-  <li>
-    <a name="9031aeaf735f6dffb9872a8328853a5f">[2] http://www.slideshare.net/PuppetLabs/roles-talk </a>
-  </li>
-</ul>
-
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-12-11T12:06:00+00:00" pubdate data-updated="true">Dec 11<span>th</span>, 2013</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/configuration-management/'>configuration-management</a>, <a class='category' href='/blog/categories/puppet/'>puppet</a>
 
 
 </div>
