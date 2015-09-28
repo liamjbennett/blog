@@ -9,7 +9,7 @@
 
 <meta name="author" content="Liam Bennett"> 
 
-<meta name="description" content="The third instalment of my review of the 2014 Puppet conference: http://tech.opentable.co.uk/blog/2014/10/06/puppetconf-2014-part-3/ Oct 6th, 2014 &hellip;"> <meta name="keywords" content="">
+<meta name="description" content="Last week I was kindly invited to participate in the first WinOps (http://winops.org/) conference in London. I have been skirting around the edges &hellip;"> <meta name="keywords" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -93,6 +93,73 @@ $(document).ready(
 </header>
 
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2015/09/28/winops-2015/">
+		
+			Winops 2015</a>
+	</h2>
+	<div class="entry-content">
+		<p>Last week I was kindly invited to participate in the first WinOps (<a href="http://winops.org/">http://winops.org/</a>) conference in London.</p>
+
+<p><img src="images/winops-logo.png" height="200" width="200" align="center"/></p>
+
+<p>I have been skirting around the edges of the microsoft world for some time now and when I saw this conference appear I thought it would be a good opportunity to chat with those individuals whom are fully immersed in windows but may have a different devops journey to my own.</p>
+
+<p>I will be honest, I was fully expecting to walk into a room full of suited business types looking to buy the devops and discuss ROI. Thankfully that trope was only in my own head (aren’t they always!) and I what I really discovered was a group of engineers very like myself but from very different backgrounds.</p>
+
+<p>Most of the attendees were from large enterprises with diverse environments (not all were 100% windows). This meant that they were coming to the discussion with problems like: big legacy systems, enterprise tooling and licensing agreements &ndash; something for which I have up to this point managed to only view from a safe distance. They were also coming from a background of being new to devops and some were still struggling with continuous delivery pipelines. This reminded me that for all the advances that have been made in the devops discussions there are always going to be people who are new so we can’t always make assumptions of knowledge &ndash; something we often do when in a bit of an echo chamber.</p>
+
+<p>I won’t go through all the talks &ndash; they were all fantastic and a great overview of the current state of the universe for windows (thanks Stephen Thair and John Rakowski)</p>
+
+<p>I will point out one however, the talk from JustEat’s Peter Mounce, who discusses their infrastructure and the journey from hand-build machines in their own datacenter to windows servers in AWS that are regularly destroyed. This was a great talk to give to this audience because it demonstrated that even in the world of windows, where the perception is that everything is a little bit more difficult, that things like this are actually possible. I am sure that we (OpenTable) will be looking more and more at this as we to move to the path of trying to destroy more of our infrastructure on a regular basis. (note: I am not going to say immutable here &ndash; more on that some other time)</p>
+
+<p>After these though provoking talks and some more interesting discussion over lunch it was time for me to step up and try and sound like I know what I am talking about.</p>
+
+<p>Firstly I was invited to be a member of the panel discussion Infrastructure as Code. On this panel were representatives of DSC,Chef,Puppet and Ansible. I was there to represent the non-vendor view (my preference towards puppet was made clear). Most of the questions veered towards to more basic IaC principles: Why manage as text files (code)?, Thoughts on SCCM?, Where do I start? I think the most personally interesting part of this panel was that all of the panel members seemed to agree &ndash; something that was unexpected on my part.</p>
+
+<p><img src="images/winops-2015-01.jpg"/></p>
+
+<p>Next, I was unexpectedly asked to also fill in some space on the CI/CD for Windows panel. This was again about some core principles: deployments and packaging. While this was basic, it’s been a few years since my job has been focused on this so it was good to get back to basics and also being forced into justifying my opinions. We had a great chat about packaging on windows and the options available, as well as how to manage database deployments and orchestration. It’s great to know that there has been a long of work done here in the windows space and it’s all a lot better than when I was going it 2-3 years ago.</p>
+
+<p><img src="images/winops-2015-02.jpg"/></p>
+
+<p>Over all I found this to be a great little conference with a diverse range of people with lots of challenges. Most of the companies represented might be at the start of their devops journey but there are a lot of passionate people focussed on helping improve this space. Now that microsoft is also embracing this, most of these companies and engineers feel much more comfortable in moving forward. I think it’s going to be an exciting few years ahead for those in the windows world.</p>
+
+<p>Note: you might also want to read this great post from Hannah Foxwell who beat me to it in reviewing:
+<a href="http://hannahfoxwell.net/2015/09/25/review-of-winops-2015/">http://hannahfoxwell.net/2015/09/25/review-of-winops-2015/</a></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-09-28T12:48:00+01:00" pubdate data-updated="true">Sep 28<span>th</span>, 2015</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/conferences/'>conferences</a>, <a class='category' href='/blog/categories/windows/'>windows,</a>
+
+
+</div>
+	
+</div></article>
 
 
     <article class="post">
@@ -846,112 +913,6 @@ systemtype.downcase!
 	
 </div></article>
 
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/09/08/thoughts-on-scaling-cucumber/">
-		
-			Thoughts on Scaling Cucumber</a>
-	</h2>
-	<div class="entry-content">
-		<p>I have been spending a lot of time lately working with Ruby and in particular a reasonably large suite of cucumber tests. Cucumber has been adapted by several teams within Mimecast to varying degrees of success and maturity, mostly dependent on each individual teams&#8217; experience with Ruby.</p>
-
-<p>My recent work has identified two problems scaling the test suite: cross-team testing and multi-platform. I want to discuss some of these problems and how we are going about solving them.</p>
-
-<p>I guess the fist of these needs a little bit of background. Mimecast has grown significantly since I first joined them 3 years ago and while I joined them as a start-up I guess you would now consider them a medium-sized enterprise. In the beginning all developers worked on the entire codebase at different times but now the codebase and feature-set is so large that functional teams have formed around various products and/or various aspects of the Mimecast platform. What this means for testing is that many of the engineers are now focussing on testing features within their own little world view: database, front-end, corporate website etc. We call this the horizontal.</p>
-
-<p>About six months ago we realised that there was an obvious problem with this approach: that the actual day-to-day workflows of the customer were being missed because of the team-siloed view of things (I will talk more about this in a future post) &mdash; we call this the vertical. What we wanted to do was to cover these workflows while making the most use of the work that each team had already done.</p>
-
-<p>Let&rsquo;s take a simple example: sending an email. There are a number of ways that the <a href="https://www.mimecast.com/">Mimecast</a> platform can receive an email: from a windows client, from a mobile client, from a web client or even from the telnet command-line itself. As the most critical aspect of the business we want to make sure that all of these scenarios work as expected. This is are number one smoke test.</p>
-
-<h3>The badly written test problem</h3>
-
-<p>The first problem that we had in this case was each teams set of tests were written with only them in mind and a common pattern we discovered was the long 20+ line step definition. We also started to see really long features and long complex example tables. These code smells (and let&rsquo;s not forget that this is code) are common <a href="#e2e078226ecd495cdc06b632fc822d74">[1]</a> <a href="#93ef1249d48646ce3957aebacef6d80f">[2]</a> <a href="#fb0cf1fb3edbc52aa90c995da186a536">[3]</a> <a href="#3b7225a0b2e8835f3d0a56b9b722a395">[4]</a> and pointed us immediately to the need for refactoring and abstraction.</p>
-
-<h3>The novice Ruby problem</h3>
-
-<p>Then we ran into another problem, something common to novice Ruby users: the non-OO Ruby script pattern. There was abstraction in the test code, they had defined common functions and split them up into related collections of Ruby files but that is as far as it had gone: no-classes, no-modules and plenty on inbuilt assumptions. Now here is the fun bit &mdash; we knew this code was messy, but it worked and so our priority was first to abstract it into a format that was sharable across all our projects: gems.</p>
-
-<p>What this also meant this that everyone got to see what was available, we found out that we had implemented 3 different ways to access the database, 2 different methods for logging and many other smaller common pieces of functionality. We were being open about the technical debt <a href="#0adde2169acddcffd1cb1b9a3a5d6360">[5]</a> rather than hiding it away in some corner of the codebase. It also had the added benefit that more people were looking at this code and trying to use it in different ways, which meant that it always going to improve as a result. I think it is very important to be open about your technical debt &mdash; it&rsquo;s nothing to be ashamed of and hidden away, it happens to all projects and can given occur without you doing anything. It&rsquo;s important to be honest and blameless about where it lives and try and integrate it&rsquo;s pay-back into your standard project planning process. There is a lot of good resources out there on technical debt and how to manage it so I won&rsquo;t discuss that much here. There aren&rsquo;t so many on the cultural aspect of managing technical debt so I might write more about that in the future.</p>
-
-<p>Using gems was tricky, we has a lot of them &mdash; about 10 or 15. Authoring them was the easy part, after one failed attempt to use them with bundler as-is we realised that the code was not stable enough and so we decided that the best approach was the vendor all our dependencies. The reason we do this is not as horrible as it first sounds (some people <a href="#dff1f33327669c1dd56106c5c898f4ef">[6]</a> even agree with it). We don&rsquo;t fully vendor our gems in each project and we never check-in our vendor directory into source control. The only reason we vendor is for developer convenience. What it allows them to do is to debug the code problems, add logging and possible even work out a possible bug fix, all within the safety of their own environment knowing that whatever changes they make will be blown away when they next vendor.</p>
-
-<h3>The Sharing problem</h3>
-
-<p>The next problem we discussed was sharing step definitions. I am sure that this topic has come up with any team that has used cucumber for any decent length of time and I have one answer to this: <strong>Don&rsquo;t!</strong> The path that many of our developers went down was to do exactly what we were doing with the rest of the code: to package it up into gems and share it around. This sounds good in practice, but in reality it causes more problems that it solves. This leaves you with 3 sorts of projects: one containing feature files, ones containing steps, and ones containing plain Ruby code. Aside from that fact that it means that a developer will be committing to 3 separate projects at any one time it also causes the projects containing the steps to start to build up with code again, something we were trying very hard to avoid. It also means that as a project grows over time it is more likely that the steps with conflict between shared projects or become so abstract as to be painful to debug. We considered switching away from Cucumber to something like Spinach <a href="#9a84b3b91b1ddc4bbd5fdff9023a5218">[7]</a> to avoid this problem but in the end we realised at it wasn&rsquo;t the best option for us at the time. Actually the end solution was much more simple: keep the steps with the features but have a strict rule on the amount of code that should be contained within an individual step: at the moment this is 10 lines, I guess this is pretty arbitrary and perhaps not the best way to do it but it works for us and we are enforcing it within our code review process.</p>
-
-<p>There is also a cultural problem here: individual teams were still writing libraries for their own needs first, forgetting or ignoring the needs of the downstream consumers in other teams. I think what makes this a difficult problem is that each team has it&rsquo;s own test developer, incentivised to enhance the tests of their teams own product(s) not the wider testing effort. They will write code for the functions that they need and if other teams can use it then that is an additional bonus but not a priority. Each team has it&rsquo;s own needs and it&rsquo;s own way of doing things. Team-A will write a function to send a email via the command-line and Team-B will write a function to send an email via the web-ui and both of these are incompatible at the API-level. There are two solutions to this problem: put in an architect and force the teams to standardize or alternatively create an abstraction layer above the differences. Actually the answer is both as it&rsquo;s the most flexible without causing too much cultural strain.</p>
-
-<h3>The cross-platform problem</h3>
-
-<p>The final problem isn&rsquo;t really a problem at all &ndash; well not yet. It&rsquo;s the issue of dealing with cucumber in a cross-platform way. I can only briefly discuss this problem and without a good solution at this point as we have yet to resolve it ourselves. What we have is a very cross platform set of projects: we have Java projects (on Linux) and C# projects (on Windows) and Objective-C projects (on Mac and iOS). Each set of projects is running tests with it&rsquo;s own gherkin-based tool (Cucumber <a href="#83abb1fd7981242620bd4073d1dcea9b">[8]</a> and SpecFlow <a href="#8641e08483c2e057395dec05e1e98e43">[9]</a>) this is all well and good, we are arguably using the best tool for the job in each case while culturally still speaking the same language. Where we find difficulties is in sharing code: both because of language differences and platform differences. We are currently looking to move away from SpecFlow to cucumber which should solve one problem but the other problem is likely to involve some nasty ssh-based solution. I shall follow up with our outcomes on this.</p>
-
-<p>Both myself and my current organisation are continuing to learn and mature in our experience with cucumber and with Ruby and how best to deal with these projects when we have it used so widely and by so many. Hopefully this will lead to further discussions and I hope to follow up this blog with further updates in the future.</p>
-
-<h4>References</h4>
-
-<ul style="list-style-type: none; padding:0; margin:0;">
-  <li>
-    <a name="e2e078226ecd495cdc06b632fc822d74">[1]: http://chrismdp.com/2011/09/layers-of-abstraction-writing-great-cucumber-code </a>
-  </li>
-  <li>
-    <a name="93ef1249d48646ce3957aebacef6d80f">[2]: http://andrewvos.com/2011/06/15/writing-better-cucumber-features </a>
-  </li>
-  <li>
-    <a name="fb0cf1fb3edbc52aa90c995da186a536">[3]: http://robots.thoughtbot.com/post/25650434584/writing-better-cucumber-scenarios-or-why-were </a>
-  </li>
-  <li>
-    <a name="3b7225a0b2e8835f3d0a56b9b722a395">[4]: http://renderedtext.com/blog/2011/12/06/sucking-less-at-writing-cucumber </a>
-  </li>
-  <li>
-    <a name="0adde2169acddcffd1cb1b9a3a5d6360">[5]: http://salvetore.wordpress.com/2012/08/08/open-technical-debt </a>
-  </li>
-    <li>
-    <a name="dff1f33327669c1dd56106c5c898f4ef">[6]: http://ryan.mcgeary.org/2011/02/09/vendor-everything-still-applies </a>
-  </li>
-  <li>
-    <a name="9a84b3b91b1ddc4bbd5fdff9023a5218">[7]: https://github.com/codegram/spinach </a>
-  </li>
-    <li>
-    <a name="83abb1fd7981242620bd4073d1dcea9b">[8]: http://cukes.info </a>
-  </li>
-    </li>
-  <li>
-    <a name="8641e08483c2e057395dec05e1e98e43">[9]: http://www.specflow.org </a>
-  </li>
-</ul>
-
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-09-08T18:01:00+01:00" pubdate data-updated="true">Sep 8<span>th</span>, 2013</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/ruby/'>Ruby</a>, <a class='category' href='/blog/categories/cucumber/'>cucumber</a>, <a class='category' href='/blog/categories/testing/'>testing</a>
-
-
-</div>
-	
-</div></article>
-
 <nav id="pagenavi">
     
     
@@ -959,7 +920,7 @@ systemtype.downcase!
     
     <div class="center"><a href="/blog/archives">Blog Archives</a></div>
 </nav></div>
-	<footer id="footer" class="inner">Copyright &copy; 2014
+	<footer id="footer" class="inner">Copyright &copy; 2015
 
     Liam Bennett
 

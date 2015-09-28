@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: windows | Motivated Automator]]></title>
+  <title><![CDATA[Category: windows, | Motivated Automator]]></title>
   <link href="http://yoursite.com/blog/categories/windows/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2014-12-22T13:15:07+00:00</updated>
+  <updated>2015-09-28T13:43:10+01:00</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[Liam Bennett]]></name>
@@ -14,334 +14,38 @@
 
   
   <entry>
-    <title type="html"><![CDATA[testing puppet with beaker pt 2 - the windows story]]></title>
-    <link href="http://yoursite.com/blog/2014/09/01/testing-puppet-with-beaker-pt-dot-2-the-windows-story/"/>
-    <updated>2014-09-01T12:06:00+01:00</updated>
-    <id>http://yoursite.com/blog/2014/09/01/testing-puppet-with-beaker-pt-dot-2-the-windows-story</id>
-    <content type="html"><![CDATA[<p>The second instalment in the series on the Beaker testing tool.</p>
+    <title type="html"><![CDATA[winops 2015]]></title>
+    <link href="http://yoursite.com/blog/2015/09/28/winops-2015/"/>
+    <updated>2015-09-28T12:48:00+01:00</updated>
+    <id>http://yoursite.com/blog/2015/09/28/winops-2015</id>
+    <content type="html"><![CDATA[<p>Last week I was kindly invited to participate in the first WinOps (<a href="http://winops.org/">http://winops.org/</a>) conference in London.</p>
 
-<p>This post covers the work that was done to enhance the tool for testing windows systems.</p>
+<p><img src="images/winops-logo.png" height="200" width="200" align="center"/></p>
 
-<p><a href="http://tech.opentable.co.uk/blog/2014/09/01/testing-puppet-with-beaker-pt-dot-2-the-windows-story/">http://tech.opentable.co.uk/blog/2014/09/01/testing-puppet-with-beaker-pt-dot-2-the-windows-story/</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Puppet on Windows - Part 2]]></title>
-    <link href="http://yoursite.com/blog/2013/12/11/puppet-on-windows-part-2/"/>
-    <updated>2013-12-11T09:18:00+00:00</updated>
-    <id>http://yoursite.com/blog/2013/12/11/puppet-on-windows-part-2</id>
-    <content type="html"><![CDATA[<p>In <a href="http://yoursite.com/blog/2013/10/06/puppet-on-windows-part-1">part 1</a> of this series of posts I discussed some of the challenges when writing modules for puppet on windows: documentation, packging, ISOs and reboots. In part 2 I will discuss how I learnt about this, about the modules that I have written, the learning outcomes and about contributing to the forge.</p>
+<p>I have been skirting around the edges of the microsoft world for some time now and when I saw this conference appear I thought it would be a good opportunity to chat with those individuals whom are fully immersed in windows but may have a different devops journey to my own.</p>
 
-<p>There are many ways that you can contribute and extend puppet: classes, defintions, facts, types and providers. Of the modules that I have written I wanted to specifically look at the following:</p>
+<p>I will be honest, I was fully expecting to walk into a room full of suited business types looking to buy the devops and discuss ROI. Thankfully that trope was only in my own head (aren’t they always!) and I what I really discovered was a group of engineers very like myself but from very different backgrounds.</p>
 
-<ul>
-<li><a href="http://forge.puppetlabs.com/liamjbennett/win_facts">win_facts</a></li>
-<li><a href="http://forge.puppetlabs.com/liamjbennett/dotnet">dotnet</a></li>
-<li><a href="http://forge.puppetlabs.com/liamjbennett/msoffice">msoffice</a></li>
-<li><a href="http://forge.puppetlabs.com/liamjbennett/windows_firewall">windows_firewall</a></li>
-</ul>
+<p>Most of the attendees were from large enterprises with diverse environments (not all were 100% windows). This meant that they were coming to the discussion with problems like: big legacy systems, enterprise tooling and licensing agreements &ndash; something for which I have up to this point managed to only view from a safe distance. They were also coming from a background of being new to devops and some were still struggling with continuous delivery pipelines. This reminded me that for all the advances that have been made in the devops discussions there are always going to be people who are new so we can’t always make assumptions of knowledge &ndash; something we often do when in a bit of an echo chamber.</p>
 
+<p>I won’t go through all the talks &ndash; they were all fantastic and a great overview of the current state of the universe for windows (thanks Stephen Thair and John Rakowski)</p>
 
-<h3>Writing facter facts (win_facts)</h3>
+<p>I will point out one however, the talk from JustEat’s Peter Mounce, who discusses their infrastructure and the journey from hand-build machines in their own datacenter to windows servers in AWS that are regularly destroyed. This was a great talk to give to this audience because it demonstrated that even in the world of windows, where the perception is that everything is a little bit more difficult, that things like this are actually possible. I am sure that we (OpenTable) will be looking more and more at this as we to move to the path of trying to destroy more of our infrastructure on a regular basis. (note: I am not going to say immutable here &ndash; more on that some other time)</p>
 
-<p>Writing facter facts is actually a good place to start with puppet. What is puppet not telling you about the system? Puppetlabs have actually provided a very useful tool that tells you lots of great information about the system but in some areas, either in general (platform-speific) cases or in your specific edge cases it might not give you that information you were hoping for.</p>
+<p>After these though provoking talks and some more interesting discussion over lunch it was time for me to step up and try and sound like I know what I am talking about.</p>
 
-<p>When I started working with Windows the only facts that classied specifically for windows were:</p>
+<p>Firstly I was invited to be a member of the panel discussion Infrastructure as Code. On this panel were representatives of DSC,Chef,Puppet and Ansible. I was there to represent the non-vendor view (my preference towards puppet was made clear). Most of the questions veered towards to more basic IaC principles: Why manage as text files (code)?, Thoughts on SCCM?, Where do I start? I think the most personally interesting part of this panel was that all of the panel members seemed to agree &ndash; something that was unexpected on my part.</p>
 
-<pre><code>:kernel =&gt; windows
-:operatingsystem =&gt; windows
-</code></pre>
+<p><img src="images/winops-2015-01.jpg"/></p>
 
-<p>While this is useful if your mananging windows machines in an existing linux environment and want to seperately classify them, if you&rsquo;ve got multiple versions of windows then your going to need a little bit more. This is why I started to write win_facts which provided the following additional facts:</p>
+<p>Next, I was unexpectedly asked to also fill in some space on the CI/CD for Windows panel. This was again about some core principles: deployments and packaging. While this was basic, it’s been a few years since my job has been focused on this so it was good to get back to basics and also being forced into justifying my opinions. We had a great chat about packaging on windows and the options available, as well as how to manage database deployments and orchestration. It’s great to know that there has been a long of work done here in the windows space and it’s all a lot better than when I was going it 2-3 years ago.</p>
 
-<pre><code>:operatingsystemversion  =&gt; "Windows Server 2008 R2"
-:windows_productkey      =&gt; "XXX-XXX-XXX-XXX-XXX"
-:windows_sid                  =&gt; "S-1-S"
-:windows_systemtype      =&gt; "x64"
-</code></pre>
+<p><img src="images/winops-2015-02.jpg"/></p>
 
-<p>These facts use two techniques that I want to draw attention to: The <strong>registry read</strong> and the <strong>command wrapping</strong>:</p>
+<p>Over all I found this to be a great little conference with a diverse range of people with lots of challenges. Most of the companies represented might be at the start of their devops journey but there are a lot of passionate people focussed on helping improve this space. Now that microsoft is also embracing this, most of these companies and engineers feel much more comfortable in moving forward. I think it’s going to be an exciting few years ahead for those in the windows world.</p>
 
-<pre><code>...
-require 'win32/registry'
-
- Win32::Registry::HKEY_LOCAL_MACHINE.open('Software\Microsoft\Windows NT\CurrentVersion') do |reg|
-    reg.each do |name,type,data|
-      if name.eql?("ProductName")
-        operatingsystemversion = data
-      end
-    end
- end
- ...
-</code></pre>
-
-<p>(see: <a href="https://raw.github.com/liamjbennett/puppet-win_facts/master/lib/facter/operatingsystemversion.rb">https://raw.github.com/liamjbennett/puppet-win_facts/master/lib/facter/operatingsystemversion.rb</a>)</p>
-
-<p>As dicsussed in Part 1. The windows registry should be any windows developers friend and contains a weath of information. This is just one example &ndash; there are centainly plenty more than this. Puppet recently introduced the concept of External facts <a href="#53f76edfd65c1180adcd08fb6eb7bd45">[1]</a> &ndash; drop a file in the C:\ProgramData\PuppetLabs\facter\facts.d\ directory and facter will read it. This is good for many reasons but windows already has a great list of files containing facts &ndash; the windows registry &ndash; so let&rsquo;s read from it and find some more.</p>
-
-<p>The alternative is the command wrapper:</p>
-
-<pre><code>...
-systemtype = Facter::Util::Resolution.exec('wmic ComputerSystem get SystemType | FindStr /i x')
-systemtype.gsub!(/-based PC/,'')
-systemtype.gsub!(/\s/,'')
-systemtype.downcase!
-....
-</code></pre>
-
-<p>(see: <a href="https://raw.github.com/liamjbennett/puppet-win_facts/master/lib/facter/windows_systemtype.rb">https://raw.github.com/liamjbennett/puppet-win_facts/master/lib/facter/windows_systemtype.rb</a>)</p>
-
-<p>The registry is, for most people, a very complex nest of hidden information. Sometimes it doesn&rsquo;t contain all the information you need and sometimes it&rsquo;s difficult to find or process. In these cases it&rsquo;s always going to be an option to exec out and wrap an existing windows command. Windows has a wealth of small utilities <a href="#347ddd0bb5273c14a5cce0688cef7939">[2]</a> avaliable that can be used to pull out information, wmic is just one example of these.</p>
-
-<p>Make sure that if your are going to exec that it&rsquo;s as simple as possible. No long multi-line commands, no pages of powershell. If your logic is suffiently complex then facter is probably not appropriate to execute it inline. Instead write a utility (C#, Powershell, or even ruby) and build, test and deploy that seperately. You can then execute that as a fact or execute it out-of-band and have it write a external fact. Either way, getting the complex logic out of the main facter code and making it simpiler for everyone wishing to use it or maintain it.</p>
-
-<p>And that points me to another important thing &ndash; do test your facts! Many people, myself included are guilty of not doing this but it&rsquo;s pretty simple to do using standard rspec <a href="#9d7fcbe9e40e5fac0ea095bfdfdae797">[3]</a>.</p>
-
-<p>Most windows libraries, utilities and applications vary widely from one version of windows to another (and sometimes from one edition or service pack to another) so I make plenty of use of these facts in my modules to take this into account and you should to.</p>
-
-<h3>Writing classes for comman dependencies (dotnet)</h3>
-
-<p>There is category of classes that will be used everywhere, they are not common code (that could be built into the PuppetX namespace) but they are common between manifests. Such classes include java, dotnet, powershell, ruby, gcc. I call these common dependencies.</p>
-
-<p>Many people will implement common dependencies in different ways but the community really needs to converge on a standard for most of them &ndash; this hasn&rsquo;t happened yet. The first thing I would suggest is to <strong>always write as a definition first</strong> and only if it is totally impossible to install mutliple versions on the same machine (either legitimately or though some form of hack) should you make it a class. This is what I did with the dotnet module.</p>
-
-<p>The .NET framework has some unique characteristics &ndash; firstly its installed differently on servers than it is on clients and secondly major versions (2,3,4) can be installed side-by-side while minor versions overwrite (4 and 4.5). I still made it a defintion because it can be installed side-by-side.</p>
-
-<p>For modules like java and powershell there are even custom providers [4] that use those commands and will require seperate modules to make sure they are installed.</p>
-
-<p>What I learnt about writing this module was actually a very simple lesson &ndash; <strong>don&rsquo;t assume how your users will want to provide the packages</strong>. I assumed the exe files used would be stored on a network share (this was my personal use-case) but what if your users want to download over http, use chocolatey or some other custom package manager. I want not have wanted to (or had time to) implement all the possibilities but this is really about good design and about amking your module as extensible as possible. I am still refactoring now to take this into account &ndash; it&rsquo;s easier if you design it in from the beginging.</p>
-
-<p>These modules are probably the best modules &ndash; they are pretty quick to write, simple to test and get added everywhere so add huge value.</p>
-
-<h3>Writing defintions, types and providers and knowning what&rsquo;s appropriate (windows_firewall)</h3>
-
-<p>The windows firewall module was written to manage the built-in firewall provided by Microsoft. This is one situation, similiar to what I discussed with the facter facts above, where I wanted to provide a wrapper to the existing netsh commands. So that I what I did, wrote a manifest for the service and a defintion for the exceptions &ndash; this can be seen here (<a href="https://raw.github.com/liamjbennett/puppet-windows_firewall/master/manifests/exception.pp">https://raw.github.com/liamjbennett/puppet-windows_firewall/master/manifests/exception.pp</a>).</p>
-
-<p>This works quite well and as an initial version meets the use-cases but it&rsquo;s far from elegant. This module raised the simple question: <strong>When should a defined type be refactored into a native type?</strong></p>
-
-<p>There is also a good rule of thumb for this: <strong>If the effort spent munging variables and arguments is greater than the effort spent managing resources or calling exec then that should be a native type</strong>. What this meant for the windows_firewall module is that while the main class manifest should remain as it is, the defined type for exception should be made into a native type. For me this is currently a work-in-progress and can be seen in the <a href="https://github.com/liamjbennett/puppet-windows_firewall/tree/type_refactoring">&ldquo;type refactoring&rdquo; branch</a> on Github.</p>
-
-<p>There are lots of benifits to writing types and providers. They are pure ruby, they can be tested as plain ruby, but more importantly they have the benefits of a turing-complete language and not being limited by the Puppet DSL. It does however also provide a great framework for managing and validating arguments and making sure that your type and providers remain idenpotent. For more information on how to write custom types and providers then go and read this great book on the subject (<a href="http://www.amazon.co.uk/Puppet-Types-Providers-Dan-Bode-ebook/dp/B00ANCH2GK/">Puppet Types and Providers</a>)</p>
-
-<h3>Tackling the big applications (msoffice)</h3>
-
-<p>For most windows infrastrcuture there come a point where you need to manage the much larger applications &ndash; you need to tackle those multi-GB applications normally distubuted via ISO. Taking on Microsoft, IBM, Oracle et al with Puppet is no small feat and is probably worth a much larger discussion but hopefully this will let you realise that such things are possible.</p>
-
-<p>My first start at this was the Microsoft Office suite of applications. Most of these types of applications support silent installation to make it easy for administrators to deploy via group policy. We don&rsquo;t want to distrubute by group policy but we can use puppet to template these answer files and exec that silent installation.</p>
-
-<p>Templating and Exec-ing that setup.exe is really as complicated as it gets with regards to pupept itself. You find that the remaining complexity comes from the applications itself.</p>
-
-<p>But using those exec resources too is another smell. If your using more than one exec in your manifest and/or you keep calling out to the same command line tool then this is another suggest that you need to be writing more types and providers.</p>
-
-<p>For larger more complicated applications you will find yourself using many of the tools in the puppet toolbox &ndash; custom types/providers, custom facts and perhaps custom functions. If you find yourself doing this try and make those thing as genric as possible and split them out into smaller modules. I am current working on a module of MSExchange <a href="#ce43fac37be445f0bb6a6c9d74b55752">[4]</a> and while prototyping this with ulgy exec statements and numerous hacks &ndash; it is leading down a path to create other modules for some custom functins and facts.</p>
-
-<p>The point of this is to prove that all of those huge applications or suites of applications can still be installed and managed by puppet. It takes a great deal of initial effort, experience and on-oging work but it is worth it for us all in the long run. These sorts of applications come with long installation guides and come with certifications &ndash; we don&rsquo;t all need to read this and take the exams if we can make puppet do all the heavy lifting for us.</p>
-
-<h3>References</h3>
-
-<ul style="list-style-type: none; padding:0; margin:0;">
-  <li>
-    <a name="53f76edfd65c1180adcd08fb6eb7bd45">[1] http://puppetlabs.com/blog/facter-1-7-introduces-external-facts </a>
-  </li>
-  <li>
-    <a name="347ddd0bb5273c14a5cce0688cef7939">[2] http://technet.microsoft.com/en-us/library/bb490890.aspx </a>
-  </li>
-  <li>
-    <a name="9d7fcbe9e40e5fac0ea095bfdfdae797">[3] https://github.com/vStone/puppet-testing-example </a>
-  </li>
-  <li>
-    <a name="ce43fac37be445f0bb6a6c9d74b55752">[4] https://github.com/liamjbennett/puppet-msexchange </a>
-  </li>
-</ul>
-
-
-<p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[puppet on Windows - part 1]]></title>
-    <link href="http://yoursite.com/blog/2013/10/06/puppet-on-windows-part-1/"/>
-    <updated>2013-10-06T14:56:00+01:00</updated>
-    <id>http://yoursite.com/blog/2013/10/06/puppet-on-windows-part-1</id>
-    <content type="html"><![CDATA[<p>I have recently spent some time working with puppet, in particular working on writing modules for Windows and I wanted to share some of my thoughts and experiences that I learnt along the way.</p>
-
-<h3>Finding useful information</h3>
-
-<p>When I got starting writing my first module the thing that I realised was that at the time there was very little information out there of people using puppet on Windows. Thankfully in the past few months this has changed and I wanted to point you in the direction of some very useful resources:</p>
-
-<ul>
-<li><a href="http://puppetlabs.com/blog/part-top-questions-on-puppet-and-windows"><a href="http://puppetlabs.com/blog/part-top-questions-on-puppet-and-windows">http://puppetlabs.com/blog/part-top-questions-on-puppet-and-windows</a></a></li>
-<li><a href="http://www.slideshare.net/PuppetLabs/puppet-and-windowspuppetconf2013"><a href="http://www.slideshare.net/PuppetLabs/puppet-and-windowspuppetconf2013">http://www.slideshare.net/PuppetLabs/puppet-and-windowspuppetconf2013</a></a></li>
-<li><a href="http://www.slideshare.net/PuppetLabs/chocolatey-puppet-conf2013"><a href="http://www.slideshare.net/PuppetLabs/chocolatey-puppet-conf2013">http://www.slideshare.net/PuppetLabs/chocolatey-puppet-conf2013</a></a></li>
-<li><a href="http://vimeo.com/68226718">Paul Stack: Windows &ndash; Having its ass kicked by Puppet and PowerShell since 2012</a></li>
-</ul>
-
-
-<h3>Your 3 new friends: Powershell, MSDN and the Registry</h3>
-
-<p>This really depends what background your coming from. If your a developer or operations engineer from a Windows background and your just starting to use puppet, well then you probably know this already. If however your a coming from a Linux background and your looking to expand your puppet infrastructure to cover you Windows environments (and this was me) then you&rsquo;ve got some learning to do.</p>
-
-<p>The first thing is get to know Powershell <a href="#aaf77b1d1120543427c88d09b8b11faf">[1]</a><a href="#5a0292306a28b0000065d5004ca8f48b">[2]</a><a href="#eab9bab48399d59bf2d392eb87666917">[3]</a> &ndash; it&rsquo;s either bash for Windows or cmd on steroids depending on your point of view. Either way your going to find it very useful when trying to bend Windows to your will. Not that you need to be a master of Powershell to be productive with puppet on Windows but go and read, get familiar with how it works and get ready to google plenty. Powershell (recent versions on recent versions of Windows) allows you do do almost everything that you will want to configure from the command line. It is a feature rich language that most Windows operations people will be familiar with and best of all that means that there is plenty of code out there that makes good examples.</p>
-
-<p>Next up is the big daddy of them all &ndash; the MSDN/TechNet documentation <a href="#0533b0d73a6d8c4dbcc37b1eb665edee">[3]</a>. This is a huge archive that contains documentation on every built in library, utility and registry setting that comes with Windows. The more you work in the Windows world the more you will find yourself staring at its pages &ndash; that&rsquo;s if you can find the one your looking for. A lot time was spent while writing my first Windows modules tracking down useful documentation &ndash; installation prerequisites, silent install options, config files options, registry tweaks. Digging all of this out can be time consuming but in the end totally worth it. <b></i>Do your module users a favour and put links to these documents either in your README or in your wiki &ndash; it will save the pain for us all.</i></b></p>
-
-<p>The Windows registry is the final weapon in your toolbox. If you&rsquo;ve ever even looked at a Windows machine before then this is not news to you but your going to learn this more than you have ever done so before. Firstly it will help you in making sure your configurations are idempotent but also most Windows applications these days have both documented and undocumented registry tweaks so it would be good to expose some of them in your modules.</p>
-
-<h3>The 3 classic problems: Packaging, ISOs and reboots</h3>
-
-<p>When discussing windows with other puppet users the three topics that always come up are windows packaging, installing large applications that are distributed via ISOs and how best to manage system changes that require reboots.</p>
-
-<h4>Packaging</h4>
-
-<p>Packaging is a challenge on all operating systems and despite some very successful tooling like fpm <a href="#ce0ca10e13a9f4b4e7d605b5c88574ca">[5]</a> it still continues to have it&rsquo;s problems. Windows is no exception to this. Windows has many methods for getting software onto the box: the exe, the msi, the 7zip executable, the zip file and probably a few more that I haven&rsquo;t even come across yet. Each is also authored with very flexible tooling which means that you will face issues like packages that will declare their dependencies while others won&rsquo;t and packages that install the source while other wants you to do it all yourself. Even the msi package which is by far the industry standard has it&rsquo;s faults. The reality is that all of these methods need to be supported because there are applications out there that continue to use them so any configuration management system needs to deal with that as gracefully possible.</p>
-
-<p>Puppet&rsquo;s Package resource is very well suited to create this abstraction. In version 3.x it&rsquo;s as simple as:</p>
-
-<pre><code>package { 'Firefox Setup 21.0':
-    provider =&gt; windows,
-    ensure   =&gt; installed,
-    source   =&gt; 'C:\\Files\\Firefox Setup 21.0.exe',
-    install_options =&gt; ['/S']
-}
-</code></pre>
-
-<p>While this is great for all you 3.x users, there a still a large number of users out there (myself and github included) who are working with a 2.7 code tree. Not all is lost however. Firstly if your only using msi packages then there is nothing for you to do as puppet 2.7 already has you covered with the msi provider:</p>
-
-<pre><code>package { 'mysql':
-  ensure          =&gt; installed,
-  provider        =&gt; 'msi',
-  source          =&gt; 'N:/packages/mysql-5.5.16-winx64.msi',
-  install_options =&gt; { 'INSTALLDIR' =&gt; 'C:\mysql-5.5' },
-}
-</code></pre>
-
-<p>Alternatively if you still need to support those pesky exe files then Reid Vandewiele (<a href="https://twitter.com/reidmv">@reidmv</a>) has you covered with his 2.7 backport of the new windows package provider <a href="#98434dfae6a7f26a3027b584df5932f6">[6]</a>:</p>
-
-<pre><code>windows_package { 'Firefox Setup 21.0':
-    ensure   =&gt; installed,
-    source   =&gt; 'C:\\Files\\Firefox Setup 21.0.exe',
-    install_options =&gt; ['/S']
-}
-</code></pre>
-
-<br/>
-
-
-<p>But that&rsquo;s not all &ndash; there is one more contender in this game of packaging &ndash; and it goes by the name of chocolatey <a href="#d2724e80cee3722a407052b7ec51c526">[7]</a>. Chocolatey is the self-styled apt-get for Windows &ndash; so all of your Linux admins can rejoice &ndash; and it&rsquo;s also built on the well supported nuget dependency management system &ndash; so all of you .NET developers can join in this party. It has a huge community of users so most of the applications and MS re-distributables that you will want are available. Best of all the author is a one Mr Rob Reynolds (<a href="https://twitter.com/ferventcoder">@ferventcoder</a>) is now one of the members of the puppet windows team at puppetlabs so we can expect excellent chocolatey support within puppet going forward. Rich Siegal (<a href="https://twitter.com/rismoney">@rismoney</a>) has already released a puppet provider for chocolatey <a href="#bc5d64b3fb6f4fa201568b45665a5b19">[8]</a> which means that packages can be installed like this:</p>
-
-<pre><code>package { 'Firefox':
-    ensure          =&gt; installed,
-    provider        =&gt; 'chocolatey',
-    install_options =&gt; ['/S']
-}
-</code></pre>
-
-<p>The use of chocolatey really depends on your corporate situation. If your already supporting a private nuget repository then absolutely use chocolatey as it will save you some pain. If your not then it your choices are either configure a nuget repository, use Nexus Pro as a nuget repository, or stick to the old network share approach and the windows package provider. I am not here to say which method you should use &ndash; but you should <b>use one</b>.</p>
-
-<h4>Managing those ISOs</h4>
-
-<p>Many windows applications, at least &ldquo;Enterprise-ready&rdquo; ones and all of those distributed by Microsoft itself are packaged as an .iso file. This is both a throwback of days of boxed software and burned CDs but it also serves the purpose of being a single container for what is often a multi-gigabyte installation. The problem is one of size: you don&rsquo;t want to be downloading 4GB iso onto your clients in order to install your applications. This leaves you with two options: Network share or mounted network drive.</p>
-
-<h5>Network share</h5>
-
-<p>When dealing with large files this is going to be your obvious first approach. Set-up a network share (either windows or samba) and decompress those iso files into a local directory on the share. From there you can do something as simple as this:</p>
-
-<pre><code>exec { 'install-iso-app':
-      command   =&gt; "\"\\\\fileshare\\folder\\SETUP.EXE\" /settings \"C:\\config.ini\"",
-      provider  =&gt; windows,
-      logoutput =&gt; true,
-      require   =&gt; File["C:\\office_config.ini"]
-}
-</code></pre>
-
-<p>The benefit of this approach is that you probably already have this sort of share set-up already. If you&rsquo;ve got reasonably large windows environment this probably already existing on your Windows Update (WSUS) server. By installing directly over the network (without mounting) your not exposing this network share to your end clients at all. After all you may have lots of other software on this common windows share and you may not want all of your clients/users to be able to see that.</p>
-
-<p>The disadvantage of this approach is that firstly, not all applications support this approach and secondly you will have to make sure that the network server is added to your local intranet security settings. Luckily the later can be fixed using the puppetlabs-registry module <a href="#37c5bf3536a4757afb731a719efe546b">[9]</a>.</p>
-
-<h5>Mounted Network drive/folder</h5>
-
-<p>The other approach to this problem is to mount a network share either as a drive or a folder. Simon Dean has written a net_share module <a href="#dcf341f86b8dec6f7940a2e084647e9b">[10]</a> for this.</p>
-
-<pre><code>net_share {'PuppetTest':
-    ensure        =&gt; present,
-    path          =&gt; 'c:\puppet_test',
-    remark        =&gt; 'PuppetTest',
-    maximumusers  =&gt; unlimited,
-    cache         =&gt; none,
-    permissions   =&gt; ["${hostname}\\PuppetTest,full", "${hostname}\\PuppetTest2,full"],
-}
-</code></pre>
-
-<p>This approach has the benefit that packages are installed as if they were from a local drive &ndash; many applications were written making this assumption. The disadvantage as stated above is that you can unnecessarily expose other applications to your users that you may not want to. There may be ways to mitigate this by mounting then dismounting the drive pre and post-install or mounting to a hidden folder but both approaches seem like a work-around.</p>
-
-<p>My thoughts on the best of these methods to use really varies depending upon the size and complexity of the applications that I am trying to work with. Up to this point I have mostly been working with the network share approach but this required making registry entries and that seems a little nasty. I think that a better approach would be to write an provider just for iso files and use that as a vehicle to work through some of these use-cases.</p>
-
-<p>I will discuss my experiences of using these approaches in a future post where I discuss in more detail the modules that I have written but for now I suggest you go and look at all these available methods and choose the one that best suits your existing environment and security needs.</p>
-
-<h3>Reboots</h3>
-
-<p>Up until very recently this a big problem for windows users. May packages require post-install reboots and for more complex applications that install their own dependencies they may require multi-reboots during an installation or upgrade run. This poses the problem of puppet should deal with this &ndash; does it skip the reboot and try to run through the rest of the catalog or does it perform the reboot in-line and perform the puppet run again? Well thankfully puppetlabs has come to the rescue with their reboot module <a href="#daaf6e71bf1eda39b0b3d5266732efdf">[11]</a>. This allows reboots to be added into the manifest like this:</p>
-
-<pre><code> package { 'Microsoft .NET Framework 4.5':
-   ensure          =&gt; installed,
-   source          =&gt; '\\server\share\dotnetfx45_full_x86_x64.exe',
-   install_options =&gt; ['/Passive', '/NoRestart'],
-   provider        =&gt; windows,
- }
- reboot { 'after':
-   subscribe       =&gt; Package['Microsoft .NET Framework 4.5'],
- }
-</code></pre>
-
-<p>Actually I like having reboots within the manifest &ndash; it helps prove my idempotence. This module is still being worked on by puppetlabs and at the time of writing there were issues for puppet users running ruby 1.8.x <a href="#91b2bceeb7f198bd25be62f0e062fe84">[12]</a> but it&rsquo;s a great solution to the problem.</p>
-
-<h3>Summary</h3>
-
-<p>Windows is like any other new platform &ndash; it has it&rsquo;s quirks and it&rsquo;s own sets of challenges but it also has an existing vibrant community which will be able to help with these sorts of issues and hopefully allow you to write some fantastic new modules for the forge. In part 2 of this post I will discuss the modules that I have written, my experiences of writing them and how they have evolved as both puppet and my experience has evolved.</p>
-
-<h4>References</h4>
-
-<ul style="list-style-type: none; padding:0; margin:0;">
-  <li>
-    <a name="aaf77b1d1120543427c88d09b8b11faf">[1]: http://technet.microsoft.com/en-us/library/bb978526.aspx </a>
-  </li>
-  <li>
-   <a name="5a0292306a28b0000065d5004ca8f48b">[2]: http://technet.microsoft.com/en-gb/scriptcenter/powershell.aspx </a>
-  </li>
-  <li>
-   <a name="eab9bab48399d59bf2d392eb87666917">[3]: http://www.amazon.co.uk/Windows-PowerShell-Cookbook-Scripting-Microsofts/dp/1449320686/ </a>
-  </li>
-  <li>
-    <a name="0533b0d73a6d8c4dbcc37b1eb665edee">[4]: http://technet.microsoft.com/en-us/library/aa991542.aspx </a>
-  </li>
-  <li>
-    <a name="ce0ca10e13a9f4b4e7d605b5c88574ca">[5]: https://github.com/jordansissel/fpm </a>
-  </li>
-  <li>
-   <a name="98434dfae6a7f26a3027b584df5932f6">[6]: https://forge.puppetlabs.com/reidmv/windows_package </a>
-  </li>
-  <li>
-    <a name="d2724e80cee3722a407052b7ec51c526">[7]: http://chocolatey.org/ </a>
-  </li>
-  <li>
-   <a name="bc5d64b3fb6f4fa201568b45665a5b19">[8]: https://forge.puppetlabs.com/rismoney/chocolatey </a>
-  </li>
-  <li>
-   <a name="37c5bf3536a4757afb731a719efe546b">[9]: https://forge.puppetlabs.com/puppetlabs/registry </a>
-  </li>
-  <li>
-   <a name="dcf341f86b8dec6f7940a2e084647e9b">[10]: https://forge.puppetlabs.com/simondean/net_share </a>
-  </li>
-  <li>
-    <a name="daaf6e71bf1eda39b0b3d5266732efdf">[11]: https://forge.puppetlabs.com/puppetlabs/reboot </a>
-  </li>
-  <li>
-    <a name="91b2bceeb7f198bd25be62f0e062fe84">[12]: https://github.com/joshcooper/puppetlabs-reboot/issues/12 </a>
-  </li>
-</ul>
-
+<p>Note: you might also want to read this great post from Hannah Foxwell who beat me to it in reviewing:
+<a href="http://hannahfoxwell.net/2015/09/25/review-of-winops-2015/">http://hannahfoxwell.net/2015/09/25/review-of-winops-2015/</a></p>
 ]]></content>
   </entry>
   
