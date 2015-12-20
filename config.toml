@@ -1,0 +1,12 @@
+baseurl = "http://liamjbennett.me"
+title = "Liam Bennett"
+paginate = 5
+theme = "hugo-uno"
+
+[params]
+AuthorName = "Liam Bennett"
+description = "Tools, Rants and Day-to-day Shenanigans"
+github = "liamjbennett"
+twitter = "liamjbennett"
+cover = "/images/london.jpg"
+about = "/about"
