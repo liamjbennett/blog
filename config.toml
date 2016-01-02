@@ -1,12 +1,18 @@
 baseurl = "http://liamjbennett.me"
 title = "Liam Bennett"
 paginate = 5
-theme = "hugo-uno"
+theme = "hyde"
+copyright = "Liam Bennett"
+
+[Author]
+  name = "Liam Bennett"
+
+[Permalinks]
+  blog = "/:year/:month/:filename/"
+  code = "/:filename/"
 
 [params]
-AuthorName = "Liam Bennett"
-description = "Tools, Rants and Day-to-day Shenanigans"
-github = "liamjbennett"
-twitter = "liamjbennett"
-cover = "/images/london.jpg"
-about = "/about"
+  themeColor = "theme-base-0d"
+  description = "Tools, Rants and Day-to-day Shenanigans"
+  github = "liamjbennett"
+  twitter = "liamjbennett"
