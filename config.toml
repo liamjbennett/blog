@@ -1,4 +1,4 @@
-baseurl = "http://liamjbennett.me"
+baseurl = "http://liamjbennett.me/"
 title = "Liam Bennett"
 paginate = 5
 theme = "hyde"
