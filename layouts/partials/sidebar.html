@@ -1,0 +1,26 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+      <p class="lead">
+      {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      {{ range .Site.Menus.main }}
+        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+      {{end}}
+    </ul>
+
+    <a href="http://github.com/liamjbennett"><i class="fa fa-github-square"></i></a>
+    <a href="http://twitter.com/liamjbennett"><i class="fa fa-twitter-square"></i></a>
+    <a href="https://www.linkedin.com/in/liam-bennett-77415821"><i class="fa fa-linkedin-square"></i></a>
+    <a href="https://www.facebook.com/liamjbennett"><i class="fa fa-facebook-square"></i></a>
+
+    <p/>
+    
+    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}}. All rights reserved. {{end}}</p>
+  </div>
+</div>

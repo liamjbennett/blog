@@ -9,7 +9,11 @@ copyright = "Liam Bennett"
 
 [Permalinks]
   blog = "/:year/:month/:filename/"
-  code = "/:filename/"
+  about = "/:filename/"
+
+[[menu.links]]
+  name = "github"
+  weight = 2
 
 [params]
   themeColor = "theme-base-0d"

@@ -1,5 +1,10 @@
++++
+date = 2014-07-28T11:14:25Z
+title = "About"
 
-# Résumé
+[menu.main]
+	weight = 1
++++
 
 ## Employment
 
