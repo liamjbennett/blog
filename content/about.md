@@ -7,10 +7,10 @@ title = "About"
 +++
 ## Contact Details
 
-Email: liamjbennett@gmail.com
-Twitter: @liamjbennett
-Github: https://github.com/liamjbennett
-LinkedIn: https://www.linkedin.com/in/liam-bennett-77415821
+Email: <a href="mailto:liamjbennett@gmail.com">liamjbennett@gmail.com</a>
+Twitter: <a href="https://twitter.com/liamjbennett">@liamjbennett</a>
+Github: <a href="https://github.com/liamjbennett">github.com/liamjbennett</a>
+LinkedIn: <a href="https://www.linkedin.com/in/liam-bennett-77415821">liam-bennett-77415821</a>
 
 ## Employment
 
