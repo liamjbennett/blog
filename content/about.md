@@ -5,15 +5,25 @@ title = "About"
 [menu.main]
 	weight = 1
 +++
+## Contact Details
+
+Email: liamjbennett@gmail.com
+Twitter: @liamjbennett
+Github: https://github.com/liamjbennett
+LinkedIn: https://www.linkedin.com/in/liam-bennett-77415821
 
 ## Employment
 
-### Feb 2014 - Present: OpenTable International Limited (London) - Infrastructure Engineer
-An infrastructure engineer at OpenTable means supporting the datacenter operations and development teams to build new infrastructure and to automate the build and management of as much legacy infrastructure as practically possible.
+### Feb 2014 - Present: OpenTable International Limited (London) - Senior Infrastructure Engineer
+A Senior infrastructure engineer at OpenTable means supporting the datacenter operations and development teams to build new infrastructure and to automate the build and managment of existing legacy infrastructure.
 
-This means that during my time at OpenTable I have built a logging infrastructure from the ground-up (on AWS using ELK and Apache Kafka that can support 1B message a day), migrated a static nagios monitoring infrastructure to a more dynamic one with puppet, deployed rundeck for orchestration and managed to puppetize a significant amount of our legacy windows machines (about 50% of OpenTables machines).
+During my time at OpenTable I have built a logging infrastructure from the ground-up (on AWS using ELK and Apache Kafka that can support 1B message a day), replaced multiple monitoring systems based on nagios with a single solution based upon sensu, applied config management to a wide range of systems both on windows and linux and helped to develop new tools to support standardized deployments on mesos.
+
+A significant portion of this role has involed me liaising with and training development and operations teams both in London and in San Francisco. It also required communicating with all layers of management to ensure the successfull rollout of the projects.
 
 A lot of this work have given me the opportunity to work and release a lot of code open source and build communities around that. I am now reasonably well known in the puppet community for my work with Windows and have had the opportunity to blog, give talks and podcast on the this and other subjects. Community evangelism is not something that is often though of as significant in an operations-based role but I have found it to be both enjoyable and beneficial on many occasions.
+
+From April 2015 to date I have been leading my team in its projects and decision making. We reamin fairly autonomous within the organization, indenitying problems and providing solutions whereever we see value.
 
 ### June 2010 - Feb 2014: Mimecast Ltd (London) - DevTools Engineer
 As a build and release engineer for Mimecast I worked with all teams within the business and directly with the CTO to introduce Continuous Delivery into the business. That continued to be my main focus as the engineering team grew from 20+ to 100+. As the maturity of the build and release process advanced my role changed to a more DevTools focused position.
