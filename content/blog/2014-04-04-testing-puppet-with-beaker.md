@@ -1,6 +1,7 @@
 +++
-title = "testing puppet with beaker"
 date = "2014-04-04"
+description = ""
+title = "testing puppet with beaker"
 type = "post"
 
 +++

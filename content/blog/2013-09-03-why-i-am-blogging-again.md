@@ -1,6 +1,7 @@
 +++
-title = "Why I am Blogging Again"
 date = "2013-09-03"
+description = ""
+title = "Why I am Blogging Again"
 type = "post"
 
 +++

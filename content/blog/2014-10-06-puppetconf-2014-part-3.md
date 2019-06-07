@@ -1,6 +1,10 @@
 +++
-title = "puppetconf 2014 - part 3"
 date = "2014-10-06"
+description = ""
+featured = "puppet-conf.png"
+featuredalt = "PuppetConf 2014"
+featuredpath = "date"
+title = "puppetconf 2014 - part 3"
 type = "post"
 
 +++

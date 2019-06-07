@@ -1,6 +1,7 @@
 +++
-title = "testing puppet with beaker pt 3 - testing roles and profiles"
 date = "2014-09-01"
+description = ""
+title = "testing puppet with beaker pt 3 - testing roles and profiles"
 type = "post"
 
 +++

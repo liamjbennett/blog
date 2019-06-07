@@ -1,6 +1,7 @@
 +++
-title = "Puppet on Windows - Part 2"
 date = "2013-12-11"
+description = ""
+title = "Puppet on Windows - Part 2"
 type = "post"
 
 +++

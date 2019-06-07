@@ -1,6 +1,7 @@
 +++
-title = "my path to the cloud"
 date = "2017-11-27"
+description = ""
+title = "my path to the cloud"
 type = "post"
 
 +++

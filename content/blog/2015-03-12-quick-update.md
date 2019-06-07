@@ -1,6 +1,7 @@
 +++
-title = "[Quick Update] - 12-Mar-2015"
 date = "2015-03-12"
+description = ""
+title = "[Quick Update] - 12-Mar-2015"
 type = "post"
 
 +++

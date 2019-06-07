@@ -1,6 +1,10 @@
 +++
-title = "Another talk on windows"
 date = "2015-09-11"
+description = ""
+featured = "ve-logo.png"
+featuredalt = "Ve Logo"
+featuredpath = "date"
+title = "Another talk on windows"
 type = "post"
 
 +++
