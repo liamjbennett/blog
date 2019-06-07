@@ -3,8 +3,8 @@ version: 0.1
 environment_variables:
   plaintext:
     AWS_DEFAULT_REGION: "eu-west-1"
-    HUGO_VERSION: "0.17"
-    HUGO_SHA256: "f1467e204cc469b9ca6f17c0dc4da4a620643b6d9a50cb7dce2508aaf8fbc1ea"
+    HUGO_VERSION: "0.55.6"
+    HUGO_SHA256: ""
 
 phases:
   install:
