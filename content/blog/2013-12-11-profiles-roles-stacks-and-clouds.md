@@ -3,6 +3,7 @@ date = "2013-12-11"
 description = ""
 title = "profiles, roles, stacks and clouds"
 type = "post"
+categories = ["puppet"]
 
 +++
 

@@ -93,9 +93,6 @@ disableLanguages        = ["fr","pl"]
 
 [social]
   github                = "liamjbennett"
-  gitlab                = ""
-  stackoverflow         = "" # User Number
-  linkedin              = "example"
-  slideshare            = ""
+  linkedin              = "liam-bennett-77415821"
   twitter               = "liamjbennett"
   email                 = "liamjbennett@gmail.com"

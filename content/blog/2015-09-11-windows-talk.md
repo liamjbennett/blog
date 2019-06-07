@@ -6,6 +6,7 @@ featuredalt = "Ve Logo"
 featuredpath = "date"
 title = "Another talk on windows"
 type = "post"
+categories = ["talks"]
 
 +++
 

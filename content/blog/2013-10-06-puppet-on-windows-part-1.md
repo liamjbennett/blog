@@ -3,6 +3,7 @@ date = "2013-10-06"
 description = ""
 title = "puppet on Windows - part 1"
 type = "post"
+categories = ["puppet"]
 
 +++
 
