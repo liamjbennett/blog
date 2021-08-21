@@ -1,10 +1,12 @@
-+++
-date = "2015-03-23"
-description = ""
-title = "[Quick Update] - 23-Mar-2015"
-type = "post"
-
-+++
+---
+author: "liamjbennett"
+title: "[Quick Update] - 23-Mar-2015"
+date: "2015-03-23"
+description: ""
+ShowToc: false
+ShowBreadCrumbs: false
+expiryDate: "2015-12-01"
+---
 
 Ok, so you’ve seen the date of this post. I’m not exactly as regular with these posts as I would like but it seems that I do in fact still have things to write about.
 

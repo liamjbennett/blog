@@ -1,10 +1,12 @@
-+++
-date = "2013-09-03"
-description = ""
-title = "Why I am Blogging Again"
-type = "post"
-
-+++
+---
+author: liamjbennett
+title: "Why I am Blogging Again"
+date: "2013-09-03"
+description: ""
+ShowToc: false
+ShowBreadCrumbs: false
+expiryDate: "2015-12-01"
+---
 
 It has been far too long since I last found myself writing any tl;dr content. Like the vast majority, this is at least my third attempt, my third tool and who knows if it will stick although I am now using the octopress/github setup. I am now writing along side my the rest of my code, so I think that it will be gaining traction that way.
 

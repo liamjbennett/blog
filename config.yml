@@ -1,0 +1,65 @@
+baseURL: "https://liamjbennett.me"
+title: liamjbennett
+paginate: 10
+theme: hugo-PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+minify:
+    disableXML: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production
+    description: ""
+    author: liamjbennett
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+    # comments: false
+    images: ["papermod-cover.png"]
+
+    homeInfoParams:
+        Title: "Hello!"
+        Content: >
+            Welcome to the site of Liam Bennett. 
+            My thoughts, my ideas and my ramblings.
+            I hope you find some of it useful.
+
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/liamjbennett"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/liam-bennett-77415821/"
+        - name: github
+          url: "https://github.com/liamjbennett"
+        - name: RSS
+          url: "index.xml"
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series

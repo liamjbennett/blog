@@ -1,11 +1,13 @@
-+++
-date = "2013-09-08"
-description = ""
-title = "thoughts on scaling cucumber"
-type = "post"
-categories = ["cucumber","bdd","testing"]
-
-+++
+---
+author: "liamjbennett"
+title: "Thoughts on scaling cucumber"
+date: "2013-09-08"
+description: ""
+tags: ["cucumber","bdd","testing"]
+ShowToc: false
+ShowBreadCrumbs: false
+expiryDate: "2015-12-01"
+---
 
 I have been spending a lot of time lately working with Ruby and in particular a reasonably large suite of cucumber tests. Cucumber has been adapted by several teams within Mimecast to varying degrees of success and maturity, mostly dependent on each individual teams' experience with Ruby.
 

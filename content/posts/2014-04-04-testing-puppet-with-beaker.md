@@ -1,11 +1,13 @@
-+++
-date = "2014-04-04"
-description = ""
-title = "testing puppet with beaker"
-type = "post"
-categories = ["puppet","testing"]
-
-+++
+---
+author: "liamjbennett"
+title: "testing puppet with beaker"
+date: "2014-04-04"
+description: ""
+tags: ["puppet","testing"]
+ShowToc: false
+ShowBreadCrumbs: false
+expiryDate: "2015-12-01"
+---
 
 The first instalment of a series of posts covering the Puppet testing tool Beaker (https://github.com/puppetlabs/beaker)
 

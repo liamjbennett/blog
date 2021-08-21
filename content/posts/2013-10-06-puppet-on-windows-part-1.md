@@ -1,11 +1,13 @@
-+++
-date = "2013-10-06"
-description = ""
-title = "puppet on Windows - part 1"
-type = "post"
-categories = ["puppet"]
-
-+++
+---
+author: "liamjbennett"
+title: "Puppet on Windows - part 1"
+date: "2013-10-06"
+description: ""
+tags: ["puppet"]
+ShowToc: false
+ShowBreadCrumbs: false
+expiryDate: "2015-12-01"
+---
 
 I have recently spent some time working with puppet, in particular working on writing modules for Windows and I wanted to share some of my thoughts and experiences that I learnt along the way.
 

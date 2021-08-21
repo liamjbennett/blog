@@ -1,3 +1,3 @@
-[submodule "hugo-future-imperfect-slim"]
-	path = themes/hugo-future-imperfect-slim
-	url = https://github.com/pacollins/hugo-future-imperfect-slim
+[submodule "PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod

@@ -1,10 +1,13 @@
-+++
-date = "2014-09-01"
-description = ""
-title = "testing puppet with beaker pt 2 - the windows story"
-type = "post"
-categories = ["puppet","testing"]
-+++
+---
+author: "liamjbennett"
+title: "Testing puppet with beaker pt 2 - the windows story"
+date: "2014-09-01"
+description: ""
+tags: ["puppet","testing"]
+ShowToc: false
+ShowBreadCrumbs: false
+expiryDate: "2015-12-01"
+---
 
 The second installment in the series on the Beaker testing tool.
 

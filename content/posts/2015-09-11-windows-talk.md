@@ -1,14 +1,13 @@
-+++
-date = "2015-09-11"
-description = ""
-featured = "ve-logo.png"
-featuredalt = "Ve Logo"
-featuredpath = "date"
-title = "Another talk on windows"
-type = "post"
-categories = ["talks"]
-
-+++
+---
+author: "liamjbennett"
+title: "Another talk on windows"
+date: "2015-09-11"
+description: ""
+tags: ["talks"]
+ShowToc: false
+ShowBreadCrumbs: false
+expiryDate: "2015-12-01"
+---
 
 I gave another talk this week to the folks over at [Ve Interactive](http://www.veinteractive.com/).
 

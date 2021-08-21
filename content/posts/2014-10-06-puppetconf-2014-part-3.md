@@ -1,14 +1,13 @@
-+++
-date = "2014-10-06"
-description = ""
-featured = "puppet-conf.png"
-featuredalt = "PuppetConf 2014"
-featuredpath = "date"
-title = "puppetconf 2014 - part 3"
-type = "post"
-categories = ["puppet"]
-
-+++
+---
+author: "liamjbennett"
+title: "puppetconf 2014 - part 3"
+date: "2014-10-06"
+description: ""
+tags: ["puppet"]
+ShowToc: false
+ShowBreadCrumbs: false
+expiryDate: "2015-12-01"
+---
 
 The third installment of my review of the 2014 Puppet conference:
 
