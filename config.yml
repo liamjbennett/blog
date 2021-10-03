@@ -45,8 +45,9 @@ params:
     homeInfoParams:
         Title: "Hello!"
         Content: >
-            Welcome to the site of Liam Bennett. 
-            My thoughts, my ideas and my ramblings.
+            Welcome to my site where I post my thoughts, my ideas and my general ramblings.
+            I care about helping people and organisations get the most of technology.
+            I am mostly interested in leading and growing engineering teams, aligning engineers with purpose and values and wardley mapping.
             I hope you find some of it useful.
 
     socialIcons:
