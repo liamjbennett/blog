@@ -1,7 +1,7 @@
 ---
 author: "liamjbennett"
 title: "6 things I learnt migrating to the cloud"
-date: "2021-11-10"
+date: "2022-01-14"
 description: "After many different migration and transformation projects; these are the things they don't tell you."
 tags: ["teams","culture","tools","vendor","cloud","migrations","transformation","TCO"]
 ShowToc: false
