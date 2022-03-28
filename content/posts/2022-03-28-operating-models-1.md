@@ -10,6 +10,8 @@ ShowBreadCrumbs: false
 
 This month I wanted to start discussing a topic that has been going around and around in circles of conversation and thoughts for several years now - mixed operating models in IT organisations. There is a lot of ground to cover so stick with me over the next couple of posts and I’ll show you how and why this comes about and what we can do about it.
 
+![WardleyMap](/img/2022/wardleymap-1.jpeg)
+
 ## The Problem
 
 One of the most challenging aspects of operating IT systems in large enterprise organisations is that there is a complex web of applications, data and infrastructure of varying ages and levels of support. At one end of the spectrum there are homegrown applications supported by agile development teams releasing every two weeks (or more often - wooo!) and then at the other end there are big clunky corporate applications that support all the revenue and all the processes that get the job done day-to-day. One problem I’ve seen in organisations is process and culture that treats both of these applications (and everything in between) the same way. 
@@ -28,7 +30,7 @@ The first step is to understand exactly what each application needs. Are there a
 
 The second step is to map those applications - wardley map them based on their lifecycle and their inter-dependencies.
 
-![WardleyMap](/img/2022/wardleymap-1.jpeg)
+![WardleyMap](/img/2022/wardleymap-2.jpeg)
 
 This will allow you to start having the conversations about what to do and where to focus your efforts. How many applications do you have that are commodity? How many of those in-house applications are your product or *truly* innovative vs could be replaced by a SaaS? Understanding your landscape of applications will allow you to work out what operating model would be most appropriate - Agile/Lean at the start of the lifecycle and ITIL/SixSigma at the end.
 
