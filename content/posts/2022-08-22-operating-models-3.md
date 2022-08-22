@@ -1,7 +1,7 @@
 ---
 author: "liamjbennett"
 title: "Mixed Operating Models - part 3"
-date: "2022-08-23"
+date: "2022-08-22"
 description: "DevOps, ITIL and the cultural changes"
 tags: ["ITIL","DevOps","Agile","SixSigma","teams","culture", "wardleymapping", "outsourcing"]
 ShowToc: false
