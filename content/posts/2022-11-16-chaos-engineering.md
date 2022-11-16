@@ -6,7 +6,6 @@ description: "The realities of chaos engineering and steps to get there"
 tags: ["chaos engineering","testing","disaster recovery"]
 ShowToc: false
 ShowBreadCrumbs: false
-draft: true
 ---
 
 ## Intro (what even is it?!)
