@@ -55,6 +55,8 @@ params:
     socialIcons:
         - name: twitter
           url: "https://twitter.com/liamjbennett"
+        - name: mastodon
+          url: "https://hachyderm.io/@liamjbennett"
         - name: linkedin
           url: "https://www.linkedin.com/in/liam-bennett-77415821/"
         - name: github
