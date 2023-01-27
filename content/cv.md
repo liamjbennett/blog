@@ -5,6 +5,7 @@ ShowPostNavLinks: false
 ShowBreadCrumbs: false
 ShowCodeCopyButtons: false
 ShowToc: true
+author: "."
 ---
 
 |Format:|[![Word](word.svg)](liamjbennett-cv.docx)|[![PDF](pdf.svg)](liamjbennett-cv.pdf)|

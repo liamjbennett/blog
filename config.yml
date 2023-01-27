@@ -51,18 +51,36 @@ params:
             I care about helping people and organisations get the most of technology.
             I am mostly interested in leading and growing engineering teams, aligning engineers with purpose and values and wardley mapping.
             I hope you find some of it useful.
+            Please feel free to reach out to me at details below or check out the contacts page for other places I linger.
 
     socialIcons:
-        - name: twitter
-          url: "https://twitter.com/liamjbennett"
         - name: mastodon
           url: "https://hachyderm.io/@liamjbennett"
         - name: linkedin
           url: "https://www.linkedin.com/in/liam-bennett-77415821/"
-        - name: github
-          url: "https://github.com/liamjbennett"
+        - name: email
+          url: liamjbennett@gmail.com
         - name: RSS
           url: "index.xml"
+
+menu:
+  main:
+    - identifier: about
+      name: About Me
+      url: /about/
+      weight: 10
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 20
+    - identifier: cv
+      name: CV
+      url: /cv/
+      weight: 30
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 40
 
 taxonomies:
     category: categories
