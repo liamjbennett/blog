@@ -9,4 +9,4 @@ title: "About Me"
 author: "."
 ---
 
-TODO: a short summary about me :)
+I spend my days building and supporting an excellent engineering team at Claranet. I am focused on making sure we've always got new and interesting solutions to customer problems (hence my interest in wardley mapping) and making sure the engineers have the best experience they can delivering it.
