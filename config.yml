@@ -74,8 +74,8 @@ menu:
       url: /posts/
       weight: 20
     - identifier: cv
-      name: CV
-      url: /cv/
+      name: Résumé
+      url: /resume/
       weight: 30
     - identifier: contact
       name: Contact
