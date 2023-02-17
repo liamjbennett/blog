@@ -4,6 +4,7 @@ title: "Mixed Operating Models - part 3"
 date: "2022-08-22"
 description: "DevOps, ITIL and the cultural changes"
 tags: ["ITIL","DevOps","Agile","SixSigma","teams","culture", "wardleymapping", "outsourcing"]
+series: ["mixed operating models"]
 ShowToc: false
 ShowBreadCrumbs: false
 ---

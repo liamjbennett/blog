@@ -4,6 +4,7 @@ title: "Mixed Operating Models - part 1"
 date: "2022-03-28"
 description: "Understanding how ITIL and DevOps co-exist in an organisations landscape."
 tags: ["ITIL","DevOps","Agile","SixSigma","teams","culture", "wardleymapping"]
+series: ["mixed operating models"]
 ShowToc: false
 ShowBreadCrumbs: false
 ---
