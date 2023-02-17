@@ -21,40 +21,41 @@ engineering team of 40+ engineers across all supported cloud platforms
 (Azure, AWS, GCP, VMware) as well as Cloud Economists and Learning and
 Development.
 
-With this role my focus has been on growing teams while retaining
-culture and aligning teams with purpose, values and business goals.
+My focus has been to grow the Cloud team whilst creating and evolving a
+culture that is aligned to the purpose, values and goals for the
+business.
 
-My responsibilities continue to be in shaping the product portfolio as
-part of the business unit’s leadership team, ensure that my teams have
-the skills, the tools and the autonomy to delivery successfully to
-customers. This includes building a platform of tools to support the
-delivery, operations and team learning to ensure the practice can
-continue to expand from 50 to 100+ engineers.s
+As part of the leadership team, I am responsible for shaping the product
+portfolio ensuring that my teams have the skills, the tools and the
+autonomy to deliver successfully to customers. This includes building a
+platform of tools to support the delivery, operations and team learning
+to ensure the practice can continue to expand from 50 to 100+ engineers.
 
 :: *Technical Principal (CloudOps)*
 
-While continuing to manage by initial team of 8 engineers, with the
-technical principal role I was much more engaged across out multi-cloud
-portfolio (Azure, AWS and GCP) supporting the expansion and definition
-of new service offerings to customers. This involved continued
-end-customer engagement and consulting at multi-levels, working on
-business plans and service definitions. This role expanded my knowledge
-of Product Management, customer leadership and allowed to be start my
-journey of learning strategy and roadmap development.
+This was a combined management and delivery role. I managed the initial
+team of 8 engineers, as the Technical Principal. I was much more engaged
+across the multi-cloud portfolio (Azure, AWS and GCP) supporting the
+expansion and definition of new service offerings to customers.
+
+This involved continued end-customer engagement and consulting at
+multi-levels, working on business plans and service definitions. This
+role expanded my knowledge of Product Management, customer leadership
+and allowed me to enhance my journey of strategy and roadmap
+development.
 
 :: *Azure Practice Lead*
 
-With a windows team already established I took on a new role to build
+With a Windows team already established I took on a new role to build
 and grow the team and capability with Microsoft Azure. This was a very
-entrepreneurial and leadership role within the business where I was
-leading all elements of the business growth including hiring the team,
-partner management with Microsoft and pre-sales with C-level customer
-prospects.
+entrepreneurial/leadership role within the business where I was leading
+all elements of the business growth including hiring the team, partner
+management with Microsoft and pre-sales with C-level customer prospects.
 
-I was also expanding my technical knowledge of the Azure platform and
-working with my team to introduce new tools and establish a deployment
-and operations platform to support large customer engagements on this
-new (for the business) platform.
+I also expanded my technical knowledge of the Azure platform and worked
+with my team to introduce new tools and establish a deployment and
+operations platform to support large customer engagements on this new
+(for the business) platform.
 
 :: *Windows Cloud Practice Lead - Bashton Ltd*
 
@@ -89,23 +90,23 @@ single solution based upon sensu, applied config management to a wide
 range of systems both on Windows and Linux and helped to develop new
 tools to support standardized deployments on Apache Mesos.
 
-A significant portion of this role has involved me liaising with and
+A significant portion of this role involved me liaising with and
 training development and operations teams both in London and in San
 Francisco. It also required communicating with all layers of management
 to ensure the successful rollout of the projects.
 
-This work gave me the opportunity to work and release a lot of code open
-source and build communities around that; in particular I made
+This work gave me the opportunity to work and release a lot of
+open-source code and build communities around that; in particular I made
 significant contributions to the Puppet community by providing
 additional support for Windows. I learnt a lot from this experience in
 building community though blogging, giving talks and podcasting on this
 and other subjects. Community evangelism is not something that is often
-thought of as significant in an operations-based role, but I have found
-it to be both enjoyable and beneficial on many occasions.
+thought of as significant in an operations-based role, but I found it to
+be both enjoyable and beneficial on many occasions.
 
-From April 2015 to July 2016, I was leading my team in its projects and
+From April 2015 to July 2016, I lead my team in its projects and
 decision making. We remained autonomous within the organization,
-identifying problems and providing solutions wherever we see value.
+identifying problems and providing solutions wherever we saw value.
 
 ## June 2010 - Feb 2014: Mimecast Ltd (London)
 
