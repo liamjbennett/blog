@@ -14,9 +14,23 @@ author: "."
 
 ## July 2016 - Present: Claranet Limited (London)
 
+:: *Head of Portfolio Architecture and Engineering*
+
+As Head of Portfolio Architecture I am responsible for the architecture
+and tooling underpinning all of Claranet UK’s portfolio of services.
+This includes supporting the definition of services, working with
+vendors and managing budgets for the investment in tools and in-house
+engineering capability.
+
+In addition, this role comes with the responsibility for the software
+development teams building internal tools for engineers in addition to
+customer facing tools and services. Focused on scaling these teams,
+evolving agile software development practices and delivering customer
+products based on flow and empathy.
+
 :: *Cloud Practice Director*
 
-As the Cloud Practice Director, I am responsible for the entire cloud
+As the Cloud Practice Director, I was responsible for the entire cloud
 engineering team of 40+ engineers across all supported cloud platforms
 (Azure, AWS, GCP, VMware) as well as Cloud Economists and Learning and
 Development.
