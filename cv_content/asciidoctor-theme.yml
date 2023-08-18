@@ -1,0 +1,8 @@
+extends: default
+base:
+  font-family: Helvetica
+  font-size: 8
+heading:
+  h1-font-size: 16
+  h2-font-size: 14
+  h3-font-size: 12

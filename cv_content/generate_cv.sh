@@ -17,8 +17,10 @@ author: "."
 EOM
 
 for TYPE in long short; do
-  asciidoctor --backend docbook -a $TYPE --out-file - cv.adoc | pandoc --from docbook --to docx --output liamjbennett-cv-$TYPE.docx
-  asciidoctor-pdf -a $TYPE -o liamjbennett-cv-$TYPE.pdf cv.adoc
+  asciidoctor --backend docbook -a $TYPE --out-file docbook.xml cv.adoc
+   sed -i '' '/<date>/d' ./docbook.xml
+  pandoc --from docbook --to docx --reference-doc=reference.docx  --output liamjbennett-cv-$TYPE.docx docbook.xml
+  asciidoctor-pdf --theme ./asciidoctor-theme.yml -a $TYPE -o liamjbennett-cv-$TYPE.pdf cv.adoc
   asciidoctor -b docbook cv.adoc -a $TYPE -o cv-$TYPE.xml
   pandoc -f docbook -t markdown_strict cv-$TYPE.xml -o cv-tmp.md
   
