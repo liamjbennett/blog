@@ -28,7 +28,7 @@ for TYPE in long short; do
 
   cat header.md $TYPE-prefix.md cv-tmp.md >> $TYPE.md
   rm cv-$TYPE.xml $TYPE-prefix.md cv-tmp.md
-  #rm docbook.xml
+  rm docbook.xml
   
   mv $TYPE.md ../content/cv/$TYPE.md
   mv liamjbennett-cv-$TYPE.docx ../static/cv/liamjbennett-cv-$TYPE.docx

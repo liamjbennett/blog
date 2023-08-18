@@ -13,13 +13,13 @@ endif::socials[]
 
 === July 2016 - Present: Claranet Limited (London)
 
-:: _Head of Portfolio Architecture and Engineering_
+:: _Head of Portfolio Architecture and Engineering_ (Mar 2023 - Present)
 
 As Head of Portfolio Architecture I am responsible for the architecture and tooling underpinning all of Claranet UK's portfolio of services. This includes supporting the definition of services, working with vendors and managing budgets for the investment in tools and in-house engineering capability.
 
 In addition, this role comes with the responsibility for the software development teams building internal tools for engineers in addition to customer facing tools and services. Focused on scaling these teams, evolving agile software development practices and delivering customer products based on flow and empathy.
 
-:: _Cloud Practice Director_
+:: _Cloud Practice Director_ (Apr 2020 - Mar 2023)
 
 As the Cloud Practice Director, I was responsible for the entire cloud engineering team of 40+ engineers across all supported cloud platforms (Azure, AWS, GCP, VMware) as well as Cloud Economists and Learning and Development.
 
@@ -29,7 +29,7 @@ ifdef::long[]
 As part of the leadership team, I am responsible for shaping the product portfolio ensuring that my teams have the skills, the tools and the autonomy to deliver successfully to customers. This includes building a platform of tools to support the delivery, operations and team learning to ensure the practice can continue to expand from 50 to 100+ engineers.
 endif::long[]
 
-:: _Technical Principal (CloudOps)_
+:: _Technical Principal (CloudOps)_ (Aug 2019 - Apr 2020)
 
 This was a combined management and delivery role. I managed the initial team of 8 engineers, as the Technical Principal. I was much more engaged across the multi-cloud portfolio (Azure, AWS and GCP) supporting the expansion and definition of new service offerings to customers.
 
@@ -37,7 +37,7 @@ ifdef::long[]
 This involved continued end-customer engagement and consulting at multi-levels, working on business plans and service definitions. This role expanded my knowledge of Product Management, customer leadership and allowed me to enhance my journey of strategy and roadmap development.
 endif::long[]
 
-:: _Azure Practice Lead_
+:: _Azure Practice Lead_ (Jul 2018 - Aug 2019)
 
 
 With a Windows team already established I took on a new role to build and grow the team and capability with Microsoft Azure.
@@ -47,7 +47,7 @@ ifdef::long[]
 I also expanded my technical knowledge of the Azure platform and worked with my team to introduce new tools and establish a deployment and operations platform to support large customer engagements on this new (for the business) platform.
 endif::long[]
 
-:: _Windows Cloud Practice Lead - Bashton Ltd_
+:: _Windows Cloud Practice Lead - Bashton Ltd_ (Jul 2016 - Jul 2018)
 
 
 I joined Claranet just 6 months after the acquisition of Bashton Ltd - their first acquisition for public cloud capability. The initial expectation of this role was to build a team to support the deployment and on-going support of Windows infrastructure and applications on AWS.

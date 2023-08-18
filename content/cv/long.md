@@ -14,7 +14,7 @@ author: "."
 
 ## July 2016 - Present: Claranet Limited (London)
 
-:: *Head of Portfolio Architecture and Engineering*
+:: *Head of Portfolio Architecture and Engineering* (Mar 2023 - Present)
 
 As Head of Portfolio Architecture I am responsible for the architecture
 and tooling underpinning all of Claranet UK’s portfolio of services.
@@ -28,7 +28,7 @@ customer facing tools and services. Focused on scaling these teams,
 evolving agile software development practices and delivering customer
 products based on flow and empathy.
 
-:: *Cloud Practice Director*
+:: *Cloud Practice Director* (Apr 2020 - Mar 2023)
 
 As the Cloud Practice Director, I was responsible for the entire cloud
 engineering team of 40+ engineers across all supported cloud platforms
@@ -45,7 +45,7 @@ autonomy to deliver successfully to customers. This includes building a
 platform of tools to support the delivery, operations and team learning
 to ensure the practice can continue to expand from 50 to 100+ engineers.
 
-:: *Technical Principal (CloudOps)*
+:: *Technical Principal (CloudOps)* (Aug 2019 - Apr 2020)
 
 This was a combined management and delivery role. I managed the initial
 team of 8 engineers, as the Technical Principal. I was much more engaged
@@ -58,7 +58,7 @@ role expanded my knowledge of Product Management, customer leadership
 and allowed me to enhance my journey of strategy and roadmap
 development.
 
-:: *Azure Practice Lead*
+:: *Azure Practice Lead* (Jul 2018 - Aug 2019)
 
 With a Windows team already established I took on a new role to build
 and grow the team and capability with Microsoft Azure. This was a very
@@ -71,7 +71,7 @@ with my team to introduce new tools and establish a deployment and
 operations platform to support large customer engagements on this new
 (for the business) platform.
 
-:: *Windows Cloud Practice Lead - Bashton Ltd*
+:: *Windows Cloud Practice Lead - Bashton Ltd* (Jul 2016 - Jul 2018)
 
 I joined Claranet just 6 months after the acquisition of Bashton Ltd -
 their first acquisition for public cloud capability. The initial

@@ -14,7 +14,7 @@ author: "."
 
 ## July 2016 - Present: Claranet Limited (London)
 
-:: *Head of Portfolio Architecture and Engineering*
+:: *Head of Portfolio Architecture and Engineering* (Mar 2023 - Present)
 
 As Head of Portfolio Architecture I am responsible for the architecture
 and tooling underpinning all of Claranet UK’s portfolio of services.
@@ -28,7 +28,7 @@ customer facing tools and services. Focused on scaling these teams,
 evolving agile software development practices and delivering customer
 products based on flow and empathy.
 
-:: *Cloud Practice Director*
+:: *Cloud Practice Director* (Apr 2020 - Mar 2023)
 
 As the Cloud Practice Director, I was responsible for the entire cloud
 engineering team of 40+ engineers across all supported cloud platforms
@@ -39,14 +39,14 @@ My focus has been to grow the Cloud team whilst creating and evolving a
 culture that is aligned to the purpose, values and goals for the
 business.
 
-:: *Technical Principal (CloudOps)*
+:: *Technical Principal (CloudOps)* (Aug 2019 - Apr 2020)
 
 This was a combined management and delivery role. I managed the initial
 team of 8 engineers, as the Technical Principal. I was much more engaged
 across the multi-cloud portfolio (Azure, AWS and GCP) supporting the
 expansion and definition of new service offerings to customers.
 
-:: *Azure Practice Lead*
+:: *Azure Practice Lead* (Jul 2018 - Aug 2019)
 
 With a Windows team already established I took on a new role to build
 and grow the team and capability with Microsoft Azure. This was a very
@@ -54,7 +54,7 @@ entrepreneurial/leadership role within the business where I was leading
 all elements of the business growth including hiring the team, partner
 management with Microsoft and pre-sales with C-level customer prospects.
 
-:: *Windows Cloud Practice Lead - Bashton Ltd*
+:: *Windows Cloud Practice Lead - Bashton Ltd* (Jul 2016 - Jul 2018)
 
 I joined Claranet just 6 months after the acquisition of Bashton Ltd -
 their first acquisition for public cloud capability. The initial
