@@ -17,10 +17,10 @@ author: "."
 EOM
 
 for TYPE in long short; do
-  asciidoctor --backend docbook -a $TYPE --out-file docbook.xml cv.adoc
-   sed -i '' '/<date>/d' ./docbook.xml
+  asciidoctor --backend docbook -a $TYPE -a socials --out-file docbook.xml cv.adoc
+  sed -i '' '/<date>/d' ./docbook.xml
   pandoc --from docbook --to docx --reference-doc=reference.docx  --output liamjbennett-cv-$TYPE.docx docbook.xml
-  asciidoctor-pdf --theme ./asciidoctor-theme.yml -a $TYPE -o liamjbennett-cv-$TYPE.pdf cv.adoc
+  asciidoctor-pdf --theme ./asciidoctor-theme.yml -a $TYPE -a socials -o liamjbennett-cv-$TYPE.pdf cv.adoc
   asciidoctor -b docbook cv.adoc -a $TYPE -o cv-$TYPE.xml
   pandoc -f docbook -t markdown_strict cv-$TYPE.xml -o cv-tmp.md
   
@@ -28,6 +28,7 @@ for TYPE in long short; do
 
   cat header.md $TYPE-prefix.md cv-tmp.md >> $TYPE.md
   rm cv-$TYPE.xml $TYPE-prefix.md cv-tmp.md
+  #rm docbook.xml
   
   mv $TYPE.md ../content/cv/$TYPE.md
   mv liamjbennett-cv-$TYPE.docx ../static/cv/liamjbennett-cv-$TYPE.docx

@@ -4,9 +4,9 @@ ifdef::long[:long:]
 ifdef::socials[:socials:]
 
 ifdef::socials[]
+[.socials]
 Email: liamjbennett@gmail.com +
-LinkedIn: https://www.linkedin.com/in/liam-bennett-77415821/ +
-Twitter: https://twitter.com/liamjbennett
+LinkedIn: https://www.linkedin.com/in/liam-bennett-77415821/
 endif::socials[]
 
 == Employment Details
@@ -95,5 +95,4 @@ endif::long[]
 == Education
 
 * University of Kent at Canterbury - Bsc Computer Science with Year in the Industry
-* Norton Knatchbull Secondary School
 

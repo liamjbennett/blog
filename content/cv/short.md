@@ -81,5 +81,3 @@ and on-going support of Windows infrastructure and applications on AWS.
 
 -   University of Kent at Canterbury - Bsc Computer Science with Year in
     the Industry
-
--   Norton Knatchbull Secondary School

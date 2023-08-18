@@ -165,5 +165,3 @@ efficiently as possible.
 
 -   University of Kent at Canterbury - Bsc Computer Science with Year in
     the Industry
-
--   Norton Knatchbull Secondary School
