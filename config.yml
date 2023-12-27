@@ -73,14 +73,18 @@ menu:
       name: Posts
       url: /posts/
       weight: 20
+    - identifier: takes
+      name: Takes
+      url: /takes/
+      weight: 30
     - identifier: cv
       name: Résumé
       url: /resume/
-      weight: 30
+      weight: 40
     - identifier: contact
       name: Contact
       url: /contact/
-      weight: 40
+      weight: 50
 
 taxonomies:
     category: categories
