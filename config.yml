@@ -15,11 +15,7 @@ googleAnalytics: G-DFMYZ5KKFV
 minify:
     disableXML: true
 
-languages:
-    en:
-        languageName: "English"
-        languageCode: en-GB
-        weight: 1
+languageCode: en-gb
 
 outputs:
     home:
