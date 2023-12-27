@@ -18,6 +18,7 @@ minify:
 languages:
     en:
         languageName: "English"
+        languageCode: en-GB
         weight: 1
 
 outputs:
