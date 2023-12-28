@@ -7,6 +7,8 @@ ShowCodeCopyButtons: false
 ShowToc: false
 title: "Contact"
 author: "."
+categories:
+  - sitePages
 ---
 
 {{< contacts >}}

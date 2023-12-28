@@ -56,7 +56,6 @@
       <link>{{ index . 0 | absURL }}</link>
     </image>
     {{- end }}
-    <generator>Hugo -- gohugo.io</generator>
     <language>{{ site.Language.LanguageCode }}</language>{{ with $authorEmail }}
     <managingEditor>{{.}}{{ with $authorName }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with $authorEmail }}
     <webMaster>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</webMaster>{{ end }}{{ with site.Copyright }}
@@ -66,7 +65,7 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
     {{- range $pages }}
-    {{- if and (ne .Layout `search`) (ne .Layout `archives`) }}
+    {{- if and (ne .Layout `search`) (ne .Layout `archives`) (not (in .Params.categories "sitePages")) (not (in .Params.categories "takes")) }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>

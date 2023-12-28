@@ -6,6 +6,8 @@ ShowBreadCrumbs: false
 ShowCodeCopyButtons: false
 ShowToc: true
 author: "."
+categories:
+  - sitePages
 ---
 
 {{< cv_page word_file="/cv/liamjbennett-cv-long.docx" pdf_file="/cv/liamjbennett-cv-long.pdf" >}}

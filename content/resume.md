@@ -6,6 +6,8 @@ ShowBreadCrumbs: false
 ShowCodeCopyButtons: false
 ShowToc: true
 author: "."
+categories:
+  - sitePages
 ---
 
 My passion is connecting people with technology, introducing new ideas and aligning people to a common purpose. I've spent my career in many different engineering roles; building tools, platforms and teams.
