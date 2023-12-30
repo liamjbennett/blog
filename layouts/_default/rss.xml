@@ -33,11 +33,17 @@
 {{- $pctx := . }}
 {{- if .IsHome }}{{ $pctx = site }}{{ end }}
 {{- $pages := slice }}
+
 {{- if or $.IsHome $.IsSection }}
-{{- $pages = $pctx.RegularPages }}
+  {{- if eq $.CurrentSection "/takes" }}
+    {{- $pages = (where $pctx.RegularPages ".Section" "takes") }}
+  {{- else }}
+    {{- $pages = (where $pctx.RegularPages ".Section" "posts") }}
+  {{- end }}
 {{- else }}
 {{- $pages = $pctx.Pages }}
 {{- end }}
+
 {{- $limit := site.Config.Services.RSS.Limit }}
 {{- if ge $limit 1 }}
 {{- $pages = $pages | first $limit }}
@@ -65,14 +71,14 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
     {{- range $pages }}
-    {{- if and (ne .Layout `search`) (ne .Layout `archives`) (not (in .Params.categories "sitePages")) (not (in .Params.categories "takes")) }}
+    {{- if and (ne .Layout `search`) (ne .Layout `archives`) (not (in .Params.categories "sitePages")) }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ with .Description | html }}{{ . }}{{ else }}{{ .Summary | html }}{{ end -}}</description>
+      <description>{{ .Content | html }}</description>
       {{- if site.Params.ShowFullTextinRSS }}
       <content:encoded>{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</content:encoded>
       {{- end }}
