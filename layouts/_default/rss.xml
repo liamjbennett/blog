@@ -50,7 +50,7 @@
 {{- end }}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 {{- printf "<?xml-stylesheet href=\"/pretty-feed-v3.xsl\" type=\"text/xsl\"?>" | safeHTML }}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">  
   <channel>
     <title>{{ if eq .Title site.Title }}{{ site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
@@ -62,6 +62,11 @@
       <link>{{ index . 0 | absURL }}</link>
     </image>
     {{- end }}
+    
+    <webfeeds:cover image="{{ $.Site.BaseURL }}img/main/profile.jpg" />
+    <webfeeds:accentColor>DBEAFE</webfeeds:accentColor>
+    <webfeeds:related layout="card" target="browser"/>
+
     <language>{{ site.Language.LanguageCode }}</language>{{ with $authorEmail }}
     <managingEditor>{{.}}{{ with $authorName }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with $authorEmail }}
     <webMaster>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</webMaster>{{ end }}{{ with site.Copyright }}
