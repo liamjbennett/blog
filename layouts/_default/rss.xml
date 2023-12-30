@@ -63,6 +63,8 @@
     </image>
     
     <webfeeds:cover image="{{ $.Site.BaseURL }}/img/main/profile.jpg" />
+    <webfeeds:icon image="{{ $.Site.BaseURL }}/img/main/profile.jpg" />
+    <webfeeds:logo image="{{ $.Site.BaseURL }}/img/main/logo.jpg" />
     <webfeeds:accentColor>DBEAFE</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
 
