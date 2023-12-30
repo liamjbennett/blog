@@ -39,7 +39,6 @@ params:
     ShowCodeCopyButtons: true
     ShowToc: true
     # comments: false
-    images: ["papermod-cover.png"]
 
     homeInfoParams:
         Title: "Hello!"

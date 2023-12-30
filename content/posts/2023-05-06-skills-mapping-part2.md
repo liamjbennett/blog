@@ -9,7 +9,7 @@ ShowToc: false
 ShowBreadCrumbs: false
 ---
 
-![old map of london](/img/2023/skillsmapping-2-titlepage.png) 
+{{< featured_image "/img/2023/skillsmapping-2-titlepage.png" "old map of london" "webfeedsFeaturedVisual" >}}
 
 Over the past few weeks I've been exploring the use of [wardley mapping to map my skills](https://www.liamjbennett.me/posts/2023-02-17-skills-mapping-part-1/) for career development. I think it's important to think strategically about your career development, whether you're early in your career looking to land that dream job or later and looking to transition into a role or company that reignites your passions. In my last post I talked about my journey developing my first skills maps and some of the mistakes I made along the way. Next, I wanted to cover how I've been using those maps and how I expect them to develop over time.
 
