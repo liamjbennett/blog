@@ -59,7 +59,7 @@
     <image>
       <title>{{ site.Title }}</title>
       <url>{{ $.Site.BaseURL }}/img/main/profile.jpg</url>
-      <link>{{ $.Site.BaseURL }}/img/main/profile.jpg</link>
+      <link>{{ .Permalink }}</link>
     </image>
     
     <webfeeds:cover image="{{ $.Site.BaseURL }}/img/main/profile.jpg" />
