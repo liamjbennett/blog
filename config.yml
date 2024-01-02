@@ -21,7 +21,11 @@ outputs:
     home:
         - HTML
         - RSS
-        - JSON
+
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss"
+baseName = "feed"
 
 params:
     env: production
