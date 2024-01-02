@@ -22,10 +22,10 @@ outputs:
         - HTML
         - RSS
 
-[outputFormats]
-[outputFormats.RSS]
-mediatype = "application/rss"
-baseName = "feed"
+outputFormats:
+  RSS:
+    mediatype: application/rss
+    baseName: feed
 
 params:
     env: production
