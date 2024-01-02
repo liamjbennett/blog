@@ -55,7 +55,12 @@
     <title>{{ if eq .Title site.Title }}{{ site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
     <description>Recent content {{ if ne .Title site.Title }}{{ with .Title }}in {{ . }} {{ end }}{{ end }}on {{ site.Title }}</description>
-    
+    <language>{{ site.Language.LanguageCode }}</language>{{ with $authorEmail }}
+    <managingEditor>{{.}}{{ with $authorName }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with $authorEmail }}
+    <webMaster>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</webMaster>{{ end }}{{ with site.Copyright }}
+    <copyright>{{ . }}</copyright>{{ end }}{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+
     <image>
       <title>{{ site.Title }}</title>
       <url>{{ $.Site.BaseURL }}/img/main/profile.jpg</url>
@@ -64,18 +69,11 @@
     
     <webfeeds:cover image="{{ $.Site.BaseURL }}/img/main/profile.jpg" />
     <webfeeds:icon image="{{ $.Site.BaseURL }}/img/main/profile.jpg" />
-    <webfeeds:logo image="{{ $.Site.BaseURL }}/img/main/logo.jpg" />
     <webfeeds:accentColor>DBEAFE</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
 
-    <language>{{ site.Language.LanguageCode }}</language>{{ with $authorEmail }}
-    <managingEditor>{{.}}{{ with $authorName }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with $authorEmail }}
-    <webMaster>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</webMaster>{{ end }}{{ with site.Copyright }}
-    <copyright>{{ . }}</copyright>{{ end }}{{ if not .Date.IsZero }}
-    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
-    {{- with .OutputFormats.Get "RSS" }}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
-    {{- end }}
+
     {{- range $pages }}
     {{- if and (ne .Layout `search`) (ne .Layout `archives`) (not (in .Params.categories "sitePages")) }}
     <item>
@@ -84,7 +82,8 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</description>
+      <description>{{ with .Description | html }}{{ . }}{{ else }}{{ .Summary | html }}{{ end -}}</description>
+      <content:encoded>{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</content:encoded>
     </item>
     {{- end }}
     {{- end }}
