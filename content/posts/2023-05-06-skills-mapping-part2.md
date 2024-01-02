@@ -7,7 +7,7 @@ tags: ["wardleymapping","skills"]
 series: ["skills mapping"]
 ShowToc: false
 ShowBreadCrumbs: false
-images: ["/img/2023/skillsmapping-2-cover.png"]
+thumbnail: "/img/2023/skillsmapping-2-cover.png"
 ---
 
 {{< featured_image "/img/2023/skillsmapping-2-cover.png" "old map of london">}}
