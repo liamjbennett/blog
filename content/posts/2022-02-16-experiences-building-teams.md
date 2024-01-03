@@ -6,6 +6,7 @@ description: "I've spent 6 years building teams and here are some things it's ta
 tags: ["teams","culture","leadership"]
 ShowToc: false
 ShowBreadCrumbs: false
+thumbnail: "/img/main/profile.jpg"
 ---
 
 I started writing again in order to get some of those 1:1 conversations and email threads out into the public where some of the conversations, learning and titbits of  information can be useful to others. On that same theme I wanted to write down some of those learnings I’ve had building teams over the past 5 years.

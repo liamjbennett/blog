@@ -7,6 +7,7 @@ tags: ["ITIL","DevOps","Agile","SixSigma","teams","culture", "wardleymapping", "
 series: ["mixed operating models"]
 ShowToc: false
 ShowBreadCrumbs: false
+thumbnail: "/img/2022/operatingmodel-3-titlepage.jpeg"
 ---
 
 ![](/img/2022/operatingmodel-3-titlepage.jpeg)

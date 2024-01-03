@@ -7,6 +7,7 @@ tags: ["ITIL","DevOps","Agile","SixSigma","teams","culture", "wardleymapping"]
 series: ["mixed operating models"]
 ShowToc: false
 ShowBreadCrumbs: false
+thumbnail: "/img/main/profile.jpg"
 ---
 
 In the [first post](https://liamjbennett.me/posts/2022-03-28-operating-models-1/) on Mixed Operating Models I discussed that each application in your landscape, both custom built and third-party will need a different type of operating model and using wardley mapping to map that landscape will give the context of which model is appropriate and at what time. Transitioning between models won’t be easy and requires both technical and cultural changes to be successful.

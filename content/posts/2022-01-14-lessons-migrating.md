@@ -6,6 +6,7 @@ description: "After many different migration and transformation projects; these 
 tags: ["teams","culture","tools","vendor","cloud","migrations","transformation","TCO"]
 ShowToc: false
 ShowBreadCrumbs: false
+thumbnail: "/img/main/profile.jpg"
 ---
 
 I’ve had the opportunity over the past 5 years to be involved in many many different cloud migrations of all shapes, sizes and industries. From large-scale lift and shifts, native refactoring and even one or two cloud-to-cloud migrations. There are couple of things I have learnt along the way that appear to remain true irrespective or size, scope or type of organisation.

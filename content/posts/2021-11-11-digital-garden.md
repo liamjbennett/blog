@@ -6,6 +6,7 @@ description: "Ideas and Notes, not blogging"
 tags: ["ideas","notes","workflow","blogging"]
 ShowToc: false
 ShowBreadCrumbs: false
+thumbnail: "/img/main/profile.jpg"
 ---
 
 I'm very very late to the party when it comes to having a [Digital Garden](https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/) and knowing what that really is, but I've recently discovered it and I now I have a word for something I've been doing for a while now. Some folks have personal wiki's, other's task apps or blogs or github repos - all regularly tendered and updated with knowledge as they learn.

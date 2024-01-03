@@ -7,6 +7,7 @@ tags: ["wardleymapping","skills"]
 series: ["skills mapping"]
 ShowToc: false
 ShowBreadCrumbs: false
+thumbnail: "/img/2023/skillsmapping-1-titlepage.png"
 ---
 
 [comment]: https://www.nikkirosato.com/sculpture/kan2d2x0ph4lycs3mip0cupwtmqrbz

@@ -7,6 +7,7 @@ tags: ["ITIL","DevOps","Agile","SixSigma","teams","culture", "wardleymapping"]
 series: ["mixed operating models"]
 ShowToc: false
 ShowBreadCrumbs: false
+thumbnail: "/img/2022/wardleymap-1.jpeg"
 ---
 
 This month I wanted to start discussing a topic that has been going around and around in circles of conversation and thoughts for several years now - mixed operating models in IT organisations. There is a lot of ground to cover so stick with me over the next couple of posts and I’ll show you how and why this comes about and what we can do about it.
