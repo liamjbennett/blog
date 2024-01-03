@@ -7,6 +7,7 @@ tags: ["productivity"]
 ShowToc: false
 ShowBreadCrumbs: false
 thumbnail: "/img/main/profile.jpg"
+audioURL: "https://dd1bd01h7j6z1.cloudfront.net/2021-08-21%20-%20Explaining%20my%20workflow.m4a"
 ---
 
 This is one of those posts that I have been meaning to write for while. Over the years one of the things that I have found useful in my career has been always being up-to-date on the latest technology, the latest corporate news, and the latest ideas, methodologies and scientific research. At the speed that all of these areas move, it's not the easiest thing to do and can often feel like your trying to drink from a firehose.
