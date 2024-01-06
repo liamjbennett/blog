@@ -1,0 +1,98 @@
+{{- /* Deprecate site.Author.email in favor of site.Params.author.email */}}
+{{- $authorEmail := "" }}
+{{- with site.Params.author }}
+  {{- if reflect.IsMap . }}
+    {{- with .email }}
+      {{- $authorEmail = . }}
+    {{- end }}
+  {{- end }}
+{{- else }}
+  {{- with site.Author.email }}
+    {{- $authorEmail = . }}
+    {{- warnf "The author key in site configuration is deprecated. Use params.author.email instead." }}
+  {{- end }}
+{{- end }}
+
+{{- /* Deprecate site.Author.name in favor of site.Params.author.name */}}
+{{- $authorName := "" }}
+{{- with site.Params.author }}
+  {{- if reflect.IsMap . }}
+    {{- with .name }}
+      {{- $authorName = . }}
+    {{- end }}
+  {{- else }}
+    {{- $authorName  = . }}
+  {{- end }}
+{{- else }}
+  {{- with site.Author.name }}
+    {{- $authorName = . }}
+    {{- warnf "The author key in site configuration is deprecated. Use params.author.name instead." }}
+  {{- end }}
+{{- end }}
+
+{{- $pctx := . }}
+{{- if .IsHome }}{{ $pctx = site }}{{ end }}
+{{- $pages := slice }}
+
+{{- if or $.IsHome $.IsSection }}
+  {{- if eq $.CurrentSection "/takes" }}
+    {{- $pages = (where $pctx.RegularPages ".Section" "takes") }}
+  {{- else }}
+    {{- $pages = (where $pctx.RegularPages ".Section" "posts") }}
+  {{- end }}
+{{- else }}
+{{- $pages = $pctx.Pages }}
+{{- end }}
+
+{{- $limit := site.Config.Services.RSS.Limit }}
+{{- if ge $limit 1 }}
+{{- $pages = $pages | first $limit }}
+{{- end }}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" 
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <!-- xmlns:googleplay="https://www.google.com/schemas/play-podcasts/1.0/play-podcasts.xsd" -->
+
+  <channel>
+    <title>{{ if eq .Title site.Title }}{{ site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content by liamjbennett</description>
+    <language>{{ site.Language.LanguageCode }}</language>{{ with $authorEmail }}
+    <managingEditor>{{.}}{{ with $authorName }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with $authorEmail }}
+    <webMaster>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</webMaster>{{ end }}{{ with site.Copyright }}
+    <copyright>{{ . }}</copyright>{{ end }}{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+
+    <!-- <googleplay:author> </googleplay:author>-->
+    <!-- <googleplay:category text=""/> -->
+    <!-- <googleplay:image href=""/> -->
+
+    <itunes:category text="Technology"/>
+    <itunes:image href="{{ $.Site.BaseURL }}/img/main/podcast-arkwork.jpg"/>
+    <itunes:author>{{ $authorName }}</itunes:author>
+    <itunes:owner>
+      <itunes:email>$authorEmail</itunes:email>
+      <itunes:name>$authorName</itunes:name>
+    </itunes:owner>
+
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+
+    {{- range $pages }}
+    {{- if and (ne .Layout `search`) (ne .Layout `archives`) (not (in .Params.categories "sitePages")) }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <description>{{ .Description}}</description>
+      <enclosure url="{{ .Params.audio_url }}" type="audio/mpeg" length="{{ .Params.audio_bytes }}"/>
+      <guid>{{ .Params.audio_url }}</guid>
+    
+      <itunes:title>{{ .Title }}</itunes:title>
+      <itunes:duration>{{ .Params.audio_length }}</itunes:duration>
+    </item>
+    {{- end }}
+    {{- end }}
+  </channel>
+</rss>

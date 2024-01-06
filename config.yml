@@ -21,11 +21,15 @@ outputs:
     home:
         - HTML
         - RSS
+        - AUDIO
 
 outputFormats:
   RSS:
     mediatype: application/rss
     baseName: feed
+  AUDIO:
+    mediatype: application/rss
+    baseName: audio
 
 params:
     env: production
