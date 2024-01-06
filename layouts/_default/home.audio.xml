@@ -71,8 +71,9 @@
     <!-- <googleplay:category text=""/> -->
     <!-- <googleplay:image href=""/> -->
 
-    <itunes:category text="Technology"/>
     <itunes:image href="{{ $.Site.BaseURL }}/img/main/podcast-artwork.jpg"/>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
     <itunes:author>{{ $authorName }}</itunes:author>
     <itunes:owner>
       <itunes:email>$authorEmail</itunes:email>
@@ -93,7 +94,6 @@
     
       <itunes:title>{{ .Title }}</itunes:title>
       <itunes:duration>{{ .Params.audio_length }}</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
     </item>
     {{- end }}
     {{- end }}
