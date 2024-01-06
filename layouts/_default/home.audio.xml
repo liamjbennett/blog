@@ -55,6 +55,8 @@
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <!-- xmlns:googleplay="https://www.google.com/schemas/play-podcasts/1.0/play-podcasts.xsd" -->
 
+  <!-- https://github.com/mattstratton/castanet/blob/main/layouts/section/episode.rss.xml -->
+
   <channel>
     <title>{{ if eq .Title site.Title }}{{ site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
@@ -70,14 +72,14 @@
     <!-- <googleplay:image href=""/> -->
 
     <itunes:category text="Technology"/>
-    <itunes:image href="{{ $.Site.BaseURL }}/img/main/podcast-arkwork.jpg"/>
+    <itunes:image href="{{ $.Site.BaseURL }}/img/main/podcast-artwork.jpg"/>
     <itunes:author>{{ $authorName }}</itunes:author>
     <itunes:owner>
       <itunes:email>$authorEmail</itunes:email>
       <itunes:name>$authorName</itunes:name>
     </itunes:owner>
 
-    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    <atom:link href="{{ $.Site.BaseURL }}/audio.xml" rel="self" type="application/rss+xml" />
 
     {{- range $pages }}
     {{- if and (ne .Layout `search`) (ne .Layout `archives`) (not (in .Params.categories "sitePages")) }}
@@ -91,6 +93,7 @@
     
       <itunes:title>{{ .Title }}</itunes:title>
       <itunes:duration>{{ .Params.audio_length }}</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     {{- end }}
     {{- end }}
