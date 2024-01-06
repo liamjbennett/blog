@@ -93,7 +93,7 @@
     
       <itunes:title>{{ .Title }}</itunes:title>
       <itunes:duration>{{ .Params.audio_length }}</itunes:duration>
-      <iitunes:explicit>false</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     {{- end }}
     {{- end }}
