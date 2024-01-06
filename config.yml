@@ -1,5 +1,6 @@
 baseURL: "https://www.liamjbennett.me"
 title: liamjbennett
+copyright: Copyright 2013-2024 Liam Bennett
 paginate: 10
 theme: hugo-PaperMod
 
