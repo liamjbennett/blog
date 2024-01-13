@@ -1,5 +1,6 @@
 baseURL: "https://www.liamjbennett.me"
 title: liamjbennett
+copyright: Copyright 2013-2024 Liam Bennett
 paginate: 10
 theme: hugo-PaperMod
 
@@ -21,11 +22,15 @@ outputs:
     home:
         - HTML
         - RSS
+        - AUDIO
 
 outputFormats:
   RSS:
     mediatype: application/rss
     baseName: feed
+  AUDIO:
+    mediatype: application/rss
+    baseName: audio
 
 params:
     env: production
