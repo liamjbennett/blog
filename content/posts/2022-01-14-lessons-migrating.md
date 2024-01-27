@@ -7,6 +7,9 @@ tags: ["teams","culture","tools","vendor","cloud","migrations","transformation",
 ShowToc: false
 ShowBreadCrumbs: false
 thumbnail: "/img/main/profile.jpg"
+audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2022-01-14%20-%206%20things%20I%20learnt%20migrating%20to%20the%20cloud.m4a"
+audio_length: "00:10:50"
+audio_bytes: 22499496
 ---
 
 I’ve had the opportunity over the past 5 years to be involved in many many different cloud migrations of all shapes, sizes and industries. From large-scale lift and shifts, native refactoring and even one or two cloud-to-cloud migrations. There are couple of things I have learnt along the way that appear to remain true irrespective or size, scope or type of organisation.
