@@ -6,6 +6,10 @@ description: "Things I've learnt about remote working and distributed teams"
 tags: ["teams","remote working","culture","make work better"]
 ShowToc: false
 ShowBreadCrumbs: false
+thumbnail: "/img/main/profile.jpg"
+audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2021-11-10%20-%20Lessons%20learnt%20being%20remote.m4a"
+audio_length: "00:08:21"
+audio_bytes: 16221749
 ---
 
 I suppose that many of you reading this are doing so because the theme of remote working is top of mind and like myself over the past year you've found yourself in a deep hole of blog posts and podcasts trying to give you all tips on how to work remotely, how to manage a team remotely and how to do so without burning yourself out and becoming a titrant. 
