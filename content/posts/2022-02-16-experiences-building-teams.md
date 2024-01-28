@@ -7,6 +7,9 @@ tags: ["teams","culture","leadership"]
 ShowToc: false
 ShowBreadCrumbs: false
 thumbnail: "/img/main/profile.jpg"
+audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2022-02-16%20-%20my%20experiences%20building%20teams%20-%20Final.m4a"
+audio_length: "00:08:53"
+audio_bytes: 17077730
 ---
 
 I started writing again in order to get some of those 1:1 conversations and email threads out into the public where some of the conversations, learning and titbits of  information can be useful to others. On that same theme I wanted to write down some of those learnings I’ve had building teams over the past 5 years.
@@ -41,13 +44,13 @@ I think reverse mentoring is a great way to keep close to what’s new, improve 
 
 **Support people with change**
 
-We’ve all gone through a period where we’ve been told to build resilience, learn to build resilience or you should already be resilient. As an individual, these blogs, articles and podcasts all make some sort of sense. I summarise those like this: things out of your control are going to happen in the world, some of that is going to be bad, therefore you need to have the emotional tools to handle it. Great. Useful. Sort-of. As as leader however, does my team want to hear this from me? The answer is no, probably not. For this reflection I have to quote my wife: “you shouldn’t need to be resilient, you should just make sure that bad stuff doesn’t happen in the first place” - and I think she’s right. We put the emphasis on the individual rather than focusing on (either individually or collective) stopping the bad thing happening in the first place.
+We’ve all gone through a period where we’ve been told to build resilience, learn to build resilience or you should already be resilient. As an individual, these blogs, articles and podcasts all make some sort of sense. I summarise those like this: things out of your control are going to happen in the world, some of that is going to be bad, therefore you need to have the emotional tools to handle it. Great. Useful. Sort-of. As as leader however, does my team want to hear this from me? The answer is no, probably not. For this reflection I have to quote my wife: “you shouldn’t need to be resilient, you should just make sure that bad stuff doesn’t happen in the first place” - and I think she’s right. We put the emphasis on the individual rather than focusing on (either individually or collectively) stopping the bad thing happening in the first place.
 
 So when it comes to change in organisations, don’t focus on making your teams resilient to change, focus on making sure the change is a positive experience for them. Change in organisations can come from many directions: org structure, new products and services, new roles, changes in strategy. All of these sorts of changes impact the individual and trigger that deep emotional response if not handled effectively. In organisations where this is not handled effectively without proper change management you’ll get those who resist (fight), those who leave the business (flight) and those who stay but hold in their feelings (freeze). This is a trauma response.
 
 By using the language of resilience you’re saying to your team(s) that change out of their control will be a normal part of their life and they need to adjust to it. 
 
-Instead of telling your teams that they need to be resilient, maybe you as the leader need to be more transparent. Traditional change management focuses on the *what* and the *why*  a change is happening. But instead there should be a focus on how a change was made in the first place. In software development there is the example of architectural decision  records (ADRs) that record when, how and by whom a decision was made and details the *context* in which that decision was made. Applying a similar approach to all organisational change you will allow a level of transparency that means folks don’t need to be resilient to change because they know how and why the change happens. 
+Instead of telling your teams that they need to be resilient, maybe you as the leader need to be more transparent. Traditional change management focuses on the *what* and the *why*  a change is happening. But instead there should be a focus on how a change was made in the first place. In software development there is the example of architectural decision  record (ADR) that record when, how and by whom a decision was made and details the *context* in which that decision was made. Applying a similar approach to all organisational change you will allow a level of transparency that means folks don’t need to be resilient to change because they know how and why the change happens. 
 
 A byproduct of the decision records is that is forces a level of clarity that might change this outcome.  This is probably another blog post on it’s own.
 
