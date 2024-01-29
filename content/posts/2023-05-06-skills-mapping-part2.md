@@ -1,7 +1,7 @@
 ---
 author: "liamjbennett"
 title: "Map those skills part 2 - using the maps"
-date: "2023-02-17"
+date: "2023-05-06"
 description: "How to use the maps over time as you evolve your skills"
 tags: ["wardleymapping","skills"]
 series: ["skills mapping"]
