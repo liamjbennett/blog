@@ -8,6 +8,9 @@ series: ["mixed operating models"]
 ShowToc: false
 ShowBreadCrumbs: false
 thumbnail: "/img/main/profile.jpg"
+audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2022-07-13%20-%20mixed%20operating%20models%20-%20part%202%20-%20Final.m4a"
+audio_length: "00:09:23"
+audio_bytes: "18029005"
 ---
 
 In the [first post](https://liamjbennett.me/posts/2022-03-28-operating-models-1/) on Mixed Operating Models I discussed that each application in your landscape, both custom built and third-party will need a different type of operating model and using wardley mapping to map that landscape will give the context of which model is appropriate and at what time. Transitioning between models won’t be easy and requires both technical and cultural changes to be successful.
