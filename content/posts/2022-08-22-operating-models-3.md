@@ -7,7 +7,10 @@ tags: ["ITIL","DevOps","Agile","SixSigma","teams","culture", "wardleymapping", "
 series: ["mixed operating models"]
 ShowToc: false
 ShowBreadCrumbs: false
-thumbnail: "/img/2022/operatingmodel-3-titlepage.jpeg"
+thumbnail: "/img/main/profile.jpg"
+audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2022-08-22%20-%20mixed%20operating%20models%20-%20part%203%20-%20Final.m4a"
+audio_length: "00:08:40"
+audio_bytes: "16649739"
 ---
 
 ![](/img/2022/operatingmodel-3-titlepage.jpeg)
@@ -63,5 +66,3 @@ There are a lot of [general change management]([https://open.lib.umn.edu/organiz
 - Explain the different models - Don’t assume that everyone understands everything about Agile, DevOps, SixSigma and Outsourcing. Don’t assume that everyone understands all the tools. Share the knowledge, share the context and work together.
 - Hubris of outsourcing - don’t outsource too much, too early. Learn who your vendors are, how they operate, build relationships and change if it’s not working.
 - Lead with purpose and value - [we all want meaningful work]([https://sloanreview.mit.edu/article/the-importance-of-meaningful-work/](https://sloanreview.mit.edu/article/the-importance-of-meaningful-work/)), so make sure changes to the application landscape and your operating models are done so from the perspective of what it means to the day-to-day lives of the people in those teams.
-
-**Next time in this series** … DevOps and ITIL - working together with thoughtful consideration
