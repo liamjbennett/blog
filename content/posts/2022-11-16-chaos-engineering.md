@@ -6,6 +6,10 @@ description: "The realities of chaos engineering and steps to get there"
 tags: ["chaos engineering","testing","disaster recovery"]
 ShowToc: false
 ShowBreadCrumbs: false
+thumbnail: "/img/main/profile.jpg"
+audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2022-11-16%20-%20chaos%20engineering%20-%20Final.m4a"
+audio_length: "00:07:51"
+audio_bytes: "15080721"
 ---
 
 ## Intro (what even is it?!)
