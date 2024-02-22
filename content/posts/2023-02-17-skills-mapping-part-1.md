@@ -7,7 +7,10 @@ tags: ["wardleymapping","skills"]
 series: ["skills mapping"]
 ShowToc: false
 ShowBreadCrumbs: false
-thumbnail: "/img/2023/skillsmapping-1-titlepage.png"
+thumbnail: "/img/main/profile.jpg"
+audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2023-02-17%20-%20map%20those%20skills%20-%20Final.m4a"
+audio_length: "00:08:43"
+audio_bytes: "16745034"
 ---
 
 [comment]: https://www.nikkirosato.com/sculpture/kan2d2x0ph4lycs3mip0cupwtmqrbz
