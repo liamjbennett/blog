@@ -7,7 +7,10 @@ tags: ["wardleymapping","skills"]
 series: ["skills mapping"]
 ShowToc: false
 ShowBreadCrumbs: false
-thumbnail: "/img/2023/skillsmapping-2-cover.png"
+thumbnail: "/img/main/profile.jpg"
+audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2023-05-06%20-%20map%20those%20skills%20-%20part%202%20-%20Final.m4a"
+audio_length: "00:04:51"
+audio_bytes: "9327094"
 ---
 
 {{< featured_image "/img/2023/skillsmapping-2-cover.png" "old map of london">}}
