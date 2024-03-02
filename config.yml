@@ -65,8 +65,10 @@ params:
           url: "https://www.linkedin.com/in/liam-bennett-77415821/"
         - name: email
           url: liamjbennett@gmail.com
-        - name: RSS
+        - name: rss
           url: "index.xml"
+        - name: rss
+          url: "audio.xml"
 
 menu:
   main:
