@@ -6,9 +6,9 @@ description: "I'm back! What's happening to this blog."
 ShowToc: false
 ShowBreadCrumbs: false
 thumbnail: "/img/main/profile.jpg"
-audio_url: "https://dd1bd01h7j6z1.cloudfront.net/"
-audio_length: ""
-audio_bytes: ""
+audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2024-03-04-the-changelog%20-%20Final.m4a"
+audio_length: "00:01:03"
+audio_bytes: "2051261"
 draft: true
 ---
 
@@ -22,4 +22,4 @@ I've also not stopped with making one or two changes to this site. Those of you 
 
 Finally, details on all these changes as well as some upcoming future projects and ideas are now all posted to the [ChangeLog](https://www.liamjbennett.me/changelog/) part of this site.
 
-Take a look around, enjoy the changes and subscribe to by feed to get more posts over the next few months.
+Take a look around, enjoy the changes and subscribe to my feed to get more posts over the next few months.
