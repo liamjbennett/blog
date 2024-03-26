@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="./podroll.xsl"?>
+<opml version="1.0">
+    <head>
+        <title>OPML file of all the podcasts I'm subscribed to:</title>
+    </head>
+    <body>
+        <outline title="Priority Queue" text="Priority Queue">
+            <outline text="AWS Morning Brief"
+                description="The latest in AWS news, sprinkled with snark."
+                icon="https://podcastaddict.com/cache/artwork/thumb/2382583" 
+                type="rss"
+                xmlUrl="https://feeds.transistor.fm/aws-morning-brief"/>
+            <outline title="Eat Sleep Work Repeat" text="Eat Sleep Work Repeat"
+                description="Conversations about workplace culture, psychology and life, hosted by Bruce Daisley"
+                icon="https://podcastaddict.com/cache/artwork/thumb/3590205" 
+                type="rss"
+                xmlUrl="https://feeds.acast.com/public/shows/a3c828c3-73ec-4a4b-995c-958894896ec0"/>
+            <outline title="Working It" text="Working It"
+                description="Isabel Berwick with expert analysis and watercooler chat about ahead-of-the-curve workplace trends, the big ideas shaping work today"
+                icon="https://podcastaddict.com/cache/artwork/thumb/3852319" 
+                type="rss"
+                xmlUrl="https://feeds.acast.com/public/shows/68c48326-7dc0-4ef7-8b41-33c38cf596fb"/>
+            <outline title="A Bit of Optimism" text="A Bit of Optimism"
+                description="Simon Sinek talks to inspiring people who teach me more about life, leadership and general interesting things. "
+                icon="https://podcastaddict.com/cache/artwork/thumb/4708670" 
+                type="rss"
+                xmlUrl="https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/f942844a-2418-455b-b939-b0a6011cc1a5/c752e78f-5005-4826-bf3a-b0a6011cc1cf/podcast.rss"/>
+
+            <outline title="Acquired" text="Acquired"
+                description="Every company has a story. Learn the playbooks that built the world’s greatest companies."
+                icon="https://podcastaddict.com/cache/artwork/thumb/4289303" 
+                type="rss"
+                xmlUrl="https://feeds.transistor.fm/acquired"/>
+        </outline>
+    </body>
+</opml>
