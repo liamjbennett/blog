@@ -6,10 +6,9 @@ description: "I'm back! What's happening to this blog."
 ShowToc: false
 ShowBreadCrumbs: false
 thumbnail: "/img/main/profile.jpg"
-audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2024-03-04-the-changelog%20-%20Final.m4a"
+audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2024-03-04-%20-%20the%20changelog%20-%20Final.m4a"
 audio_length: "00:01:03"
 audio_bytes: "2051261"
-draft: true
 ---
 
 {{< featured_image "/img/2024/changelog-cover.png" "changelog">}}
