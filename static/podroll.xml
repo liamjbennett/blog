@@ -33,5 +33,52 @@
                 type="rss"
                 xmlUrl="https://feeds.transistor.fm/acquired"/>
         </outline>
+        <outline title="Scheduled Queue" text="Scheduled Queue">
+            <outline text="Arrested DevOps"
+                description="Arested DevOps is the podcast that helps you achieve understanding, develop good practices"
+                icon="https://podcastaddict.com/cache/artwork/thumb/509259" 
+                type="rss"
+                xmlUrl="http://feeds.podtrac.com/VGAulpN7MY1U"/>
+            <outline text="a16z Podcast"
+                description="The a16z Podcast discusses tech and culture trends, news, and the future "
+                icon="https://podcastaddict.com/cache/artwork/thumb/2436095" 
+                type="rss"
+                xmlUrl="https://feeds.simplecast.com/JGE3yC0V"/>
+            <outline text="Squiggly Careers"
+                description="Squiggly Careers is a weekly podcast that will help you take control of your career development. "
+                icon="https://podcastaddict.com/cache/artwork/thumb/3590037" 
+                type="rss"
+                xmlUrl="https://feeds.acast.com/public/shows/82cdef27-a3c7-4751-94fd-f9c01d2a7f60"/>
+            <outline text="Cloud Unplugged"
+                description="A light-hearted look at cloud engineering under the lens of platform teams"
+                icon="https://podcastaddict.com/cache/artwork/thumb/4246958" 
+                type="rss"
+                xmlUrl="https://feeds.bcast.fm/cloud-unplugged"/>
+            <outline text="Software Defined Talk"
+                description="A weekly dose of all things Enterprise Software and Cloud Computing"
+                icon="https://podcastaddict.com/cache/artwork/thumb/2246023" 
+                type="rss"
+                xmlUrl="https://www.softwaredefinedtalk.com/rss"/>
+            <outline text="Screaming in the Cloud"
+                description="Corey Quinn hosts conversations with domain experts in the world of Cloud Computing."
+                icon="https://m.media-amazon.com/images/I/41XwXNgUaBL.jpg" 
+                type="rss"
+                xmlUrl="https://feeds.transistor.fm/screaming-in-the-cloud"/>
+            <outline text="The New Way We Work"
+                description="Kathleen Davis takes listeners on a journey through the changing landscape of our work lives"
+                icon="https://podcastaddict.com/cache/artwork/thumb/2416333" 
+                type="rss"
+                xmlUrl="https://feeds.megaphone.fm/MANV3867221972"/>
+            <outline text="WorkLife with Adam Grant"
+                description="Adam Grant takes you inside the minds of some of the world’s most unusual professionals to discover the keys to a better work life."
+                icon="https://podcastaddict.com/cache/artwork/thumb/2156565" 
+                type="rss"
+                xmlUrl="https://feeds.feedburner.com/WorklifeWithAdamGrant"/>
+            <outline text="Unlocking Us with Brené Brown"
+                description="Brené Brown's conversation with people about what it means to be human"
+                icon="https://podcastaddict.com/cache/artwork/thumb/4856569" 
+                type="rss"
+                xmlUrl="https://feeds.megaphone.fm/GLT4889391284"/>
+        </outline>
     </body>
 </opml>
