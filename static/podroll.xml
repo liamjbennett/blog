@@ -5,7 +5,7 @@
         <title>OPML file of all the podcasts I'm subscribed to:</title>
     </head>
     <body>
-        <outline title="Priority Queue" text="Priority Queue">
+        <outline title="Priority Queue" text="Priority Queue (5 podcasts)">
             <outline text="AWS Morning Brief"
                 description="The latest in AWS news, sprinkled with snark."
                 icon="https://podcastaddict.com/cache/artwork/thumb/2382583" 
@@ -33,7 +33,7 @@
                 type="rss"
                 xmlUrl="https://feeds.transistor.fm/acquired"/>
         </outline>
-        <outline title="Scheduled Queue" text="Scheduled Queue">
+        <outline title="Scheduled Queue" text="Scheduled Queue (9 podcasts)">
             <outline text="Arrested DevOps"
                 description="Arested DevOps is the podcast that helps you achieve understanding, develop good practices"
                 icon="https://podcastaddict.com/cache/artwork/thumb/509259" 
@@ -79,6 +79,141 @@
                 icon="https://podcastaddict.com/cache/artwork/thumb/4856569" 
                 type="rss"
                 xmlUrl="https://feeds.megaphone.fm/GLT4889391284"/>
+        </outline>
+        <outline title="Occasioanl Queue" text="Occasioanl Queue (26 podcasts)">
+            <outline text="Level-up Engineering"
+                description="Reveals actionable management secrets from some of the most successful engineering leaders"
+                icon="https://podcastaddict.com/cache/artwork/thumb/2476351" 
+                type="rss"
+                xmlUrl="https://feeds.captivate.fm/level-up-engineering/"/>
+            <outline text="The Engineering Leadership Podcast"
+                description="We share the most critical perspectives, habits &amp; examples of great software engineering leaders"
+                icon="https://podcastaddict.com/cache/artwork/thumb/3710712" 
+                type="rss"
+                xmlUrl="https://feeds.simplecast.com/Z8Dl_qAv"/>
+            <outline text="Joe Beasley | Modern CTO"
+                description="Hang out with interesting and popular CTOs in Aerospace, Artificial Intelligence, Robotics + Many more industries"
+                icon="https://podcastaddict.com/cache/artwork/thumb/3158346" 
+                type="rss"
+                xmlUrl="https://feeds.megaphone.fm/LDB8042666505"/>
+            <outline text="Oddly Influenced"
+                description="A podcast about how people have applied ideas from outside software to software."
+                icon="https://podcastaddict.com/cache/artwork/thumb/4035999" 
+                type="rss"
+                xmlUrl="https://feeds.transistor.fm/oddly-influenced"/>
+            <outline text="Tech Lead Journal"
+                description="Experienced technical leaders sharing their journey and philosophy for building great technical teams and achieving technical excellence."
+                icon="https://podcastaddict.com/cache/artwork/thumb/3063255" 
+                type="rss"
+                xmlUrl="https://anchor.fm/s/265d7c64/podcast/rss"/>
+            <outline text="WSJ's The Future of Everything"
+                description="The Future of Everything offers a kaleidoscope view of the nascent trends that will shape our world"
+                icon="https://podcastaddict.com/cache/artwork/thumb/2399247" 
+                type="rss"
+                xmlUrl="http://video-api.wsj.com/podcast/rss/wsj/wsj-the-future-of-everything"/>
+            <outline text="Ctrl Alt Delete"
+                description="Focus is work, wellbeing and creativity"
+                icon="https://podcastaddict.com/cache/artwork/thumb/3749629" 
+                type="rss"
+                xmlUrl="https://feeds.acast.com/public/shows/697c0a71-b5ac-4b39-9f34-80efbe4a7fa7"/>
+            <outline text="Change by Attraction"
+                description="Esther Derby on Change Management"
+                icon="https://podcastaddict.com/cache/artwork/thumb/3076198" 
+                type="rss"
+                xmlUrl="https://feeds.simplecast.com/O2h6jdM1"/>
+            <outline text="FinOpsPod"
+                description="Official FinOps Foundation podcast"
+                icon="https://podcastaddict.com/cache/artwork/thumb/3872856" 
+                type="rss"
+                xmlUrl="https://feeds.captivate.fm/finopspod/"/>
+            <outline text="Mik + One: The Official Project to Product Podcast by Dr. Mik Kersten"
+                description="The Official Project to Product Podcast by Dr. Mik Kersten"
+                icon="https://podcastaddict.com/cache/artwork/thumb/3617406" 
+                type="rss"
+                xmlUrl="https://feed.podbean.com/podcast8w/feed.xml"/>
+            <outline text="Shit You Don't Learn in School"
+                description="Stories, insights, and resources designed to help you improve the quality of your personal and professional life"
+                icon="https://podcastaddict.com/cache/artwork/thumb/2861017" 
+                type="rss"
+                xmlUrl="https://feeds.buzzsprout.com/987811.rss"/>
+
+
+            <outline text="ASOS Tech Podcast"
+                description="we're going to be sharing what it's like to work at an online destination for fashion-loving 20-somethings around the world."
+                icon="https://storage.pinecast.net/podcasts/covers/c2a04619-b863-45d0-85d2-cc4f5a47007c/MicrosoftTeams-image__1_.png" 
+                type="rss"
+                xmlUrl="https://pinecast.com/feed/asostechpodcast"/>
+            <outline text="The Changelog: Software Development, Open Source"
+                description="Software’s best weekly news brief, deep technical interviews &amp; talk show. "
+                icon="https://podcastaddict.com/cache/artwork/thumb/1839434" 
+                type="rss"
+                xmlUrl="https://changelog.com/podcast/feed"/>
+            <outline text="The Technology Chiefs Podcast"
+                description="Sharing the insights, learning and experience of today’s technology leaders through informal chats."
+                icon="https://m.media-amazon.com/images/S/dmp-catalog-images-prod/images/70958769-14f4-4ce1-9d0c-91e98ffcdded/70958769-14f4-4ce1-9d0c-91e98ffcdded--848866099._SX768_SY768_BL0_QL100_FMpng__UX716_FMpng_QL85_.png" 
+                type="rss"
+                xmlUrl="https://feed.podbean.com/technologychiefs/feed.xml"/>
+            <outline text="HBR IdeaCast"
+                description="A weekly podcast featuring the leading thinkers in business and management. "
+                icon="https://podcastaddict.com/cache/artwork/thumb/2531" 
+                type="rss"
+                xmlUrl="http://feeds.harvardbusiness.org/harvardbusiness/ideacast\"/>
+            <outline text="Moonpig Technology Podcast"
+                description="A podcast from the tech team at Moonpig."
+                icon="https://podcastaddict.com/cache/artwork/thumb/4126859" 
+                type="rss"
+                xmlUrl="https://anchor.fm/s/c422c634/podcast/rss"/>
+            <outline text="AWS Podcast"
+                description="The Official AWS Podcast is a podcast for developers and IT professionals looking for the latest news and trends in storage, security, infrastructure, serverless, and more."
+                icon="https://podcastaddict.com/cache/artwork/thumb/2007949" 
+                type="rss"
+                xmlUrl="https://d3gih7jbfe3jlq.cloudfront.net/aws-podcast.rss"/>
+            <outline text="The Azure Podcast"
+                description="Cynthia Kreng, Kendall Roden, Cale Teeter, Evan Basalik, Russell Young &amp; Sujit D'Mello work at Microsoft in the cloud and services area. "
+                icon="https://podcastaddict.com/cache/artwork/thumb/431021" 
+                type="rss"
+                xmlUrl="https://feeds.feedburner.com/TheAzurePodcast"/>
+            <outline text="Google Cloud Platform Podcast"
+                description="Discussing everything on Google Cloud Platform from App Engine to Big Query. "
+                icon="https://podcastaddict.com/cache/artwork/thumb/3261870" 
+                type="rss"
+                xmlUrl="https://anchor.fm/s/10af7df4/podcast/rss"/>
+            <outline text="The Diary of a CEO with Steven Bartlett"
+                description="An unfiltered journey into the remarkable stories and untold dimensions of the world’s most influential people, experts and thinkers"
+                icon="https://podcastaddict.com/cache/artwork/thumb/4603334" 
+                type="rss"
+                xmlUrl="https://feeds.megaphone.fm/thediaryofaceo"/>
+            <outline text="Managing Managers"
+                description="How top tech leaders made the leap from manager to manging managers"
+                icon="https://podcastaddict.com/cache/artwork/thumb/4619393" 
+                type="rss"
+                xmlUrl="https://anchor.fm/s/e8cb8a98/podcast/rss"/>
+
+            <outline text="Huberman Lab"
+                description="Neuroscience podcast"
+                icon="https://podcastaddict.com/cache/artwork/thumb/3795736" 
+                type="rss"
+                xmlUrl="https://feeds.megaphone.fm/hubermanlab"/>
+            <outline text="The Work Item"
+                description="Conversations on careers in tech and tech-adjacent fields, hosted by Den Delimarsky"
+                icon="https://cdn.theworkitem.com/art/the-work-item-main.png" 
+                type="rss"
+                xmlUrl="https://raw.githubusercontent.com/theworkitem/feeds/master/xml/theworkitem-itunes.xml"/>
+            <outline text="How To Fail With Elizabeth Day"
+                description="Celebrates the things in life that haven’t gone right and what we might learn from them along the way"
+                icon="https://podcastaddict.com/cache/artwork/thumb/4828213" 
+                type="rss"
+                xmlUrl="https://feeds.megaphone.fm/howtofail"/>
+            <outline text="Unconfuse Me with Bill Gates"
+                description="Bill Gates talks to smart people who can help me understand the subject better."
+                icon="https://podcastaddict.com/cache/artwork/thumb/4531838" 
+                type="rss"
+                xmlUrl="https://feed.unconfuseme.com/"/>
+            <outline text="Risky Business"
+                description="Tthe security news of the last few days"
+                icon="https://podcastaddict.com/cache/artwork/thumb/537441" 
+                type="rss"
+                xmlUrl="http://risky.biz/rss.xml"/>
         </outline>
     </body>
 </opml>

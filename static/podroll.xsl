@@ -71,13 +71,15 @@
 
                     /* Formatting using table */
                     table {
-                        padding-bottom: 20px;
+                        margin: 20px;
                         table-layout:fixed;
                         width: 800px;
+						border: 1px solid;
                     }
 
-                    table, th, td {
+                    th, td {
                         border: 0px solid;
+						padding: 5px;
                     }
 
                     
