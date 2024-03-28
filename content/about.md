@@ -5,7 +5,7 @@ ShowPostNavLinks: false
 ShowBreadCrumbs: false
 ShowCodeCopyButtons: false
 ShowToc: false
-title: "About Me"
+title: "About"
 author: "."
 categories:
   - sitePages
