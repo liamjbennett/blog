@@ -16,13 +16,13 @@ categories:
 * Add social media posts here in IndieWeb style
 * Add privacy page
 * Add styling to audio RSS page
-* Spit professional and personal contacts on contacts page
 * Add page for newsletters I'm subscribed to (newsroll)
 * Add page for people I follow (socialroll)
 
 ## April 2024
 * Add page for RSS feeds with OPML downloads (blogroll)
 * Add page for Podcasts with OPML downloads (podroll)
+* Spit professional and personal contacts on contacts page
 
 ## Feb-March 2024
 
