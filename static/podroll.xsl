@@ -126,7 +126,7 @@
 			<body>
 				<h1><xsl:value-of select="head/title"/></h1>
 				<p id="nav">
-					<a href="/">Blog</a>
+					<a href="/posts">Blog</a>
 					<a href="/feed.xml">RSS</a>
                     <a href="/audio.xml">RSS for Audio</a>
 				</p>
