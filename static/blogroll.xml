@@ -5,266 +5,1292 @@
         <title>OPML file of all the feeds I'm subscribed to:</title>
     </head>
     <body>
-        <outline text="Feeds" title="Feeds">
-            <outline title="Michael Feathers"  type="rss" xmlUrl="https://michaelfeathers.silvrback.com/feed" />
-            <outline title="GitLab"  type="rss" xmlUrl="https://about.gitlab.com/atom.xml" />
-            <outline title="Increment"  type="rss" xmlUrl="https://increment.com/feed.xml" />
-            <outline title="The Pragmatic Engineer"  type="rss" xmlUrl="https://blog.pragmaticengineer.com/rss/" />
-            <outline title="Lara Callender Hogan"  type="rss" xmlUrl="https://larahogan.me/feed.xml" />
-            <outline title="David Heinemeier Hansson"  type="rss" xmlUrl="https://world.hey.com/dhh/feed.atom" />
-            <outline title="Radar"  type="rss" xmlUrl="https://www.oreilly.com/radar/feed/index.xml" />
-            <outline title="ongoing by Tim Bray"  type="rss" xmlUrl="https://www.tbray.org/ongoing/ongoing.atom" />
-            <outline title="Brave New Geek"  type="rss" xmlUrl="https://bravenewgeek.com/feed/" />
-            <outline title="Corporate Rebels RSS"  type="rss" xmlUrl="https://corporate-rebels.com/rss/" />
-            <outline title="The Engineering Manager"  type="rss" xmlUrl="https://www.theengineeringmanager.com/feed/" />
-            <outline title="Blog - Evan Smith"  type="rss" xmlUrl="https://iamevan.me/blog?format=rss" />
-            <outline title="Chris Swan's Weblog"  type="rss" xmlUrl="https://blog.thestateofme.com/feed/" />
-            <outline title="Hexacorn"  type="rss" xmlUrl="https://www.hexacorn.com/blog/feed/" />
-            <outline title="Kislay Verma"  type="rss" xmlUrl="https://kislayverma.com/feed/" />
-            <outline title="Benji's Blog"  type="rss" xmlUrl="http://benjiweber.co.uk/blog/feed/" />
-            <outline title="HashiCorp Blog"  type="rss" xmlUrl="https://www.hashicorp.com/blog/feed.xml" />
-            <outline title="Interesting Engineering"  type="rss" xmlUrl="https://interestingengineering.com/feed/atom" />
-            <outline title="charity.wtf"  type="rss" xmlUrl="https://charity.wtf/feed/" />
-            <outline title="Honeycomb"  type="rss" xmlUrl="https://www.honeycomb.io/feed/" />
-            <outline title="Humanistic Systems"  type="rss" xmlUrl="https://humanisticsystems.com/feed/" />
-            <outline title="James Serra's Blog"  type="rss" xmlUrl="http://feeds.feedburner.com/JamesSerra" />
-            <outline title="The Observation Deck"  type="rss" xmlUrl="http://dtrace.org/blogs/bmc/feed/" />
-            <outline title="Yelp Engineering and Product Blog"  type="rss" xmlUrl="https://engineeringblog.yelp.com/feed.xml" />
-            <outline title="Tech Blog"  type="rss" xmlUrl="https://tech.marksblogg.com/feeds/all.atom.xml" />
-            <outline title="TechTello"  type="rss" xmlUrl="https://www.techtello.com/feed/" />
-            <outline title="Black Swan Farming"  type="rss" xmlUrl="https://blackswanfarming.com/feed/" />
-            <outline title="Maturity Mapping"  type="rss" xmlUrl="http://maturitymapping.com/feed/" />
-            <outline title="Cory Foy"  type="rss" xmlUrl="https://blog.coryfoy.com/feed/" />
-            <outline title="Daniel Lebrero Berna Blog"  type="rss" xmlUrl="https://danlebrero.com/feed.rss" />
-            <outline title="patkua.com"  type="rss" xmlUrl="https://www.patkua.com/feed/" />
-            <outline title="progression.fyi | F"  type="rss" xmlUrl="https://www.progression.fyi/feed/frameworks.xml" />
-            <outline title="sysadvent"  type="rss" xmlUrl="https://sysadvent.blogspot.com/feeds/posts/default?alt=rss" />
-            <outline title="Sam Newman"  type="rss" xmlUrl="https://samnewman.io/blog/feed.xml" />
-            <outline title="Puppies, Flowers, Rainbows and Kittens"  type="rss" xmlUrl="https://blog.kevingoldsmith.com/feed/" />
-            <outline title="Sally Lait - blog"  type="rss" xmlUrl="https://sallylait.com/blog/index.xml" />
-            <outline title="CTO Craft"  type="rss" xmlUrl="https://ctocraft.com/feed/" />
-            <outline title="Naomi Stanford"  type="rss" xmlUrl="https://naomistanford.com/feed/" />
-            <outline title="Stratechery by Ben Thompson"  type="rss" xmlUrl="https://stratechery.com/feed" />
-            <outline title="HBR.org"  type="rss" xmlUrl="http://feeds.harvardbusiness.org/harvardbusiness/" />
-            <outline title="Martin Fowler"  type="rss" xmlUrl="https://martinfowler.com/feed.atom" />
-            <outline title="Cloud Computing News"  type="rss" xmlUrl="https://cloudcomputing-news.net/feed/" />
-            <outline title="Quanta Magazine"  type="rss" xmlUrl="https://quantamagazine.org/feed" />
-            <outline title="Gary Larizza - Shit Gary Says"  type="rss" xmlUrl="http://garylarizza.com/atom.xml" />
-            <outline title="Lyft Engineering - Medium"  type="rss" xmlUrl="https://eng.lyft.com/feed" />
-            <outline title="Slack Engineering"  type="rss" xmlUrl="https://slack.engineering/feed" />
-            <outline title="Den Delimarsky"  type="rss" xmlUrl="https://den.dev/index.xml" />
-            <outline title="Matthias Endler"  type="rss" xmlUrl="https://matthias-endler.de/rss.xml" />
-            <outline title="First Round Review"  type="rss" xmlUrl="https://review.firstround.com/feed.xml" />
-            <outline title="The Airbnb Tech Blog - Medium"  type="rss" xmlUrl="https://medium.com/feed/airbnb-engineering" />
-            <outline title="FT Product &#38; Technology - Medium"  type="rss" xmlUrl="https://medium.com/feed/ft-product-technology" />
-            <outline title="R.I.Pienaar"  type="rss" xmlUrl="https://www.devco.net/feed" />
-            <outline title="WorkLife"  type="rss" xmlUrl="https://worklife.news/feed/" />
-            <outline title="Fast Company - technology"  type="rss" xmlUrl="https://www.fastcompany.com/technology/rss" />
-            <outline title="Hacker News"  type="rss" xmlUrl="https://news.ycombinator.com/rss" />
-            <outline title="Thomas Maurer"  type="rss" xmlUrl="https://www.thomasmaurer.ch/feed/" />
-            <outline title="Pluralistic: Daily links from Cory Doctorow"  type="rss" xmlUrl="https://pluralistic.net/feed/" />
-            <outline title="Automated Home"  type="rss" xmlUrl="https://www.automatedhome.co.uk/feed" />
-            <outline title="Azure Architecture Blog articles"  type="rss" xmlUrl="https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=AzureArchitectureBlog" />
-            <outline title="Future"  type="rss" xmlUrl="https://future.a16z.com/feed" />
-            <outline title="The Beautiful Mess"  type="rss" xmlUrl="https://cutlefish.substack.com/feed" />
-            <outline title="Stories by Camille Fournier on Medium"  type="rss" xmlUrl="https://medium.com/feed/@skamille" />
-            <outline title="Stories by Kathy Korevec on Medium"  type="rss" xmlUrl="https://medium.com/feed/@kathykorevec" />
-            <outline title="Scott Hanselman's Blog"  type="rss" xmlUrl="http://feeds.feedburner.com/ScottHanselman" />
-            <outline title="Paul Hammant's blog"  type="rss" xmlUrl="http://feeds.feedburner.com/paulhammant" />
-            <outline title="Azure Weekly - Powered by endjin"  type="rss" xmlUrl="https://azureweekly.info/rss.xml" />
-            <outline title="MacRumors: Mac News and Rumors - Front Page"  type="rss" xmlUrl="http://www.macrumors.com/macrumors.xml" />
-            <outline title="The Register"  type="rss" xmlUrl="http://www.theregister.co.uk/headlines.rss" />
-            <outline title="Irrational Exuberance"  type="rss" xmlUrl="http://lethain.com/feeds/all/" />
-            <outline title="Netflix TechBlog - Medium"  type="rss" xmlUrl="http://techblog.netflix.com/feeds/posts/default" />
-            <outline title="Spotify Engineering"  type="rss" xmlUrl="http://labs.spotify.com/feed/" />
-            <outline title="Steve Denning"  type="rss" xmlUrl="http://www.forbes.com/sites/stevedenning/feed/" />
-            <outline title="ITSM.tools"  type="rss" xmlUrl="https://itsm.tools/feed/" />
-            <outline title="Stories by Jon Stevens-Hall on Medium"  type="rss" xmlUrl="https://medium.com/feed/@jonstevenshall" />
-            <outline title="InfoQ"  type="rss" xmlUrl="http://www.infoq.com/rss/rss.action?token=7OYwAGY0Eb0vMBzdi43qOGU2xwwQRsWB" />
-            <outline title="Stories by Nick Tune on Medium"  type="rss" xmlUrl="https://medium.com/feed/@ntcoding" />
-            <outline title="Our Latest - Rebels at Work"  type="rss" xmlUrl="https://www.rebelsatwork.com/blog?format=rss" />
-            <outline title="BBC Product &#38; Technology - Medium"  type="rss" xmlUrl="https://medium.com/feed/bbc-design-engineering" />
-            <outline title="The GitHub Blog: Engineering News and Updates"  type="rss" xmlUrl="https://githubengineering.com/atom.xml" />
-            <outline title="SoundCloud Backstage Blog"  type="rss" xmlUrl="https://developers.soundcloud.com/blog.rss" />
-            <outline title="AWS Cloud Enterprise Strategy Blog"  type="rss" xmlUrl="https://aws.amazon.com/blogs/enterprise-strategy/feed/" />
-            <outline title="The PayPal Technology Blog - Medium"  type="rss" xmlUrl="https://medium.com/feed/paypal-engineering" />
-            <outline title="Profound - Having intellectual depth and insight"  type="rss" xmlUrl="https://www.profound-deming.com/blog-1?format=rss" />
-            <outline title="JFDI"  type="rss" xmlUrl="http://www.annashipman.co.uk/atom.xml" />
-            <outline title="Stories by John Cutler on Medium"  type="rss" xmlUrl="https://medium.com/feed/@johnpcutler" />
-            <outline title="SOONER SAFER HAPPIER"  type="rss" xmlUrl="https://soonersaferhappier.com/feed/" />
-            <outline title="Kartar.Net"  type="rss" xmlUrl="https://www.kartar.net/index.xml" />
-            <outline title="Strategy, Architecture, Continuous Delivery, and DDD - Medium"  type="rss" xmlUrl="https://medium.com/feed/nick-tune-tech-strategy-blog" />
-            <outline title="Gruntwork - Medium"  type="rss" xmlUrl="https://blog.gruntwork.io/feed" />
-            <outline title="Skelton Thatcher"  type="rss" xmlUrl="https://skeltonthatcher.com/feed/" />
-            <outline title="LinkedIn Engineering"  type="rss" xmlUrl="https://engineering.linkedin.com/blog.rss" />
-            <outline title="Wired"  type="rss" xmlUrl="http://www.wired.com/news_drop/netcenter/netcenter.rdf" />
-            <outline title="Rambling Cookie Monster"  type="rss" xmlUrl="http://ramblingcookiemonster.github.io/feed.xml" />
-            <outline title="Engineers @ The LEGO Group - Medium"  type="rss" xmlUrl="https://medium.com/feed/lego-engineering" />
-            <outline title="Stories by Iccha Sethi on Medium"  type="rss" xmlUrl="https://medium.com/feed/@icchasethi" />
-            <outline title="Anais Urlichs"  type="rss" xmlUrl="https://anaisurl.com/blog/rss/" />
-            <outline title="Sam Learns Azure"  type="rss" xmlUrl="https://samlearnsazure.blog/feed/" />
-            <outline title="bleeding edge"  type="rss" xmlUrl="https://bleedingedge.ai/rss/feed.xml" />
-            <outline title="Google News"  type="rss" xmlUrl="https://news.google.com/rss/feed" />
-            <outline title="localghost.dev"  type="rss" xmlUrl="https://localghost.dev/feed.xml" />
-            <outline title="Accidentally in Code"  type="rss" xmlUrl="http://www.catehuston.com/blog/feed/" />
-            <outline title="Fear of Oblivion"  type="rss" xmlUrl="https://fearofoblivion.com/feed.xml" />
-            <outline title="Pinterest Engineering Blog - Medium"  type="rss" xmlUrl="https://medium.com/feed/pinterest-engineering" />
-            <outline title="Slack Platform Blog - Medium"  type="rss" xmlUrl="https://medium.com/feed/slack-developer-blog" />
-            <outline title="BBC News - Technology"  type="rss" xmlUrl="http://news.bbc.co.uk/rss/newsonline_world_edition/technology/rss.xml" />
-            <outline title="Insights@Questrom"  type="rss" xmlUrl="https://insights.bu.edu/feed/" />
-            <outline title="Remote Work Academy"  type="rss" xmlUrl="https://www.remote-work.io/rss/" />
-            <outline title="DAZN Engineering - Medium"  type="rss" xmlUrl="https://medium.com/feed/dazn-tech" />
-            <outline title="Amro&#39;s Blog"  type="rss" xmlUrl="http://feeds.feedburner.com/amdev" />
-            <outline title="ITProPortal"  type="rss" xmlUrl="http://feeds.feedburner.com/itproportal/rss" />
-            <outline title="ThoughtWorks Insight Blogs"  type="rss" xmlUrl="https://liamjbennett.github.io/feeds/thoughtworks_insights.xml" />
-            <outline title="In Depth"  type="rss" xmlUrl="https://firstround.libsyn.com/rss" />
-            <outline title="Tech @ GoCardless - Medium"  type="rss" xmlUrl="https://medium.com/feed/gocardless-tech" />
-            <outline title="Guiding Leaders and Teams"  type="rss" xmlUrl="https://guidingleadersandteams.com/feed/" />
-            <outline title="Engineering - Stack Overflow Blog"  type="rss" xmlUrl="https://stackoverflow.blog/engineering/feed/" />
-            <outline title="ITSM Professor"  type="rss" xmlUrl="http://feeds.feedburner.com/itsmprofessor/fDWb" />
-            <outline title="Moonpig Tech Blog - Medium"  type="rss" xmlUrl="https://medium.com/feed/moonpigtech" />
-            <outline title="Medium Engineering - Medium"  type="rss" xmlUrl="https://medium.com/feed/medium-eng" />
-            <outline title="Walmart Global Tech Blog - Medium"  type="rss" xmlUrl="https://medium.com/feed/walmartglobaltech" />
-            <outline title="Cloud Administrator in Azure World"  type="rss" xmlUrl="http://cloudadministrator.wordpress.com/feed/" />
-            <outline title="Engineering blog | The Guardian"  type="rss" xmlUrl="http://www.guardian.co.uk/info/developer-blog/rss" />
-            <outline title="All Azure Migration and Modernization Blog posts"  type="rss" xmlUrl="https://techcommunity.microsoft.com/gxcuf89792/rss/boardmessages?board.id=AzureMigrationBlog" />
-            <outline title="ACG Blogs: Cloud Technology Updates and More | A Cloud Guru"  type="rss" xmlUrl="https://acloudguru.com/blog/feed" />
-            <outline title="Life at Farewill - Medium"  type="rss" xmlUrl="https://medium.com/feed/farewill" />
-            <outline title="Datagen"  type="rss" xmlUrl="https://datagen.tech/feed/" />
-            <outline title="Focus Business Blog"  type="rss" xmlUrl="https://focus.business/blog/feed/" />
-            <outline title="The ASOS Tech Blog - Medium"  type="rss" xmlUrl="https://medium.com/feed/asos-techblog" />
-            <outline title="Platformonomics"  type="rss" xmlUrl="http://www.platformonomics.com/SyndicationService.asmx/GetRss" />
-            <outline title="Chris Read"  type="rss" xmlUrl="http://blog.chris-read.net/feed/" />
-            <outline title="ashe dryden - programming diversity"  type="rss" xmlUrl="http://www.ashedryden.com/rss.xml" />
-            <outline title="DoorDash Engineering Blog"  type="rss" xmlUrl="https://doordash.engineering/blog/feed/" />
-            <outline title="Angels &#38;&#38; Daemons - https://petersouter.xyz"  type="rss" xmlUrl="https://petersouter.xyz/feed.xml" />
-            <outline title="Geek | Manager"  type="rss" xmlUrl="http://feeds.feedburner.com/GeekManager" />
-            <outline title="Tobias Zimmergrens thoughts on tech"  type="rss" xmlUrl="http://www.zimmergren.net/rss.xml" />
-            <outline title="Stories by Chris McDermott on Medium"  type="rss" xmlUrl="https://medium.com/feed/@chrisvmcd" />
-            <outline title="Annie Hedgpeth"  type="rss" xmlUrl="http://www.anniehedgie.com/feed.xml" />
-            <outline title="Seldo.com RSS Feed"  type="rss" xmlUrl="http://seldo.com/api/getposts" />
-            <outline title="Dev Kimchi"  type="rss" xmlUrl="https://devkimchi.com/feed.xml" />
-            <outline title="unwiredcouch.com on unwiredcouch.com"  type="rss" xmlUrl="http://feeds.feedburner.com/unwiredcouchcom" />
-            <outline title="Shekhar Gulati"  type="rss" xmlUrl="http://whyjava.wordpress.com/feed/" />
-            <outline title="Stephanie Dreyer"  type="rss" xmlUrl="https://stephaniedreyer.co.uk/feed/" />
-            <outline title=""  type="rss" xmlUrl="https://leebriggs.co.uk/feed.xml" />
-            <outline title="Knoco stories"  type="rss" xmlUrl="http://www.nickmilton.com/feeds/posts/default" />
-            <outline title="Dandy People"  type="rss" xmlUrl="https://dandypeople.com/feed/" />
-            <outline title="The Cynefin Co"  type="rss" xmlUrl="https://cognitive-edge.com/blog/feed/" />
-            <outline title="Lifehacker"  type="rss" xmlUrl="https://lifehacker.com/rss" />
-            <outline title="Wired UK"  type="rss" xmlUrl="https://www.wired.co.uk/feed/rss" />
-            <outline title="Cloud/MSP"  type="rss" xmlUrl="https://twitter.com/i/lists/1169142836513714177" />
-            <outline title="Cloud/Vendors"  type="rss" xmlUrl="https://twitter.com/i/lists/1169141402804113409" />
-            <outline title="Systems Thinking"  type="rss" xmlUrl="https://www.reddit.com/r/systemsthinking.rss" />
-            <outline title="Deming"  type="rss" xmlUrl="https://www.reddit.com/r/Deming.rss" />
-            <outline title="Leadership"  type="rss" xmlUrl="https://reddit.com/r/leadership.rss" />
-            <outline title="Agile"  type="rss" xmlUrl="https://reddit.com/r/agile.rss" />
-            <outline title="management"  type="rss" xmlUrl="https://reddit.com/r/management.rss" />
-            <outline title="ITPro Today: IT News, How-Tos, Trends, Case Studies, Career Tips, More - Microsoft Windows Information, Solutions, Tools"  type="rss" xmlUrl="http://www.itprotoday.com/rss.xml" />
-            <outline title="MIT Technology Review"  type="rss" xmlUrl="https://www.technologyreview.com/feed" />
-            <outline title="Engadget"  type="rss" xmlUrl="https://www.engadget.com/rss.xml" />
-            <outline title="Eventbrite Engineering"  type="rss" xmlUrl="https://www.eventbrite.com/engineering/feed/" />
-            <outline title="Azure Cloud &#38; AI Domain Blog"  type="rss" xmlUrl="https://azurecloudai.blog/feed/" />
-            <outline title="Blog - Ryn Daniels"  type="rss" xmlUrl="https://www.ryn.works/blog?format=rss" />
-            <outline title="Target Tech Blog"  type="rss" xmlUrl="https://tech.target.com/rss/feed.xml" />
-            <outline title="lbr."  type="rss" xmlUrl="https://www.leebriggs.co.uk/feed" />
-            <outline title="Rands in Repose"  type="rss" xmlUrl="https://randsinrepose.com/feed/" />
-            <outline title="gilest.org"  type="rss" xmlUrl="https://gilest.org/feed/index.xml" />
-            <outline title="Brendan O'Leary"  type="rss" xmlUrl="https://boleary.dev/rss/" />
-            <outline title="Amy C. Edmondson"  type="rss" xmlUrl="https://amycedmondson.com/feed/" />
-            <outline title="Stories by Chris Combe (he / him) on Medium"  type="rss" xmlUrl="https://medium.com/feed/@ccombe" />
-            <outline title="Eleganthack"  type="rss" xmlUrl="https://eleganthack.com/feed/" />
-            <outline title="Learnings on Lean Kanban Flow"  type="rss" xmlUrl="https://ddegrandis.com/feed/" />
-            <outline title="Together Institute - Medium"  type="rss" xmlUrl="https://medium.com/feed/together-institute" />
-            <outline title="Stories by Houda Boulahbel on Medium"  type="rss" xmlUrl="https://medium.com/feed/@houdaboulahbel" />
-            <outline title="Stories by Jason Yip on Medium"  type="rss" xmlUrl="https://medium.com/feed/@jchyip" />
-            <outline title="Stories by Lisa Gill on Medium"  type="rss" xmlUrl="https://medium.com/feed/@reimaginaire" />
-            <outline title="Stories by Ruchi on Medium"  type="rss" xmlUrl="https://medium.com/feed/@ruchira.parchur" />
-            <outline title="Shopify Engineering - Shopify Engineering"  type="rss" xmlUrl="https://shopifyengineering.myshopify.com/blogs/engineering.atom" />
-            <outline title="OpenAI"  type="rss" xmlUrl="https://openai.com/blog/rss/" />
-            <outline title="Collaborative Robotics"  type="rss" xmlUrl="https://co.bot/rss" />
-            <outline title="DYNOMIGHT"  type="rss" xmlUrl="https://dynomight.net/feed.xml" />
-            <outline title="Virtual Reality News - Industry News - VR News - XR Today"  type="rss" xmlUrl="https://www.xrtoday.com/virtual-reality/feed/" />
-            <outline title="Bits or pieces?"  type="rss" xmlUrl="https://blog.gardeviance.org/feeds/posts/default?alt=rss" />
-            <outline title="IT Connection"  type="rss" xmlUrl="https://itconnection.wordpress.com/feed/" />
-            <outline title="Memory Leak - Medium"  type="rss" xmlUrl="https://medium.com/feed/memory-leak" />
-            <outline title="Roblox Blog"  type="rss" xmlUrl="https://blog.roblox.com/feed/" />
-            <outline title="Aidan Finn, IT Pro"  type="rss" xmlUrl="https://aidanfinn.com/?feed=rss2" />
-            <outline title="Maggie Appleton"  type="rss" xmlUrl="https://maggieappleton.com/rss.xml" />
-            <outline title="Amazon Science homepage"  type="rss" xmlUrl="https://www.amazon.science/index.rss" />
-            <outline title="Articles - Amy Hupe"  type="rss" xmlUrl="https://amyhupe.co.uk/atom.xml" />
-            <outline title="Think Different"  type="rss" xmlUrl="https://flowchainsensei.wordpress.com/feed/" />
-            <outline title="Stories by Clive Thompson on Medium"  type="rss" xmlUrl="https://medium.com/feed/@clivethompson" />
-            <outline title="Kathy PM"  type="rss" xmlUrl="https://kathykorevec.substack.com/feed" />
-            <outline title="IEEE Spectrum"  type="rss" xmlUrl="https://spectrum.ieee.org/feeds/topic.rss" />
-            <outline title="Wherefore Ergonautic"  type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYKVJqHYVQ8P2khr-kvigMg" />
-            <outline title="Stories by Digital at Virgin Media O2 on Medium"  type="rss" xmlUrl="https://medium.com/feed/@vmo2techteam" />
-            <outline title="Funding Circle - Medium"  type="rss" xmlUrl="https://medium.com/feed/funding-circle" />
-            <outline title="Ancestry Product &#38; Technology - Medium"  type="rss" xmlUrl="https://medium.com/feed/ancestry-product-and-technology" />
-            <outline title="Basia Fusińska about IT"  type="rss" xmlUrl="http://feeds.feedburner.com/barbarafusinska" />
-            <outline title="loveholidays tech - Medium"  type="rss" xmlUrl="https://tech.loveholidays.com/feed" />
-            <outline title="One Man &#38; His Blog"  type="rss" xmlUrl="https://onemanandhisblog.com/rss/" />
-            <outline title="Simon Willison's Weblog"  type="rss" xmlUrl="https://simonwillison.net/atom/everything/" />
-            <outline title="The Cloudflare Blog"  type="rss" xmlUrl="https://blog.cloudflare.com/rss/" />
-            <outline title="Recent Commits to engineering-blogs:master"  type="rss" xmlUrl="https://github.com/kilimchoi/engineering-blogs/commits/master.atom" />
-            <outline title="Atlassian Engineering"  type="rss" xmlUrl="https://www.atlassian.com/engineering/feed" />
-            <outline title="Atlassian Developer Blog"  type="rss" xmlUrl="https://blog.developer.atlassian.com/feed/" />
-            <outline title="BBC Product &amp; Technology - Medium"  type="rss" xmlUrl="https://medium.com/feed/bbc-product-technology" />
-            <outline title="Capgemini Software Engineering"  type="rss" xmlUrl="https://capgemini.github.io/feed.xml" />
-            <outline title="Cloudera Blog"  type="rss" xmlUrl="http://blog.cloudera.com/feed/" />
-            <outline title="deliveroo.engineering"  type="rss" xmlUrl="http://deliveroo.engineering/feed.xml" />
-            <outline title="Discord Blog"  type="rss" xmlUrl="https://rss.app/feeds/3NaibKE2XxkHnwse.xml" />
-            <outline title=""  type="rss" xmlUrl="https://dropbox.tech/feed" />
-            <outline title="eBay Tech Blog"  type="rss" xmlUrl="http://www.ebaytechblog.com/feed/" />
-            <outline title="Expedia Group Technology - Medium"  type="rss" xmlUrl="https://medium.com/feed/expedia-group-tech" />
-            <outline title="Gusto Engineering"  type="rss" xmlUrl="https://engineering.gusto.com/rss/" />
-            <outline title="Just Eat Takeaway-tech - Medium"  type="rss" xmlUrl="https://medium.com/feed/justeattakeaway-tech" />
-            <outline title="Making Tech Better - Made Tech"  type="rss" xmlUrl="https://www.madetech.com/feed/podcast/" />
-            <outline title="Medium Engineering - Medium"  type="rss" xmlUrl="https://medium.engineering/feed" />
-            <outline title="NYT Open - Medium"  type="rss" xmlUrl="https://open.nytimes.com/feed" />
-            <outline title="Riot Games Tech Blog News Feed"  type="rss" xmlUrl="https://technology.riotgames.com/rss.xml" />
-            <outline title="SoundCloud Backstage Blog"  type="rss" xmlUrl="https://developers.soundcloud.com/blog/blog.rss" />
-            <outline title="ACM Queue - Latest Queue Content"  type="rss" xmlUrl="https://queue.acm.org/rss/feeds/latestitems.xml" />
-            <outline title="Mews Developers"  type="rss" xmlUrl="https://developers.mews.com/feed/" />
-            <outline title="The GitHub Blog"  type="rss" xmlUrl="https://github.blog/feed/" />
-            <outline title="101 Ways"  type="rss" xmlUrl="https://www.101ways.com/feed/" />
-            <outline title="Sam Altman"  type="rss" xmlUrl="https://blog.samaltman.com/posts.atom" />
-            <outline title="Engineering at Meta"  type="rss" xmlUrl="https://engineering.fb.com/feed/" />
-            <outline title="All Things Distributed"  type="rss" xmlUrl="https://www.allthingsdistributed.com/index.xml" />
-            <outline title="Uber Engineering Blog"  type="rss" xmlUrl="https://eng.uber.com/feed/" />
-            <outline title="Dunelm Technology - Medium"  type="rss" xmlUrl="https://engineering.dunelm.com/feed" />
-            <outline title="eng-blog"  type="rss" xmlUrl="https://eng.snap.com/feed" />
-            <outline title="Booking.com Engineering - Medium"  type="rss" xmlUrl="https://medium.com/feed/booking-com-development" />
-            <outline title="Auto Trader Engineering Blog"  type="rss" xmlUrl="http://engineering.autotrader.co.uk/feed.xml" />
-            <outline title="disney-streaming - Medium"  type="rss" xmlUrl="https://medium.com/feed/disney-streaming" />
-            <outline title="Simon Sinek"  type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCPmfPl-BsCd3wmE8i45LAoA" />
-            <outline title="justin․searls․co"  type="rss" xmlUrl="https://justin.searls.co/atom.xml" />
-            <outline title="Matt Mullenweg"  type="rss" xmlUrl="https://ma.tt/feed/" />
-            <outline title="Bix Dot Blog"  type="rss" xmlUrl="https://bix.blog/rss.xml" />
-            <outline title="The Bored Horse"  type="rss" xmlUrl="https://bored.horse/feed.xml" />
-            <outline title="Charlie &#38; the Thinking Factory"  type="rss" xmlUrl="https://www.charliegedeon.com/rss/" />
-            <outline title="The Transmitter"  type="rss" xmlUrl="https://www.thetransmitter.org/feed/" />
-            <outline title="{anonymous =&gt; 'hash'};"  type="rss" xmlUrl="https://anonymoushash.vmbrasseur.com/feed.xml" />
-            <outline title="Alvaro Ramirez's notes"  type="rss" xmlUrl="https://xenodium.com/rss.xml" />
-            <outline title="Nodes in a social network"  type="rss" xmlUrl="https://tante.cc/feed/" />
-            <outline title="Joelchrono’s Blog"  type="rss" xmlUrl="https://joelchrono.xyz/feed.xml" />
-            <outline title="stuff &#38; things"  type="rss" xmlUrl="https://stuff.reddmo.com/feed.xml" />
-            <outline title="mark philpot"  type="rss" xmlUrl="https://markphilpot.com/index.xml" />
-            <outline title="Julian’s Blog"  type="rss" xmlUrl="https://fietkau.blog/feed.xml" />
-            <outline title="Taylor Jadin"  type="rss" xmlUrl="https://jadin.me/index.xml" />
-            <outline title="Cool As Heck"  type="rss" xmlUrl="https://cool-as-heck.blog/posts_feed" />
-            <outline title="The Spacebar"  type="rss" xmlUrl="https://www.spacebar.news/feed" />
-            <outline title="Stories by Tamas on Medium"  type="rss" xmlUrl="https://medium.com/feed/@iamdtms" />
-            <outline title="Matthias Ott – User Experience Designer"  type="rss" xmlUrl="https://matthiasott.com/feed" />
-            <outline title="Stefan Bohacek"  type="rss" xmlUrl="https://stefanbohacek.com/feed" />
-            <outline title="Almost Secure"  type="rss" xmlUrl="https://palant.info/rss.xml" />
-            <outline title="shellsharks"  type="rss" xmlUrl="https://shellsharks.com/feed.xml" />
-            <outline title="Flashing Palely in the Margins"  type="rss" xmlUrl="https://www.inthemargins.ca/feed.rss" />
-            <outline title="Uses This"  type="rss" xmlUrl="https://usesthis.com/feed.atom" />
-            <outline title="cs.SE updates on arXiv.org"  type="rss" xmlUrl="http://rss.arxiv.org/rss/cs.SE" />
-            <outline title="cs.AI updates on arXiv.org"  type="rss" xmlUrl="http://rss.arxiv.org/rss/cs.AI" />
-            <outline title="Inside GOV.UK"  type="rss" xmlUrl="https://insidegovuk.blog.gov.uk/feed/" />
-            <outline title="Wait But Why"  type="rss" xmlUrl="https://waitbutwhy.com/feed" />
-          </outline>
+        <outline text="Engineering team blogs (60)" title="Blogs by the engineering teams of various tech companies">
+            <outline title="HashiCorp Blog" type="rss" 
+                xmlUrl="https://www.hashicorp.com/blog/feed.xml"
+                htmlUrl="https://www.hashicorp.com/blog/"
+                icon="https://www.hashicorp.com/favicon.svg"
+            />
+            <outline title="Yelp Engineering and Product Blog" type="rss" 
+                xmlUrl="https://engineeringblog.yelp.com/feed.xml"
+                htmlUrl="https://engineeringblog.yelp.com/"
+                icon="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Yelp.svg/2048px-Yelp.svg.png"
+            />
+            <outline title="Lyft Engineering - Medium" type="rss"
+                xmlUrl="https://eng.lyft.com/feed"
+                htmlUrl="https://eng.lyft.com/"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Slack Engineering" type="rss" 
+                xmlUrl="https://slack.engineering/feed"
+                htmlUrl="https://slack.engineering/"
+                icon="https://slack.engineering/wp-content/uploads/sites/7/2020/05/cropped-octothrope-1.png"
+            />
+            <outline title="Netflix TechBlog - Medium" type="rss"
+                xmlUrl="http://techblog.netflix.com/feeds/posts/default"
+                htmlUrl="http://techblog.netflix.com/"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Spotify Engineering" type="rss"
+                xmlUrl="hhttps://engineering.atspotify.com/feed/"
+                htmlUrl="https://engineering.atspotify.com/"
+                icon="https://engineering.atspotify.com/wp-content/themes/theme-spotify/images/favicon.png"
+            />
+            <outline title="The GitHub Blog: Engineering News and Updates" type="rss"
+                xmlUrl="https://githubengineering.com/atom.xml"
+                htmlUrl="https://githubengineering.com/"
+                icon="https://githubengineering.com/images/favicon.ico"
+            />
+            <outline title="SoundCloud Backstage Blog" type="rss"
+                xmlUrl="https://developers.soundcloud.com/blog.rss"
+                htmlUrl="https://developers.soundcloud.com/"
+                icon="https://www.iconarchive.com/download/i54067/danleech/simple/soundcloud.1024.png"
+            />
+            <outline title="TechTello" type="rss"
+                xmlUrl="https://www.techtello.com/feed/"
+                htmlUrl="https://www.techtello.com/"
+                icon="https://www.techtello.com/wp-content/uploads/2019/11/cropped-favicon-techtello-1100x1100px-32x32.png"
+            />
+            <outline title="BBC Product &#38; Technology - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/bbc-product-technology"
+                htmlUrl="https://medium.com/bbc-product-technology"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="The PayPal Technology Blog - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/paypal-tech"
+                htmlUrl="https://medium.com/paypal-tech"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Gruntwork - Medium" type="rss"
+                xmlUrl="https://blog.gruntwork.io/feed"
+                htmlUrl="https://blog.gruntwork.io/"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="LinkedIn Engineering" type="rss"
+                xmlUrl="https://engineering.linkedin.com/blog.rss"
+                htmlUrl="https://engineering.linkedin.com/"
+                icon="https://static.licdn.com/sc/h/413gphjmquu9edbn2negq413a"
+            />
+            <outline title="Engineers @ The LEGO Group - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/lego-engineering"
+                htmlUrl="https://medium.com/lego-engineering"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Pinterest Engineering Blog - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/pinterest-engineering"
+                htmlUrl="https://medium.com/pinterest-engineering"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Slack Platform Blog - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/slack-developer-blog"
+                htmlUrl="https://medium.com/slack-developer-blog"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="DAZN Engineering - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/dazn-tech"
+                htmlUrl=""
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Tech @ GoCardless - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/gocardless-tech"
+                htmlUrl="https://medium.com/gocardless-tech"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Engineering - Stack Overflow Blog" type="rss"
+                xmlUrl="https://stackoverflow.blog/engineering/feed/"
+                htmlUrl="https://stackoverflow.blog/engineering"
+                icon="https://stackoverflow.blog/favicon.ico"
+            />
+            <outline title="Moonpig Tech Blog - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/moonpigtech"
+                htmlUrl="https://medium.com/moonpigtech"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Medium Engineering - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/medium-eng"
+                htmlUrl="https://medium.com/medium-eng"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Walmart Global Tech Blog - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/walmartglobaltech"
+                htmlUrl="ttps://medium.com/walmartglobaltech"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Engineering blog | The Guardian" type="rss"
+                xmlUrl="http://www.guardian.co.uk/info/developer-blog/rss"
+                htmlUrl="http://www.guardian.co.uk/info/developer-blog/"
+                icon="https://assets.guim.co.uk/images/favicons/873381bf11d58e20f551905d51575117/72x72.png"
+            />
+            <outline title="The ASOS Tech Blog - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/asos-techblog"
+                htmlUrl="https://medium.com/asos-techblog"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="DoorDash Engineering Blog" type="rss"
+                xmlUrl="https://doordash.engineering/blog/feed/"
+                htmlUrl="https://doordash.engineering/blog/"
+                icon="https://doordash.engineering/blog/wp-content/uploads/2020/09/favicon.jpg"
+            />
+            <outline title="Roblox Blog" type="rss"
+                xmlUrl="https://blog.roblox.com/feed/"
+                htmlUrl="https://blog.roblox.com/"
+                icon="https://blog.roblox.com/wp-content/themes/roblox/favicon/favicon.svg"
+            />
+            <outline title="Atlassian Engineering" type="rss"
+                xmlUrl="https://www.atlassian.com/engineering/feed"
+                htmlUrl="https://www.atlassian.com/engineering"
+                icon="https://aatlassianeng.wpengine.com/wp-content/uploads/2020/02/android-chrome-256x256-1-150x150.png"
+            />
+            <outline title="Atlassian Developer Blog" type="rss"
+                xmlUrl="https://blog.developer.atlassian.com/feed/"
+                htmlUrl="https://blog.developer.atlassian.com/"
+                icon="https://aatlassianeng.wpengine.com/wp-content/uploads/2020/02/android-chrome-256x256-1-150x150.png"
+            />
+            <outline title="BBC Product &amp; Technology - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/bbc-product-technology"
+                htmlUrl="https://medium.com/bbc-product-technology"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Capgemini Software Engineering" type="rss"
+                xmlUrl="https://capgemini.github.io/feed.xml"
+                htmlUrl="https://capgemini.github.io/"
+                icon="https://capgemini.github.io/favicon.ico"
+            />
+            <outline title="Cloudera Blog" type="rss"
+                xmlUrl="http://blog.cloudera.com/feed/"
+                htmlUrl="http://blog.cloudera.com/"
+                icon="https://blog.cloudera.com/wp-content/themes/cloudera/assets/images/favicon/favicon.ico"
+            />
+            <outline title="deliveroo.engineering" type="rss"
+                xmlUrl="http://deliveroo.engineering/feed.xml"
+                htmlUrl="http://deliveroo.engineering/"
+                icon="https://deliveroo.engineering/images/icons/safari-pinned-tab.svg"
+            />
+            <outline title="Discord Blog" type="rss"
+                xmlUrl="https://rss.app/feeds/3NaibKE2XxkHnwse.xml"
+                htmlUrl="https://discord.com/category/engineering"
+                icon="https://assets-global.website-files.com/5f8dd67f8fdd6f51f0b50904/60ae916347747e71167e21cc_favicon.png"
+            />
+            <outline title="Dropbox Tech Blog" type="rss"
+                xmlUrl="https://dropbox.tech/feed"
+                htmlUrl="https://dropbox.tech/"
+                icon="https://dropbox.tech/cms/content/dam/dropbox/aem/favicon32.ico"
+            />
+            <outline title="eBay Tech Blog" type="rss"
+                xmlUrl="http://www.ebaytechblog.com/feed/"
+                htmlUrl="http://www.ebaytechblog.com/"
+                icon="https://static.ebayinc.com/static/theme/images/logo.svg"
+            />
+            <outline title="Expedia Group Technology - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/expedia-group-tech"
+                htmlUrl="https://medium.com/expedia-group-tech"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Gusto Engineering" type="rss"
+                xmlUrl="https://engineering.gusto.com/rss/"
+                htmlUrl="https://engineering.gusto.com/"
+                icon="https://engineering.gusto.com/content/images/size/w256h256/2019/12/gusto-favicon.png"
+            />
+            <outline title="Just Eat Takeaway-tech - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/justeattakeaway-tech"
+                htmlUrl="https://medium.com/justeattakeaway-tech"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Making Tech Better - Made Tech" type="rss"
+                xmlUrl="https://www.madetech.com/feed/podcast/"
+                htmlUrl="https://www.madetech.com/podcast/"
+                icon="https://www.madetech.com/wp-content/uploads/2021/04/icon-48x48-1.png"
+            />
+            <outline title="Medium Engineering - Medium" type="rss"
+                xmlUrl="https://medium.engineering/feed"
+                htmlUrl="https://medium.engineering/"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Riot Games Tech Blog News Feed" type="rss"
+                xmlUrl="https://technology.riotgames.com/rss.xml"
+                htmlUrl="https://technology.riotgames.com/"
+                icon="https://technology.riotgames.com/sites/default/files/favicon_0.ico"
+            />
+            <outline title="SoundCloud Backstage Blog" type="rss"
+                xmlUrl="https://developers.soundcloud.com/blog/blog.rss"
+                htmlUrl="https://developers.soundcloud.com/blog/"
+                icon="https://www.iconarchive.com/download/i54067/danleech/simple/soundcloud.1024.png"
+            />
+            <outline title="Mews Developers" type="rss"
+                xmlUrl="https://developers.mews.com/feed/"
+                htmlUrl="https://developers.mews.com/"
+                icon="https://developers.mews.com/wp-content/uploads/cropped-MewsFavicon512.jpg"
+            />
+            <outline title="Engineering at Meta" type="rss"
+                xmlUrl="https://engineering.fb.com/feed/"
+                htmlUrl="https://engineering.fb.com/"
+                icon="https://engineering.fb.com/wp-content/themes/code-fb-com/favicon.ico"
+            />
+            <outline title="Uber Engineering Blog" type="rss"
+                xmlUrl="https://eng.uber.com/feed/"
+                htmlUrl="https://eng.uber.com/"
+                icon="https://d3i4yxtzktqr9n.cloudfront.net/ubercom-dynamic/99c4bc580c8b57b7.ico"
+            />
+            <outline title="Dunelm Technology - Medium" type="rss"
+                xmlUrl="https://engineering.dunelm.com/feed"
+                htmlUrl="https://engineering.dunelm.com/"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="eng-blog" type="rss"
+                xmlUrl="https://eng.snap.com/feed"
+                htmlUrl="https://eng.snap.com/"
+                icon="https://api.statvoo.com/favicon/eng.snap.com"
+            />
+            <outline title="Booking.com Engineering - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/booking-com-development"
+                htmlUrl="https://medium.com/booking-com-development"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Auto Trader Engineering Blog" type="rss"
+                xmlUrl="http://engineering.autotrader.co.uk/feed.xml"
+                htmlUrl="http://engineering.autotrader.co.uk/"
+                icon="https://engineering.autotrader.co.uk/assets/images/favicons/favicon.png"
+            />
+            <outline title="disney-streaming - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/disney-streaming"
+                htmlUrl="https://medium.com/disney-streaming"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Inside GOV.UK" type="rss"
+                xmlUrl="https://insidegovuk.blog.gov.uk/feed/"
+                htmlUrl="https://insidegovuk.blog.gov.uk/"
+                icon="https://insidegovuk.blog.gov.uk/wp-content/themes/gds-blogs/build/node_modules/govuk-frontend/dist/govuk/assets/images/favicon.ico"
+            />
+            <outline title="loveholidays tech - Medium" type="rss"
+                xmlUrl="https://tech.loveholidays.com/feed"
+                htmlUrl="https://tech.loveholidays.com/"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="The Airbnb Tech Blog - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/airbnb-engineering"
+                htmlUrl="https://medium.com/airbnb-engineering"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="FT Product &#38; Technology - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/ft-product-technology"
+                htmlUrl="https://medium.com/ft-product-technology"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Fast Company - technology" type="rss"
+                xmlUrl="https://www.fastcompany.com/technology/rss"
+                htmlUrl="https://www.fastcompany.com/technology/"
+                icon="https://www.fastcompany.com/apple-touch-icon.png"
+            />
+            <outline title="Life at Farewill - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/farewill"
+                htmlUrl="https://medium.com/farewill"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Target Tech Blog" type="rss"
+                xmlUrl="https://tech.target.com/rss/feed.xml"
+                htmlUrl="https://tech.target.com/"
+                icon="https://assets.targetimg1.com/static/images/favicon.ico"
+            />
+            <outline title="Shopify Engineering - Shopify Engineering" type="rss"
+                xmlUrl="https://shopifyengineering.myshopify.com/blogs/engineering.atom"
+                htmlUrl="https://shopifyengineering.myshopify.com/"
+                icon="https://cdn.shopify.com/shopify-marketing_assets/static/shopify-favicon.png"
+            />
+            <outline title="Stories by Digital at Virgin Media O2 on Medium" type="rss"
+                xmlUrl="https://medium.com/feed/@vmo2techteam"
+                htmlUrl="https://medium.com/@vmo2techteam"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+        </outline>
+        <outline text="Personal Blogs (86)" title="Personal blogs of interesting people">
+            <outline title="Lara Callender Hogan" type="rss"
+                xmlUrl="https://larahogan.me/feed.xml"
+                htmlUrl="https://larahogan.me/"
+                icon="https://api.statvoo.com/favicon/larahogan.me"
+            />
+            <outline title="David Heinemeier Hansson" type="rss"
+                xmlUrl="https://world.hey.com/dhh/feed.atom"
+                htmlUrl="https://world.hey.com/dhh/"
+                icon="https://world.hey.com/dhh/avatar-fb368b1ee9b185dc2a09b03eabdb61678dd55244"
+            />
+            <outline title="Blog - Evan Smith" type="rss"
+                xmlUrl="https://iamevan.me/blog?format=rss"
+                htmlUrl="https://iamevan.me/blog"
+                icon="https://images.squarespace-cdn.com/content/v1/6053732a434f977763a6dfe7/6d217ed5-59ea-44b4-b174-68640b80faef/favicon.ico"
+            />
+            <outline title="Chris Swan's Weblog" type="rss"
+                xmlUrl="https://blog.thestateofme.com/feed/"
+                htmlUrl="https://blog.thestateofme.com/"
+                icon="https://s0.wp.com/i/favicon.ico"
+            />
+            <outline title="ongoing by Tim Bray" type="rss"
+                xmlUrl="https://www.tbray.org/ongoing/ongoing.atom"
+                htmlUrl="https://www.tbray.org/ongoing/"
+                icon="https://api.statvoo.com/favicon/www.tbray.org"
+            />
+            <outline title="Kislay Verma" type="rss"
+                xmlUrl="https://kislayverma.com/feed/"
+                htmlUrl="https://kislayverma.com/"
+                icon="https://kislayverma.com/wp-content/uploads/2021/06/cropped-it-depends-32x32.jpeg"
+            />
+            <outline title="Benji's Blog" type="rss"
+                xmlUrl="http://benjiweber.co.uk/blog/feed/"
+                htmlUrl="http://benjiweber.co.uk/blog/"
+                icon=""
+            />
+            <outline title="charity.wtf" type="rss"
+                xmlUrl="https://charity.wtf/feed/"
+                htmlUrl="https://charity.wtf/"
+                icon="https://s0.wp.com/i/webclip.png"
+            />
+            <outline title="James Serra's Blog" type="rss"
+                xmlUrl="http://feeds.feedburner.com/JamesSerra"
+                htmlUrl="https://www.jamesserra.com"
+                icon=""
+            />
+            <outline title="Michael Feathers" type="rss"
+                xmlUrl="https://michaelfeathers.silvrback.com/feed"
+                htmlUrl="https://michaelfeathers.silvrback.com/"
+                icon="https://api.statvoo.com/favicon/michaelfeathers.silvrback.com"
+            />
+            <outline title="Tech Blog" type="rss"
+                xmlUrl="https://tech.marksblogg.com/feeds/all.atom.xml"
+                htmlUrl="https://tech.marksblogg.com/"
+                icon="https://tech.marksblogg.com/theme/images/mark.jpg"
+            />
+            <outline title="Cory Foy" type="rss"
+                xmlUrl="https://blog.coryfoy.com/feed/"
+                htmlUrl="https://blog.coryfoy.com/"
+                icon="https://api.statvoo.com/favicon/blog.coryfoy.com"
+            />
+            <outline title="Daniel Lebrero Berna Blog" type="rss"
+                xmlUrl="https://danlebrero.com/feed.rss"
+                htmlUrl="https://danlebrero.com/"
+                icon="https://danlebrero.com/favicon.ico"
+            />
+            <outline title="patkua.com" type="rss"
+                xmlUrl="https://www.patkua.com/feed/"
+                htmlUrl="https://www.patkua.com/"
+                icon="https://www.patkua.com/wp-content/uploads/2019/11/patkua.com-sitelogo-250x250-45x45.png"
+            />
+            <outline title="Sam Newman" type="rss"
+                xmlUrl="https://samnewman.io/blog/feed.xml"
+                htmlUrl="https://samnewman.io/blog/"
+                icon="https://api.statvoo.com/favicon/samnewman.io"
+            />
+            <outline title="Puppies, Flowers, Rainbows and Kittens" type="rss"
+                xmlUrl="https://blog.kevingoldsmith.com/feed/"
+                htmlUrl="https://blog.kevingoldsmith.com"
+                icon="https://blog.kevingoldsmith.com/wp-content/uploads/2014/03/cropped-20140322-IMG_4110-32x32.jpg"
+            />
+            <outline title="Sally Lait - blog" type="rss"
+                xmlUrl="https://sallylait.com/blog/index.xml"
+                htmlUrl="https://sallylait.com/blog/"
+                icon="https://sallylait.com/img/favicons/favicon-32x32.png"
+            />
+            <outline title="Naomi Stanford" type="rss"
+                xmlUrl="https://naomistanford.com/feed/"
+                htmlUrl="https://naomistanford.com/"
+                icon="https://naomistanford.files.wordpress.com/2017/09/cropped-nslogo1.png"
+            />
+            <outline title="Stratechery by Ben Thompson" type="rss"
+                xmlUrl="https://stratechery.com/feed"
+                htmlUrl="https://stratechery.com/"
+                icon="https://stratechery.com/favicon/favicon-32x32.png"
+            />
+            <outline title="Martin Fowler" type="rss"
+                xmlUrl="https://martinfowler.com/feed.atom"
+                htmlUrl="https://martinfowler.com/"
+                icon="https://martinfowler.com/logo-sq.png"
+            />
+            <outline title="Gary Larizza - Shit Gary Says" type="rss"
+                xmlUrl="http://garylarizza.com/atom.xml"
+                htmlUrl="http://garylarizza.com/"
+                icon="http://garylarizza.com/favicon.png"
+            />
+            <outline title="Den Delimarsky" type="rss"
+                xmlUrl="https://den.dev/index.xml"
+                htmlUrl="https://den.dev/"
+                icon="https://assets.den.dev/images/icon/favicon-32x32.png"
+            />
+            <outline title="Matthias Endler" type="rss"
+                xmlUrl="https://endler.dev/rss.xml"
+                htmlUrl="https://endler.dev/"
+                icon="https://api.statvoo.com/favicon/endler.dev"
+            />
+            <outline title="R.I.Pienaar" type="rss"
+                xmlUrl="https://www.devco.net/feed"
+                htmlUrl="https://www.devco.net"
+                icon="https://www.devco.net/img/favicon.ico"
+            />
+            <outline title="Thomas Maurer" type="rss"
+                xmlUrl="https://www.thomasmaurer.ch/feed/"
+                htmlUrl="https://www.thomasmaurer.ch"
+                icon="https://www.thomasmaurer.ch/wp-content/uploads/2018/06/cropped-icon1024-32x32.png"
+            />
+            <outline title="The Beautiful Mess" type="rss"
+                xmlUrl="https://cutlefish.substack.com/feed"
+                htmlUrl="https://cutlefish.substack.com"
+                icon="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9366feff-f7ee-4480-9bb1-8825152031e7%2Ffavicon.ico"
+            />
+            <outline title="Stories by Camille Fournier on Medium" type="rss"
+                xmlUrl="https://medium.com/feed/@skamille"
+                htmlUrl="ttps://medium.com/@skamille"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Stories by Kathy Korevec on Medium" type="rss"
+                xmlUrl="https://medium.com/feed/@kathykorevec"
+                htmlUrl="https://medium.com/@kathykorevec"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Scott Hanselman's Blog" type="rss"
+                xmlUrl="http://feeds.feedburner.com/ScottHanselman"
+                htmlUrl="https://www.hanselman.com/blog"
+                icon="https://images.hanselman.com/main/favicon.ico"
+            />
+            <outline title="Paul Hammant's blog" type="rss"
+                xmlUrl="http://feeds.feedburner.com/paulhammant"
+                htmlUrl="https://paulhammant.com/"
+                icon=""
+            />
+            <outline title="Steve Denning" type="rss"
+                xmlUrl="http://www.forbes.com/sites/stevedenning/feed/"
+                htmlUrl="http://www.forbes.com/sites/stevedenning"
+                icon="https://i.forbesimg.com/48X48-F.png"
+            />
+            <outline title="Stories by Nick Tune on Medium" type="rss"
+                xmlUrl="https://medium.com/feed/@ntcoding"
+                htmlUrl="https://medium.com/@ntcoding"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Stories by John Cutler on Medium" type="rss"
+                xmlUrl="https://medium.com/feed/@johnpcutler"
+                htmlUrl="https://medium.com/@johnpcutler"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="JFDI" type="rss"
+                xmlUrl="http://www.annashipman.co.uk/atom.xml"
+                htmlUrl="http://www.annashipman.co.uk"
+                icon="https://www.annashipman.co.uk/favicon.ico"
+            />
+            <outline title="Kartar.Net" type="rss"
+                xmlUrl="https://www.kartar.net/index.xml"
+                htmlUrl="https://www.kartar.net/"
+                icon="https://www.kartar.net/favicon.ico"
+            />
+            <outline title="Skelton Thatcher" type="rss"
+                xmlUrl="https://skeltonthatcher.com/feed/"
+                htmlUrl="https://skeltonthatcher.com/"
+                icon="https://skeltonthatchercom.files.wordpress.com/2020/03/cropped-favicon-96x96-1.png"
+            />
+            <outline title="Rambling Cookie Monster" type="rss"
+                xmlUrl="http://ramblingcookiemonster.github.io/feed.xml"
+                htmlUrl="http://ramblingcookiemonster.github.io/"
+                icon=":http://ramblingcookiemonster.github.io/favicon.ico"
+            />
+            <outline title="Stories by Iccha Sethi on Medium" type="rss"
+                xmlUrl="https://medium.com/feed/@icchasethi"
+                htmlUrl="https://medium.com/@icchasethi"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Sam Learns Azure" type="rss"
+                xmlUrl="https://samlearnsazure.blog/feed/"
+                htmlUrl="https://samlearnsazure.blog/"
+                icon="https://samlearnsazure.files.wordpress.com/2019/04/cropped-me.jpg"
+            />
+            <outline title="Amro's Blog" type="rss"
+                xmlUrl="https://amro.dev/feed"
+                htmlUrl="http://amro.dev"
+                icon="https://amro.dev/wp-content/uploads/2022/11/cropped-amro_mummy.png"
+            />
+            <outline title="Chris Read" type="rss"
+                xmlUrl="http://blog.chris-read.net/feed/"
+                htmlUrl="blog.chris-read.net/"
+                icon="https://s0.wp.com/i/favicon.ico"
+            />
+            <outline title="ashe dryden - programming diversity" type="rss"
+                xmlUrl="http://www.ashedryden.com/rss.xml"
+                htmlUrl="http://www.ashedryden.com/"
+                icon=""
+            />
+            <outline title="Angels &#38;&#38; Daemons - https://petersouter.xyz" type="rss"
+                xmlUrl="https://petersouter.xyz/feed.xml"
+                htmlUrl="https://petersouter.xyz"
+                icon="https://petersouter.xyz/favicon.png"
+            />
+            <outline title="Geek | Manager" type="rss"
+                xmlUrl="http://feeds.feedburner.com/GeekManager"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Tobias Zimmergrens thoughts on tech" type="rss"
+                xmlUrl="http://www.zimmergren.net/rss.xml"
+                htmlUrl="http://www.zimmergren.net/"
+                icon="https://zimmergren.net/content/images/size/w256h256/2021/05/profile-indoor-colorfixed-small.png"
+            />
+            <outline title="Stories by Chris McDermott on Medium" type="rss"
+                xmlUrl="https://medium.com/feed/@chrisvmcd"
+                htmlUrl="https://medium.com/@chrisvmcd"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Annie Hedgpeth" type="rss"
+                xmlUrl="http://www.anniehedgie.com/feed.xml"
+                htmlUrl="http://www.anniehedgie.com/"
+                icon="https://hedge-ops.com/favicon.ico"
+            />
+            <outline title="Dev Kimchi" type="rss"
+                xmlUrl="https://devkimchi.com/feed.xml"
+                htmlUrl="https://devkimchi.com/"
+                icon="https://devkimchi.com/assets/static/favicon.ce0531f.1011a10e41b6fe00b0d82bb0455abad6.png"
+            />
+            <outline title="Shekhar Gulati" type="rss"
+                xmlUrl="http://whyjava.wordpress.com/feed/"
+                htmlUrl="http://whyjava.wordpress.com/"
+                icon="https://s0.wp.com/i/favicon.ico"
+            />
+            <outline title="Stephanie Dreyer" type="rss"
+                xmlUrl="https://stephaniedreyer.co.uk/feed/"
+                htmlUrl="https://stephaniedreyer.co.uk"
+                icon="https://s0.wp.com/i/favicon.ico"
+            />
+            <outline title="Lee Briggs" type="rss"
+                xmlUrl="https://leebriggs.co.uk/feed.xml"
+                htmlUrl="https://leebriggs.co.uk"
+                icon="https://leebriggs.co.uk/favicon.png"
+            />
+            <outline title="Knoco stories" type="rss"
+                xmlUrl="http://www.nickmilton.com/feeds/posts/default"
+                htmlUrl="http://www.nickmilton.com/"
+                icon="http://www.nickmilton.com/favicon.ico"
+            />
+            <outline title="Dandy People" type="rss"
+                xmlUrl="https://dandypeople.com/feed/"
+                htmlUrl="https://dandypeople.com/"
+                icon="https://dandypeople.com/wp-content/themes/dandypeople/assets/favicon/favicon-32x32.png"
+            />
+            <outline title="Blog - Ryn Daniels" type="rss"
+                xmlUrl="https://www.ryn.works/blog?format=rss"
+                htmlUrl="https://www.ryn.works/blog"
+                icon="https://images.squarespace-cdn.com/content/v1/5cc9ae98a56827229e19c92c/1556726673670-YA4GNOFBEW31JXAHAOJK/favicon.ico"
+            />
+            <outline title="Rands in Repose" type="rss"
+                xmlUrl="https://randsinrepose.com/feed/"
+                htmlUrl="https://randsinrepose.com/"
+                icon="https://cdn-ikpmcgf.nitrocdn.com/vuykzjFEMmJxQTJYncfLxYgNHBOpELHP/assets/images/optimized//35a63c8a85b1279a0f991ce8828fb9d9.favicon.ico"
+            />
+            <outline title="gilest.org" type="rss"
+                xmlUrl="https://gilest.org/feed/index.xml"
+                htmlUrl="https://gilest.org/"
+                icon="https://gilest.org/favicon.ico"
+            />
+            <outline title="Brendan O'Leary" type="rss"
+                xmlUrl="https://boleary.dev/rss/"
+                htmlUrl="https://boleary.dev/"
+                icon="https://boleary.dev/content/images/size/w256h256/2022/11/Blog-logo.png"
+            />
+            <outline title="Amy C. Edmondson" type="rss"
+                xmlUrl="https://amycedmondson.com/feed/"
+                htmlUrl="https://amycedmondson.com/"
+                icon="https://amycedmondson.com/wp-content/uploads/2021/07/cropped-cropped-Photo_Credit-_Evgenia_Eliseeva-scaled-2-32x32.jpg"
+            />
+            <outline title="Stories by Chris Combe (he / him) on Medium" type="rss"
+                xmlUrl="https://medium.com/feed/@ccombe"
+                htmlUrl="https://medium.com/@ccombe"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Stories by Houda Boulahbel on Medium" type="rss"
+                xmlUrl="https://medium.com/feed/@houdaboulahbel"
+                htmlUrl="https://medium.com/@houdaboulahbel"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Stories by Jason Yip on Medium" type="rss"
+                xmlUrl="https://medium.com/feed/@jchyip"
+                htmlUrl="https://medium.com/@jchyip"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Stories by Lisa Gill on Medium" type="rss"
+                xmlUrl="https://medium.com/feed/@reimaginaire"
+                htmlUrl="https://medium.com/@reimaginaire"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Stories by Ruchi on Medium" type="rss"
+                xmlUrl="https://medium.com/feed/@ruchira.parchur"
+                htmlUrl="https://medium.com/@ruchira.parchur"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Aidan Finn, IT Pro" type="rss"
+                xmlUrl="https://aidanfinn.com/?feed=rss2"
+                htmlUrl="https://aidanfinn.com/"
+                icon="https://s0.wp.com/i/favicon.ico"
+            />
+            <outline title="Maggie Appleton" type="rss"
+                xmlUrl="https://maggieappleton.com/rss.xml"
+                htmlUrl="https://maggieappleton.com/"
+                icon="https://maggieappleton.com/images/favicon/favicon.ico"
+            />
+            <outline title="Articles - Amy Hupe" type="rss"
+                xmlUrl="https://amyhupe.co.uk/atom.xml"
+                htmlUrl="https://amyhupe.co.uk/"
+                icon="https://amyhupe.co.uk/favicon-32x32.png"
+            />
+            <outline title="Stories by Clive Thompson on Medium" type="rss"
+                xmlUrl="https://medium.com/feed/@clivethompson"
+                htmlUrl="https://medium.com/@clivethompso"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Kathy PM" type="rss"
+                xmlUrl="https://kathykorevec.substack.com/feed"
+                htmlUrl="https://kathykorevec.substack.com/"
+                icon="https://substackcdn.com/icons/substack/favicon.ico"
+            />
+            <outline title="mark philpot" type="rss"
+                xmlUrl="https://markphilpot.com/index.xml"
+                htmlUrl="https://markphilpot.com/"
+                icon="https://markphilpot.com/assets/favicon/favicon.ico"
+            />
+            <outline title="Simon Willison's Weblog" type="rss"
+                xmlUrl="https://simonwillison.net/atom/everything/"
+                htmlUrl="https://simonwillison.net"
+                icon="https://api.statvoo.com/favicon/simonwillison.net"
+            />
+            <outline title="Sam Altman" type="rss"
+                xmlUrl="https://blog.samaltman.com/posts.atom"
+                htmlUrl="https://blog.samaltman.com/"
+                icon="https://phthemes.s3.amazonaws.com/189/ocI2l2NFgWKLlp1H/images/favicon.ico"
+            />   
+            <outline title="Joelchrono’s Blog" type="rss"
+                xmlUrl="https://joelchrono.xyz/feed.xml"
+                htmlUrl="https://joelchrono.xyz/"
+                icon="https://joelchrono.xyz/assets/favicon/favicon-32x32.png"
+            />
+            <outline title="Julian’s Blog" type="rss"
+                xmlUrl="https://fietkau.blog/feed.xml"
+                htmlUrl="https://fietkau.blog/"
+                icon="https://fietkau.blog/assets/favicon-32.png?-N5a-MX1"
+            />
+            <outline title="Taylor Jadin" type="rss"
+                xmlUrl="https://jadin.me/index.xml"
+                htmlUrl="https://jadin.me/"
+                icon="https://jadin.me/favicon-32x32.png"
+            />
+            <outline title="Stories by Tamas on Medium" type="rss"
+                xmlUrl="https://medium.com/feed/@iamdtms"
+                htmlUrl="https://medium.com/@iamdtms"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Matthias Ott – User Experience Designer" type="rss"
+                xmlUrl="https://matthiasott.com/feed"
+                htmlUrl="https://matthiasott.com/"
+                icon="https://matthiasott.com/apple-touch-icon.png"
+            />
+            <outline title="Stefan Bohacek" type="rss"
+                xmlUrl="https://stefanbohacek.com/feed"
+                htmlUrl="https://stefanbohacek.com/"
+                icon="https://stefanbohacek.com/wp-content/themes/fourtonfish/images/favicons/favicon-32x32.png"
+            />
+            <outline title="shellsharks" type="rss"
+                xmlUrl="https://shellsharks.com/feed.xml"
+                htmlUrl="https://shellsharks.com/"
+                icon="https://shellsharks.com/assets/img/favicon.ico"
+            />
+            <outline title="justin․searls․co" type="rss"
+                xmlUrl="https://justin.searls.co/atom.xml"
+                htmlUrl="https://justin.searls.co/"
+                icon="https://justin.searls.co/favicon.ico"
+            />
+            <outline title="Matt Mullenweg" type="rss"
+                xmlUrl="https://ma.tt/feed/"
+                htmlUrl="https://ma.tt/"
+                icon="https://ma.tt/blog-content/themes/ma.tt/i/favicon-spring.ico"
+            />
+            <outline title="Stories by Jon Stevens-Hall on Medium" type="rss"
+                xmlUrl="https://medium.com/feed/@jonstevenshall"
+                htmlUrl="https://medium.com/@jonstevenshall"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+        </outline>
+        <outline text="Youtube (2)" title="Youtube">
+            <outline title="Wherefore Ergonautic" type="rss"
+                xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYKVJqHYVQ8P2khr-kvigMg"
+                htmlUrl="https://www.youtube.com/channel/UCYKVJqHYVQ8P2khr-kvigMg"
+                icon="https://www.youtube.com/s/desktop/accca349/img/favicon.ico"
+            />
+            <outline title="Simon Sinek" type="rss"
+                xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCPmfPl-BsCd3wmE8i45LAoA"
+                htmlUrl="https://www.youtube.com/channel/UCPmfPl-BsCd3wmE8i45LAoA"
+                icon="https://www.youtube.com/s/desktop/accca349/img/favicon.ico"
+            />
+        </outline>
+        <outline text="Reddit (5)" title="Reddit">
+            <outline title="Systems Thinking" type="rss"
+                xmlUrl="https://www.reddit.com/r/systemsthinking.rss"
+                htmlUrl="https://www.reddit.com/r/systemsthinking"
+                icon="https://www.reddit.com/favicon.ico"
+            />
+            <outline title="Deming" type="rss"
+                xmlUrl="https://www.reddit.com/r/Deming.rss"
+                htmlUrl="https://www.reddit.com/r/Deming"
+                icon="https://www.reddit.com/favicon.ico"
+            />
+            <outline title="Leadership" type="rss"
+                xmlUrl="https://reddit.com/r/leadership.rss"
+                htmlUrl="https://reddit.com/r/leadership"
+                icon="https://www.reddit.com/favicon.ico"
+            />
+            <outline title="Agile" type="rss"
+                xmlUrl="https://reddit.com/r/agile.rss"
+                htmlUrl="https://reddit.com/r/agile"
+                icon="https://www.reddit.com/favicon.ico"
+            />
+            <outline title="Management" type="rss"
+                xmlUrl="https://reddit.com/r/management.rss"
+                htmlUrl="https://reddit.com/r/management"
+                icon="https://www.reddit.com/favicon.ico"
+            />
+        </outline>
+        <outline text="Tech News (10)" title="Tech News">
+            <outline title="BBC News - Technology" type="rss"
+                xmlUrl="http://news.bbc.co.uk/rss/newsonline_world_edition/technology/rss.xml"
+                htmlUrl="https://www.bbc.co.uk/news/technology"
+                icon="https://static.files.bbci.co.uk/core/website/assets/static/icons/windows-phone/news/windows-phone-icon-270x270.23502b4459eb7a6ab2ab.png"
+            />
+            <outline title="Cloud Computing News" type="rss"
+                xmlUrl="https://cloudcomputing-news.net/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Hacker News" type="rss"
+                xmlUrl="https://news.ycombinator.com/rss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="MacRumors: Mac News and Rumors - Front Page" type="rss"
+                xmlUrl="http://www.macrumors.com/macrumors.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="The Register" type="rss"
+                xmlUrl="http://www.theregister.co.uk/headlines.rss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="InfoQ" type="rss"
+                xmlUrl="http://www.infoq.com/rss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="ITProPortal" type="rss"
+                xmlUrl="http://feeds.feedburner.com/itproportal/rss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Wired" type="rss"
+                xmlUrl="http://www.wired.com/news_drop/netcenter/netcenter.rdf"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="bleeding edge" type="rss"   
+                xmlUrl="https://bleedingedge.ai/rss/feed.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Google News" type="rss"
+                xmlUrl="https://news.google.com/rss/feed"
+                htmlUrl=""
+                icon=""
+            />
+        </outline>
+        <outline text="Other Feeds (100)" title="Other random feeds">
+            <outline title="GitLab" type="rss"
+                xmlUrl="https://about.gitlab.com/atom.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Increment" type="rss"
+                xmlUrl="https://increment.com/feed.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="The Pragmatic Engineer" type="rss"
+                xmlUrl="https://blog.pragmaticengineer.com/rss/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Radar" type="rss"
+                xmlUrl="https://www.oreilly.com/radar/feed/index.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Brave New Geek" type="rss"
+                xmlUrl="https://bravenewgeek.com/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Corporate Rebels RSS" type="rss"
+                xmlUrl="https://corporate-rebels.com/rss/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="The Engineering Manager" type="rss"
+                xmlUrl="https://www.theengineeringmanager.com/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Hexacorn" type="rss"
+                xmlUrl="https://www.hexacorn.com/blog/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Interesting Engineering" type="rss"
+                xmlUrl="https://interestingengineering.com/feed/atom"
+                htmlUrl=""
+                icon=""
+            />  
+            <outline title="Honeycomb" type="rss"
+                xmlUrl="https://www.honeycomb.io/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Humanistic Systems" type="rss"
+                xmlUrl="https://humanisticsystems.com/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="The Observation Deck" type="rss"
+                xmlUrl="http://dtrace.org/blogs/bmc/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Black Swan Farming" type="rss"
+                xmlUrl="https://blackswanfarming.com/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Maturity Mapping" type="rss"
+                xmlUrl="http://maturitymapping.com/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="progression.fyi | F" type="rss"
+                xmlUrl="https://www.progression.fyi/feed/frameworks.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="sysadvent" type="rss"
+                xmlUrl="https://sysadvent.blogspot.com/feeds/posts/default?alt=rss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="CTO Craft" type="rss"
+                xmlUrl="https://ctocraft.com/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="HBR.org" type="rss"
+                xmlUrl="http://feeds.harvardbusiness.org/harvardbusiness/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Quanta Magazine" type="rss"
+                xmlUrl="https://quantamagazine.org/feed"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="First Round Review" type="rss"
+                xmlUrl="https://review.firstround.com/feed.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="WorkLife" type="rss"
+                xmlUrl="https://worklife.news/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Pluralistic: Daily links from Cory Doctorow" type="rss"
+                xmlUrl="https://pluralistic.net/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Automated Home" type="rss"
+                xmlUrl="https://www.automatedhome.co.uk/feed"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Azure Architecture Blog articles" type="rss"
+                xmlUrl="https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=AzureArchitectureBlog"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Future" type="rss"
+                xmlUrl="https://future.a16z.com/feed"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Azure Weekly - Powered by endjin" type="rss"
+                xmlUrl="https://azureweekly.info/rss.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Irrational Exuberance" type="rss"
+                xmlUrl="http://lethain.com/feeds/all/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="ITSM.tools" type="rss"
+                xmlUrl="https://itsm.tools/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Our Latest - Rebels at Work" type="rss"
+                xmlUrl="https://www.rebelsatwork.com/blog?format=rss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="AWS Cloud Enterprise Strategy Blog" type="rss"
+                xmlUrl="https://aws.amazon.com/blogs/enterprise-strategy/feed/"
+                htmlUrl=""
+                icon=""
+            />      
+            <outline title="Profound - Having intellectual depth and insight" type="rss"
+                xmlUrl="https://www.profound-deming.com/blog-1?format=rss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="SOONER SAFER HAPPIER" type="rss"
+                xmlUrl="https://soonersaferhappier.com/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Strategy, Architecture, Continuous Delivery, and DDD - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/nick-tune-tech-strategy-blog"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="localghost.dev" type="rss"
+                xmlUrl="https://localghost.dev/feed.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Accidentally in Code" type="rss"
+                xmlUrl="http://www.catehuston.com/blog/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Fear of Oblivion" type="rss"
+                xmlUrl="https://fearofoblivion.com/feed.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Insights@Questrom" type="rss"
+                xmlUrl="https://insights.bu.edu/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Remote Work Academy" type="rss"
+                xmlUrl="https://www.remote-work.io/rss/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="ThoughtWorks Insight Blogs" type="rss"
+                xmlUrl="https://liamjbennett.github.io/feeds/thoughtworks_insights.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="In Depth" type="rss"
+                xmlUrl="https://firstround.libsyn.com/rss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Guiding Leaders and Teams" type="rss"
+                xmlUrl="https://guidingleadersandteams.com/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="ITSM Professor" type="rss"
+                xmlUrl="http://feeds.feedburner.com/itsmprofessor/fDWb"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Cloud Administrator in Azure World" type="rss"
+                xmlUrl="http://cloudadministrator.wordpress.com/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="All Azure Migration and Modernization Blog posts" type="rss"
+                xmlUrl="https://techcommunity.microsoft.com/gxcuf89792/rss/boardmessages?board.id=AzureMigrationBlog"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="ACG Blogs: Cloud Technology Updates and More | A Cloud Guru" type="rss"
+                xmlUrl="https://acloudguru.com/blog/feed"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Datagen" type="rss"
+                xmlUrl="https://datagen.tech/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Focus Business Blog" type="rss"
+                xmlUrl="https://focus.business/blog/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Platformonomics" type="rss"
+                xmlUrl="http://www.platformonomics.com/SyndicationService.asmx/GetRss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Seldo.com RSS Feed" type="rss"
+                xmlUrl="http://seldo.com/api/getposts"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="unwiredcouch.com on unwiredcouch.com" type="rss"
+                xmlUrl="http://feeds.feedburner.com/unwiredcouchcom"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="The Cynefin Co" type="rss"
+                xmlUrl="https://cognitive-edge.com/blog/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Lifehacker" type="rss"
+                xmlUrl="https://lifehacker.com/rss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Wired UK" type="rss"
+                xmlUrl="https://www.wired.co.uk/feed/rss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="ITPro Today: IT News, How-Tos, Trends, Case Studies, Career Tips, More - Microsoft Windows Information, Solutions, Tools" type="rss"
+                xmlUrl="http://www.itprotoday.com/rss.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="MIT Technology Review" type="rss"
+                xmlUrl="https://www.technologyreview.com/feed"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Engadget" type="rss"
+                xmlUrl="https://www.engadget.com/rss.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Eventbrite Engineering" type="rss"
+                xmlUrl="https://www.eventbrite.com/engineering/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Azure Cloud &#38; AI Domain Blog" type="rss"
+                xmlUrl="https://azurecloudai.blog/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Eleganthack" type="rss"
+                xmlUrl="https://eleganthack.com/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Learnings on Lean Kanban Flow" type="rss"
+                xmlUrl="https://ddegrandis.com/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Together Institute - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/together-institute"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="OpenAI" type="rss"
+                xmlUrl="https://openai.com/blog/rss/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Collaborative Robotics" type="rss"
+                xmlUrl="https://co.bot/rss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="DYNOMIGHT" type="rss"
+                xmlUrl="https://dynomight.net/feed.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Virtual Reality News - Industry News - VR News - XR Today" type="rss"
+                xmlUrl="https://www.xrtoday.com/virtual-reality/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Bits or pieces?" type="rss"
+                xmlUrl="https://blog.gardeviance.org/feeds/posts/default?alt=rss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="IT Connection" type="rss"
+                xmlUrl="https://itconnection.wordpress.com/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Memory Leak - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/memory-leak"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Amazon Science homepage" type="rss"
+                xmlUrl="https://www.amazon.science/index.rss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Think Different" type="rss"
+                xmlUrl="https://flowchainsensei.wordpress.com/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="IEEE Spectrum" type="rss"
+                xmlUrl="https://spectrum.ieee.org/feeds/topic.rss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Funding Circle - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/funding-circle"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Ancestry Product &#38; Technology - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/ancestry-product-and-technology"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Basia Fusińska about IT" type="rss"
+                xmlUrl="http://feeds.feedburner.com/barbarafusinska"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="One Man &#38; His Blog" type="rss"
+                xmlUrl="https://onemanandhisblog.com/rss/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="The Cloudflare Blog" type="rss"
+                xmlUrl="https://blog.cloudflare.com/rss/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Recent Commits to engineering-blogs:master" type="rss"
+                xmlUrl="https://github.com/kilimchoi/engineering-blogs/commits/master.atom"
+                htmlUrl=""
+                icon=""
+            />    
+            <outline title="NYT Open - Medium" type="rss"
+                xmlUrl="https://open.nytimes.com/feed"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="ACM Queue - Latest Queue Content" type="rss"
+                xmlUrl="https://queue.acm.org/rss/feeds/latestitems.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="The GitHub Blog" type="rss"
+                xmlUrl="https://github.blog/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="101 Ways" type="rss"
+                xmlUrl="https://www.101ways.com/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="All Things Distributed" type="rss"
+                xmlUrl="https://www.allthingsdistributed.com/index.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Bix Dot Blog" type="rss"
+                xmlUrl="https://bix.blog/rss.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="The Bored Horse" type="rss"
+                xmlUrl="https://bored.horse/feed.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Charlie &#38; the Thinking Factory" type="rss"
+                xmlUrl="https://www.charliegedeon.com/rss/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="The Transmitter" type="rss"
+                xmlUrl="https://www.thetransmitter.org/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="{anonymous =&gt; 'hash'};" type="rss"
+                xmlUrl="https://anonymoushash.vmbrasseur.com/feed.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Alvaro Ramirez's notes" type="rss"
+                xmlUrl="https://xenodium.com/rss.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Nodes in a social network" type="rss"
+                xmlUrl="https://tante.cc/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="stuff &#38; things" type="rss"
+                xmlUrl="https://stuff.reddmo.com/feed.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Cool As Heck" type="rss"
+                xmlUrl="https://cool-as-heck.blog/posts_feed"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="The Spacebar" type="rss"
+                xmlUrl="https://www.spacebar.news/feed"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Almost Secure" type="rss"
+                xmlUrl="https://palant.info/rss.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Flashing Palely in the Margins" type="rss"
+                xmlUrl="https://www.inthemargins.ca/feed.rss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Uses This" type="rss"
+                xmlUrl="https://usesthis.com/feed.atom"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="cs.SE updates on arXiv.org" type="rss"
+                xmlUrl="http://rss.arxiv.org/rss/cs.SE"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="cs.AI updates on arXiv.org" type="rss"
+                xmlUrl="http://rss.arxiv.org/rss/cs.AI"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Wait But Why" type="rss"
+                xmlUrl="https://waitbutwhy.com/feed"
+                htmlUrl=""
+                icon=""
+            />
+        </outline>
     </body>
 </opml>

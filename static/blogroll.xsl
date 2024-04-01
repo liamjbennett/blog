@@ -79,11 +79,13 @@
                         border: 0px solid;
                     }
 
-                    
+                    .favicon {
+						width: 20px;
+					}
 
-                    .image-cell {
+                    .icon-cell {
                         padding-right: 10px;
-                        width: 100px;
+                        width: 20px;
                     }
 
                     .rss-cell {
@@ -123,7 +125,7 @@
 			<body>
 				<h1><xsl:value-of select="head/title"/></h1>
 				<p id="nav">
-					<a href="/">Blog</a>
+					<a href="/posts">Blog</a>
 					<a href="/feed.xml">RSS</a>
                     <a href="/audio.xml">RSS for Audio</a>
 				</p>
@@ -139,16 +141,14 @@
 					<xsl:when test="@xmlUrl">
 						<table>
                             <tr>
-                                <td class="rss-cell"><a class="rss" href="{@xmlUrl}">XML</a></td>
+                                <td class="rss-cell">
+									<a class="rss" href="{@xmlUrl}">XML</a>
+								</td>
+								<td class="icon-cell">
+									<img class="favicon" src="{@icon}"/>
+								</td>
                                 <td>
-                                    <xsl:choose>
-                                        <xsl:when test="@htmlUrl">
-                                            <a href="{@htmlUrl}"><xsl:value-of select="@title"/></a>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <a href="{@xmlUrl}"><xsl:value-of select="@title"/></a>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
+                                    <a href="{@htmlUrl}"><xsl:value-of select="@title"/></a>
                                 </td>
                             </tr>
 						</table>
