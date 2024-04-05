@@ -2,7 +2,7 @@
 author: "liamjbennett"
 title: "What is Portfolio Architecture"
 date: "2024-04-23"
-description: ""
+description: "Answering the question I've been asked for months - What is portfolio architecture and it's relationship with product management?"
 ShowToc: false
 ShowBreadCrumbs: false
 thumbnail: "/img/main/profile.jpg"
