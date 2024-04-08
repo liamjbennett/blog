@@ -32,7 +32,7 @@
                 icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
             />
             <outline title="Spotify Engineering" type="rss"
-                xmlUrl="hhttps://engineering.atspotify.com/feed/"
+                xmlUrl="https://engineering.atspotify.com/feed/"
                 htmlUrl="https://engineering.atspotify.com/"
                 icon="https://engineering.atspotify.com/wp-content/themes/theme-spotify/images/favicon.png"
             />
@@ -499,8 +499,8 @@
                 icon="https://samlearnsazure.files.wordpress.com/2019/04/cropped-me.jpg"
             />
             <outline title="Amro's Blog" type="rss"
-                xmlUrl="https://amro.dev/feed"
-                htmlUrl="http://amro.dev"
+                xmlUrl="https://amro.dev/feed/"
+                htmlUrl="https://amro.dev"
                 icon="https://amro.dev/wp-content/uploads/2022/11/cropped-amro_mummy.png"
             />
             <outline title="Chris Read" type="rss"
@@ -748,7 +748,7 @@
                 icon="https://www.reddit.com/favicon.ico"
             />
         </outline>
-        <outline text="Tech News (10)" title="Tech News">
+        <outline text="Tech News (8)" title="Tech News">
             <outline title="BBC News - Technology" type="rss"
                 xmlUrl="http://news.bbc.co.uk/rss/newsonline_world_edition/technology/rss.xml"
                 htmlUrl="https://www.bbc.co.uk/news/technology"
@@ -756,51 +756,41 @@
             />
             <outline title="Cloud Computing News" type="rss"
                 xmlUrl="https://cloudcomputing-news.net/feed/"
-                htmlUrl=""
-                icon=""
+                htmlUrl="https://cloudcomputing-news.net"
+                icon="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/09/cloud-icon-60x60.png"
             />
             <outline title="Hacker News" type="rss"
                 xmlUrl="https://news.ycombinator.com/rss"
-                htmlUrl=""
-                icon=""
+                htmlUrl="https://news.ycombinator.com/"
+                icon="https://news.ycombinator.com/y18.svg"
             />
             <outline title="MacRumors: Mac News and Rumors - Front Page" type="rss"
                 xmlUrl="http://www.macrumors.com/macrumors.xml"
-                htmlUrl=""
-                icon=""
+                htmlUrl="http://www.macrumors.com/"
+                icon="https://images.macrumors.com/images-new/favicon.ico"
             />
             <outline title="The Register" type="rss"
                 xmlUrl="http://www.theregister.co.uk/headlines.rss"
-                htmlUrl=""
-                icon=""
+                htmlUrl="http://www.theregister.co.uk/"
+                icon="https://www.theregister.com/design_picker/13249a2e80709c7ff2e57dd3d49801cd534f2094/graphics/favicons/apple-touch-icon.png"
             />
             <outline title="InfoQ" type="rss"
                 xmlUrl="http://www.infoq.com/rss"
-                htmlUrl=""
-                icon=""
+                htmlUrl="http://www.infoq.com/"
+                icon="https://cdn.infoq.com/statics_s1_20240402060322_u1/favicon.ico"
             />
             <outline title="ITProPortal" type="rss"
                 xmlUrl="http://feeds.feedburner.com/itproportal/rss"
-                htmlUrl=""
-                icon=""
+                htmlUrl="https://www.itproportal.com/"
+                icon="https://cdn.mos.cms.futurecdn.net/flexiimages/edzic1oowz1671199822.png"
             />
             <outline title="Wired" type="rss"
                 xmlUrl="http://www.wired.com/news_drop/netcenter/netcenter.rdf"
-                htmlUrl=""
-                icon=""
-            />
-            <outline title="bleeding edge" type="rss"   
-                xmlUrl="https://bleedingedge.ai/rss/feed.xml"
-                htmlUrl=""
-                icon=""
-            />
-            <outline title="Google News" type="rss"
-                xmlUrl="https://news.google.com/rss/feed"
-                htmlUrl=""
-                icon=""
+                htmlUrl="http://www.wired.com"
+                icon="https://www.wired.com/favicon.ico"
             />
         </outline>
-        <outline text="Other Feeds (100)" title="Other random feeds">
+        <outline text="Other Feeds (100+)" title="Other random feeds">
             <outline title="GitLab" type="rss"
                 xmlUrl="https://about.gitlab.com/atom.xml"
                 htmlUrl=""
@@ -1288,6 +1278,11 @@
             />
             <outline title="Wait But Why" type="rss"
                 xmlUrl="https://waitbutwhy.com/feed"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="bleeding edge" type="rss"   
+                xmlUrl="https://bleedingedge.ai/rss/feed.xml"
                 htmlUrl=""
                 icon=""
             />
