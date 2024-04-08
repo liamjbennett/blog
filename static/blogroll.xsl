@@ -168,7 +168,7 @@
 						<xsl:variable name="Permalink" select="translate(@text,$uppercase,$lowercase)" />
 						<details id="{$Permalink}">
 							<summary>
-								<xsl:value-of select="@text"/>
+								<xsl:value-of select="@text"/> (<xsl:value-of select="count(outline)" />)
 							</summary>
 							<ul>
 								<xsl:apply-templates select="outline"/>

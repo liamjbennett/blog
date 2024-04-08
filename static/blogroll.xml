@@ -5,7 +5,7 @@
         <title>OPML file of all the feeds I'm subscribed to:</title>
     </head>
     <body>
-        <outline text="Engineering team blogs (60)" title="Blogs by the engineering teams of various tech companies">
+        <outline text="Engineering team blogs" title="Blogs by the engineering teams of various tech companies">
             <outline title="HashiCorp Blog" type="rss" 
                 xmlUrl="https://www.hashicorp.com/blog/feed.xml"
                 htmlUrl="https://www.hashicorp.com/blog/"
@@ -301,8 +301,28 @@
                 htmlUrl="https://medium.com/@vmo2techteam"
                 icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
             />
+            <outline title="Eventbrite Engineering" type="rss"
+                xmlUrl="https://www.eventbrite.com/engineering/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Ancestry Product &#38; Technology - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/ancestry-product-and-technology"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Recent Commits to engineering-blogs:master" type="rss"
+                xmlUrl="https://github.com/kilimchoi/engineering-blogs/commits/master.atom"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="NYT Open - Medium" type="rss"
+                xmlUrl="https://open.nytimes.com/feed"
+                htmlUrl=""
+                icon=""
+            /> 
         </outline>
-        <outline text="Personal Blogs (86)" title="Personal blogs of interesting people">
+        <outline text="Personal Blogs" title="Personal blogs of interesting people">
             <outline title="Lara Callender Hogan" type="rss"
                 xmlUrl="https://larahogan.me/feed.xml"
                 htmlUrl="https://larahogan.me/"
@@ -708,8 +728,28 @@
                 htmlUrl="https://medium.com/@jonstevenshall"
                 icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
             />
+            <outline title="Fear of Oblivion" type="rss"
+                xmlUrl="https://fearofoblivion.com/feed.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Seldo.com RSS Feed" type="rss"
+                xmlUrl="http://seldo.com/api/getposts"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="The Observation Deck" type="rss"
+                xmlUrl="https://bcantrill.dtrace.org/feed/"
+                htmlUrl="https://bcantrill.dtrace.org"
+                icon=""
+            />
+            <outline title="Irrational Exuberance" type="rss"
+                xmlUrl="http://lethain.com/feeds/all/"
+                htmlUrl=""
+                icon=""
+            />
         </outline>
-        <outline text="Youtube (2)" title="Youtube">
+        <outline text="Youtube" title="Youtube">
             <outline title="Wherefore Ergonautic" type="rss"
                 xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYKVJqHYVQ8P2khr-kvigMg"
                 htmlUrl="https://www.youtube.com/channel/UCYKVJqHYVQ8P2khr-kvigMg"
@@ -721,7 +761,7 @@
                 icon="https://www.youtube.com/s/desktop/accca349/img/favicon.ico"
             />
         </outline>
-        <outline text="Reddit (5)" title="Reddit">
+        <outline text="Reddit" title="Reddit">
             <outline title="Systems Thinking" type="rss"
                 xmlUrl="https://www.reddit.com/r/systemsthinking.rss"
                 htmlUrl="https://www.reddit.com/r/systemsthinking"
@@ -748,7 +788,7 @@
                 icon="https://www.reddit.com/favicon.ico"
             />
         </outline>
-        <outline text="Tech News (8)" title="Tech News">
+        <outline text="Tech News" title="Tech News">
             <outline title="BBC News - Technology" type="rss"
                 xmlUrl="http://news.bbc.co.uk/rss/newsonline_world_edition/technology/rss.xml"
                 htmlUrl="https://www.bbc.co.uk/news/technology"
@@ -789,8 +829,70 @@
                 htmlUrl="http://www.wired.com"
                 icon="https://www.wired.com/favicon.ico"
             />
+            <outline title="Lifehacker" type="rss"
+                xmlUrl="https://lifehacker.com/rss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="ITPro Today" type="rss"
+                xmlUrl="http://www.itprotoday.com/rss.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Engadget" type="rss"
+                xmlUrl="https://www.engadget.com/rss.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="IT Connection" type="rss"
+                xmlUrl="https://itconnection.wordpress.com/feed/"
+                htmlUrl=""
+                icon=""
+            />
         </outline>
-        <outline text="Other Feeds (100+)" title="Other random feeds">
+        <outline text="Cloud" title="Title">
+            <outline title="Azure Weekly - Powered by endjin" type="rss"
+                xmlUrl="https://azureweekly.info/rss.xml"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="AWS Cloud Enterprise Strategy Blog" type="rss"
+                xmlUrl="https://aws.amazon.com/blogs/enterprise-strategy/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Cloud Administrator in Azure World" type="rss"
+                xmlUrl="http://cloudadministrator.wordpress.com/feed/"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="All Azure Migration and Modernization Blog posts" type="rss"
+                xmlUrl="https://techcommunity.microsoft.com/gxcuf89792/rss/boardmessages?board.id=AzureMigrationBlog"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="ACG Blogs: Cloud Technology Updates and More | A Cloud Guru" type="rss"
+                xmlUrl="https://acloudguru.com/blog/feed"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Azure Architecture Blog articles" type="rss"
+                xmlUrl="https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=AzureArchitectureBlog"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Platformonomics" type="rss"
+                xmlUrl="http://www.platformonomics.com/SyndicationService.asmx/GetRss"
+                htmlUrl=""
+                icon=""
+            />
+            <outline title="Azure Cloud &#38; AI Domain Blog" type="rss"
+                xmlUrl="https://azurecloudai.blog/feed/"
+                htmlUrl=""
+                icon=""
+            />
+        </outline>
+        <outline text="Other Feeds" title="Other random feeds">
             <outline title="GitLab" type="rss"
                 xmlUrl="https://about.gitlab.com/atom.xml"
                 htmlUrl=""
@@ -846,11 +948,6 @@
                 htmlUrl=""
                 icon=""
             />
-            <outline title="The Observation Deck" type="rss"
-                xmlUrl="http://dtrace.org/blogs/bmc/feed/"
-                htmlUrl=""
-                icon=""
-            />
             <outline title="Black Swan Farming" type="rss"
                 xmlUrl="https://blackswanfarming.com/feed/"
                 htmlUrl=""
@@ -861,7 +958,7 @@
                 htmlUrl=""
                 icon=""
             />
-            <outline title="progression.fyi | F" type="rss"
+            <outline title="progression.fyi" type="rss"
                 xmlUrl="https://www.progression.fyi/feed/frameworks.xml"
                 htmlUrl=""
                 icon=""
@@ -906,23 +1003,8 @@
                 htmlUrl=""
                 icon=""
             />
-            <outline title="Azure Architecture Blog articles" type="rss"
-                xmlUrl="https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=AzureArchitectureBlog"
-                htmlUrl=""
-                icon=""
-            />
             <outline title="Future" type="rss"
                 xmlUrl="https://future.a16z.com/feed"
-                htmlUrl=""
-                icon=""
-            />
-            <outline title="Azure Weekly - Powered by endjin" type="rss"
-                xmlUrl="https://azureweekly.info/rss.xml"
-                htmlUrl=""
-                icon=""
-            />
-            <outline title="Irrational Exuberance" type="rss"
-                xmlUrl="http://lethain.com/feeds/all/"
                 htmlUrl=""
                 icon=""
             />
@@ -935,12 +1017,7 @@
                 xmlUrl="https://www.rebelsatwork.com/blog?format=rss"
                 htmlUrl=""
                 icon=""
-            />
-            <outline title="AWS Cloud Enterprise Strategy Blog" type="rss"
-                xmlUrl="https://aws.amazon.com/blogs/enterprise-strategy/feed/"
-                htmlUrl=""
-                icon=""
-            />      
+            />  
             <outline title="Profound - Having intellectual depth and insight" type="rss"
                 xmlUrl="https://www.profound-deming.com/blog-1?format=rss"
                 htmlUrl=""
@@ -963,11 +1040,6 @@
             />
             <outline title="Accidentally in Code" type="rss"
                 xmlUrl="http://www.catehuston.com/blog/feed/"
-                htmlUrl=""
-                icon=""
-            />
-            <outline title="Fear of Oblivion" type="rss"
-                xmlUrl="https://fearofoblivion.com/feed.xml"
                 htmlUrl=""
                 icon=""
             />
@@ -1001,21 +1073,6 @@
                 htmlUrl=""
                 icon=""
             />
-            <outline title="Cloud Administrator in Azure World" type="rss"
-                xmlUrl="http://cloudadministrator.wordpress.com/feed/"
-                htmlUrl=""
-                icon=""
-            />
-            <outline title="All Azure Migration and Modernization Blog posts" type="rss"
-                xmlUrl="https://techcommunity.microsoft.com/gxcuf89792/rss/boardmessages?board.id=AzureMigrationBlog"
-                htmlUrl=""
-                icon=""
-            />
-            <outline title="ACG Blogs: Cloud Technology Updates and More | A Cloud Guru" type="rss"
-                xmlUrl="https://acloudguru.com/blog/feed"
-                htmlUrl=""
-                icon=""
-            />
             <outline title="Datagen" type="rss"
                 xmlUrl="https://datagen.tech/feed/"
                 htmlUrl=""
@@ -1023,16 +1080,6 @@
             />
             <outline title="Focus Business Blog" type="rss"
                 xmlUrl="https://focus.business/blog/feed/"
-                htmlUrl=""
-                icon=""
-            />
-            <outline title="Platformonomics" type="rss"
-                xmlUrl="http://www.platformonomics.com/SyndicationService.asmx/GetRss"
-                htmlUrl=""
-                icon=""
-            />
-            <outline title="Seldo.com RSS Feed" type="rss"
-                xmlUrl="http://seldo.com/api/getposts"
                 htmlUrl=""
                 icon=""
             />
@@ -1046,38 +1093,8 @@
                 htmlUrl=""
                 icon=""
             />
-            <outline title="Lifehacker" type="rss"
-                xmlUrl="https://lifehacker.com/rss"
-                htmlUrl=""
-                icon=""
-            />
-            <outline title="Wired UK" type="rss"
-                xmlUrl="https://www.wired.co.uk/feed/rss"
-                htmlUrl=""
-                icon=""
-            />
-            <outline title="ITPro Today: IT News, How-Tos, Trends, Case Studies, Career Tips, More - Microsoft Windows Information, Solutions, Tools" type="rss"
-                xmlUrl="http://www.itprotoday.com/rss.xml"
-                htmlUrl=""
-                icon=""
-            />
             <outline title="MIT Technology Review" type="rss"
                 xmlUrl="https://www.technologyreview.com/feed"
-                htmlUrl=""
-                icon=""
-            />
-            <outline title="Engadget" type="rss"
-                xmlUrl="https://www.engadget.com/rss.xml"
-                htmlUrl=""
-                icon=""
-            />
-            <outline title="Eventbrite Engineering" type="rss"
-                xmlUrl="https://www.eventbrite.com/engineering/feed/"
-                htmlUrl=""
-                icon=""
-            />
-            <outline title="Azure Cloud &#38; AI Domain Blog" type="rss"
-                xmlUrl="https://azurecloudai.blog/feed/"
                 htmlUrl=""
                 icon=""
             />
@@ -1121,11 +1138,6 @@
                 htmlUrl=""
                 icon=""
             />
-            <outline title="IT Connection" type="rss"
-                xmlUrl="https://itconnection.wordpress.com/feed/"
-                htmlUrl=""
-                icon=""
-            />
             <outline title="Memory Leak - Medium" type="rss"
                 xmlUrl="https://medium.com/feed/memory-leak"
                 htmlUrl=""
@@ -1151,11 +1163,7 @@
                 htmlUrl=""
                 icon=""
             />
-            <outline title="Ancestry Product &#38; Technology - Medium" type="rss"
-                xmlUrl="https://medium.com/feed/ancestry-product-and-technology"
-                htmlUrl=""
-                icon=""
-            />
+
             <outline title="Basia Fusińska about IT" type="rss"
                 xmlUrl="http://feeds.feedburner.com/barbarafusinska"
                 htmlUrl=""
@@ -1168,16 +1176,6 @@
             />
             <outline title="The Cloudflare Blog" type="rss"
                 xmlUrl="https://blog.cloudflare.com/rss/"
-                htmlUrl=""
-                icon=""
-            />
-            <outline title="Recent Commits to engineering-blogs:master" type="rss"
-                xmlUrl="https://github.com/kilimchoi/engineering-blogs/commits/master.atom"
-                htmlUrl=""
-                icon=""
-            />    
-            <outline title="NYT Open - Medium" type="rss"
-                xmlUrl="https://open.nytimes.com/feed"
                 htmlUrl=""
                 icon=""
             />
