@@ -80,10 +80,14 @@ menu:
       name: Posts
       url: /posts/
       weight: 20
+    - identifier: weeknotes
+      name: Weeknotes
+      url: /weeknotes/
+      weight: 30
     - identifier: pages
       name: Pages
       url: /pages/
-      weight: 30
+      weight: 40
 
 taxonomies:
     category: categories
