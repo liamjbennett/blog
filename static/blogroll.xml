@@ -321,6 +321,11 @@
                 htmlUrl="https://open.nytimes.com/"
                 icon="https://cdn-images-1.medium.com/v2/resize:fill:256:256/1*QUlYX1snC5csKT-E6Bmxvw.jpeg"
             /> 
+            <outline title="Honeycomb" type="rss"
+                xmlUrl="https://www.honeycomb.io/feed/"
+                htmlUrl="https://www.honeycomb.io/blog/"
+                icon="https://www.honeycomb.io/favicon.ico"
+            />
         </outline>
         <outline text="Personal Blogs" title="Personal blogs of interesting people">
             <outline title="Lara Callender Hogan" type="rss"
@@ -803,6 +808,26 @@
                 htmlUrl="https://www.inthemargins.ca/"
                 icon="https://cdn.blot.im/blog_4e87fd439e794503a1d789e651fbc6d7/_avatars/34eefb81-a4fb-4024-8fed-b569d67e93a9.png"
             />
+            <outline title="Humanistic Systems" type="rss"
+                xmlUrl="https://humanisticsystems.com/feed/"
+                htmlUrl="https://humanisticsystems.com/"
+                icon="https://humanisticsystems.com/wp-content/uploads/2021/03/favicon-original.png?w=32"
+            />
+            <outline title="localghost.dev" type="rss"
+                xmlUrl="https://localghost.dev/feed.xml"
+                htmlUrl="https://localghost.dev/"
+                icon=""
+            />
+            <outline title="Accidentally in Code" type="rss"
+                xmlUrl="http://www.catehuston.com/blog/feed/"
+                htmlUrl="http://www.catehuston.com/"
+                icon="https://149354112.v2.pressablecdn.com/wp-content/cache/thumbnails/2016/11/cate.blog_-32x32.jpeg"
+            />
+            <outline title="Think Different" type="rss"
+                xmlUrl="https://flowchainsensei.wordpress.com/feed/"
+                htmlUrl="https://flowchainsensei.wordpress.com"
+                icon="https://flowchainsensei.wordpress.com/wp-content/uploads/2021/08/image-1.jpg"
+            />
         </outline>
         <outline text="Youtube" title="Youtube">
             <outline title="Wherefore Ergonautic" type="rss"
@@ -959,6 +984,21 @@
                 htmlUrl="https://news.mit.edu/topic/artificial-intelligence"
                 icon="https://news.mit.edu/themes/mit/assets/img/favicon/favicon.ico"
             />
+            <outline title="Future" type="rss"
+                xmlUrl="https://future.a16z.com/feed"
+                htmlUrl="https://future.a16z.com/"
+                icon="https://future.com/wp-content/themes/future/assets/images/favicon/favicon.ico"
+            />
+            <outline title="Insights@Questrom" type="rss"
+                xmlUrl="https://insights.bu.edu/feed/"
+                htmlUrl="https://insights.bu.edu/"
+                icon="https://insights.bu.edu/wp-content/uploads/2020/09/cropped-Insights@Questrom_SiteIcon-32x32.png"
+            />
+            <outline title="Together Institute - Medium" type="rss"
+                xmlUrl="https://medium.com/feed/together-institute"
+                htmlUrl="https://medium.com/together-institute"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
         </outline>
         <outline text="Cloud" title="Title">
             <outline title="Azure Weekly - Powered by endjin" type="rss"
@@ -1042,16 +1082,6 @@
                 xmlUrl="https://interestingengineering.com/feed/atom"
                 htmlUrl="https://interestingengineering.com/"
                 icon="https://interestingengineering.com/favicon.ico"
-            />  
-            <outline title="Honeycomb" type="rss"
-                xmlUrl="https://www.honeycomb.io/feed/"
-                htmlUrl="https://www.honeycomb.io/"
-                icon="https://www.honeycomb.io/favicon.ico"
-            />
-            <outline title="Humanistic Systems" type="rss"
-                xmlUrl="https://humanisticsystems.com/feed/"
-                htmlUrl="https://humanisticsystems.com/"
-                icon="https://humanisticsystems.com/wp-content/uploads/2021/03/favicon-original.png?w=32"
             />
             <outline title="Black Swan Farming" type="rss"
                 xmlUrl="https://blackswanfarming.com/feed/"
@@ -1103,11 +1133,6 @@
                 htmlUrl="https://www.automatedhome.co.uk/"
                 icon="https://i0.wp.com/automatedhome.co.uk/wp-content/uploads/2016/05/logo.png"
             />
-            <outline title="Future" type="rss"
-                xmlUrl="https://future.a16z.com/feed"
-                htmlUrl="https://future.a16z.com/"
-                icon="https://future.com/wp-content/themes/future/assets/images/favicon/favicon.ico"
-            />
             <outline title="ITSM.tools" type="rss"
                 xmlUrl="https://itsm.tools/feed/"
                 htmlUrl="https://itsm.tools/"
@@ -1132,21 +1157,6 @@
                 xmlUrl="https://medium.com/feed/nick-tune-tech-strategy-blog"
                 htmlUrl="https://medium.com/nick-tune-tech-strategy-blog"
                 icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
-            />
-            <outline title="localghost.dev" type="rss"
-                xmlUrl="https://localghost.dev/feed.xml"
-                htmlUrl="https://localghost.dev/"
-                icon=""
-            />
-            <outline title="Accidentally in Code" type="rss"
-                xmlUrl="http://www.catehuston.com/blog/feed/"
-                htmlUrl="http://www.catehuston.com/"
-                icon="https://149354112.v2.pressablecdn.com/wp-content/cache/thumbnails/2016/11/cate.blog_-32x32.jpeg"
-            />
-            <outline title="Insights@Questrom" type="rss"
-                xmlUrl="https://insights.bu.edu/feed/"
-                htmlUrl="https://insights.bu.edu/"
-                icon="https://insights.bu.edu/wp-content/uploads/2020/09/cropped-Insights@Questrom_SiteIcon-32x32.png"
             />
             <outline title="Remote Work Academy" type="rss"
                 xmlUrl="https://www.remote-work.io/rss/"
@@ -1198,11 +1208,6 @@
                 htmlUrl="https://ddegrandis.com/"
                 icon="https://i0.wp.com/makingworkvisible.com/wp-content/uploads/2017/09/cropped-MWV-cover-3D-NEW.jpg?fit=32%2C32"
             />
-            <outline title="Together Institute - Medium" type="rss"
-                xmlUrl="https://medium.com/feed/together-institute"
-                htmlUrl="https://medium.com/together-institute"
-                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
-            />
             <outline title="OpenAI" type="rss"
                 xmlUrl="https://openai.com/blog/rss/"
                 htmlUrl="https://openai.com/blog"
@@ -1237,11 +1242,6 @@
                 xmlUrl="https://www.amazon.science/index.rss"
                 htmlUrl="https://www.amazon.science/"
                 icon="https://www.amazon.science/favicon-32x32.png"
-            />
-            <outline title="Think Different" type="rss"
-                xmlUrl="https://flowchainsensei.wordpress.com/feed/"
-                htmlUrl="https://flowchainsensei.wordpress.com"
-                icon="https://flowchainsensei.wordpress.com/wp-content/uploads/2021/08/image-1.jpg"
             />
             <outline title="IEEE Spectrum" type="rss"
                 xmlUrl="https://spectrum.ieee.org/feeds/topic.rss"
