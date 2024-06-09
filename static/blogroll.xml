@@ -904,6 +904,61 @@
                 htmlUrl="https://itconnection.wordpress.com/"
                 icon="https://itconnection.wordpress.com/favicon.ico"
             />
+            <outline title="The Verge" type="rss"   
+                xmlUrl="https://www.theverge.com/rss/tech/index.xml"
+                htmlUrl="https://www.theverge.com/"
+                icon="https://www.theverge.com/icons/favicon.ico"
+            />
+            <outline title="The Verge -  Artificial Intelligences" type="rss"   
+                xmlUrl="https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+                htmlUrl="https://www.theverge.com/ai-artificial-intelligence/"
+                icon="https://www.theverge.com/icons/favicon.ico"
+            />
+            <outline title="Technology | The Guardian" type="rss"   
+                xmlUrl="https://www.theguardian.com/uk/technology/rss"
+                htmlUrl="https://www.theguardian.com/uk/technology/"
+                icon="https://www.theguardian.com/favicon.ico"
+            />
+            <outline title="Artificial intelligence - TechCrunch" type="rss"   
+                xmlUrl="https://techcrunch.com/tag/artificial-intelligence/feed/"
+                htmlUrl="https://techcrunch.com/tag/artificial-intelligence"
+                icon="https://techcrunch.com/favicon.ico"
+            />
+            <outline title="Security | TechCrunch" type="rss"   
+                xmlUrl="https://techcrunch.com/tag/security/feed/"
+                htmlUrl="https://techcrunch.com/tag/security"
+                icon="https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png"
+            />
+            <outline title="Deep Tech - The Next Web" type="rss"   
+                xmlUrl="https://thenextweb.com/deep-tech/feed"
+                htmlUrl="https://thenextweb.com/"
+                icon="https://next.tnwcdn.com/assets/img/favicon/favicon-32x32.png"
+            />
+            <outline title="Data Security - The Next Web" type="rss"   
+                xmlUrl="https://thenextweb.com/data-security/feed"
+                htmlUrl="https://thenextweb.com/data-security/"
+                icon="https://next.tnwcdn.com/assets/img/favicon/favicon-32x32.png"
+            />
+            <outline title="Artificial Intelligence - The Next Web" type="rss"   
+                xmlUrl="https://thenextweb.com/artificial-intelligence/feed/"
+                htmlUrl="https://thenextweb.com/artificial-intelligence/"
+                icon="https://next.tnwcdn.com/assets/img/favicon/favicon-32x32.png"
+            />
+            <outline title="Future of Work - The Next Web" type="rss"   
+                xmlUrl="https://thenextweb.com/future-of-work/feed"
+                htmlUrl="https://thenextweb.com/future-of-work"
+                icon="https://next.tnwcdn.com/assets/img/favicon/favicon-32x32.png"
+            />
+            <outline title="MIT News - Robotics" type="rss"   
+                xmlUrl="http://web.mit.edu/newsoffice/topic/mitrobotics-rss.xml"
+                htmlUrl="https://news.mit.edu/topic/robotics"
+                icon="https://news.mit.edu/themes/mit/assets/img/favicon/favicon.ico"
+            />
+            <outline title="MIT News - Artificial Intelligence" type="rss"   
+                xmlUrl="https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml"
+                htmlUrl="https://news.mit.edu/topic/artificial-intelligence"
+                icon="https://news.mit.edu/themes/mit/assets/img/favicon/favicon.ico"
+            />
         </outline>
         <outline text="Cloud" title="Title">
             <outline title="Azure Weekly - Powered by endjin" type="rss"
@@ -1263,11 +1318,6 @@
                 htmlUrl="https://bleedingedge.ai/"
                 icon="https://bleedingedge.ai/favicon/favicon-32x32.png"
             />
-            <outline title="Deep Tech - The Next Web" type="rss"   
-                xmlUrl="https://thenextweb.com/deep-tech/feed"
-                htmlUrl="https://thenextweb.com/"
-                icon="https://next.tnwcdn.com/assets/img/favicon/favicon-32x32.png"
-            />
             <outline title="Own Your Web" type="rss"   
                 xmlUrl="https://buttondown.email/ownyourweb/rss"
                 htmlUrl="https://buttondown.email/"
@@ -1293,21 +1343,6 @@
                 htmlUrl="https://mindandiron.substack.com/"
                 icon="https://mindandiron.substack.com/favicon.ico"
             />
-            <outline title="Data Security - The Next Web" type="rss"   
-                xmlUrl="https://thenextweb.com/data-security/feed"
-                htmlUrl="https://thenextweb.com/data-security/"
-                icon="https://next.tnwcdn.com/assets/img/favicon/favicon-32x32.png"
-            />
-            <outline title="The Verge" type="rss"   
-                xmlUrl="https://www.theverge.com/rss/tech/index.xml"
-                htmlUrl="https://www.theverge.com/"
-                icon="https://www.theverge.com/icons/favicon.ico"
-            />
-            <outline title="Artificial intelligence - TechCrunch" type="rss"   
-                xmlUrl="https://techcrunch.com/tag/artificial-intelligence/feed/"
-                htmlUrl="https://techcrunch.com/tag/artificial-intelligence"
-                icon="https://techcrunch.com/favicon.ico"
-            />
             <outline title="Arstechnica" type="rss"   
                 xmlUrl="http://feeds.arstechnica.com/arstechnica/index/"
                 htmlUrl="https://arstechnica.com/"
@@ -1328,16 +1363,6 @@
                 htmlUrl="https://www.horrific-terrific.tech/"
                 icon="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa31a1cab-3308-414d-9ae0-9be60aa875c3%2Ffavicon.ico"
             />
-            <outline title="MIT News - Robotics" type="rss"   
-                xmlUrl="http://web.mit.edu/newsoffice/topic/mitrobotics-rss.xml"
-                htmlUrl="https://news.mit.edu/topic/robotics"
-                icon="https://news.mit.edu/themes/mit/assets/img/favicon/favicon.ico"
-            />
-            <outline title="MIT News - Artificial Intelligence" type="rss"   
-                xmlUrl="https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml"
-                htmlUrl="https://news.mit.edu/topic/artificial-intelligence"
-                icon="https://news.mit.edu/themes/mit/assets/img/favicon/favicon.ico"
-            />
             <outline title="James Cridland - radio futurologist" type="rss"   
                 xmlUrl="https://james.cridland.net/index.xml"
                 htmlUrl="https://james.cridland.net/"
@@ -1352,11 +1377,6 @@
                 xmlUrl="https://fudge.org/rss.xml"
                 htmlUrl="https://fudge.org/"
                 icon="https://fudge.org/favicon.ico"
-            />
-            <outline title="Artificial Intelligence - The Next Web" type="rss"   
-                xmlUrl="https://thenextweb.com/artificial-intelligence/feed/"
-                htmlUrl="https://thenextweb.com/artificial-intelligence/"
-                icon="https://next.tnwcdn.com/assets/img/favicon/favicon-32x32.png"
             />
             <outline title="Kev Quirk" type="rss"   
                 xmlUrl="https://kevquirk.com/feed/"
@@ -1378,11 +1398,6 @@
                 htmlUrl="https://cabel.com/"
                 icon="https://i0.wp.com/cabel.com/wp-content/uploads/2022/12/cropped-photobooth1-upscaled.png?fit=32%2C32"
             />
-            <outline title="Future of Work - The Next Web" type="rss"   
-                xmlUrl="https://thenextweb.com/future-of-work/feed"
-                htmlUrl="https://thenextweb.com/future-of-work"
-                icon="https://next.tnwcdn.com/assets/img/favicon/favicon-32x32.png"
-            />
             <outline title="Singularity Hub" type="rss"   
                 xmlUrl="https://singularityhub.com/feed/"
                 htmlUrl="https://singularityhub.com/"
@@ -1397,11 +1412,6 @@
                 xmlUrl="https://untangled.substack.com/feed"
                 htmlUrl="https://untangled.substack.com/"
                 icon="https://untangled.substack.com/favicon.ico"
-            />
-            <outline title="The Verge -  Artificial Intelligences" type="rss"   
-                xmlUrl="https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-                htmlUrl="https://www.theverge.com/ai-artificial-intelligence/"
-                icon="https://www.theverge.com/icons/favicon.ico"
             />
             <outline title="Disconnect" type="rss"   
                 xmlUrl="https://disconnect.blog/rss/"
@@ -1418,11 +1428,6 @@
                 htmlUrl="https://rys.io/en/"
                 icon="https://rys.io/assets/gfx/favicon.png"
             />
-            <outline title="Security | TechCrunch" type="rss"   
-                xmlUrl="https://techcrunch.com/tag/security/feed/"
-                htmlUrl="https://techcrunch.com/tag/security"
-                icon="https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png"
-            />
             <outline title="Ethan Marcotte's website" type="rss"   
                 xmlUrl="https://ethanmarcotte.com/wrote/feed.xml"
                 htmlUrl="https://ethanmarcotte.com/wrote"
@@ -1432,11 +1437,6 @@
                 xmlUrl="https://spyglass.org/rss/"
                 htmlUrl="https://spyglass.org"
                 icon="https://spyglass.org/favicon.ico"
-            />
-            <outline title="Technology | The Guardian" type="rss"   
-                xmlUrl="https://www.theguardian.com/uk/technology/rss"
-                htmlUrl="https://www.theguardian.com/uk/technology/"
-                icon="https://www.theguardian.com/favicon.ico"
             />
         </outline>
     </body>
