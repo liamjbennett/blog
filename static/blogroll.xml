@@ -828,6 +828,46 @@
                 htmlUrl="https://flowchainsensei.wordpress.com"
                 icon="https://flowchainsensei.wordpress.com/wp-content/uploads/2021/08/image-1.jpg"
             />
+            <outline title="The Pragmatic Engineer" type="rss"
+                xmlUrl="https://blog.pragmaticengineer.com/rss/"
+                htmlUrl="https://blog.pragmaticengineer.com"
+                icon="https://blog.pragmaticengineer.com/content/images/size/w256h256/2020/10/Gergely_Orosz_BW_250x250.png"
+            />
+            <outline title="The Engineering Manager" type="rss"
+                xmlUrl="https://www.theengineeringmanager.com/feed/"
+                htmlUrl="https://www.theengineeringmanager.com/"
+                icon=""
+            />
+            <outline title="Brave New Geek" type="rss"
+                xmlUrl="https://bravenewgeek.com/feed/"
+                htmlUrl="https://bravenewgeek.com"
+                icon="https://bravenewgeek.com/favicon.ico"
+            />
+            <outline title="Profound - Having intellectual depth and insight" type="rss"
+                xmlUrl="https://www.profound-deming.com/blog-1?format=rss"
+                htmlUrl="https://www.profound-deming.com/"
+                icon="https://www.profound-deming.com/favicon.ico"
+            />
+            <outline title="Bits or pieces?" type="rss"
+                xmlUrl="https://blog.gardeviance.org/feeds/posts/default?alt=rss"
+                htmlUrl="https://blog.gardeviance.org/"
+                icon="https://www.xrtoday.com/wp-content/uploads/2022/03/cropped-XRToday_Icon-32x32.png"
+            />
+            <outline title="One Man &amp; His Blog" type="rss"
+                xmlUrl="https://onemanandhisblog.com/rss/"
+                htmlUrl="https://onemanandhisblog.com/"
+                icon="https://onemanandhisblog.com/favicon.ico"
+            />
+            <outline title="Nodes in a social network" type="rss"
+                xmlUrl="https://tante.cc/feed/"
+                htmlUrl="https://tante.cc/"
+                icon="https://tante.cc/favicon.ico"
+            />
+            <outline title="Mind and Iron" type="rss"   
+                xmlUrl="https://mindandiron.substack.com/feed"
+                htmlUrl="https://mindandiron.substack.com/"
+                icon="https://mindandiron.substack.com/favicon.ico"
+            />
         </outline>
         <outline text="Youtube" title="Youtube">
             <outline title="Wherefore Ergonautic" type="rss"
@@ -999,6 +1039,21 @@
                 htmlUrl="https://medium.com/together-institute"
                 icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
             />
+            <outline title="Interesting Engineering" type="rss"
+                xmlUrl="https://interestingengineering.com/feed/atom"
+                htmlUrl="https://interestingengineering.com/"
+                icon="https://interestingengineering.com/favicon.ico"
+            />
+            <outline title="Virtual Reality News - Industry News - VR News - XR Today" type="rss"
+                xmlUrl="https://www.xrtoday.com/virtual-reality/feed/"
+                htmlUrl="https://www.xrtoday.com/virtual-reality/"
+                icon="https://www.xrtoday.com/wp-content/uploads/2022/03/cropped-XRToday_Icon-32x32.png"
+            />
+            <outline title="Arstechnica" type="rss"   
+                xmlUrl="http://feeds.arstechnica.com/arstechnica/index/"
+                htmlUrl="https://arstechnica.com/"
+                icon="https://cdn.arstechnica.net/favicon.ico"
+            />
         </outline>
         <outline text="Cloud" title="Title">
             <outline title="Azure Weekly - Powered by endjin" type="rss"
@@ -1048,40 +1103,20 @@
                 htmlUrl="https://increment.com/"
                 icon="https://increment.com/img/icon-571805a1.png"
             />
-            <outline title="The Pragmatic Engineer" type="rss"
-                xmlUrl="https://blog.pragmaticengineer.com/rss/"
-                htmlUrl="https://blog.pragmaticengineer.com"
-                icon="https://blog.pragmaticengineer.com/content/images/size/w256h256/2020/10/Gergely_Orosz_BW_250x250.png"
-            />
             <outline title="Radar" type="rss"
                 xmlUrl="https://www.oreilly.com/radar/feed/index.xml"
                 htmlUrl="https://www.oreilly.com/radar/"
                 icon="https://www.oreilly.com/favicon.ico"
-            />
-            <outline title="Brave New Geek" type="rss"
-                xmlUrl="https://bravenewgeek.com/feed/"
-                htmlUrl="https://bravenewgeek.com"
-                icon="https://bravenewgeek.com/favicon.ico"
             />
             <outline title="Corporate Rebels RSS" type="rss"
                 xmlUrl="https://corporate-rebels.com/rss/"
                 htmlUrl="https://corporate-rebels.com/"
                 icon="https://www.corporate-rebels.com/assets/img/corporate-rebels-favicon.png"
             />
-            <outline title="The Engineering Manager" type="rss"
-                xmlUrl="https://www.theengineeringmanager.com/feed/"
-                htmlUrl="https://www.theengineeringmanager.com/"
-                icon=""
-            />
             <outline title="Hexacorn" type="rss"
                 xmlUrl="https://www.hexacorn.com/blog/feed/"
                 htmlUrl="https://www.hexacorn.com/"
                 icon="https://www.hexacorn.com/favicon.ico"
-            />
-            <outline title="Interesting Engineering" type="rss"
-                xmlUrl="https://interestingengineering.com/feed/atom"
-                htmlUrl="https://interestingengineering.com/"
-                icon="https://interestingengineering.com/favicon.ico"
             />
             <outline title="Black Swan Farming" type="rss"
                 xmlUrl="https://blackswanfarming.com/feed/"
@@ -1142,11 +1177,6 @@
                 xmlUrl="https://www.rebelsatwork.com/blog?format=rss"
                 htmlUrl="https://www.rebelsatwork.com/"
                 icon="https://www.rebelsatwork.com/favicon.ico"
-            />  
-            <outline title="Profound - Having intellectual depth and insight" type="rss"
-                xmlUrl="https://www.profound-deming.com/blog-1?format=rss"
-                htmlUrl="https://www.profound-deming.com/"
-                icon="https://www.profound-deming.com/favicon.ico"
             />
             <outline title="SOONER SAFER HAPPIER" type="rss"
                 xmlUrl="https://soonersaferhappier.com/feed/"
@@ -1218,21 +1248,6 @@
                 htmlUrl="https://co.bot/"
                 icon="https://www.co.bot/favicon.ico"
             />
-            <outline title="DYNOMIGHT" type="rss"
-                xmlUrl="https://dynomight.net/feed.xml"
-                htmlUrl="https://dynomight.net/"
-                icon="https://dynomight.net/favicon.png"
-            />
-            <outline title="Virtual Reality News - Industry News - VR News - XR Today" type="rss"
-                xmlUrl="https://www.xrtoday.com/virtual-reality/feed/"
-                htmlUrl="https://www.xrtoday.com/virtual-reality/"
-                icon="https://www.xrtoday.com/wp-content/uploads/2022/03/cropped-XRToday_Icon-32x32.png"
-            />
-            <outline title="Bits or pieces?" type="rss"
-                xmlUrl="https://blog.gardeviance.org/feeds/posts/default?alt=rss"
-                htmlUrl="https://blog.gardeviance.org/"
-                icon="https://www.xrtoday.com/wp-content/uploads/2022/03/cropped-XRToday_Icon-32x32.png"
-            />
             <outline title="Memory Leak - Medium" type="rss"
                 xmlUrl="https://medium.com/feed/memory-leak"
                 htmlUrl="https://medium.com/memory-leak"
@@ -1252,11 +1267,6 @@
                 xmlUrl="https://medium.com/feed/funding-circle"
                 htmlUrl="https://medium.com/funding-circle"
                 icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
-            />
-            <outline title="One Man &amp; His Blog" type="rss"
-                xmlUrl="https://onemanandhisblog.com/rss/"
-                htmlUrl="https://onemanandhisblog.com/"
-                icon="https://onemanandhisblog.com/favicon.ico"
             />
             <outline title="The Cloudflare Blog" type="rss"
                 xmlUrl="https://blog.cloudflare.com/rss/"
@@ -1282,11 +1292,6 @@
                 xmlUrl="https://www.thetransmitter.org/feed/"
                 htmlUrl="https://www.thetransmitter.org/"
                 icon="https://www.thetransmitter.org/wp-content/themes/transmitter2023/frontend/images/favicon.svg"
-            />
-            <outline title="Nodes in a social network" type="rss"
-                xmlUrl="https://tante.cc/feed/"
-                htmlUrl="https://tante.cc/"
-                icon="https://tante.cc/favicon.ico"
             />
             <outline title="The Spacebar" type="rss"
                 xmlUrl="https://www.spacebar.news/feed"
@@ -1337,16 +1342,6 @@
                 xmlUrl="https://indieweb.org/this-week/feed.xml"
                 htmlUrl="https://indieweb.org/this-week"
                 icon=":https://indieweb.org/favicon.ico"
-            />
-            <outline title="Mind and Iron" type="rss"   
-                xmlUrl="https://mindandiron.substack.com/feed"
-                htmlUrl="https://mindandiron.substack.com/"
-                icon="https://mindandiron.substack.com/favicon.ico"
-            />
-            <outline title="Arstechnica" type="rss"   
-                xmlUrl="http://feeds.arstechnica.com/arstechnica/index/"
-                htmlUrl="https://arstechnica.com/"
-                icon="https://cdn.arstechnica.net/favicon.ico"
             />
             <outline title="Science Daily" type="rss"   
                 xmlUrl="http://www.sciencedaily.com/rss/computers_math.xml"
