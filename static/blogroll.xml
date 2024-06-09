@@ -1055,7 +1055,24 @@
                 icon="https://cdn.arstechnica.net/favicon.ico"
             />
         </outline>
-        <outline text="Cloud" title="Title">
+        <outline text="Research" title="Research">
+            <outline title="cs.SE updates on arXiv.org" type="rss"
+                xmlUrl="http://rss.arxiv.org/rss/cs.SE"
+                htmlUrl="http://arxiv.org/cs.SE"
+                icon="http://rss.arxiv.org/favicon.ico"
+            />
+            <outline title="cs.AI updates on arXiv.org" type="rss"
+                xmlUrl="http://rss.arxiv.org/rss/cs.AI"
+                htmlUrl="http://arxiv.org/cs.AI"
+                icon="http://rss.arxiv.org/favicon.ico"
+            />
+            <outline title="ACM Queue - Latest Queue Content" type="rss"
+                xmlUrl="https://queue.acm.org/rss/feeds/latestitems.xml"
+                htmlUrl="https://queue.acm.org/"
+                icon="https://queue.acm.org/favicon.ico"
+            />
+        </outline>
+        <outline text="Cloud" title="Cloud">
             <outline title="Azure Weekly - Powered by endjin" type="rss"
                 xmlUrl="https://azureweekly.info/rss.xml"
                 htmlUrl="https://azureweekly.info/"
@@ -1273,11 +1290,6 @@
                 htmlUrl="https://blog.cloudflare.com/"
                 icon="https://blog.cloudflare.com/favicon.ico"
             />
-            <outline title="ACM Queue - Latest Queue Content" type="rss"
-                xmlUrl="https://queue.acm.org/rss/feeds/latestitems.xml"
-                htmlUrl="https://queue.acm.org/"
-                icon="https://queue.acm.org/favicon.ico"
-            />
             <outline title="The GitHub Blog" type="rss"
                 xmlUrl="https://github.blog/feed/"
                 htmlUrl="https://github.blog/"
@@ -1302,16 +1314,6 @@
                 xmlUrl="https://usesthis.com/feed.atom"
                 htmlUrl="https://usesthis.com/"
                 icon="https://usesthis.com/favicon.ico"
-            />
-            <outline title="cs.SE updates on arXiv.org" type="rss"
-                xmlUrl="http://rss.arxiv.org/rss/cs.SE"
-                htmlUrl="http://arxiv.org/cs.SE"
-                icon="http://rss.arxiv.org/favicon.ico"
-            />
-            <outline title="cs.AI updates on arXiv.org" type="rss"
-                xmlUrl="http://rss.arxiv.org/rss/cs.AI"
-                htmlUrl="http://arxiv.org/cs.AI"
-                icon="http://rss.arxiv.org/favicon.ico"
             />
             <outline title="Wait But Why" type="rss"
                 xmlUrl="https://waitbutwhy.com/feed"
