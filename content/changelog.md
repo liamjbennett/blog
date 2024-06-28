@@ -12,11 +12,12 @@ categories:
 ---
 
 ## Future
-* Support webmentions
-* Add social media posts here in IndieWeb style
 * Add privacy page
 * Add page for newsletters I'm subscribed to (newsroll)
 * Add page for people I follow (socialroll)
+
+## June 2024
+* More refactoring on the blogroll into more specific sections to reduce the number in the "Other Feeds" section.
 
 ## April 2024
 * Add page for RSS feeds with OPML downloads (blogroll)
