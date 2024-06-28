@@ -12,7 +12,7 @@ categories:
 ---
 
 ## Active
-* <a href="https://hachyderm.io/@liamjbennett" target="_blank" rel="noopener noreferrer me" title="Mastodon">Mastodon</a>
+* {{< opennewtab href="https://hachyderm.io/@liamjbennett" title="Mastodon" >}}
 * <a href="https://twitter.com/liamjbennett" target="_blank" rel="noopener noreferrer me" title="Twitter">X/Twitter</a>
 * Instagram 
 * <a href="https://www.linkedin.com/in/liam-bennett-77415821/" target="_blank" rel="noopener noreferrer me" title="Linkedin">LinkedIn</a>
