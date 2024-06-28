@@ -5,8 +5,8 @@ ShowPostNavLinks: false
 ShowBreadCrumbs: false
 ShowCodeCopyButtons: false
 ShowToc: false
-title: “Changelog”
-author: “.”
+title: Contact
+author:
 categories:
   - sitePages
 ---
