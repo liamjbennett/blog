@@ -1,4 +1,4 @@
-——-
+---
 ShowShareButtons: false
 ShowReadingTime: false
 ShowPostNavLinks: false
@@ -9,7 +9,7 @@ title: “Changelog”
 author: “.”
 categories:
   - sitePages
-——-
+---
 
 ## Active
 * Mastodon
