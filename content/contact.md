@@ -14,7 +14,7 @@ categories:
 ## Active
 * {{< opennewtab href="https://hachyderm.io/@liamjbennett" title="Mastodon" >}}
 * {{< opennewtab href="https://twitter.com/liamjbennett" title="X/Twitter" >}}
-* {{< opennewtab href="https://www.linkedin.com/in/liam-bennett-77415821/" title="LinkedIn" >}}
+* {{< socials name="LinkedIn" >}}{{< opennewtab href="https://www.linkedin.com/in/liam-bennett-77415821/" title="LinkedIn" >}}
 * {{< opennewtab href="https://github.com/liamjbennett" title="GitHub" >}}
 * {{< opennewtab href="https://www.instagram.com/liam.j.bennett/" title="Instagram" >}} 
 * {{< opennewtab href="https://www.goodreads.com/user/show/145027880-liam-bennett" title="Goodreads" >}}
