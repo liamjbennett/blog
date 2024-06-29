@@ -31,7 +31,7 @@ categories:
 * YouTube
 * PeerTube
 * {{< socials name="Polywork" >}}{{< opennewtab href="https://www.polywork.com/liamjbennett" title="Polywork" >}}
-* {{< opennewtab href="https://www.credly.com/users/liam-bennett.86180b2b" title="Credly" >}}
+* {{< socials name="Credly" >}}{{< opennewtab href="https://www.credly.com/users/liam-bennett.86180b2b" title="Credly" >}}
 * {{< socials name="GitLab" >}}{{< opennewtab href="https://gitlab.com/liamjbennett" title="GitLab" >}}
 * {{< opennewtab href="https://www.pinterest.co.uk/liamjbennett/" title="Pinterest" >}}
 * {{< opennewtab href="https://www.meetup.com/members/14251433" title="Meetup" >}}
