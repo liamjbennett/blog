@@ -15,10 +15,10 @@ categories:
 * {{< socials name="Mastodon" >}}{{< opennewtab href="https://hachyderm.io/@liamjbennett" title="Mastodon" >}}
 * {{< socials name="Twitter" >}}{{< opennewtab href="https://twitter.com/liamjbennett" title="X/Twitter" >}}
 * {{< socials name="LinkedIn" >}}{{< opennewtab href="https://www.linkedin.com/in/liam-bennett-77415821/" title="LinkedIn" >}}
-* {{< opennewtab href="https://github.com/liamjbennett" title="GitHub" >}}
-* {{< opennewtab href="https://www.instagram.com/liam.j.bennett/" title="Instagram" >}} 
-* {{< opennewtab href="https://www.goodreads.com/user/show/145027880-liam-bennett" title="Goodreads" >}}
-* {{< opennewtab href="https://app.thestorygraph.com/profile/liamjbennett" title="Storygraph" >}}
+* {{< socials name="GitHub" >}}{{< opennewtab href="https://github.com/liamjbennett" title="GitHub" >}}
+* {{< socials name="Instagram" >}}{{< opennewtab href="https://www.instagram.com/liam.j.bennett/" title="Instagram" >}} 
+* {{< socials name="Goodreads" >}}{{< opennewtab href="https://www.goodreads.com/user/show/145027880-liam-bennett" title="Goodreads" >}}
+* {{< socials name="Storygraph" >}}{{< opennewtab href="https://app.thestorygraph.com/profile/liamjbennett" title="Storygraph" >}}
 * {{< opennewtab href="https://www.reddit.com/u/hipsterCTO" title="Reddit" >}}
 * {{< opennewtab href="https://open.spotify.com/user/liamjbennett" title="Spotify" >}}
 * {{< opennewtab href="https://www.duolingo.com/profile/liamjbennett" title="Duolingo" >}}
