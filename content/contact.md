@@ -19,9 +19,9 @@ categories:
 * {{< socials name="Instagram" >}}{{< opennewtab href="https://www.instagram.com/liam.j.bennett/" title="Instagram" >}} 
 * {{< socials name="Goodreads" >}}{{< opennewtab href="https://www.goodreads.com/user/show/145027880-liam-bennett" title="Goodreads" >}}
 * {{< socials name="Storygraph" >}}{{< opennewtab href="https://app.thestorygraph.com/profile/liamjbennett" title="Storygraph" >}}
-* {{< opennewtab href="https://www.reddit.com/u/hipsterCTO" title="Reddit" >}}
-* {{< opennewtab href="https://open.spotify.com/user/liamjbennett" title="Spotify" >}}
-* {{< opennewtab href="https://www.duolingo.com/profile/liamjbennett" title="Duolingo" >}}
+* {{< socials name="Reddit" >}}{{< opennewtab href="https://www.reddit.com/u/hipsterCTO" title="Reddit" >}}
+* {{< socials name="Spotify" >}}{{< opennewtab href="https://open.spotify.com/user/liamjbennett" title="Spotify" >}}
+* {{< socials name="Duolingo" >}}{{< opennewtab href="https://www.duolingo.com/profile/liamjbennett" title="Duolingo" >}}
  
 ## Inactive/Squatting
 * {{< opennewtab href="https://bsky.app/profile/liamjbennett.bsky.social" title="Bluesky" >}}
