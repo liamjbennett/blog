@@ -13,12 +13,13 @@ categories:
 
 ## Active
 * {{< opennewtab href="https://hachyderm.io/@liamjbennett" title="Mastodon" >}}
-* <a href="https://twitter.com/liamjbennett" target="_blank" rel="noopener noreferrer me" title="Twitter">X/Twitter</a>
-* Instagram 
-* <a href="https://www.linkedin.com/in/liam-bennett-77415821/" target="_blank" rel="noopener noreferrer me" title="Linkedin">LinkedIn</a>
-* <a href="https://github.com/liamjbennett" target="_blank" rel="noopener noreferrer me" title="GitHub">GitHub</a>
-* <a href="https://www.goodreads.com/user/show/145027880-liam-bennett" target="_blank" rel="noopener noreferrer me" title="Goodreads">Goodreads</a>
-* <a href="https://app.thestorygraph.com/profile/liamjbennett" target="_blank" rel="noopener noreferrer me" title="Storygraph">Storygraph</a>
+* {{< opennewtab href="https://twitter.com/liamjbennett" title="X/Twitter" >}}
+* Instagram
+* {{< opennewtab href="https://www.linkedin.com/in/liam-bennett-77415821/" title="LinkedIn" >}}
+* {{< opennewtab href="https://github.com/liamjbennett" title="GitHub" >}}
+* {{< opennewtab href="https://www.goodreads.com/user/show/145027880-liam-bennett" title="Goodreads" >}}
+* {{< opennewtab href="https://app.thestorygraph.com/profile/liamjbennett" title="Storygraph" >}}
+* {{< opennewtab href="" title="" >}}
 * Pocketcasts
 * Reddit
 * Spotify
@@ -26,14 +27,14 @@ categories:
 * Credly
  
 ## Inactive/Squatting
-* <a href="https://bsky.app/profile/liamjbennett.bsky.social" target="_blank" rel="noopener noreferrer me" title="Bluesky">Bluesky</a>
-* <a href="https://www.threads.net/@liamybennett" target="_blank" rel="noopener noreferrer me" title="Threads">Threads</a>
-* <a href="https://www.facebook.com/liamjbennett" target="_blank" rel="noopener noreferrer me" title="Facebook">Facebook</a>
+* {{< opennewtab href="https://bsky.app/profile/liamjbennett.bsky.social" title="Bluesky" >}}
+* {{< opennewtab href="https://www.threads.net/@liamybennett" title="Threads" >}}
+* {{< opennewtab href="https://www.facebook.com/liamjbennett" title="Facebook" >}}
 * PixelFed
 * YouTube
 * PeerTube
-* <a href="https://www.polywork.com/liamjbennett" target="_blank" rel="noopener noreferrer me" title="Polywork">Polywork</a>
-* <a href="https://gitlab.com/liamjbennett" target="_blank" rel="noopener noreferrer me" title="GitLab">GitLab</a>
+* {{< opennewtab href="https://www.polywork.com/liamjbennett" title="Polywork" >}}
+* {{< opennewtab href="https://gitlab.com/liamjbennett" title="GitLab" >}}
 * Pinterest
 * Meetup
 * Eventbright
