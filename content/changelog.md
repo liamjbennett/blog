@@ -18,6 +18,7 @@ categories:
 
 ## June 2024
 * More refactoring on the blogroll into more specific sections to reduce the number in the "Other Feeds" section.
+* Added /contacts page
 
 ## April 2024
 * Add page for RSS feeds with OPML downloads (blogroll)
