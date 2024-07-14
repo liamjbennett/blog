@@ -1477,6 +1477,13 @@
                 htmlUrl="https://disconnect.blog/"
                 icon="https://disconnect.blog/content/images/size/w256h256/2024/01/disconnect_icon.png"
             />
+            <outline title="The Spacebar"
+                category="Tech News"
+                type="rss"
+                xmlUrl="https://www.spacebar.news/feed"
+                htmlUrl="https://www.spacebar.news/"
+                icon="https://www.spacebar.news/content/images/size/w256h256/2023/12/spacebar.png"
+            />
         </outline>
         <outline text="Research and Science" title="Research">
             <outline title="cs.SE updates on arXiv.org"
@@ -1548,6 +1555,13 @@
                 xmlUrl="https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology.atom"
                 htmlUrl="https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology"
                 icon="https://www.gov.uk/assets/static/favicon-f54816fc15997bd42cd90e4c50b896a1fc098c0c32957d4e5effbfa9f9b35e53.ico"
+            />
+            <outline title="The Transmitter"
+                category="Research and Science"
+                type="rss"
+                xmlUrl="https://www.thetransmitter.org/feed/"
+                htmlUrl="https://www.thetransmitter.org/"
+                icon="https://www.thetransmitter.org/wp-content/themes/transmitter2023/frontend/images/favicon.svg"
             />
         </outline>
         <outline text="Cloud" title="Cloud">
@@ -1623,6 +1637,34 @@
                 htmlUrl="https://www.remote-work.io/"
                 icon="https://www.remote-work.io/favicon.ico"
             />
+            <outline title="Eleganthack"
+                category="uture of Work"
+                type="rss"
+                xmlUrl="https://eleganthack.com/feed/"
+                htmlUrl="https://eleganthack.com/"
+                icon=""
+            />
+            <outline title="HBR.org"
+                category="uture of Work"
+                type="rss"
+                xmlUrl="http://feeds.harvardbusiness.org/harvardbusiness/"
+                htmlUrl="http://hbr.org"
+                icon="https://hbr.org/favicon.ico"
+            />
+            <outline title="Our Latest - Rebels at Work"
+                category="uture of Work"
+                type="rss"
+                xmlUrl="https://www.rebelsatwork.com/blog?format=rss"
+                htmlUrl="https://www.rebelsatwork.com/"
+                icon="https://www.rebelsatwork.com/favicon.ico"
+            />
+            <outline title="Focus Business Blog"
+                category="Other Feeds"
+                type="rss"
+                xmlUrl="https://focus.business/blog/feed/"
+                htmlUrl="https://focus.business/blog/"
+                icon="https://focus.business/blog/wp-content/uploads/2020/11/cropped-focus_brand_RGB_f-32x32.png"
+            />
         </outline>
         <outline text="Other Feeds" title="Other random feeds">
             <outline title="Radar"
@@ -1674,13 +1716,6 @@
                 htmlUrl="https://ctocraft.com/"
                 icon="https://ctocraft.com/wp-content/themes/ctocraft/img/favicon.ico"
             />
-            <outline title="HBR.org"
-                category="Other Feeds"
-                type="rss"
-                xmlUrl="http://feeds.harvardbusiness.org/harvardbusiness/"
-                htmlUrl="http://hbr.org"
-                icon="https://hbr.org/favicon.ico"
-            />
             <outline title="First Round Review"
                 category="Other Feeds"
                 type="rss"
@@ -1701,13 +1736,6 @@
                 xmlUrl="https://itsm.tools/feed/"
                 htmlUrl="https://itsm.tools/"
                 icon="https://itsm.tools/favicon.ico"
-            />
-            <outline title="Our Latest - Rebels at Work"
-                category="Other Feeds"
-                type="rss"
-                xmlUrl="https://www.rebelsatwork.com/blog?format=rss"
-                htmlUrl="https://www.rebelsatwork.com/"
-                icon="https://www.rebelsatwork.com/favicon.ico"
             />
             <outline title="SOONER SAFER HAPPIER"
                 category="Other Feeds"
@@ -1744,13 +1772,6 @@
                 htmlUrl="https://datagen.tech/"
                 icon="https://datagen.tech/wp-content/uploads/2023/07/cropped-cropped-favicon-datagen-32x32.png"
             />
-            <outline title="Focus Business Blog"
-                category="Other Feeds"
-                type="rss"
-                xmlUrl="https://focus.business/blog/feed/"
-                htmlUrl="https://focus.business/blog/"
-                icon="https://focus.business/blog/wp-content/uploads/2020/11/cropped-focus_brand_RGB_f-32x32.png"
-            />
             <outline title="unwiredcouch.com"
                 category="Other Feeds"
                 type="rss"
@@ -1771,13 +1792,6 @@
                 xmlUrl="https://www.technologyreview.com/feed"
                 htmlUrl="https://www.technologyreview.com/"
                 icon="https://www.technologyreview.com/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico"
-            />
-            <outline title="Eleganthack"
-                category="Other Feeds"
-                type="rss"
-                xmlUrl="https://eleganthack.com/feed/"
-                htmlUrl="https://eleganthack.com/"
-                icon=""
             />
             <outline title="Learnings on Lean Kanban Flow"
                 category="Other Feeds"
@@ -1827,20 +1841,6 @@
                 xmlUrl="https://www.101ways.com/feed/"
                 htmlUrl="https://www.101ways.com/"
                 icon="https://www.101ways.com/wp-content/themes/101ways/apple-touch-icon.png"
-            />
-            <outline title="The Transmitter"
-                category="Other Feeds"
-                type="rss"
-                xmlUrl="https://www.thetransmitter.org/feed/"
-                htmlUrl="https://www.thetransmitter.org/"
-                icon="https://www.thetransmitter.org/wp-content/themes/transmitter2023/frontend/images/favicon.svg"
-            />
-            <outline title="The Spacebar"
-                category="Other Feeds"
-                type="rss"
-                xmlUrl="https://www.spacebar.news/feed"
-                htmlUrl="https://www.spacebar.news/"
-                icon="https://www.spacebar.news/content/images/size/w256h256/2023/12/spacebar.png"
             />
             <outline title="Uses This"
                 category="Other Feeds"
