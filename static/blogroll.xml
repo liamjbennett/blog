@@ -447,6 +447,13 @@
                 htmlUrl="https://www.honeycomb.io/blog/"
                 icon="https://www.honeycomb.io/favicon.ico"
             />
+            <outline title="Funding Circle - Medium"
+                category="Engineering team blogs"
+                type="rss"
+                xmlUrl="https://medium.com/feed/funding-circle"
+                htmlUrl="https://medium.com/funding-circle"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
         </outline>
         <outline text="Personal blogs" title="Personal blogs of interesting people">
             <outline title="Lara Callender Hogan"
@@ -1282,6 +1289,76 @@
                 htmlUrl="https://www.horrific-terrific.tech/"
                 icon="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa31a1cab-3308-414d-9ae0-9be60aa875c3%2Ffavicon.ico"
             />
+            <outline title="Own Your Web"
+                category="Personal blogs"
+                type="rss"   
+                xmlUrl="https://buttondown.email/ownyourweb/rss"
+                htmlUrl="https://buttondown.email/ownyourweb"
+                icon="https://buttondown.email/static/images/icons/icon@72.png"
+            />
+            <outline title="DSHR's Blog"
+                category="Personal blogs"
+                type="rss"   
+                xmlUrl="https://blog.dshr.org/feeds/posts/default?alt=rss"
+                htmlUrl="https://blog.dshr.org/"
+                icon="https://blog.dshr.org/favicon.ico"
+            />
+            <outline title="Birchtree"
+                category="Personal blogs"
+                type="rss"   
+                xmlUrl="https://birchtree.me/rss/"
+                htmlUrl="https://birchtree.me/"
+                icon="https://birchtree.me/content/images/size/w256h256/format/jpeg/2022/10/favicon.jpg"
+            />
+            <outline title="Schneier"
+                category="Personal blogs"
+                type="rss"   
+                xmlUrl="https://www.schneier.com/feed/"
+                htmlUrl="https://www.schneier.com/"
+                icon="https://149400697.v2.pressablecdn.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png"
+            />
+            <outline title="Fudge Sunday newsletter"
+                category="Personal blogs"
+                type="rss"   
+                xmlUrl="https://fudge.org/rss.xml"
+                htmlUrl="https://fudge.org/"
+                icon="https://fudge.org/favicon.ico"
+            />
+            <outline title="The Future, Now and Then"
+                category="Personal blogs"
+                type="rss"   
+                xmlUrl="https://davekarpf.substack.com/feed"
+                htmlUrl="https://davekarpf.substack.com/"
+                icon="https://davekarpf.substack.com/favicon.ico"
+            />
+            <outline title="Songs on the Security of Networks"
+                category="Personal blogs"
+                type="rss"   
+                xmlUrl="https://rys.io/en/feed.atom"
+                htmlUrl="https://rys.io/en/"
+                icon="https://rys.io/assets/gfx/favicon.png"
+            />
+            <outline title="Essays - Benedict Evans"
+                category="Personal blogs"
+                type="rss"
+                xmlUrl="https://www.ben-evans.com/benedictevans?format=rss"
+                htmlUrl="https://www.ben-evans.com/benedictevans"
+                icon="https://images.squarespace-cdn.com/content/v1/50363cf324ac8e905e7df861/ebdb4645-db93-4967-881d-db698ee59c2c/favicon.ico?format=100w"
+            />
+            <outline title="Strategy, Architecture, Continuous Delivery, and DDD - Medium"
+                category="Personal blogs"
+                type="rss"
+                xmlUrl="https://medium.com/feed/nick-tune-tech-strategy-blog"
+                htmlUrl="https://medium.com/nick-tune-tech-strategy-blog"
+                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+            />
+            <outline title="Learnings on Lean Kanban Flow"
+                category="Personal blogs"
+                type="rss"
+                xmlUrl="https://ddegrandis.com/feed/"
+                htmlUrl="https://ddegrandis.com/"
+                icon="https://i0.wp.com/makingworkvisible.com/wp-content/uploads/2017/09/cropped-MWV-cover-3D-NEW.jpg?fit=32%2C32"
+            />
         </outline>
         <outline text="Youtube" title="Youtube">
             <outline title="Wherefore Ergonautic"
@@ -1297,6 +1374,20 @@
                 xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCPmfPl-BsCd3wmE8i45LAoA"
                 htmlUrl="https://www.youtube.com/channel/UCPmfPl-BsCd3wmE8i45LAoA"
                 icon="https://www.youtube.com/s/desktop/accca349/img/favicon.ico"
+            />
+            <outline title="S³"
+                category="Youtube"
+                type="rss"
+                xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC0-7PyfpOIJpNyi8WrHiyXA"
+                htmlUrl="https://www.youtube.com/channel/UC0-7PyfpOIJpNyi8WrHiyXA"
+                icon="https://www.youtube.com/s/desktop/86d8f362/img/favicon.ico"
+            />
+            <outline title="Figure"
+                category="Youtube"
+                type="rss"
+                xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYlq-KmwPjc1DtsGmthFqSQ"
+                htmlUrl="https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ"
+                icon="https://www.youtube.com/s/desktop/86d8f362/img/favicon.ico"
             />
         </outline>
         <outline text="Reddit" title="Reddit">
@@ -1568,6 +1659,83 @@
                 htmlUrl="https://untangled.substack.com/"
                 icon="https://untangled.substack.com/favicon.ico"
             />
+            <outline title="UKT News"
+                category="Tech News"
+                type="rss"
+                xmlUrl="https://ukt.news/feed/"
+                htmlUrl="https://ukt.news/"
+                icon="https://i0.wp.com/ukt.news/wp-content/uploads/2023/03/UKTFavicon.png?fit=32%2C32&amp;ssl=1"
+            />
+            <outline title="The RedMonk Newsletter"
+                category="Tech News"
+                type="rss"
+                xmlUrl="https://buttondown.email/redmonk/rss"
+                htmlUrl="https://buttondown.email/redmonk/archive/"
+                icon="https://assets.buttondown.email/images/c4524db5-a574-408c-a0eb-9f7d0c92d4d1.png"
+            />
+            <outline title="VentureBeat"
+                category="Tech News"
+                type="rss"
+                xmlUrl="https://feeds.feedburner.com/venturebeat/SZYF"
+                htmlUrl="https://venturebeat.com/"
+                icon="https://venturebeat.com/wp-content/themes/vb-news/img/favicon.ico"
+            />
+            <outline title="The Record by Recorded Future"
+                category="Tech News"
+                type="rss"
+                xmlUrl="https://therecord.media/feed/"
+                htmlUrl="https://therecord.media"
+                icon="https://therecord.media/favicon.ico"
+            />
+            <outline title="Just enough Internet"
+                category="Tech News"
+                type="rss"
+                xmlUrl="https://buttondown.email/justenoughinternet/rss"
+                htmlUrl="https://buttondown.email/justenoughinternet"
+                icon="https://assets.buttondown.email/images/bbbb1bc7-d0bc-45e4-8ed6-8aea290d2471.png"
+            />
+            <outline title="TechSpot"
+                category="Tech News"
+                type="rss"
+                xmlUrl="https://www.techspot.com/backend.xml"
+                htmlUrl="https://www.techspot.com/"
+                icon="view-source:https://www.techspot.com/images/favicon30.ico"
+            />
+            <outline title="AI News"
+                category="Tech News"
+                type="rss"
+                xmlUrl="https://buttondown.email/ainews/rss"
+                htmlUrl="https://buttondown.email/ainews"
+                icon="https://buttondown.email/static/images/icons/icon@72.png"
+            />
+            <outline title="MIT Technology Review"
+                category="Tech News"
+                type="rss"
+                xmlUrl="https://www.technologyreview.com/feed"
+                htmlUrl="https://www.technologyreview.com/"
+                icon="https://www.technologyreview.com/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico"
+            />
+            <outline title="bleeding edge"
+                category="Tech News"
+                type="rss"   
+                xmlUrl="https://bleedingedge.ai/rss/feed.xml"
+                htmlUrl="https://bleedingedge.ai/"
+                icon="https://bleedingedge.ai/favicon/favicon-32x32.png"
+            />
+            <outline title="The Cloudflare Blog"
+                category="Tech News"
+                type="rss"
+                xmlUrl="https://blog.cloudflare.com/rss/"
+                htmlUrl="https://blog.cloudflare.com/"
+                icon="https://blog.cloudflare.com/favicon.ico"
+            />
+            <outline title="OpenAI"
+                category="Tech News"
+                type="rss"
+                xmlUrl="https://openai.com/blog/rss/"
+                htmlUrl="https://openai.com/blog"
+                icon="https://openai.com/favicon.ico"
+            />
         </outline>
         <outline text="Research and Science" title="Research">
             <outline title="cs.SE updates on arXiv.org"
@@ -1646,6 +1814,20 @@
                 xmlUrl="https://www.thetransmitter.org/feed/"
                 htmlUrl="https://www.thetransmitter.org/"
                 icon="https://www.thetransmitter.org/wp-content/themes/transmitter2023/frontend/images/favicon.svg"
+            />
+            <outline title="News - ERVA"
+                category="Research and Science"
+                type="rss"
+                xmlUrl="https://www.ervacommunity.org/category/news/feed/"
+                htmlUrl="https://www.ervacommunity.org/category/news"
+                icon="https://www.ervacommunity.org/wp-content/uploads/cropped-erva_favicon-32x32.png"
+            />
+            <outline title="Visioning Reports - ERVA" 
+                category="Research and Science"
+                type="rss"
+                xmlUrl="https://www.ervacommunity.org/visioning-reports/feed"
+                htmlUrl="https://www.ervacommunity.org/visioning-reports"
+                icon="https://www.ervacommunity.org/wp-content/uploads/cropped-erva_favicon-32x32.png"
             />
         </outline>
         <outline text="Cloud" title="Cloud">
@@ -1749,6 +1931,27 @@
                 htmlUrl="https://focus.business/blog/"
                 icon="https://focus.business/blog/wp-content/uploads/2020/11/cropped-focus_brand_RGB_f-32x32.png"
             />
+            <outline title="SOONER SAFER HAPPIER"
+                category="Future of Work"
+                type="rss"
+                xmlUrl="https://soonersaferhappier.com/feed/"
+                htmlUrl="https://soonersaferhappier.com/"
+                icon="ttps://static.wixstatic.com/media/6199a7_fcd3cd6eae294b53ba692629e2a6860e%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/6199a7_fcd3cd6eae294b53ba692629e2a6860e%7Emv2.png"
+            />
+            <outline title="Guiding Leaders and Teams"
+                category="Future of Work"
+                type="rss"
+                xmlUrl="https://guidingleadersandteams.com/feed/"
+                htmlUrl="https://guidingleadersandteams.com/"
+                icon="https://guidingleadersandteams.com/wp-content/uploads/2014/06/cropped-wave-vertical-slice-32x32.png"
+            />
+            <outline title="First Round Review"
+                category="Future of Work"
+                type="rss"
+                xmlUrl="https://review.firstround.com/feed.xml"
+                htmlUrl="https://review.firstround.com/"
+                icon="https://review.firstround.com/content/images/size/w256h256/format/png/2024/03/First-Round-icon-blk.svg"
+            />
         </outline>
         <outline text="Comics" title="Web Comics">
             <outline title="Wait But Why"
@@ -1757,6 +1960,20 @@
                 xmlUrl="https://waitbutwhy.com/feed"
                 htmlUrl="https://waitbutwhy.com/"
                 icon="https://149909199.v2.pressablecdn.com/wp-content/themes/waitbutwhy/images/favicon.ico"
+            />
+            <outline title="xkcd.com"
+                category="Comics"
+                type="rss"
+                xmlUrl="https://xkcd.com/rss.xml"
+                htmlUrl="https://xkcd.com/"
+                icon="https://xkcd.com/s/919f27.ico"
+            />
+            <outline title="CommitStrip" 
+                category="Comics"
+                type="rss"
+                xmlUrl="https://www.commitstrip.com/feed/"
+                htmlUrl="https://www.commitstrip.com"
+                icon="https://www.commitstrip.com/wp-content/themes/krds_blog/favicon.png?v=5"
             />
         </outline>
         <outline text="Other" title="Other random feeds">
@@ -1774,13 +1991,6 @@
                 htmlUrl="https://www.hexacorn.com/"
                 icon="https://www.hexacorn.com/favicon.ico"
             />
-            <outline title="Black Swan Farming"
-                category="Other"
-                type="rss"
-                xmlUrl="https://blackswanfarming.com/feed/"
-                htmlUrl="https://blackswanfarming.com/"
-                icon="https://blackswanfarming.com/favicon.ico"
-            />
             <outline title="Maturity Mapping"
                 category="Other"
                 type="rss"
@@ -1795,26 +2005,12 @@
                 htmlUrl="https://www.progression.fyi"
                 icon="https://progression.fyi/assets/img/favicon.png"
             />
-            <outline title="sysadvent"
-                category="Other"
-                type="rss"
-                xmlUrl="https://sysadvent.blogspot.com/feeds/posts/default?alt=rss"
-                htmlUrl="https://sysadvent.blogspot.com/"
-                icon="https://sysadvent.blogspot.com/favicon.ico"
-            />
             <outline title="CTO Craft"
                 category="Other"
                 type="rss"
                 xmlUrl="https://ctocraft.com/feed/"
                 htmlUrl="https://ctocraft.com/"
                 icon="https://ctocraft.com/wp-content/themes/ctocraft/img/favicon.ico"
-            />
-            <outline title="First Round Review"
-                category="Other"
-                type="rss"
-                xmlUrl="https://review.firstround.com/feed.xml"
-                htmlUrl="https://review.firstround.com/"
-                icon="https://review.firstround.com/content/images/size/w256h256/format/png/2024/03/First-Round-icon-blk.svg"
             />
             <outline title="Automated Home"
                 category="Other"
@@ -1830,27 +2026,7 @@
                 htmlUrl="https://itsm.tools/"
                 icon="https://itsm.tools/favicon.ico"
             />
-            <outline title="SOONER SAFER HAPPIER"
-                category="Other"
-                type="rss"
-                xmlUrl="https://soonersaferhappier.com/feed/"
-                htmlUrl="https://soonersaferhappier.com/"
-                icon="ttps://static.wixstatic.com/media/6199a7_fcd3cd6eae294b53ba692629e2a6860e%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/6199a7_fcd3cd6eae294b53ba692629e2a6860e%7Emv2.png"
-            />
-            <outline title="Strategy, Architecture, Continuous Delivery, and DDD - Medium"
-                category="Other"
-                type="rss"
-                xmlUrl="https://medium.com/feed/nick-tune-tech-strategy-blog"
-                htmlUrl="https://medium.com/nick-tune-tech-strategy-blog"
-                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
-            />
-            <outline title="Guiding Leaders and Teams"
-                category="Other"
-                type="rss"
-                xmlUrl="https://guidingleadersandteams.com/feed/"
-                htmlUrl="https://guidingleadersandteams.com/"
-                icon="https://guidingleadersandteams.com/wp-content/uploads/2014/06/cropped-wave-vertical-slice-32x32.png"
-            />
+            
             <outline title="ITSM Professor"
                 category="Other"
                 type="rss"
@@ -1872,47 +2048,12 @@
                 htmlUrl="https://thecynefin.co/our-thinking/"
                 icon="https://ce-wp-site-content.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/sites/12/2021/12/01170930/cropped-Favicon_Cynefin_Co-1-2-32x32.png"
             />
-            <outline title="MIT Technology Review"
-                category="Other"
-                type="rss"
-                xmlUrl="https://www.technologyreview.com/feed"
-                htmlUrl="https://www.technologyreview.com/"
-                icon="https://www.technologyreview.com/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico"
-            />
-            <outline title="Learnings on Lean Kanban Flow"
-                category="Other"
-                type="rss"
-                xmlUrl="https://ddegrandis.com/feed/"
-                htmlUrl="https://ddegrandis.com/"
-                icon="https://i0.wp.com/makingworkvisible.com/wp-content/uploads/2017/09/cropped-MWV-cover-3D-NEW.jpg?fit=32%2C32"
-            />
-            <outline title="OpenAI"
-                category="Other"
-                type="rss"
-                xmlUrl="https://openai.com/blog/rss/"
-                htmlUrl="https://openai.com/blog"
-                icon="https://openai.com/favicon.ico"
-            />
             <outline title="Collaborative Robotics"
                 category="Other"
                 type="rss"
                 xmlUrl="https://co.bot/rss"
                 htmlUrl="https://co.bot/"
                 icon="https://www.co.bot/favicon.ico"
-            />
-            <outline title="Funding Circle - Medium"
-                category="Other"
-                type="rss"
-                xmlUrl="https://medium.com/feed/funding-circle"
-                htmlUrl="https://medium.com/funding-circle"
-                icon="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
-            />
-            <outline title="The Cloudflare Blog"
-                category="Other"
-                type="rss"
-                xmlUrl="https://blog.cloudflare.com/rss/"
-                htmlUrl="https://blog.cloudflare.com/"
-                icon="https://blog.cloudflare.com/favicon.ico"
             />
             <outline title="101 Ways"
                 category="Other"
@@ -1928,146 +2069,19 @@
                 htmlUrl="https://usesthis.com/"
                 icon="https://usesthis.com/favicon.ico"
             />
-            <outline title="bleeding edge"
-                category="Other"
-                type="rss"   
-                xmlUrl="https://bleedingedge.ai/rss/feed.xml"
-                htmlUrl="https://bleedingedge.ai/"
-                icon="https://bleedingedge.ai/favicon/favicon-32x32.png"
-            />
-            <outline title="Own Your Web"
-                category="Other"
-                type="rss"   
-                xmlUrl="https://buttondown.email/ownyourweb/rss"
-                htmlUrl="https://buttondown.email/"
-                icon="https://buttondown.email/static/images/icons/icon@72.png"
-            />
-            <outline title="DSHR's Blog"
-                category="Other"
-                type="rss"   
-                xmlUrl="https://blog.dshr.org/feeds/posts/default?alt=rss"
-                htmlUrl="https://blog.dshr.org/"
-                icon="https://blog.dshr.org/favicon.ico"
-            />
-            <outline title="Birchtree"
-                category="Other"
-                type="rss"   
-                xmlUrl="https://birchtree.me/rss/"
-                htmlUrl="https://birchtree.me/"
-                icon="https://birchtree.me/content/images/size/w256h256/format/jpeg/2022/10/favicon.jpg"
-            />
-            <outline title="Schneier"
-                category="Other"
-                type="rss"   
-                xmlUrl="https://www.schneier.com/feed/"
-                htmlUrl="https://www.schneier.com/"
-                icon="https://149400697.v2.pressablecdn.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png"
-            />
-            <outline title="Fudge Sunday newsletter"
-                category="Other"
-                type="rss"   
-                xmlUrl="https://fudge.org/rss.xml"
-                htmlUrl="https://fudge.org/"
-                icon="https://fudge.org/favicon.ico"
-            />
-            <outline title="The Future, Now and Then"
-                category="Other"
-                type="rss"   
-                xmlUrl="https://davekarpf.substack.com/feed"
-                htmlUrl="https://davekarpf.substack.com/"
-                icon="https://davekarpf.substack.com/favicon.ico"
-            />
-            <outline title="Songs on the Security of Networks"
-                category="Other"
-                type="rss"   
-                xmlUrl="https://rys.io/en/feed.atom"
-                htmlUrl="https://rys.io/en/"
-                icon="https://rys.io/assets/gfx/favicon.png"
-            />
-            <outline title="News - ERVA"
-                category="Other"
-                type="rss"
-                xmlUrl="https://www.ervacommunity.org/category/news/feed/"
-            />
-            <outline title="Visioning Reports - ERVA" 
-                category="Other"
-                type="rss"
-                xmlUrl="https://www.ervacommunity.org/visioning-reports/feed"
-            />
-            <outline title="UKT News"
-                category="Other"
-                type="rss"
-                xmlUrl="https://ukt.news/feed/"
-            />
-            <outline title="TechSpot"
-                category="Other"
-                type="rss"
-                xmlUrl="https://www.techspot.com/backend.xml"
-            />
-            <outline title="xkcd.com"
-                category="Other"
-                type="rss"
-                xmlUrl="https://xkcd.com/rss.xml"
-            />
-            <outline title="CommitStrip" 
-                category="Other"
-                type="rss"
-                xmlUrl="https://www.commitstrip.com/feed/"
-            />
             <outline title="Basic Apple Guy"
                 category="Other"
                 type="rss"
                 xmlUrl="https://basicappleguy.com/basicappleblog?format=rss"
-            />
-            <outline title="Essays - Benedict Evans"
-                category="Other"
-                type="rss"
-                xmlUrl="https://www.ben-evans.com/benedictevans?format=rss"
-            />
-            <outline title="The RedMonk Newsletter"
-                category="Other"
-                type="rss"
-                xmlUrl="https://buttondown.email/redmonk/rss"
-            />
-            <outline title="VentureBeat"
-                category="Other"
-                type="rss"
-                xmlUrl="https://feeds.feedburner.com/venturebeat/SZYF"
-            />
-            <outline title="AI News"
-                category="Other"
-                type="rss"
-                xmlUrl="https://buttondown.email/ainews/rss"
-            />
-            <outline title="The Record by Recorded Future"
-                category="Other"
-                type="rss"
-                xmlUrl="https://therecord.media/feed/"
+                htmlUrl="https://basicappleguy.com"
+                icon="https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/cee51aeb-08f4-4b2f-b8b5-684e5ca26ec2/favicon.ico?format=100w"
             />
             <outline title="A London Inheritance"
                 category="Other"
                 type="rss"
                 xmlUrl="https://alondoninheritance.com/feed/"
-            />
-            <outline title="Just enough Internet"
-                category="Other"
-                type="rss"
-                xmlUrl="https://buttondown.email/justenoughinternet/rss"
-            />
-            <outline title="DYNOMIGHT"
-                category="Other"
-                type="rss"
-                xmlUrl="https://dynomight.net/feed.xml"
-            />
-            <outline title="S³"
-                category="Other"
-                type="rss"
-                xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC0-7PyfpOIJpNyi8WrHiyXA"
-            />
-            <outline title="Figure"
-                category="Other"
-                type="rss"
-                xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYlq-KmwPjc1DtsGmthFqSQ"
+                htmlUrl="https://alondoninheritance.com"
+                icon=""
             />
         </outline>
     </body>
