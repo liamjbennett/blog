@@ -27,9 +27,7 @@ categories:
 * {{< socials name="Bluesky" >}}{{< opennewtab href="https://bsky.app/profile/liamjbennett.bsky.social" title="Bluesky" >}}
 * {{< socials name="Threads" >}}{{< opennewtab href="https://www.threads.net/@liamybennett" title="Threads" >}}
 * {{< socials name="Facebook" >}}{{< opennewtab href="https://www.facebook.com/liamjbennett" title="Facebook" >}}
-* PixelFed
-* YouTube
-* PeerTube
+* {{< socials name="Youtube" >}}{{< opennewtab href="https://www.youtube.com/@liamjbennett" title="YouTube">}}
 * {{< socials name="Polywork" >}}{{< opennewtab href="https://www.polywork.com/liamjbennett" title="Polywork" >}}
 * {{< socials name="Credly" >}}{{< opennewtab href="https://www.credly.com/users/liam-bennett.86180b2b" title="Credly" >}}
 * {{< socials name="GitLab" >}}{{< opennewtab href="https://gitlab.com/liamjbennett" title="GitLab" >}}
@@ -40,5 +38,5 @@ categories:
 * {{< socials name="SoundCloud" >}}{{< opennewtab href="https://m.soundcloud.com/liam-bennett-15" title="SoundCloud" >}}
  
 ## Dead
-* AOL/AIM - liamJBennett86
-* ICQ - 345746444
+* {{< socials name="AOL" >}} AOL/AIM - liamJBennett86
+* {{< socials name="ICQ" >}} ICQ - 345746444
