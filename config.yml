@@ -84,26 +84,22 @@ menu:
       name: About Me
       url: /about/
       weight: 10
-    - identifier: posts
-      name: Posts
-      url: /posts/
+    - identifier: writing
+      name: Writing
+      url: /pages#writing
       weight: 20
-    - identifier: weeknotes
-      name: Weeknotes
-      url: /weeknotes/
+    - identifier: now
+      name: Now
+      url: /now
       weight: 30
-    - identifier: devlog
-      name: DevLog
-      url: /devlog/
-      weight: 40    
     - identifier: links
       name: Links
       url: /links/
-      weight: 50
+      weight: 40
     - identifier: pages
       name: Pages
       url: /pages/
-      weight: 60
+      weight: 50
 
 taxonomies:
     category: categories

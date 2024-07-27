@@ -21,6 +21,7 @@ categories:
 * Add /devlogs and first post
 * Added RSS feeds for weeknotes and devlogs
 * Added new /feeds page to show all RSS feeds.
+* Added new /now page
 
 ## June 2024
 * More refactoring on the blogroll into more specific sections to reduce the number in the "Other Feeds" section.

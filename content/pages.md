@@ -11,13 +11,19 @@ categories:
   - sitePages
 ---
 
-# All Pages
+## Writing 
+I have a few different places I write on this site:
 
-Static Pages are different from other content on this site like the [blogposts](/posts), they do not change often and are not chronological.
+* [/posts](/posts)
+* [/weeknotes](/weeknotes)
+* [/devlog](/devlog)
 
-## Features Pages
+## Slash Pages
+
+Following the #IndieWeb style, here are my slash pages:
 
 * [/about](/about)
+* [/now](/now)
 * [/chanagelog](/changelog)
 * [/blogroll](/blogroll.xml)
 * [/podroll](/podroll.xml)
