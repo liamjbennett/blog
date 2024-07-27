@@ -121,6 +121,11 @@
 						border-left-color:#ffbb8f;
 						color:white;
 					}
+
+					.youtube {
+						width: 20px;
+                        height: auto;
+					}
 				</style>
 			</head>
 			<body>
@@ -143,7 +148,6 @@
 						<table>
                             <tr>
                                 <td class="image-cell" rowspan="4"><img src="{@icon}" alt="missing podcast image"/></td>
-                                <td class="rss-cell"><a class="rss" href="{@xmlUrl}">XML</a></td>
                                 <td>
                                     <xsl:choose>
                                         <xsl:when test="@htmlUrl">
@@ -154,6 +158,14 @@
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </td>
+								<td class="rss-cell"><a class="rss" href="{@xmlUrl}">XML</a></td>
+								<td class="rss-cell">
+									<xsl:choose>
+                                        <xsl:when test="@videoUrl">
+											<a href="{@videoUrl}"><img class="youtube" src="https://www.youtube.com/s/desktop/780e45f1/img/favicon.ico"/></a>
+										</xsl:when>
+									</xsl:choose>
+								</td>
                             </tr>
                             <tr>
                                 <td colspan="2">
@@ -168,12 +180,12 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2">
+                                <td colspan="3">
                                     <hr class="dotted"/>
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2">
+                                <td colspan="3">
                                     <xsl:choose>
                                         <xsl:when test="@review">
                                             <xsl:value-of select="@review"/>
