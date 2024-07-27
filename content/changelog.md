@@ -19,6 +19,8 @@ categories:
 ## July 2024
 * Add /links page for all the things I find interesting on my travels.
 * Add /devlogs and first post
+* Added RSS feeds for weeknotes and devlogs
+* Added new /feeds page to show all RSS feeds.
 
 ## June 2024
 * More refactoring on the blogroll into more specific sections to reduce the number in the "Other Feeds" section.
