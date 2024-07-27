@@ -20,9 +20,11 @@ languageCode: en-gb
 
 outputs:
     home:
-        - HTML
-        - RSS
-        - AUDIO
+      - HTML
+      - RSS
+      - AUDIO
+      - WEEKNOTES
+      - DEVLOG
 
 outputFormats:
   RSS:
@@ -31,6 +33,12 @@ outputFormats:
   AUDIO:
     mediatype: application/rss
     baseName: audio
+  WEEKNOTES:
+    mediatype: application/rss
+    basename: weeknotes
+  DEVLOG:
+    mediatype: application/rss
+    basename: devlog
 
 params:
     env: production

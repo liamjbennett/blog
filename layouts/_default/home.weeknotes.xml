@@ -1,0 +1,94 @@
+{{- /* Deprecate site.Author.email in favor of site.Params.author.email */}}
+{{- $authorEmail := "" }}
+{{- with site.Params.author }}
+  {{- if reflect.IsMap . }}
+    {{- with .email }}
+      {{- $authorEmail = . }}
+    {{- end }}
+  {{- end }}
+{{- else }}
+  {{- with site.Author.email }}
+    {{- $authorEmail = . }}
+    {{- warnf "The author key in site configuration is deprecated. Use params.author.email instead." }}
+  {{- end }}
+{{- end }}
+
+{{- /* Deprecate site.Author.name in favor of site.Params.author.name */}}
+{{- $authorName := "" }}
+{{- with site.Params.author }}
+  {{- if reflect.IsMap . }}
+    {{- with .name }}
+      {{- $authorName = . }}
+    {{- end }}
+  {{- else }}
+    {{- $authorName  = . }}
+  {{- end }}
+{{- else }}
+  {{- with site.Author.name }}
+    {{- $authorName = . }}
+    {{- warnf "The author key in site configuration is deprecated. Use params.author.name instead." }}
+  {{- end }}
+{{- end }}
+
+{{- $pctx := . }}
+{{- if .IsHome }}{{ $pctx = site }}{{ end }}
+{{- $pages := slice }}
+
+{{- if or $.IsHome $.IsSection }}
+{{- $pages = (where $pctx.RegularPages ".Section" "weeknotes") }}
+{{- else }}
+{{- $pages = $pctx.Pages }}
+{{- end }}
+
+{{- $limit := site.Config.Services.RSS.Limit }}
+{{- if ge $limit 1 }}
+{{- $pages = $pages | first $limit }}
+{{- end }}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{- printf "<?xml-stylesheet href=\"/pretty-feed-v3.xsl\" type=\"text/xsl\"?>" | safeHTML }}
+<rss version="2.0" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:webfeeds="http://webfeeds.org/rss/1.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content">
+
+  <channel>
+    <title>{{ if eq .Title site.Title }}{{ site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content by liamjbennett</description>
+    <language>{{ site.Language.LanguageCode }}</language>{{ with $authorEmail }}
+    <managingEditor>{{.}}{{ with $authorName }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with $authorEmail }}
+    <webMaster>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</webMaster>{{ end }}{{ with site.Copyright }}
+    <copyright>{{ . }}</copyright>{{ end }}{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+
+    <image>
+      <title>{{ site.Title }}</title>
+      <url>{{ $.Site.BaseURL }}/img/main/profile.jpg</url>
+      <link>{{ .Permalink }}</link>
+    </image>
+    
+    <webfeeds:cover image="{{ $.Site.BaseURL }}/img/main/profile.jpg" />
+    <webfeeds:icon image="{{ $.Site.BaseURL }}/img/main/profile.jpg" />
+    <webfeeds:accentColor>DBEAFE</webfeeds:accentColor>
+    <webfeeds:related layout="card" target="browser"/>
+
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+
+    {{- range $pages }}
+    {{- if and (ne .Layout `search`) (ne .Layout `archives`) (not (in .Params.categories "sitePages")) }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
+      <guid>{{ .Permalink }}</guid>
+      <description>
+        {{ printf "<![CDATA[<img src=\"%s\"/> ]]/>" .Params.thumbnail }}
+        {{ .Description | html }}
+      </description>
+      <content:encoded>{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</content:encoded>
+    </item>
+    {{- end }}
+    {{- end }}
+  </channel>
+</rss>
