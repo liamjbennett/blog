@@ -10,3 +10,9 @@
   to = "/blogroll.xml"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/podroll"
+  to = "/podroll.xml"
+  status = 301
+  force = true
