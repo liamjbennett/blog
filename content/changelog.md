@@ -16,6 +16,9 @@ categories:
 * Add page for newsletters I'm subscribed to (newsroll)
 * Add page for people I follow (socialroll)
 
+## July 2024
+* Add /links page for all the things I find interesting on my travels.
+
 ## June 2024
 * More refactoring on the blogroll into more specific sections to reduce the number in the "Other Feeds" section.
 * Added /contacts page

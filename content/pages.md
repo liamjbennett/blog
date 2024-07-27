@@ -21,3 +21,4 @@ Static Pages are different from other content on this site like the [blogposts](
 * [/chanagelog](/changelog)
 * [/blogroll](/blogroll.xml)
 * [/podroll](/podroll.xml)
+* [/links](/links)

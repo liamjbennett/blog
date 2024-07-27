@@ -84,10 +84,14 @@ menu:
       name: Weeknotes
       url: /weeknotes/
       weight: 30
+    - identifier: links
+      name: Links
+      url: /links/
+      weight: 40
     - identifier: pages
       name: Pages
       url: /pages/
-      weight: 40
+      weight: 50
 
 taxonomies:
     category: categories
