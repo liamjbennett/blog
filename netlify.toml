@@ -4,3 +4,9 @@
 
 [build.environment]
   HUGO_VERSION = "0.121.1"
+
+[[redirects]]
+  from = "/blogroll"
+  to = "/blogroll.xml"
+  status = 301
+  force = true
