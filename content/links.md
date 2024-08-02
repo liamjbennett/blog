@@ -13,6 +13,13 @@ categories:
 
 A list of links of things I've found interesting. Think of this as me sharing my open browser tabs with you:
 
+#### 2024-08-02
+* [Access Deleted and Private Repository Data on GitHub](https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github) - An interesting security issue, which allows you to access deleted or private data if you have a fork of the repository.
+* [Fixing the CrowdStrike issue with a barcode scanner](https://www.theregister.com/2024/07/25/crowdstrike_remediation_with_barcode_scanner/) - just one of ingenuity and how that heritage knowledge can come in handy sometimes.
+* [A robot peeling a squash with human-like dexterity](https://www.newscientist.com/article/2440687-watch-a-robot-peel-a-squash-with-human-like-dexterity/) - in a theme of my bookmarks, more robot advancements, this time the hands
+* [Another Obsidian Note-Taking Workflow](https://www.ssp.sh/blog/obsidian-note-taking-workflow/) - You'd think I'd have read enough of these by now but I learn something every time and this post is not different.
+* [AI's impact on software development jobs](https://www.builder.io/blog/ai-jobs-truth) - a good, pragmatic reflection of the impact of AI.
+
 #### 2024-07-19
 * [Human Risk Management platform](https://www.mimecast.com/resources/press-releases/mimecast-hrm-platform/) - With one of my previous employers Mimecast releases their new risk management platform.
 * Los of videos about Robots:
