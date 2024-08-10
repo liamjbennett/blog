@@ -57,6 +57,9 @@ params:
     ShowToc: true
     # comments: false
 
+    mainSections:
+      - posts
+
     homeInfoParams:
         Title: "Hello!"
         Content: >

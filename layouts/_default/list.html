@@ -88,16 +88,7 @@
   </header>
   {{- if (ne (.Param "hideSummary") true) }}
   <div class="entry-content">
-    {{- if in .Params.categories "takes" }}
-      <table id="takestable">
-        <tr>
-          <td><img src="/img/main/profile.jpg" width="100px"/></td>
-          <td>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</td>
-        </tr>
-      </table>
-    {{- else }}
       <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-    {{- end }}
   </div>
   {{- end }}
   {{- if not (.Param "hideMeta") }}
