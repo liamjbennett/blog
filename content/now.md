@@ -22,16 +22,11 @@ Writing all the time (see: [writing](/pages#writing))
 
 ## Listening
 
-* [Predator by YONAKA](https://open.spotify.com/track/5r8tAjAxquehOkOruflfLP)
-* [Swing and Sway by Greywind](https://open.spotify.com/track/3t4Wpwg36E2VoBUiGKK6Fx)
-* [Maverick by Delilah Bon](https://open.spotify.com/track/1TxE8yxjFaKPEMpPy7FuLK)
-* [Houdini by Eminem](https://open.spotify.com/track/1CDQzbCz4KSQxHe7LMEgRM)
-
 (see: [Spotify](https://open.spotify.com/user/liamjbennett))
 
 ## Watching
 
-* [House of the Dragon - Season 2](https://www.imdb.com/title/tt11198330/episodes/?season=2)
+* [Criminal Record](https://www.imdb.com/title/tt21088136/)
 
 ---
-Last Updated: 27-Jul-2024
+Last Updated: 16-Aug-2024
