@@ -13,6 +13,10 @@ categories:
 
 A list of links of things I've found interesting. Think of this as me sharing my open browser tabs with you:
 
+### 2024-08-20
+* [444 game consoles hooked to one TV](https://arstechnica.com/gaming/2024/08/how-to-hook-a-record-setting-444-game-consoles-to-a-single-tv/) - A world record of the nerdy variety.
+* [Politics, layoffs and mission](https://cutlefish.substack.com/p/tbm-307-the-p-word-legitimacy-and) - A great long article on politics, views of organisations, why layoffs happen and what to do differently. 
+
 #### 2024-08-02
 * [Access Deleted and Private Repository Data on GitHub](https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github) - An interesting security issue, which allows you to access deleted or private data if you have a fork of the repository.
 * [Fixing the CrowdStrike issue with a barcode scanner](https://www.theregister.com/2024/07/25/crowdstrike_remediation_with_barcode_scanner/) - just one of ingenuity and how that heritage knowledge can come in handy sometimes.
