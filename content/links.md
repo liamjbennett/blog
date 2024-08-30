@@ -13,6 +13,16 @@ categories:
 
 A list of links of things I've found interesting. Think of this as me sharing my open browser tabs with you:
 
+### 2024-08-28
+* [UN report on killer robots](https://www.hrw.org/news/2024/08/26/killer-robots-new-un-report-urges-treaty-2026)
+* [What RSS needs](https://www.mnot.net/blog/2024/08/25/feeds)
+* 
+
+### 2024-08-25
+* [Unitree’s G1 humanoid robot](https://youtube.com/@unitreerobotics)
+* [Boardwalk Robotics](https://spectrum.ieee.org/boardwalk-robotics-alex-humanoid)
+* [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)
+
 ### 2024-08-20
 * [444 game consoles hooked to one TV](https://arstechnica.com/gaming/2024/08/how-to-hook-a-record-setting-444-game-consoles-to-a-single-tv/) - A world record of the nerdy variety.
 * [Politics, layoffs and mission](https://cutlefish.substack.com/p/tbm-307-the-p-word-legitimacy-and) - A great long article on politics, views of organisations, why layoffs happen and what to do differently. 
