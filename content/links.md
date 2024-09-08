@@ -13,10 +13,14 @@ categories:
 
 A list of links of things I've found interesting. Think of this as me sharing my open browser tabs with you:
 
+### 2024-09-08
+* [Technology allows us to speak to dead relatives](https://web.archive.org/web/20240812155216/https://www.technologyreview.com/2022/10/18/1061320/digital-clones-of-dead-people/)
+* [Compute Moonshots: Harnessing New Physics](https://www.mackenziemorehead.com/compute-moonshots/)
+* [Building apps with National Rail data](https://medium.com/@benjaminmaynard/building-cool-apps-with-national-rail-data-via-the-departureboard-io-rest-api-33b9576566be) 
+
 ### 2024-08-28
 * [UN report on killer robots](https://www.hrw.org/news/2024/08/26/killer-robots-new-un-report-urges-treaty-2026)
 * [What RSS needs](https://www.mnot.net/blog/2024/08/25/feeds)
-* 
 
 ### 2024-08-25
 * [Unitree’s G1 humanoid robot](https://youtube.com/@unitreerobotics)
