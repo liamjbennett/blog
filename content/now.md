@@ -26,7 +26,7 @@ Writing all the time (see: [writing](/pages#writing))
 
 ## Watching
 
-* [Criminal Record](https://www.imdb.com/title/tt21088136/)
+* [Star Trek: Discovery - S4+S5](https://m.imdb.com/title/tt5171438/episodes) - finishing up this series as part of a Star Trek binge.
 
 ---
-Last Updated: 16-Aug-2024
+Last Updated: 08-Sept-2024
