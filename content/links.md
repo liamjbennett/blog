@@ -13,6 +13,18 @@ categories:
 
 A list of links of things I've found interesting. Think of this as me sharing my open browser tabs with you:
 
+### 2024-10-06
+* [What's Left for Me? - Forrest Brazeal](https://www.youtube.com/watch?v=hrfEUZ0UvRo)
+* [Platform Engineering Beyond CFEngine](https://skamille.medium.com/platform-engineering-beyond-cfengine-daa9268c9c5b)
+* [AI simulation gives people a glimpse of their potential future self](https://news.mit.edu/2024/ai-simulation-gives-people-glimpse-potential-future-self-1001) 
+
+### 2024-10-02
+* [They Built This Robot For Your Home](https://youtube.com/watch?v=2ccPTpDq05A)
+* [I Lived With a Humanoid Robot for 48 Hours](https://youtube.com/watch?v=Sb6LMPXRdVc)
+* [We're losing our digital history. Can the Internet Archive save it?](https://www.bbc.com/future/article/20240912-the-archivists-battling-to-save-the-internet)
+* 
+
+
 ### 2024-09-08
 * [Technology allows us to speak to dead relatives](https://web.archive.org/web/20240812155216/https://www.technologyreview.com/2022/10/18/1061320/digital-clones-of-dead-people/)
 * [Compute Moonshots: Harnessing New Physics](https://www.mackenziemorehead.com/compute-moonshots/)
