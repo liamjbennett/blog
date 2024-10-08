@@ -13,33 +13,38 @@ categories:
 
 A list of links of things I've found interesting. Think of this as me sharing my open browser tabs with you:
 
-### 2024-10-06
+#### 2024-10-07
+* [Sergey Brin | All-In Summit 2024](https://youtube.com/watch?v=XzK9bx3CSPE)
+* [How digital agents will redefine work itself](https://venturebeat.com/ai/onboarding-the-ai-workforce-how-digital-agents-will-redefine-work-itself/)
+* [Boardwalk Robotics - Alex](https://spectrum.ieee.org/boardwalk-robotics-alex-humanoid)
+* [Hume.ai](https://www.hume.ai)
+* 
+
+#### 2024-10-06
 * [What's Left for Me? - Forrest Brazeal](https://www.youtube.com/watch?v=hrfEUZ0UvRo)
 * [Platform Engineering Beyond CFEngine](https://skamille.medium.com/platform-engineering-beyond-cfengine-daa9268c9c5b)
 * [AI simulation gives people a glimpse of their potential future self](https://news.mit.edu/2024/ai-simulation-gives-people-glimpse-potential-future-self-1001) 
 
-### 2024-10-02
+#### 2024-10-02
 * [They Built This Robot For Your Home](https://youtube.com/watch?v=2ccPTpDq05A)
 * [I Lived With a Humanoid Robot for 48 Hours](https://youtube.com/watch?v=Sb6LMPXRdVc)
 * [We're losing our digital history. Can the Internet Archive save it?](https://www.bbc.com/future/article/20240912-the-archivists-battling-to-save-the-internet)
-* 
 
-
-### 2024-09-08
+#### 2024-09-08
 * [Technology allows us to speak to dead relatives](https://web.archive.org/web/20240812155216/https://www.technologyreview.com/2022/10/18/1061320/digital-clones-of-dead-people/)
 * [Compute Moonshots: Harnessing New Physics](https://www.mackenziemorehead.com/compute-moonshots/)
 * [Building apps with National Rail data](https://medium.com/@benjaminmaynard/building-cool-apps-with-national-rail-data-via-the-departureboard-io-rest-api-33b9576566be) 
 
-### 2024-08-28
+#### 2024-08-28
 * [UN report on killer robots](https://www.hrw.org/news/2024/08/26/killer-robots-new-un-report-urges-treaty-2026)
 * [What RSS needs](https://www.mnot.net/blog/2024/08/25/feeds)
 
-### 2024-08-25
+#### 2024-08-25
 * [Unitree’s G1 humanoid robot](https://youtube.com/@unitreerobotics)
 * [Boardwalk Robotics](https://spectrum.ieee.org/boardwalk-robotics-alex-humanoid)
 * [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)
 
-### 2024-08-20
+#### 2024-08-20
 * [444 game consoles hooked to one TV](https://arstechnica.com/gaming/2024/08/how-to-hook-a-record-setting-444-game-consoles-to-a-single-tv/) - A world record of the nerdy variety.
 * [Politics, layoffs and mission](https://cutlefish.substack.com/p/tbm-307-the-p-word-legitimacy-and) - A great long article on politics, views of organisations, why layoffs happen and what to do differently. 
 
