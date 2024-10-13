@@ -15,6 +15,7 @@ A list of links of things I've found interesting. Think of this as me sharing my
 
 #### 2024-10-12
 * [WolfSSL on Windows 2000](http://datagirl.xyz/posts/wolfssl_curl_w2k.html)
+* [The CTO's Hidden Notebook](https://7ctos.com/blog/the-ctos-hidden-notebook-by-etienne-de-bruin)
  
 
 #### 2024-10-07
