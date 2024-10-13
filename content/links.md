@@ -13,6 +13,10 @@ categories:
 
 A list of links of things I've found interesting. Think of this as me sharing my open browser tabs with you:
 
+#### 2024-10-12
+* [WolfSSL on Windows 2000](http://datagirl.xyz/posts/wolfssl_curl_w2k.html)
+ 
+
 #### 2024-10-07
 * [Sergey Brin | All-In Summit 2024](https://youtube.com/watch?v=XzK9bx3CSPE)
 * [How digital agents will redefine work itself](https://venturebeat.com/ai/onboarding-the-ai-workforce-how-digital-agents-will-redefine-work-itself/)
