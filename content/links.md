@@ -13,6 +13,12 @@ categories:
 
 A list of links of things I've found interesting. Think of this as me sharing my open browser tabs with you:
 
+#### 2024-10-28
+* [Latest album from Lin-Manuel Miranda](https://www.npr.org/2024/10/17/nx-s1-5146509/lin-manuel-miranda-warriors-musical-album-eisa-davis)
+* [Advice on writing a technical book](https://third-bit.com/talks/writing-book/#slide-0)
+* [You should be using an RSS reader](https://pluralistic.net/2024/10/16/keep-it-really-simple-stupid/#read-receipts-are-you-kidding-me-seriously-fuck-that-noise)
+* [The Hemingway effect](https://bigthink.com/the-learning-curve/the-hemingway-effect/)
+
 #### 2024-10-12
 * [WolfSSL on Windows 2000](http://datagirl.xyz/posts/wolfssl_curl_w2k.html)
 * [The CTO's Hidden Notebook](https://7ctos.com/blog/the-ctos-hidden-notebook-by-etienne-de-bruin)
