@@ -29,7 +29,6 @@ A list of links of things I've found interesting. Think of this as me sharing my
 * [How digital agents will redefine work itself](https://venturebeat.com/ai/onboarding-the-ai-workforce-how-digital-agents-will-redefine-work-itself/)
 * [Boardwalk Robotics - Alex](https://spectrum.ieee.org/boardwalk-robotics-alex-humanoid)
 * [Hume.ai](https://www.hume.ai)
-* 
 
 #### 2024-10-06
 * [What's Left for Me? - Forrest Brazeal](https://www.youtube.com/watch?v=hrfEUZ0UvRo)
