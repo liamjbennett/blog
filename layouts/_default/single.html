@@ -70,6 +70,7 @@
   {{- end }}
 
   <footer class="post-footer">
+    <a href="https://shareopenly.org/share/?url={{ .Permalink }}&text={{ .Description }}">Share this Post</a>
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}
     {{- end }}
