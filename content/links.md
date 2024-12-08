@@ -13,6 +13,11 @@ categories:
 
 A list of links of things I've found interesting. Think of this as me sharing my open browser tabs with you:
 
+#### 2024-12-08
+* [ChainForge](https://www.chainforge.ai)
+* [Evaluating thought leadership with scientific methods](https://dsl.pubpub.org/pub/think-big-scrutinize/release/3?readingCollection=265f6d02)
+* [What excessive screen time does to the adult brain](https://longevity.stanford.edu/lifestyle/2024/05/30/what-excessive-screen-time-does-to-the-adult-brain/)
+
 #### 2024-10-28
 * [Latest album from Lin-Manuel Miranda](https://www.npr.org/2024/10/17/nx-s1-5146509/lin-manuel-miranda-warriors-musical-album-eisa-davis)
 * [Advice on writing a technical book](https://third-bit.com/talks/writing-book/#slide-0)
