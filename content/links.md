@@ -13,6 +13,17 @@ categories:
 
 A list of links of things I've found interesting. Think of this as me sharing my open browser tabs with you:
 
+#### 2024-12-20
+* [Founder Mode and the Art of Mythmaking](https://charity.wtf/2024/12/17/founder-mode-and-the-art-of-mythmaking/)
+* [AI Scaling Laws](https://semianalysis.com/2024/12/11/scaling-laws-o1-pro-architecture-reasoning-training-infrastructure-orion-and-claude-3-5-opus-failures/)
+* [Machines of Loving Grace](https://darioamodei.com/machines-of-loving-grace)
+
+#### 2024-12-14
+* [Google's Project Astra](https://youtube.com/watch?v=hIIlJt8JERI)
+* [How you're brain works in an emergency](https://bigthink.com/series/great-question/amanda-ripley/)
+* [Benedict Evans - AI eats the world](https://www.ben-evans.com/presentations)
+* [Facebook's Little Red Book](https://spaccapeli.com/i-remastered-facebooks-little-red-book)  
+
 #### 2024-12-08
 * [ChainForge](https://www.chainforge.ai)
 * [Evaluating thought leadership with scientific methods](https://dsl.pubpub.org/pub/think-big-scrutinize/release/3?readingCollection=265f6d02)
