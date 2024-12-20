@@ -17,6 +17,7 @@ A list of links of things I've found interesting. Think of this as me sharing my
 * [Founder Mode and the Art of Mythmaking](https://charity.wtf/2024/12/17/founder-mode-and-the-art-of-mythmaking/)
 * [AI Scaling Laws](https://semianalysis.com/2024/12/11/scaling-laws-o1-pro-architecture-reasoning-training-infrastructure-orion-and-claude-3-5-opus-failures/)
 * [Machines of Loving Grace](https://darioamodei.com/machines-of-loving-grace)
+* [The Adaptive CTO](https://chubernetes.com/the-adaptive-chief-technology-officer-ed14d6455c95)
 
 #### 2024-12-14
 * [Google's Project Astra](https://youtube.com/watch?v=hIIlJt8JERI)
