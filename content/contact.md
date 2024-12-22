@@ -13,7 +13,7 @@ categories:
 
 ## Active
 * {{< socials name="Mastodon" >}}{{< opennewtab href="https://hachyderm.io/@liamjbennett" title="Mastodon" >}}
-* {{< socials name="Twitter" >}}{{< opennewtab href="https://twitter.com/liamjbennett" title="X/Twitter" >}}
+* {{< socials name="Bluesky" >}}{{< opennewtab href="https://bsky.app/profile/liamjbennett.bsky.social" title="Bluesky" >}}
 * {{< socials name="LinkedIn" >}}{{< opennewtab href="https://www.linkedin.com/in/liam-bennett-77415821/" title="LinkedIn" >}}
 * {{< socials name="GitHub" >}}{{< opennewtab href="https://github.com/liamjbennett" title="GitHub" >}}
 * {{< socials name="Instagram" >}}{{< opennewtab href="https://www.instagram.com/liam.j.bennett/" title="Instagram" >}} 
@@ -24,7 +24,7 @@ categories:
 * {{< socials name="Duolingo" >}}{{< opennewtab href="https://www.duolingo.com/profile/liamjbennett" title="Duolingo" >}}
  
 ## Inactive/Squatting
-* {{< socials name="Bluesky" >}}{{< opennewtab href="https://bsky.app/profile/liamjbennett.bsky.social" title="Bluesky" >}}
+* {{< socials name="Twitter" >}}{{< opennewtab href="https://twitter.com/liamjbennett" title="X/Twitter" >}}
 * {{< socials name="Threads" >}}{{< opennewtab href="https://www.threads.net/@liamybennett" title="Threads" >}}
 * {{< socials name="Facebook" >}}{{< opennewtab href="https://www.facebook.com/liamjbennett" title="Facebook" >}}
 * {{< socials name="Youtube" >}}{{< opennewtab href="https://www.youtube.com/@liamjbennett" title="YouTube">}}
