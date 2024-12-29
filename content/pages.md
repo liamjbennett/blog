@@ -27,5 +27,6 @@ Following the #IndieWeb style, here are my slash pages:
 * [/chanagelog](/changelog)
 * [/blogroll](/blogroll.xml)
 * [/podroll](/podroll.xml)
+* [/newsroll](/newsroll)
 * [/links](/links)
 * [/feeds](/feeds) and [/subscribe](/subscribe)

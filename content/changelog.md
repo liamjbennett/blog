@@ -12,10 +12,12 @@ categories:
 ---
 
 ## Future
-* Add privacy page
-* Add page for newsletters I'm subscribed to (newsroll)
 * Add page for people I follow (socialroll)
+* Update pages to use internet archive links
 
+## December 2024
+* Add page for newsletters I'm subscribed to (newsroll)
+ 
 ## July 2024
 * Add /links page for all the things I find interesting on my travels.
 * Add /devlogs and first post
