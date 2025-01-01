@@ -26,7 +26,7 @@ Writing all the time (see: [writing](/pages#writing))
 
 ## Watching
 
-* [Star Trek: Discovery - S4+S5](https://m.imdb.com/title/tt5171438/episodes) - finishing up this series as part of a Star Trek binge.
+* [Black Doves - S01](https://www.netflix.com/title/81682935) - New spy thriller that I can't get enough of.
 
 ---
-Last Updated: 08-Sept-2024
+Last Updated: 22-Dec-2024
