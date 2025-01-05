@@ -5,7 +5,7 @@ ShowPostNavLinks: false
 ShowBreadCrumbs: false
 ShowCodeCopyButtons: false
 ShowToc: false
-title: "Pages"
+title: "Uses"
 author: "."
 categories:
   - sitePages
