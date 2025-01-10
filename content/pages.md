@@ -24,6 +24,7 @@ Following the #IndieWeb style, here are my slash pages:
 
 * [/about](/about)
 * [/now](/now)
+* [/uses](/pages)
 * [/chanagelog](/changelog)
 * [/blogroll](/blogroll.xml)
 * [/podroll](/podroll.xml)
