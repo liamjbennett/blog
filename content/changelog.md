@@ -15,12 +15,15 @@ categories:
 * Add page for people I follow (socialroll)
 * Update pages to use internet archive links
 
+## January 2025
+* Added more pages about me. Focusing on publishing goals, values and purpose. 
+
 ## December 2024
-* Add page for newsletters I'm subscribed to (newsroll)
+* Added page for newsletters I'm subscribed to (newsroll)
  
 ## July 2024
-* Add /links page for all the things I find interesting on my travels.
-* Add /devlogs and first post
+* Added /links page for all the things I find interesting on my travels.
+* Added /devlogs and first post
 * Added RSS feeds for weeknotes and devlogs
 * Added new /feeds page to show all RSS feeds.
 * Added new /now page
