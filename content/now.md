@@ -18,7 +18,7 @@ Writing all the time (see: [writing](/pages#writing))
 
 ## Reading
 
-* [Network Effect by Martha Wells](https://en.wikipedia.org/wiki/Network_Effect_(novel))
+* [Fugitive Telemetry by Martha Wells](https://www.goodreads.com/book/show/53205854-fugitive-telemetry)
 
 ## Listening
 
@@ -26,7 +26,7 @@ Writing all the time (see: [writing](/pages#writing))
 
 ## Watching
 
-* [Black Doves - S01](https://www.netflix.com/title/81682935) - New spy thriller that I can't get enough of.
+* [The Rig - S2](https://www.amazon.co.uk/The-Rig-Season-2/dp/B0DPBBZGY5)
 
 ---
-Last Updated: 22-Dec-2024
+Last Updated: 11-Jan-2025
