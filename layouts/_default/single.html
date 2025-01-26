@@ -3,6 +3,7 @@
 <article class="post-single">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
+    <meta name="fediverse:creator" content="@liamjbennett@hachyderm.io">
     <h1 class="post-title entry-hint-parent">
       {{- if not (in .Params.categories "takes") }}
         {{- .Title }}
