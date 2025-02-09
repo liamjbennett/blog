@@ -13,6 +13,12 @@ categories:
 
 A list of links of things I've found interesting. Think of this as me sharing my open browser tabs with you:
 
+#### 2025-02-09
+* [Wearables that listen](https://www.wired.com/story/bee-ai-omi-always-listening-ai-wearables/)
+* [Where to work after 40](https://news.ycombinator.com/item?id=42573875)
+* [Deepfake videos are getting shockingly good](https://techcrunch.com/2025/02/04/deepfake-videos-are-getting-shockingly-good/) 
+
+
 #### 2024-12-27
 * [Getpickle.ai](https://getpickle.ai/)
  
