@@ -45,14 +45,6 @@
 
   {{- if .Content }}
   <div class="post-content">
-    {{- if in .Params.categories "takes" }}
-      <table id="takestable">
-        <tr>
-          <td><img src="/img/main/profile.jpg" width="100px"/></td>
-          <td>{{ .Content }}</td>
-        </tr>
-      </table>
-    {{- else }}
       {{- if .Params.audio_url }}
         <div class="container">
           <audio controls style="width: 100%; margin-bottom: 20px">
@@ -64,9 +56,6 @@
       {{- if not (.Param "disableAnchoredHeadings") }}
       {{- partial "anchored_headings.html" .Content -}}
       {{- else }}{{ .Content }}{{ end }}
-    {{- end }}
-
-    
   </div>
   {{- end }}
 

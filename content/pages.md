@@ -16,6 +16,7 @@ I have a few different places I write on this site:
 
 * [/posts](/posts)
 * [/weeknotes](/weeknotes)
+* [/snippets](/snippets)
 * [/devlog](/devlog)
 
 ## Slash Pages
