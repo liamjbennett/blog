@@ -15,6 +15,10 @@ categories:
 * Add page for people I follow (socialroll)
 * Update pages to use internet archive links
 
+## February 2025
+* Added /snippets for social media posts
+* Migrated bookmarks and /links to snippets.
+
 ## January 2025
 * Added more pages about me. Focusing on publishing goals, values and purpose. 
 

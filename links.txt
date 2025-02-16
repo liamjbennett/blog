@@ -1,25 +1,3 @@
-A list of links of things I've found interesting. Think of this as me sharing my open browser tabs with you:
-
-#### 2025-02-09
-* [Wearables that listen](https://www.wired.com/story/bee-ai-omi-always-listening-ai-wearables/)
-* [Where to work after 40](https://news.ycombinator.com/item?id=42573875)
-* [Deepfake videos are getting shockingly good](https://techcrunch.com/2025/02/04/deepfake-videos-are-getting-shockingly-good/) 
-
-
-#### 2024-12-27
-* [Getpickle.ai](https://getpickle.ai/)
- 
-#### 2024-12-20
-* [Founder Mode and the Art of Mythmaking](https://charity.wtf/2024/12/17/founder-mode-and-the-art-of-mythmaking/)
-* [AI Scaling Laws](https://semianalysis.com/2024/12/11/scaling-laws-o1-pro-architecture-reasoning-training-infrastructure-orion-and-claude-3-5-opus-failures/)
-* [Machines of Loving Grace](https://darioamodei.com/machines-of-loving-grace)
-* [The Adaptive CTO](https://chubernetes.com/the-adaptive-chief-technology-officer-ed14d6455c95)
-
-#### 2024-12-14
-* [Google's Project Astra](https://youtube.com/watch?v=hIIlJt8JERI)
-* [How you're brain works in an emergency](https://bigthink.com/series/great-question/amanda-ripley/)
-* [Benedict Evans - AI eats the world](https://www.ben-evans.com/presentations)
-* [Facebook's Little Red Book](https://spaccapeli.com/i-remastered-facebooks-little-red-book)  
 
 #### 2024-12-08
 * [ChainForge](https://www.chainforge.ai)
@@ -35,7 +13,6 @@ A list of links of things I've found interesting. Think of this as me sharing my
 #### 2024-10-12
 * [WolfSSL on Windows 2000](http://datagirl.xyz/posts/wolfssl_curl_w2k.html)
 * [The CTO's Hidden Notebook](https://7ctos.com/blog/the-ctos-hidden-notebook-by-etienne-de-bruin)
- 
 
 #### 2024-10-07
 * [Sergey Brin | All-In Summit 2024](https://youtube.com/watch?v=XzK9bx3CSPE)
