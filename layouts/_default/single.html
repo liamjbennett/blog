@@ -35,8 +35,11 @@
   {{- partial "toc.html" . }}
   {{- end }}
 
-  {{- if .Content }}
   <div class="post-content">
+    {{- if (in .Type "snippets") }}
+        {{- partial "snippets_profile.html" . -}}
+    {{- end }}
+    {{- if .Content }}
       {{- if .Params.audio_url }}
         <div class="container">
           <audio controls style="width: 100%; margin-bottom: 20px">
@@ -45,16 +48,10 @@
           </audio>
         </div>
       {{- end }}
-      {{- if not (.Param "disableAnchoredHeadings") }}
-        {{- if (in .Type "snippets") }}
-          {{- partial "snippets_profile.html" . -}}
-        {{- end }}
-        {{- partial "anchored_headings.html" .Content -}}
-      {{- else }}
-        {{ .Content }}
-      {{ end }}
+      {{- partial "anchored_headings.html" .Content -}}
+    {{- end }}
+    {{- partial "link_preview.html" . -}}
   </div>
-  {{- end }}
 
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
