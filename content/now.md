@@ -18,7 +18,7 @@ Writing all the time (see: [writing](/pages#writing))
 
 ## Reading
 
-* [Fugitive Telemetry by Martha Wells](https://www.goodreads.com/book/show/53205854-fugitive-telemetry)
+* [Systems Collapse by Martha Wells](https://www.goodreads.com/book/show/65211701-system-collapse)
 
 ## Listening
 
@@ -26,7 +26,8 @@ Writing all the time (see: [writing](/pages#writing))
 
 ## Watching
 
-* [The Rig - S2](https://www.amazon.co.uk/The-Rig-Season-2/dp/B0DPBBZGY5)
+* [The Recruit - S02](https://www.imdb.com/title/tt16030542/)
+* [Amandaland - S01](https://www.imdb.com/title/tt33305711/)
 
 ---
-Last Updated: 11-Jan-2025
+Last Updated: 16-Feb-2025
