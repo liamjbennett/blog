@@ -1,7 +1,8 @@
 baseURL: "https://www.liamjbennett.me"
 title: liamjbennett
 copyright: Copyright 2013-2024 Liam Bennett
-paginate: 10
+pagination:
+  pagerSize: 10
 theme: hugo-PaperMod
 
 enableInlineShortcodes: true
@@ -98,7 +99,7 @@ menu:
       weight: 30
     - identifier: links
       name: Links
-      url: /links/
+      url: /links
       weight: 40
     - identifier: pages
       name: Pages
