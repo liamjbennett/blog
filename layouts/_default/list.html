@@ -85,18 +85,7 @@
     </style>
   </header>
   {{- if (in .Type "snippets") }}
-  <table border="0">
-    <tr>
-      <td rowspan="3" style="padding: 10px"><img src="{{ .Params.thumbnail }}" width="100px"/></td>
-      <td><b>Liam Bennett</b></td>
-    </tr>
-    <tr>
-      <td>@liamjbennett</td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-    </tr>
-  </table>
+  {{- partial "snippets_profile.html" . -}}
   <div class="entry-content">
     <p>{{ .Content }}</p>
   </div>
@@ -111,6 +100,11 @@
   {{- if not (.Param "hideMeta") }}
   <footer class="entry-footer">
     {{- if (in .Type "snippets") }}
+      {{ range .Params.tags }}
+        <span>#{{ . }},</span>
+      {{ end }}
+      <p/>
+      <p>&nbsp;</p>
       {{- partial "snippets_footer.html" . -}}
     {{- end }}
     {{- partial "post_meta.html" . -}}
