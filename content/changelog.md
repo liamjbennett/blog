@@ -12,8 +12,10 @@ categories:
 ---
 
 ## Future
-* Add page for people I follow (socialroll)
 * Update pages to use internet archive links
+
+## March 2025
+* Migrated twitter archive to snippets
 
 ## February 2025
 * Added /snippets for social media posts
