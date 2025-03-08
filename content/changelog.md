@@ -13,6 +13,8 @@ categories:
 
 ## Future
 * Update pages to use internet archive links
+* Update snippets to support images (and instagram posts)
+* Add additional rss feeds for snippets
 
 ## March 2025
 * Migrated twitter archive to snippets
