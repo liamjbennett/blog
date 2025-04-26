@@ -1,0 +1,17 @@
+<div class="slider">  
+    <div class="slides">
+      {{- range (seq 1 (len .Params) ) }}
+      {{- $count := (string .) }}
+      {{- $image := printf `%s%s` "image" $count }}
+      {{- $url := ($.Get $image )}}
+      <div id="slide-{{- $count -}}">
+        <img src="{{ $url }}"/>
+      </div>
+      {{- end }}
+    </div>
+
+    {{- range (seq 1 (len .Params) ) }}
+    {{- $count := (string .) }}
+    <a href="#slide-{{- $count -}}">{{- $count }}</a>
+    {{- end }}
+  </div>
