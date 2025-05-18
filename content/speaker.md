@@ -11,6 +11,8 @@ categories:
   - sitePages
 ---
 
+{{< figure src="/img/main/profile-large.jpg" align="center" width="300px" >}}
+
 Liam Bennett is the Deputy CTO at Claranet, where he leads on product innovation, digital strategy, and the adoption of emerging technologies. With a strong track record in driving complex digital transformations, Liam plays a pivotal role in helping organisations across the UK evolve their digital capabilities and accelerate value delivery.
 
 At the intersection of Cloud, AI, and Cybersecurity, Liam brings a pragmatic yet forward-thinking approach to technology adoption. He is passionate about turning emerging trends into practical solutions that scale, and is known for cutting through hype to focus on what truly delivers impact.

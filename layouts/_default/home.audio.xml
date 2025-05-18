@@ -72,7 +72,7 @@
     <!-- <googleplay:category text=""/> -->
     <!-- <googleplay:image href=""/> -->
 
-    <itunes:image href="{{ $.Site.BaseURL }}/img/main/podcast-artwork.jpg"/>
+    <itunes:image href="{{ $.Site.BaseURL }}/img/main/profile-large.jpg"/>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:author>{{ $authorName }}</itunes:author>
