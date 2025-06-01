@@ -14,6 +14,8 @@ enableEmoji: true
 
 googleAnalytics: G-DFMYZ5KKFV
 
+ignoreLogs: ['warning-goldmark-raw-html']
+
 minify:
     disableXML: true
 
