@@ -3,7 +3,7 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.139.2"
+  HUGO_VERSION = "0.147.7"
 
 [[redirects]]
   from = "/blogroll"
