@@ -6,8 +6,6 @@ ShowBreadCrumbs: false
 ShowCodeCopyButtons: false
 ShowToc: true
 author: "."
-categories:
-  - sitePages
 ---
 
 {{< cv_page word_file="/cv/liamjbennett-cv-short.docx" pdf_file="/cv/liamjbennett-cv-short.pdf" >}}
@@ -16,9 +14,21 @@ categories:
 
 ## July 2016 - Present: Claranet Limited (London)
 
-:: *Head of Portfolio Architecture and Engineering* (Mar 2023 - Present)
+:: *Deputy CTO* (Oct 2024 - Present)
 
-As Head of Portfolio Architecture I am responsible for the architecture
+As Deputy CTO my role is to focus on our digital strategy, including
+products services and the tools we use to deliver them. This includes
+emerging technologies like AI, emerging threats in the cybersecurity
+landscape and new regions of growth for Claranet.
+
+I collaborate with our largest and most strategic customers on their
+digital transformation journeys to ensure we’re constantly at the
+forefront of their needs.
+
+:: *Head of Portfolio Architecture and Engineering* (Mar 2023 - Oct
+2024)
+
+As Head of Portfolio Architecture I was responsible for the architecture
 and tooling underpinning all of Claranet UK’s portfolio of services.
 This includes supporting the definition of services, working with
 vendors and managing budgets for the investment in tools and in-house

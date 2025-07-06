@@ -19,6 +19,11 @@ Check my [/contact](/contact) page for all the places you can find me.
 
 Best catching me either on [LinkedIn](https://www.linkedin.com/in/liam-bennett-77415821/) or [Email](mailto:liamjbennett@gmail.com).
 
+## Speaking at your event
+
+I often speak on topics like Cloud, AI, Cybersecurity, Digital Strategy or Digital Transformation.
+
+Check out my [/speaker](/speaker) profile for more details.
 
 ## Hire Me
 
