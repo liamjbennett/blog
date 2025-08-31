@@ -19,16 +19,9 @@ else
   NEXT_NUM=$((LAST_NUM + 1))
 fi
 
-# Calculate Monday and Friday of this week (Mac/BSD date syntax)
-# %u = day of week (1=Monday, 7=Sunday)
-TODAY_DOW=$(date +%u)
-# Days to subtract to get Monday
-DAYS_TO_MON=$((TODAY_DOW - 1))
-# Days to add to get Friday
-DAYS_TO_FRI=$((5 - TODAY_DOW))
-
-MONDAY=$(date -v -"${DAYS_TO_MON}"d +%d-%b-%Y)
-FRIDAY=$(date -v +"${DAYS_TO_FRI}"d +%d-%b-%Y)
+# Always calculate the previous week's Monday and Friday
+MONDAY=$(date -v -1w -v +1d +%d-%b-%Y)
+FRIDAY=$(date -v -1w -v +5d +%d-%b-%Y)
 
 # Filename format: YYYY-MM-DD-weeknote-NN.md
 FILENAME="${WEEKNOTE_DIR}/${TODAY}-weeknote-${NEXT_NUM}.md"
