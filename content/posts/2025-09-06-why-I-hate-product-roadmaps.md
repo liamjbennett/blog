@@ -1,7 +1,7 @@
 ---
 author: "liamjbennett"
 title: "Why I hate product roadmaps"
-date: "2025-05-19"
+date: "2025-09-06"
 description: ""
 tags: [""]
 ShowToc: false
@@ -10,46 +10,43 @@ thumbnail: "/img/main/profile.jpg"
 audio_url: ""
 audio_length: ""
 audio_bytes: ""
-draft: true
 ---
 
-Over the years, I’ve had countless conversations about product strategy and direction. One topic that almost always comes up is the product roadmap. It’s a tool that’s become so ingrained in how teams communicate that it’s treated as an unquestioned necessity — a tick-box exercise that stakeholders expect, even demand. But here’s my honest confession: I hate product roadmaps.
+Over the years, I’ve had countless conversations about product strategy and direction. One topic that always comes up is the product roadmap. It’s a tool that’s become so ingrained in how teams communicate that it’s treated as an unquestioned necessity — a tick-box exercise that stakeholders expect, even demand. But here’s my honest confession: I hate product roadmaps.
 
 Not because I don’t like planning, or because I don’t believe in transparency, but because traditional product roadmaps often do more harm than good. They create illusions, mislead teams, and set false expectations. Today, I want to break down why I think product roadmaps fail us, and what we might do instead.
 
 ## The Illusion of Certainty
 
-A roadmap, by its very nature, projects certainty into the future. Features are laid out against neat timelines, implying that we know exactly what we’ll be working on six, twelve, or even twenty-four months from now. We're all seen those visuals: the four-quater sudo-gannt chart, the now-next-later horizon view and the one I personally love to hate the skeuomorphic roadmap with the image of an actual road.
+A roadmap, by its very nature, projects certainty into the future. Features are laid out against neat timelines, implying that we know exactly what we’ll be working on six, twelve, or even twenty-four months from now. We've all seen those visuals: the four-quater sudo-gannt chart, the now-next-later horizon view and the one I personally love to hate the skeuomorphic roadmap with the image of an actual road.
 
-The problem is, we don’t know exactly what we'll be working on. And we never really can.
+The problem is, we don’t know exactly what we'll be working on and we never really can.
 
 Markets shift, customer needs evolve, technology changes, competitors surprise us, and sometimes our own experiments take us in unexpected directions. The reality of product development is one of constant learning and adaptation. Yet roadmaps suggest the opposite: that we’ve already figured out the path and just need to follow it.
 
 This creates two major problems:
 
-**For teams**: Developers and product managers are forced into delivering against an outdated plan, even when data tells them to pivot.
+* **For teams**: Developers and product managers are forced into delivering against an outdated plan, even when data tells them to pivot.
 
-**For stakeholders**: Executives and customers start treating roadmap items as commitments. In the best case, if you deliver something early then it looks like you don't have control unless you decide to old it back for the arbitary release deadline. In the worst case things slip, leading to disappointment.
+* **For stakeholders**: Executives and customers start treating roadmap items as commitments. In the best case, if you deliver something early then it looks like you don't have control unless you decide to hold it back for the arbitary release deadline. In the worst case things slip, leading to disappointment.
 
 Some product teams adopt the "now-next-later" pattern to avoid some of these committment pitfalls, but this also has it's own challenges because these become buckets of ideas with no context, no dependencies and no committment to ever deliver.
-
-==TODO: conflict==
 
 Instead of pretending we can predict the future, we should acknowledge that we are in a cycle of discovery and delivery. Transparency doesn’t have to come from false promises of timelines, but from honest communication about our priorities and how they’re evolving.
 
 ## Features Over Outcomes
 
-Another issue with roadmaps is that they almost always prioritise new product or new product features over outcomes. A roadmap is a list: build this, add that new elemenent to the support matrix, roll out the shiny new dashboard by Q3. But features aren’t the end goal. They’re just possible means to achieve something bigger — happier customers, reduced churn, improved efficiency, higher revenue.
+Another issue with roadmaps is that they almost always prioritise new product or new product features over outcomes. A roadmap is a list: build this, add that new elemenent to the support matrix, roll out the shiny new dashboard by Q3. But features aren’t the end goal. They’re just the means to achieve something bigger — happier customers, reduced churn, improved efficiency, higher revenue.
 
 By reducing product portfolio vision to a checklist of new products and features, we fall into the trap of delivery for the sake of delivery. We create more noise than value. And worst of all, we confuse progress with output rather than impact.
 
 This feature-first mindset can demoralise teams too. Engineers don’t want to just tick boxes; they want to solve real problems. And when the measure of success is “did we deliver what’s on the roadmap?” rather than “did we make life better for our users?”, everyone loses.
 
-The alternative? Anchor discussions not on features, but on problems and outcomes. Instead of saying: “We’ll deliver the dashboard by Q3”, say: “We’ll reduce the time it takes for users to understand their data by 50%.” This reframing empowers teams to experiment, adapt, and innovate — while giving stakeholders a much clearer picture of the value being delivered.
+The alternative? Anchor discussions not on features, but on problems and outcomes. Instead of saying: *“We’ll deliver the dashboard by Q3”*, say: *“We’ll reduce the time it takes for users to discover X insight by 50%.”* This reframing empowers teams to experiment, adapt, and innovate — while giving stakeholders a much clearer picture of the value being delivered.
 
 ## The Death of Flexibility
 
-Perhaps the most frustrating thing about roadmaps is how rigid they become. Once you’ve published one, it takes on a life of its own. Updates become political. Changes are seen as failures and waste rather than reflections of learning. Before long, teams stop challenging the roadmap altogether and simply march along the path, regardless of whether it still makes sense.
+Perhaps the most frustrating thing about roadmaps is how rigid they become. Once you’ve published one, it takes on a life of its own. Updates become political. Changes are seen as failures and waste rather than reflections of learning. Things are added based upon opinion or PM influence Before long, teams stop challenging the roadmap altogether and simply march along the path, regardless of whether it still makes sense.
 
 This rigidity is the exact opposite of what agile product development is supposed to be. Agility is about responding to change, embracing uncertainty, and continuously iterating. A static roadmap undermines that philosophy, turning product development into a treadmill of obligations.
 
