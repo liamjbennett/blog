@@ -2,7 +2,7 @@
 author: "liamjbennett"
 title: "Why I hate product roadmaps"
 date: "2025-09-06"
-description: ""
+description: "Product roadmaps are ubiquitous but often flawed and I think we can do better"
 tags: [""]
 ShowToc: false
 ShowBreadCrumbs: false
@@ -11,6 +11,8 @@ audio_url: ""
 audio_length: ""
 audio_bytes: ""
 ---
+
+![Broken roadmap](/img/2025/why-i-hate-roadmaps.png)
 
 Over the years, I’ve had countless conversations about product strategy and direction. One topic that always comes up is the product roadmap. It’s a tool that’s become so ingrained in how teams communicate that it’s treated as an unquestioned necessity — a tick-box exercise that stakeholders expect, even demand. But here’s my honest confession: I hate product roadmaps.
 
