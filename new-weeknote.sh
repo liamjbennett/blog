@@ -3,11 +3,14 @@
 # Directory for weeknotes
 WEEKNOTE_DIR="content/weeknotes"
 
+# Get current year
+CURRENT_YEAR=$(date +%Y)
+
 # Get today's date
 TODAY=$(date +%Y-%m-%d)
 
 # Find the highest weeknote number so far
-LAST_NUM=$(ls -1 "${WEEKNOTE_DIR}"/*-weeknote-*.md 2>/dev/null \
+LAST_NUM=$(ls -1 "${WEEKNOTE_DIR}/${CURRENT_YEAR}"/*-weeknote-*.md 2>/dev/null \
   | grep -oE 'weeknote-[0-9]+' \
   | grep -oE '[0-9]+' \
   | sort -n \
@@ -24,7 +27,7 @@ MONDAY=$(date -v -1w -v +1d +%d-%b-%Y)
 FRIDAY=$(date -v -1w -v +5d +%d-%b-%Y)
 
 # Filename format: YYYY-MM-DD-weeknote-NN.md
-FILENAME="${WEEKNOTE_DIR}/${TODAY}-weeknote-${NEXT_NUM}.md"
+FILENAME="${WEEKNOTE_DIR}/${CURRENT_YEAR}/${TODAY}-weeknote-${NEXT_NUM}.md"
 
 # Create the markdown file with frontmatter
 cat > "$FILENAME" <<EOF

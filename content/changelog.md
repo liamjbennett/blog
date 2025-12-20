@@ -15,6 +15,9 @@ categories:
 * Update pages to use internet archive links
 * Add additional rss feeds for snippets
 
+## Dec 2025
+* Refactored [/weeknotes] into folders
+
 ## May 2025
 * Added [/speaker](/speaker) page.
 
