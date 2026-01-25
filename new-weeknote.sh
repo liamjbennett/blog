@@ -23,8 +23,8 @@ else
 fi
 
 # Always calculate the previous week's Monday and Friday
-MONDAY=$(date -v -1w -v +1d +%d-%b-%Y)
-FRIDAY=$(date -v -1w -v +5d +%d-%b-%Y)
+MONDAY=$(date -v-Mon +%d-%b-%Y)
+FRIDAY=$(date -v-Fri +%d-%b-%Y)
 
 # Filename format: YYYY-MM-DD-weeknote-NN.md
 FILENAME="${WEEKNOTE_DIR}/${CURRENT_YEAR}/${TODAY}-weeknote-${NEXT_NUM}.md"
