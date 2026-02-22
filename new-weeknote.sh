@@ -64,9 +64,11 @@ XXX
 * XX book pages read
 <p/>
 
+<!-- vale off -->
 📺 - This weeks background entertainment:
 *
 *
+<!-- vale on -->
 
 EOF
 
