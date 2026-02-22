@@ -1,5 +1,14 @@
+# General
 liamjbennett
+weeknote
+
+# Proper Nouns
 Wipro
 Infosys
 TCS
 Claranet
+
+# Abbreviations
+MSPs
+GSIs
+ADRs
