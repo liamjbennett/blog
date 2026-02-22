@@ -1,6 +1,6 @@
 [build]
   command = """
-    curl -sfL https://install.goreleaser.com/github.com/errata-ai/vale.sh | sh -s -- -b /usr/local/bin &&
+    pip install vale &&
     vale sync &&
     vale content/ &&
     hugo
