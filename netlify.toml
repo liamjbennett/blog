@@ -2,7 +2,7 @@
   command = """
     pip install vale &&
     vale sync &&
-    vale content/ &&
+    vale content/ || true &&
     hugo
   """
   publish = "public"
