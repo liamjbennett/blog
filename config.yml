@@ -1,6 +1,5 @@
 baseURL: "https://www.liamjbennett.me"
 title: liamjbennett
-copyright: Copyright 2013-2024 Liam Bennett
 pagination:
   pagerSize: 10
 theme: hugo-PaperMod
@@ -25,6 +24,7 @@ outputs:
     home:
       - HTML
       - RSS
+      - JSON
       - AUDIO
       - WEEKNOTES
       - DEVLOG
@@ -60,6 +60,11 @@ params:
     ShowToc: true
     # comments: false
     social: true
+
+    fuseOpts:
+      isCaseSensitive: false
+      minMatchCharLength: 2
+      keys: [ "title", "tags", "categories", "permalink", "summary", "content" ] 
 
     mainSections:
       - posts
@@ -107,6 +112,10 @@ menu:
       name: Pages
       url: /pages/
       weight: 50
+    - identifier: search
+      name: 🔍
+      url: /search/
+      weight: 60
 
 taxonomies:
     category: categories
