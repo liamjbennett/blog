@@ -1,14 +1,47 @@
 # General
 liamjbennett
-weeknote
+[Ww]eeknotes?
 
 # Proper Nouns
 Wipro
 Infosys
 TCS
+VMware
+Mimecast
 Claranet
+Bluesky
+Anbernic
+Argos
+iGaming
+Loopio
+Netflix
+Fortnum
+Thoughtworks
+Dyanmics
+Minchin
 
 # Abbreviations
-MSPs
-GSIs
-ADRs
+MSPs?
+GSIs?
+ADRs?
+SLAs?
+KPIs?
+VPNs?
+RFIs?
+RFPs?
+WTFs?
+PRFAQs?
+POCs?
+CMDB
+
+# Other
+FinOps
+GreenOps
+CloudOps
+[Cc]yber
+[Rr]oadmaps?
+[Tt]o[Dd]o
+defrag
+hyperscale
+majeure
+enablement
