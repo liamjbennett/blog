@@ -1,6 +1,9 @@
 # General
 liamjbennett
 [Ww]eeknotes?
+[Bb]logrolls?
+[Pp]odrolls?
+[Dd]evlogs?
 
 # Proper Nouns
 Wipro
@@ -19,13 +22,30 @@ Fortnum
 Thoughtworks
 Dyanmics
 Minchin
+Pulumi
+Synthesia
+Duolingo
+Spotify
+Flexera
+Todoist
+Informix
+Kusto
+kOps
+Anodot
+Parcs
+Longleat
+[Ww]ardley
+[Ss]erverless
 
 # Abbreviations
 MSPs?
 GSIs?
 ADRs?
 SLAs?
+SLOs?
 KPIs?
+OLAs?
+APIs?
 VPNs?
 RFIs?
 RFPs?
@@ -35,9 +55,9 @@ POCs?
 CMDB
 
 # Other
-FinOps
-GreenOps
-CloudOps
+[Ff]inOps
+[Gg]reenOps
+[Cc]loudOps
 [Cc]yber
 [Rr]oadmaps?
 [Tt]o[Dd]o
@@ -45,3 +65,8 @@ defrag
 hyperscale
 majeure
 enablement
+ebooks?
+taggable
+performant
+decluttering
+impactful

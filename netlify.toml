@@ -2,7 +2,7 @@
   command = """
     pip install vale &&
     vale sync &&
-    vale content/ || true &&
+    vale content/weeknotes/ || true &&
     hugo
   """
   publish = "public"
