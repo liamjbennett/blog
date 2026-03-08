@@ -1,0 +1,6 @@
+extends: spelling
+level: error
+message: "'%s' is not GB English"
+dicpath: styles/config/dictionaries
+dictionaries:
+  - en_GB
