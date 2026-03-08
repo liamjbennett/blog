@@ -36,6 +36,7 @@ Parcs
 Longleat
 [Ww]ardley
 [Ss]erverless
+Panzura
 
 # Abbreviations
 MSPs?
