@@ -33,7 +33,7 @@ FILENAME="${WEEKNOTE_DIR}/${CURRENT_YEAR}/${TODAY}-weeknote-${NEXT_NUM}.md"
 cat > "$FILENAME" <<EOF
 ---
 author: "liamjbennett"
-title: "Week Note ${NEXT_NUM}"
+title: "${CURRENT_YEAR} - Week Note ${NEXT_NUM}"
 date: "${TODAY}"
 description: "${MONDAY} - ${FRIDAY}"
 series: ["weeknotes"]
