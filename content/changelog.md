@@ -15,8 +15,11 @@ categories:
 * Update pages to use internet archive links
 * Add additional rss feeds for snippets
 
+## Mar 2026
+* Added [vale](https://vale.sh/) for spelling and british english checks.
+
 ## Dec 2025
-* Refactored [/weeknotes] into folders
+* Refactored [/weeknotes](/weeknotes) into folders
 
 ## May 2025
 * Added [/speaker](/speaker) page.
