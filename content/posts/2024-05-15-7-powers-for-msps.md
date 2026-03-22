@@ -59,7 +59,7 @@ For a more modern take on network effects we have to look at the Chinese company
 
 There is another way I have seen this appear. When a company acquires an entity (for it’s speciality) it keeps that organisation separated with an independent but common brand (see: [Reply](https://www.reply.com/en) for a good example of this). The entity remains autonomous but working with it’s sister companies for scale and expanded market penetration.
 
-One of the ways to remember Network Effects is the “the value increases the more people use it”. For managed service providers this comes into effect by building communities. Communities in this context is working a depth though the supply chain (i.e. your customer is my customer). By managing both sides of a relationship your able unlock unique insights for all parties that they might not otherwise see. Community building is quite different to the the 1-to-1 nature of the traditional channel experience and is an area where a lot of innovation can occur.
+One of the ways to remember Network Effects is the “the value increases the more people use it”. For managed service providers this comes into effect by building communities. Communities in this context is working a depth though the supply chain (i.e. your customer is my customer). By managing both sides of a relationship your able unlock unique insights for all parties that they might not otherwise see. Community building is quite different to the 1-to-1 nature of the traditional channel experience and is an area where a lot of innovation can occur.
 
 ## Branding
 

@@ -9,7 +9,7 @@ ShowBreadCrumbs: false
 expiryDate: "2015-12-01"
 ---
 
-The second installment in the series on the Beaker testing tool.
+The second instalment in the series on the Beaker testing tool.
 
 This post covers the work that was done to enhance the tool for testing windows systems.
 
@@ -170,7 +170,7 @@ This was working well for us so we continued on to our next module.
 
 The next module we chose to look at was [puppet-Windowsfeature](http://github.com/opentable/puppet-Windowsfeature).
 
-The test we have implemented in this moudle looks like this:
+The test we have implemented in this module looks like this:
 
     require 'spec_helper_acceptance'
 
@@ -265,7 +265,7 @@ the way of doing so right now:
     - [https://github.com/dylanmei/packer-communicator-winrm](https://github.com/dylanmei/packer-communicator-winrm)
 
 2. Beaker doesn’t yet support WinRM as a communication protocol. This is currently being discussed internally after we raised the idea. The work that we have completed for
-Bitvise support will go some way it allowing other providers, such as wirm going forward and therefore WinRM support should be coming in the near future.
+Bitvise support will go some way it allowing other providers, such as WinRM going forward and therefore WinRM support should be coming in the near future.
 
 ## Summary
 Using Beaker to test modules for Windows has been a long and complicated journey. I have attempted to cover here all the problems that you might run into when trying to do this for yourselves and provide some good examples to get you going. You will soon see this being rolled out to all of the OpenTable open source modules shortly so you will have some complete working examples to reference. We will continue to work with PuppetLabs in improving Beaker (and its Windows support) in order to make this a easy process for everyone.

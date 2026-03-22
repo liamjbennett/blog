@@ -9,7 +9,7 @@ ShowBreadCrumbs: false
 expiryDate: "2015-12-01"
 ---
 
-The third installment of my review of the 2014 Puppet conference:
+The third instalment of my review of the 2014 Puppet conference:
 
 This was originally published at: http://tech.opentable.co.uk/blog/2014/10/06/puppetconf-2014-part-3/
 
@@ -31,7 +31,7 @@ There were even more inspiring keynotes and lots more talks which have given us 
 </div>
 
 
-Dan Spuring, VP of Tech Services at Getty came out of the gate with a strong message. His [GSD](http://www.urbandictionary.com/define.php?term=GSD) t-shirt
+Dan Spurling, VP of Tech Services at Getty came out of the gate with a strong message. His [GSD](http://www.urbandictionary.com/define.php?term=GSD) t-shirt
 giving you a clear understanding of who he is. His talk about creating a culture of Puppet adoption at his company was a great story of how challenging it
 can be to move various business units with projects of various ages to a configuration-management (with Puppet) ethos.
 
@@ -46,7 +46,7 @@ The big take-away was that you need to puppetize right away - that you can’t w
 start now and demonstrate it. This echo’s the Continuous Delivery ideal of "if it hurts, then do it more often".
 
 
-#### Decentralize Your Infrastructure - Alan Green, Sony Computer Entertainment America - [Slides](http://www.slideshare.net/PuppetLabs/keynote-decentralize-your-infrastructure-alan-green-sony-computer-entertainment-america)
+#### Decentralise Your Infrastructure - Alan Green, Sony Computer Entertainment America - [Slides](http://www.slideshare.net/PuppetLabs/keynote-decentralize-your-infrastructure-alan-green-sony-computer-entertainment-america)
 
 <div style="float:right;margin:0 10px 10px 10px;width:50%">
   <img src="/images/posts/puppetconf-alan.jpg">
@@ -60,7 +60,7 @@ try and support.
 The story of the interaction with these studios is a great classic sysadmin story that is worth repeating. It starts with something we have all heard before "I
 need to X right now because it’s preventing me from releasing this game on time”. The reaction here is to either say Yes and risk burning out your people getting
 it done or No risk your career if the release date gets pushed. As a sysadmin you're on the back-foot at this point - you pretty much have to do whatever it takes.
-If you decentralize your infrastructure you get to turn the tables "No I don’t have tool X but we do have tool Y and Z that will meet your needs". This gives
+If you decentralise your infrastructure you get to turn the tables "No I don’t have tool X but we do have tool Y and Z that will meet your needs". This gives
 the engineers/managers the choice to make rather than you - they can go out on their own and implement their first choice tool and it will take a bit longer or
 they can have something supported by the team right now. Alan also made a interesting call-back to Kate Matsudaira’s keynote of the previous day when he said that
 it’s all about honesty and trust. Be truthful with your engineers about what you are capable of achieving or not.
@@ -100,7 +100,7 @@ puppet community will continue to be vibrant for a long time yet.
 
 
 **Q**: Where does Puppet fit into environments that don’t require convergence, where instead of adjusting the container you just re-provision?<br/>
-**A**: Containers are a result of 10 to 15 years of investment in virtualization, so it’s easy to switch from the virtualization world to the containers world —
+**A**: Containers are a result of 10 to 15 years of investment in virtualisation, so it’s easy to switch from the virtualisation world to the containers world —
 but a container can’t do everything.
 
 
@@ -199,7 +199,7 @@ He also showed how and when to use Puppet in this environment. For anyone moving
 * don’t install puppet inside your containers
 * puppet apply
 
-#### Tools and Virtualization to Manage our Operations at Puppet Labs - Cody Herriges, Puppet Labs - [Slides](http://www.slideshare.net/PuppetLabs/tools-and-virtualization-to-manage-our-operations-at-puppet-labs-puppetconf-2014)
+#### Tools and Virtualisation to Manage our Operations at Puppet Labs - Cody Herriges, Puppet Labs - [Slides](http://www.slideshare.net/PuppetLabs/tools-and-virtualization-to-manage-our-operations-at-puppet-labs-puppetconf-2014)
 
 Cody, is a member of the PuppetLabs operations team and wow they seriously have their work cut out for them. They have to manage pretty much every network,
 vm technology and cloud platform available. This gives some of the challenges in doing that and some of the tools they have built to help them in
@@ -216,7 +216,7 @@ achieving that.
 
 * The Switch as a Server - Leslie Carr, Cumulus Networks - [Slides](http://www.slideshare.net/PuppetLabs/the-switch-as-a-server-puppetconf-2014)
 * Intro to Using MCollective - Devon Peters, Jive Software - [Slides](http://www.slideshare.net/PuppetLabs/intro-to-using-mcollective-puppetconf-2014)
-* How Puppet Enables the Use of Lightweight Virtualized Containers - Jeff McCune, Puppet Labs - [Slides](http://www.slideshare.net/PuppetLabs/how-puppet-enables-the-use-of-lightweight-virtualized-containers-jeff-mc-cune-puppet-labs)
+* How Puppet Enables the Use of Lightweight Virtualised Containers - Jeff McCune, Puppet Labs - [Slides](http://www.slideshare.net/PuppetLabs/how-puppet-enables-the-use-of-lightweight-virtualized-containers-jeff-mc-cune-puppet-labs)
 * Server Locality Using Razor and LLDP - Jonas Rosland, EMC - [Slides](http://www.slideshare.net/PuppetLabs/server-locality-withrazorandlldp)
 * Node Classifier Fundamentals - Dan Lidral-Porter, Puppet Labs - [Slides](http://www.slideshare.net/PuppetLabs/node-classifier-fundamentals-dan-lidralporter-puppet-lab)
 * What's Next for Puppet Enterprise - Lindsey Smith, Puppet Labs & Susannah Axelrod, Puppet Labs - [Slides](http://www.slideshare.net/PuppetLabs/whats-next-for-puppet-enterprise-and-beyond)

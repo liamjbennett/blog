@@ -13,7 +13,7 @@ The first installation of my review of the 2014 Puppet conference.
 
 This series of posts will cover the talks, workshops and the contributors summit.
 
-This was originally publisthed at: http://tech.opentable.co.uk/blog/2014/10/06/puppetconf-2014-part-1/
+This was originally published at: http://tech.opentable.co.uk/blog/2014/10/06/puppetconf-2014-part-1/
 
 ---
 
@@ -52,7 +52,7 @@ Ryan also commented that PuppetLabs has some metrics it uses for it’s own modu
 
 #### Puppet Community (Daniele Sluijters [@daenney](https://twitter.com/daenney))
 Discussion of the shared namespace for community modules: [puppet-community](http://puppet-community.github.io/). This talk was about a community project
-to keep modules in a shared namespace so that everyone can work on them independent of company ownership. There are limitations right now with with
+to keep modules in a shared namespace so that everyone can work on them independent of company ownership. There are limitations right now with
 regards to the forge e.g. no shared accounts and no easy migration path to move modules between namespaces but working with Ryan on that.
 
 This is how the boxen project works and it seems to work pretty well.
@@ -67,12 +67,12 @@ and [Testing Puppet with Beaker pt.3 - Testing Roles](/blog/2014/09/01/testing-p
 
 #### Module Anti-Patterns (Peter Souter [@petems](https://twitter.com/petems)) - [Slides](http://www.slideshare.net/petems/puppet-module-anti-patterns)
 
-Some interesting patterns here that are still quite preverlant in the modules found on the forge. Hopefully improved tooling and the new Puppet Approved
+Some interesting patterns here that are still quite prevalent in the modules found on the forge. Hopefully improved tooling and the new Puppet Approved
 program will help here.
 
 
 #### Puppetlabs ModuleSync tool (Colleen Murphy [@pdx_krinkle](https://twitter.com/pdx_krinkle))
-A demonstration of the the tool [puppetlabs-modulesync](https://github.com/puppetlabs/modulesync) which aims to take out some of the pain of managing common
+A demonstration of the tool [puppetlabs-modulesync](https://github.com/puppetlabs/modulesync) which aims to take out some of the pain of managing common
 static build files across a number of modules (e.g. a common Rakefile or .travis.yml which the same across almost all modules)
 
 Having used this on a number of our modules now I can say that this in extremely useful and I don’t know how we managed without it. A key use case for us was
@@ -85,7 +85,7 @@ languages have a strict option and Puppet’s makes sure to check for those unkn
 [puppetlabs_spec_helper](https://github.com/puppetlabs/puppetlabs_spec_helper) supports adding this setting with an environment variable so that you can now
 add this into your testing matrix.
 
-We have enabled this on our open source modules and it did indeed surfice a few bugs so go and do it now.
+We have enabled this on our open source modules and it did indeed suffice a few bugs so go and do it now.
 
 
 #### Puppet Documentation Linting (Peter Souter [@petems](https://twitter.com/petems))
@@ -159,7 +159,7 @@ case. Such use cases include: "who is using my module?" or "who is using the bit
 of questions a little easier in the future.
 
 ## Summary
-The contributor summit was personally one of the most useful days of the conference. Being able to see the lastest tooling and discuss the latest problems is always
+The contributor summit was personally one of the most useful days of the conference. Being able to see the latest tooling and discuss the latest problems is always
 very useful to module authors like ourselves. Hopefully you'll find this summary as useful as we do.
 
 Next up Day 1 - PuppetConf proper..

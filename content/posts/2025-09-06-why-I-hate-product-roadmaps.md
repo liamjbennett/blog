@@ -30,15 +30,15 @@ This creates two major problems:
 
 * **For teams**: Developers and product managers are forced into delivering against an outdated plan, even when data tells them to pivot.
 
-* **For stakeholders**: Executives and customers start treating roadmap items as commitments. In the best case, if you deliver something early then it looks like you don't have control unless you decide to hold it back for the arbitary release deadline. In the worst case things slip, leading to disappointment.
+* **For stakeholders**: Executives and customers start treating roadmap items as commitments. In the best case, if you deliver something early then it looks like you don't have control unless you decide to hold it back for the arbitrary release deadline. In the worst case things slip, leading to disappointment.
 
-Some product teams adopt the "now-next-later" pattern to avoid some of these committment pitfalls, but this also has it's own challenges because these become buckets of ideas with no context, no dependencies and no committment to ever deliver.
+Some product teams adopt the "now-next-later" pattern to avoid some of these commitment pitfalls, but this also has it's own challenges because these become buckets of ideas with no context, no dependencies and no commitment to ever deliver.
 
 Instead of pretending we can predict the future, we should acknowledge that we are in a cycle of discovery and delivery. Transparency doesn’t have to come from false promises of timelines, but from honest communication about our priorities and how they’re evolving.
 
 ## Features Over Outcomes
 
-Another issue with roadmaps is that they almost always prioritise new product or new product features over outcomes. A roadmap is a list: build this, add that new elemenent to the support matrix, roll out the shiny new dashboard by Q3. But features aren’t the end goal. They’re just the means to achieve something bigger — happier customers, reduced churn, improved efficiency, higher revenue.
+Another issue with roadmaps is that they almost always prioritise new product or new product features over outcomes. A roadmap is a list: build this, add that new element to the support matrix, roll out the shiny new dashboard by Q3. But features aren’t the end goal. They’re just the means to achieve something bigger — happier customers, reduced churn, improved efficiency, higher revenue.
 
 By reducing product portfolio vision to a checklist of new products and features, we fall into the trap of delivery for the sake of delivery. We create more noise than value. And worst of all, we confuse progress with output rather than impact.
 

@@ -9,7 +9,7 @@ ShowBreadCrumbs: false
 expiryDate: "2015-12-01"
 ---
 
-The second installment of my review of the 2014 Puppet conference.
+The second instalment of my review of the 2014 Puppet conference.
 
 This was originally published at: http://tech.opentable.co.uk/blog/2014/10/06/puppetconf-2014-part-2/
 
@@ -67,7 +67,7 @@ idea that 80% of what you're going to want to configure on your systems should b
 been covered by the module engineers at PuppetLabs under the existing Puppet Support Modules program. This has been fantastic in driving for consensus around
 configuration making installation of certain products (like apache) easier for people.
 
-The reality is that if PuppetLabs want to achieve its 80% goal they are are not going to be able to do that with the engineers and resources they have
+The reality is that if PuppetLabs want to achieve its 80% goal they are not going to be able to do that with the engineers and resources they have
 available to them. Nor do they have the expertise to know about all the software out there. This is where the Puppet Approved program comes in. Its aim is to
 provide the same standard of quality that you see in the Supported modules but for modules written by the community. It is easy for users of the forge to
 be able to pick out high quality, actively maintained modules and know what they are getting. As a user this is very exciting and as a module author, while
@@ -98,7 +98,7 @@ I for one am very excited by all this and look forward to seeing what comes out 
 </div>
 
 This was a great overview of Gene’s research of DevOps and how that intersects with high performing organisations. There were many interesting results that came
-out the the survey that he did in joint co-operation with PuppetLabs many of which he shared during this talk.
+out the survey that he did in joint co-operation with PuppetLabs many of which he shared during this talk.
 
 I think the one that stands out and often tweeted is the following:
 
@@ -166,7 +166,7 @@ If you haven’t heard of beaker yet you will also be interested in our [previou
 
 Lots and lots of interesting information here about the new Puppet 4 syntax and jokes about some of the terrible edge cases of the past. It is good to
 know now that with Puppet 4 there is a formal specification for the language so we should no longer see these sorts of weird edge cases of the past.
-There are also lots of new features in the language: some to deal with long standing pain points (interation), some to help in the move away from ruby
+There are also lots of new features in the language: some to deal with long standing pain points (iteration), some to help in the move away from ruby
 (Puppet templates) and some to prevent authors themselves writing buggy manifests (the type system). Puppet 4 is going to be an exciting this to use.
 
  * pain-points / cleanup (specification)

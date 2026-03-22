@@ -20,10 +20,10 @@ This was originally posted at: http://tech.opentable.co.uk/blog/2014/09/01/testi
 
 ## Master-vs-Masterless
 
-Prior to this post all our beaker testing has been master-less i.e. using using puppet agent apply. This is perfectly adequate for most use cases when
+Prior to this post all our beaker testing has been master-less i.e. using puppet agent apply. This is perfectly adequate for most use cases when
 testing modules in isolation but doesn’t always work when testing an internal code base (unless you are masterless there as well then please skip to the next section).
 
-At OpenTable we do use a central puppet master to compile our catalogs. So when testing our puppet roles we wanted to make sure that we were also testing
+At OpenTable we do use a central puppet master to compile our catalogues. So when testing our puppet roles we wanted to make sure that we were also testing
 with a master-agent configuration. It is worth mentioning here that if (like us) you are testing windows agents then you are going to need to test with master-agent
 approach due to the lack of a windows master.
 
@@ -58,11 +58,11 @@ CONFIG:
   type: git
 ```
 
-In this example you will see that we are specifying different ‘roles’ for each host in the nodeset. What a role is in in this context is a tag for that node that allows
+In this example you will see that we are specifying different ‘roles’ for each host in the nodeset. What a role is in this context is a tag for that node that allows
 us to reference it directly later when running commands on the host. To avoid any further confusion, from this point onwards if I am referring to the role defined in the
-nodeset file I will call it the ‘nodeset role’ otherwise I am referring the the puppet role provided in the manifest. There are a couple of build-in nodeset roles that
+nodeset file I will call it the ‘nodeset role’ otherwise I am referring the puppet role provided in the manifest. There are a couple of build-in nodeset roles that
 Beaker already knows about: master, agent and default. The first two are pretty self explanatory but the last nodeset role - default - is the location where the tests
-themselves run. In you don’t specify the ‘default’ nodeset role on any of your host definitions then the tests will run on the first host that you specified in in the
+themselves run. In you don’t specify the ‘default’ nodeset role on any of your host definitions then the tests will run on the first host that you specified in the
 nodeset file (which in the case of the example above would be wrong).
 
 You may have a more complicated configuration that you wish to test and this allows you to specify arbitrary tags which can be very useful.
@@ -116,7 +116,7 @@ end
 ```
 \
 
-We can see here how we use the host[‘roles’] in order to select the appropriate code-path for configurting each nodeset role. Now let’s
+We can see here how we use the host[‘roles’] in order to select the appropriate code-path for configuring each nodeset role. Now let’s
 move onto how we configure each of those nodeset roles.
 
 ## Configuring the master
@@ -125,7 +125,7 @@ There are a lot of things that go into building a puppetmaster:
 
 * puppetmaster packages
 * hiera backends
-* gems for addditional dependencies (eyaml + puppetdbquery)
+* gems for additional dependencies (eyaml + puppetdbquery)
 * downloading external modules
 
 Now let’s step through our new spec_acceptence file that supports this multi-node environment:
@@ -205,8 +205,8 @@ configure_puppet(master, config)
 ```
 \
 
-Here we are configuring out puppet.conf file, making sure that it includes any customization we might need. This uses a configure_puppet method
-that we have added to beaker to allow us to do this customization and in this case it is taking the hash to modify the puppet.conf file on the master
+Here we are configuring out puppet.conf file, making sure that it includes any customisation we might need. This uses a configure_puppet method
+that we have added to beaker to allow us to do this customisation and in this case it is taking the hash to modify the puppet.conf file on the master
 host.
 
 ### Install the required ruby gems:
@@ -264,7 +264,7 @@ environment and I would try it without first but it’s worth noting anyway.
 ## Configuring the agent
 
 So if you’ve got to this point well done - most of the hard work is done. Configuring the agent(s) is pretty straightforward in comparison
-to a puppetmaster and some of the steps are similiar:
+to a puppetmaster and some of the steps are similar:
 
 ### Set the puppet.conf file:
 
@@ -342,7 +342,7 @@ expect(run_agent_on(agent, :catch_failures => true).exit_code).to be_zero
 
 2. Interaction of multiple modules and profiles 
 This is the big motivator - we want to test that and make sure that the combinations
-of profiles that we are applying work together and do not either break the catalog or operate in a non-idempotent way. We are also gaining
+of profiles that we are applying work together and do not either break the catalogue or operate in a non-idempotent way. We are also gaining
 the ability to test that updates in modules (many of which are external from the puppet forge) do not break our roles in any way.
 
 3. Postivie/Negative testing - do we clean up after ourselves if we remove something.

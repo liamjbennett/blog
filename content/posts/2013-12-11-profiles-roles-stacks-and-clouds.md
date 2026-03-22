@@ -1,5 +1,5 @@
 ---
-author: "liamjbenntt"
+author: "liamjbennett"
 title: "profiles, roles, stacks and clouds"
 date: "2013-12-11"
 description: ""
@@ -9,7 +9,7 @@ ShowBreadCrumbs: false
 expiryDate: "2015-12-01"
 ---
 
-One of the more recent patterns in structuring out puppet manifests is: roles and profiles [[1]](#968504594f013f0067f2c0f7ec5c5fb8) [[2]](#9031aeaf735f6dffb9872a8328853a5f). The summary is this: profiles are a collection of classes/modules and roles are a collection of profiles. Having started to re-factor our own infratructure with this pattern recently there was one question that cam immediately to mind .. what's next?
+One of the more recent patterns in structuring out puppet manifests is: roles and profiles [[1]](#968504594f013f0067f2c0f7ec5c5fb8) [[2]](#9031aeaf735f6dffb9872a8328853a5f). The summary is this: profiles are a collection of classes/modules and roles are a collection of profiles. Having started to re-factor our own infrastructure with this pattern recently there was one question that cam immediately to mind .. what's next?
 
 Roles and profiles is all about abstraction. With roles all I have to care about is what "type" of node I am building:
 
@@ -40,10 +40,10 @@ Can we group together those nodes and roles? What I would like to see is the "st
          }
      }
 
-This does use the node declarations rather than the ENC but it can allow us to scale out small indeependant infrastucture quickly.
+This does use the node declarations rather than the ENC but it can allow us to scale out small independent infrastructure quickly.
 
 ###Cloud
-Puppet also is now moving beyound the server to network swtiches and embedded hardware. Can we also extend out thinking beyond the 3-tier web stack? Can we use puppet to manage independent regions or independent clouds? I would like to see something like the following ...
+Puppet also is now moving beyond the server to network switches and embedded hardware. Can we also extend out thinking beyond the 3-tier web stack? Can we use puppet to manage independent regions or independent clouds? I would like to see something like the following ...
 
     define cloud::region(
       $stack

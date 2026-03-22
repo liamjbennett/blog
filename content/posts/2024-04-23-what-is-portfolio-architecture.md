@@ -23,7 +23,7 @@ In this post, I’ll delve into the concept of portfolio architecture, its signi
 
 Portfolio Architecture refers to the strategic design and organisation of a suite of products within a business. It ensures coherence, alignment, and optimal customer outcomes. Before I get too much into the detail, let’s understand a couple of things first.
 
-When building a catalog of products, you start with a product taxonomy - the way you structure your products; by type, by item, how you price, how you bundle etc. When inside an organisation with 1-2 products it’s easy enough to fit inside the head of a single product manager. In larger organisations, managing a growing number of products becomes more complex. Product bundles and propositions start to emerge to group things together and products can vary in type, in size and across many other different axis.
+When building a catalogue of products, you start with a product taxonomy - the way you structure your products; by type, by item, how you price, how you bundle etc. When inside an organisation with 1-2 products it’s easy enough to fit inside the head of a single product manager. In larger organisations, managing a growing number of products becomes more complex. Product bundles and propositions start to emerge to group things together and products can vary in type, in size and across many other different axis.
 
 ## Role of a Portfolio Architect
 
@@ -39,4 +39,4 @@ I have to admit, this post has been waiting around mostly because it’s taking 
 
 Anyway, for all of you who have asked me this question recently, or those of you who’ve seen my title and asked the question in your head, hopefully this goes some way to answering that question.
 
-If you’d like to know more, or you’d like to to write a bit more of this topic, then reach out and let me know. If any you have similar roles then I’d love to chat more so get in touch.
+If you’d like to know more, or you’d like to write a bit more of this topic, then reach out and let me know. If any you have similar roles then I’d love to chat more so get in touch.

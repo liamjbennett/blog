@@ -23,7 +23,7 @@ This is not one of my usual blog posts. Sometimes, blogs take weeks of thinking 
 So, here it is. If you're keeping up with my [weeknotes](https://www.liamjbennett.me/weeknotes/) you'll know that 6 weeks ago, I purchased a walking treadmill ([this one](https://www.amazon.co.uk/dp/B0CMQH1B16) to be precise) in order to increase my step count and improve my overall cardio health. 
 
 ## Background
-Despite having been an experienced remote worker for over a decade, I had fallen into that trap of sitting at my desk or the sofa for hours at a time and I was only totaling up three-to-four thousand steps per day rather than the required average of ten thousand. I was feeling it too - my body was telling me I need to make a change. This is part of a wider focus on my health and the first steps in moving towards the routine of [The lazy technologist's guide to fitness](https://dberkholz.com/2024/02/05/the-lazy-technologists-guide-to-fitness/).
+Despite having been an experienced remote worker for over a decade, I had fallen into that trap of sitting at my desk or the sofa for hours at a time and I was only totalling up three-to-four thousand steps per day rather than the required average of ten thousand. I was feeling it too - my body was telling me I need to make a change. This is part of a wider focus on my health and the first steps in moving towards the routine of [The lazy technologist's guide to fitness](https://dberkholz.com/2024/02/05/the-lazy-technologists-guide-to-fitness/).
 
 ## The Setup
 
