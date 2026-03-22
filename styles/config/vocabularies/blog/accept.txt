@@ -37,6 +37,10 @@ Longleat
 [Ww]ardley
 [Ss]erverless
 Panzura
+Terravision
+Visio
+AWS
+Nygard
 
 # Abbreviations
 MSPs?
@@ -72,3 +76,5 @@ performant
 decluttering
 impactful
 etc
+agentic
+composable
