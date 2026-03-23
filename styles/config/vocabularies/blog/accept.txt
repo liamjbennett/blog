@@ -165,7 +165,7 @@ VPNs?
 WTFs?
 
 # Other
-agentic
+[Aa]gentic
 [Cc]loudOps
 composable
 [Cc]yber
