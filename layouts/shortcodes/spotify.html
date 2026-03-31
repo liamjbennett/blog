@@ -1,0 +1,22 @@
+{{- $url := .Get "url" -}}
+{{- $title := .Get "title" | default "Spotify player" -}}
+{{- $height := .Get "height" | default "352" -}}
+
+{{- if $url -}}
+  {{- $embedUrl := replace $url "https://open.spotify.com/" "https://open.spotify.com/embed/" -}}
+  {{- $embedUrl = printf "%s%s" $embedUrl "?utm_source=generator" -}}
+  <div class="spotify-player">
+    <iframe
+      src="{{ $embedUrl }}"
+      width="100%"
+      height="{{ $height }}"
+      frameborder="0"
+      allowfullscreen
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+      title="{{ $title }}">
+    </iframe>
+  </div>
+{{- else -}}
+  <p><a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer">Open Spotify</a></p>
+{{- end -}}

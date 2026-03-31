@@ -18,16 +18,15 @@ Writing all the time (see: [writing](/pages#writing))
 
 ## Reading
 
-* [Systems Collapse by Martha Wells](https://www.goodreads.com/book/show/65211701-system-collapse)
+* [House of Huawei: The Secret History of China's Most Powerful Company](https://www.goodreads.com/book/show/214490408-house-of-huawei)
 
 ## Listening
 
-(see: [Spotify](https://open.spotify.com/user/liamjbennett))
+{{< spotify url="https://open.spotify.com/playlist/7dd6lGDBBm2f7fs3lPlNEu" title="Spotify Listening" >}}
 
 ## Watching
 
-* [The Recruit - S02](https://www.imdb.com/title/tt16030542/)
-* [Amandaland - S01](https://www.imdb.com/title/tt33305711/)
+* [Small Prophets - S01](https://www.imdb.com/title/tt38504111/)
 
 ---
-Last Updated: 16-Feb-2025
+Last Updated: 31-Mar-2026
