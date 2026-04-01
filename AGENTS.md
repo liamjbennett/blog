@@ -5,11 +5,11 @@
 
 ## Workflows
 ### New Blog Posts
-- Run `./new-post.sh` to create a new blogpost
+- Run `./scripts/new-post.sh` to create a new blogpost
 - Run `vale content/posts` after creating new or amending existing posts
 - Commit messages follow coventional commits format
 ### New Weeknotes
-- Run `./new-weeknote.sh` to create a new blogpost
+- Run `./scripts/new-weeknote.sh` to create a new blogpost
 - Run `vale content/weeknotes` after creating new or amending existing weeknotes
 - Commit messages follow coventional commits format
 
