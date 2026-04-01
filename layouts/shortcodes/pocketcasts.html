@@ -1,0 +1,370 @@
+{{- $title := .Get "title" | default "Recent Pocket Casts Listens" -}}
+{{- $artwork := .Get "artwork" | default "" -}}
+{{- $episodesJson := .Get "episodes" | default "" -}}
+{{- $episodes := "" -}}
+{{- if $episodesJson -}}
+  {{- $episodes = unmarshal $episodesJson -}}
+{{- else if .Site.Data.pocketcasts_episodes -}}
+  {{- $episodes = .Site.Data.pocketcasts_episodes -}}
+{{- end -}}
+
+<div class="pocketcasts-player">
+  <div class="pocketcasts-shell">
+    {{- if $episodes -}}
+      {{- $first := index $episodes 0 -}}
+      {{- $playlistArtwork := $artwork | default "" -}}
+      {{- $firstArtwork := $first.artwork | default $first.image | default $first.podcast_artwork | default $first.podcastImage | default "" -}}
+      {{- $displayArtwork := $playlistArtwork | default $firstArtwork -}}
+      <div class="pocketcasts-embed" data-initial-artwork="{{ $displayArtwork }}">
+        <div class="pocketcasts-now-art" aria-hidden="true">
+          <img src="{{ $displayArtwork }}" alt="" loading="lazy" decoding="async"{{ if not $displayArtwork }} hidden{{ end }}>
+          <span class="pocketcasts-now-art-fallback"{{ if $displayArtwork }} hidden{{ end }}></span>
+        </div>
+        <div class="pocketcasts-controls-wrapper">
+          <a href="https://www.pocketcasts.com/" target="_blank" rel="noopener noreferrer" class="pocketcasts-open" aria-label="Open Pocket Casts">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12,0C5.372,0,0,5.372,0,12c0,6.628,5.372,12,12,12c6.628,0,12-5.372,12-12 C24,5.372,18.628,0,12,0z M15.564,12c0-1.968-1.596-3.564-3.564-3.564c-1.968,0-3.564,1.595-3.564,3.564 c0,1.968,1.595,3.564,3.564,3.564V17.6c-3.093,0-5.6-2.507-5.6-5.6c0-3.093,2.507-5.6,5.6-5.6c3.093,0,5.6,2.507,5.6,5.6H15.564z M19,12c0-3.866-3.134-7-7-7c-3.866,0-7,3.134-7,7c0,3.866,3.134,7,7,7v2.333c-5.155,0-9.333-4.179-9.333-9.333 c0-5.155,4.179-9.333,9.333-9.333c5.155,0,9.333,4.179,9.333,9.333H19z" />
+            </svg>
+          </a>
+          <h3 class="pocketcasts-player-title">{{ $title }}</h3>
+          <p class="pocketcasts-author">liamjbennett</p>
+          <p class="pocketcasts-now-playing">
+            <strong>{{ $first.episode }}</strong>
+            <span>{{ $first.show }}</span>
+          </p>
+          <div class="pocketcasts-controls">
+            <audio class="pocketcasts-audio" preload="none" src="{{ $first.url }}"></audio>
+            <div class="pocketcasts-custom-controls">
+            <button class="pocketcasts-control-btn pocketcasts-previous-btn" title="Previous episode" aria-label="Previous episode">
+              <svg viewBox="0 0 24 24">
+                <path d="M6 6h2v12H6V6zm3.5 6l8.5 6V6z" />
+              </svg>
+            </button>
+            <div class="pocketcasts-progress-container">
+              <div class="pocketcasts-progress-bar">
+                <div class="pocketcasts-progress-fill"></div>
+                <input type="range" class="pocketcasts-progress-input" min="0" max="100" value="0" aria-label="Seek">
+              </div>
+            </div>
+            <button class="pocketcasts-control-btn pocketcasts-next-btn" title="Next episode" aria-label="Next episode">
+              <svg viewBox="0 0 24 24">
+                <path d="M16 6h2v12h-2M6 6l10 6-10 6" />
+              </svg>
+            </button>
+            <div class="pocketcasts-time-display">
+              <span class="pocketcasts-current-time">0:00</span>
+            </div>
+            <button class="pocketcasts-control-btn pocketcasts-menu-btn" title="Menu" aria-label="More options">
+              <svg viewBox="0 0 24 24">
+                <path d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" />
+              </svg>
+            </button>
+            <button class="pocketcasts-control-btn pocketcasts-play-btn" title="Play" aria-label="Play">
+              <svg viewBox="0 0 24 24" class="pocketcasts-play-icon-large">
+                <path d="M8 5.14v13.72c0 .55.59.9 1.08.63l10.62-6.86a.73.73 0 0 0 0-1.26L9.08 4.5A.73.73 0 0 0 8 5.14z" />
+              </svg>
+              <svg viewBox="0 0 24 24" class="pocketcasts-pause-icon-large">
+                <path d="M5 3h6v18H5zM13 3h6v18h-6z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        </div>
+      </div>
+      <ol class="pocketcasts-episodes">
+        {{- range $index, $episode := $episodes -}}
+          {{- $episodeArtwork := $episode.artwork | default $episode.image | default $episode.podcast_artwork | default $episode.podcastImage | default "" -}}
+          <li class="pocketcasts-episode">
+            {{- if $episode.url -}}
+              <button
+                type="button"
+                class="pocketcasts-link{{ if eq $index 0 }} is-active{{ end }}"
+                data-url="{{ $episode.url }}"
+                data-episode="{{ $episode.episode }}"
+                data-show="{{ $episode.show }}"
+                data-artwork="{{ $episodeArtwork }}"
+                data-duration="{{ $episode.duration | default "" }}"
+                aria-label="Play {{ $episode.episode }} from {{ $episode.show }}"
+              >
+                <span class="pocketcasts-play-icon" aria-hidden="true">
+                  <span class="pocketcasts-track-num">{{ add $index 1 }}</span>
+                  <svg viewBox="0 0 24 24" class="pocketcasts-play-svg">
+                    <path d="M8 5.14v13.72c0 .55.59.9 1.08.63l10.62-6.86a.73.73 0 0 0 0-1.26L9.08 4.5A.73.73 0 0 0 8 5.14z" />
+                  </svg>
+                  <svg viewBox="0 0 24 24" class="pocketcasts-pause-svg">
+                    <path d="M5 3h6v18H5zM13 3h6v18h-6z" />
+                  </svg>
+                </span>
+                <span class="pocketcasts-copy">
+                  {{- if $episode.episode -}}
+                    <strong class="pocketcasts-episode-title">{{ $episode.episode }}</strong>
+                  {{- end -}}
+                  <span class="pocketcasts-show">{{ $episode.show }}</span>
+                </span>
+                {{- if $episode.duration -}}
+                  <span class="pocketcasts-duration">{{ $episode.duration }}</span>
+                {{- end -}}
+              </button>
+            {{- end -}}
+          </li>
+        {{- end -}}
+      </ol>
+    {{- else -}}
+      <p class="pocketcasts-empty">No recent listens. Open Pocket Casts to start playing.</p>
+    {{- end -}}
+  </div>
+</div>
+{{- if $episodes -}}
+<script>
+  (() => {
+    const root = document.currentScript.previousElementSibling;
+    if (!root) return;
+
+    const audio = root.querySelector('.pocketcasts-audio');
+    const artworkFrame = root.querySelector('.pocketcasts-now-art');
+    const artworkImage = artworkFrame?.querySelector('img');
+    const artworkFallback = artworkFrame?.querySelector('.pocketcasts-now-art-fallback');
+    const episodesList = root.querySelector('.pocketcasts-episodes');
+    const buttons = root.querySelectorAll('.pocketcasts-link[data-url]');
+    
+    // Custom controls
+    const controls = root.querySelector('.pocketcasts-custom-controls');
+    const playBtn = controls?.querySelector('.pocketcasts-play-btn');
+    const prevBtn = controls?.querySelector('.pocketcasts-previous-btn');
+    const nextBtn = controls?.querySelector('.pocketcasts-next-btn');
+    const progressInput = controls?.querySelector('.pocketcasts-progress-input');
+    const progressFill = controls?.querySelector('.pocketcasts-progress-fill');
+    const timeDisplay = controls?.querySelector('.pocketcasts-current-time');
+
+    if (!audio || !buttons.length) return;
+
+    let currentButton = null;
+    let isSeeking = false;
+    let scrollHideTimer;
+    let isHoveringEpisodes = false;
+
+    let showTimeRemaining = true;
+
+    const formatTime = (seconds, showRemaining = true) => {
+      if (!isFinite(seconds) || isNaN(seconds)) return '0:00';
+      const mins = Math.floor(seconds / 60);
+      const secs = Math.floor(seconds % 60);
+      const timeStr = `${mins}:${secs.toString().padStart(2, '0')}`;
+      return showRemaining ? `-${timeStr}` : timeStr;
+    };
+
+    const setActive = (activeButton) => {
+      buttons.forEach((button) => {
+        button.classList.toggle('is-active', button === activeButton);
+      });
+    };
+
+    const setArtwork = (artworkUrl) => {
+      if (!artworkFrame) return;
+
+      if (artworkImage) {
+        if (artworkUrl) {
+          artworkImage.src = artworkUrl;
+          artworkImage.hidden = false;
+          if (artworkFallback) artworkFallback.hidden = true;
+          artworkFrame.classList.remove('has-fallback');
+        } else {
+          artworkImage.hidden = true;
+          if (artworkFallback) artworkFallback.hidden = false;
+          artworkFrame.classList.add('has-fallback');
+        }
+        return;
+      }
+
+      artworkFrame.classList.toggle('has-fallback', !artworkUrl);
+    };
+
+    const getCurrentIndex = () => {
+      return Array.from(buttons).indexOf(currentButton);
+    };
+
+    const playEpisode = (button) => {
+      const nextUrl = button.dataset.url;
+      if (!nextUrl) return;
+
+      if (audio.src !== nextUrl) {
+        audio.src = nextUrl;
+        currentButton = button;
+      } else {
+        currentButton = button;
+      }
+
+      setActive(button);
+      audio.play();
+    };
+
+    const updateProgress = () => {
+      if (!isSeeking && audio.duration) {
+        const percent = (audio.currentTime / audio.duration) * 100;
+        if (progressFill) progressFill.style.width = `${percent}%`;
+        if (progressInput) progressInput.value = percent;
+        if (timeDisplay) {
+          const remaining = audio.duration - audio.currentTime;
+          timeDisplay.textContent = formatTime(remaining, showTimeRemaining);
+        }
+      }
+    };
+
+    // Initialize first episode
+    if (buttons.length > 0) {
+      currentButton = buttons[0];
+      audio.src = buttons[0].dataset.url;
+      setActive(buttons[0]);
+      const initialArtwork = root.querySelector('.pocketcasts-embed')?.dataset.initialArtwork;
+      setArtwork(initialArtwork || '');
+    }
+
+    if (episodesList) {
+      const queueScrollbarHide = () => {
+        clearTimeout(scrollHideTimer);
+        scrollHideTimer = setTimeout(() => {
+          if (!isHoveringEpisodes) {
+            episodesList.classList.remove('is-scrolling');
+          }
+        }, 550);
+      };
+
+      episodesList.addEventListener('scroll', () => {
+        episodesList.classList.add('is-scrolling');
+        queueScrollbarHide();
+      }, { passive: true });
+
+      episodesList.addEventListener('mouseenter', () => {
+        isHoveringEpisodes = true;
+      });
+
+      episodesList.addEventListener('mouseleave', () => {
+        isHoveringEpisodes = false;
+        if (episodesList.classList.contains('is-scrolling')) {
+          queueScrollbarHide();
+        }
+      });
+    }
+
+    // Play/Pause button
+    if (playBtn) {
+      playBtn.addEventListener('click', () => {
+        if (audio.paused) {
+          audio.play();
+        } else {
+          audio.pause();
+        }
+      });
+    }
+
+    // Previous button
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        const currentIndex = getCurrentIndex();
+        if (currentIndex > 0) {
+          playEpisode(buttons[currentIndex - 1]);
+        }
+      });
+    }
+
+    // Next button
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        const currentIndex = getCurrentIndex();
+        if (currentIndex < buttons.length - 1) {
+          playEpisode(buttons[currentIndex + 1]);
+        }
+      });
+    }
+
+    // Time display toggle
+    if (timeDisplay) {
+      timeDisplay.addEventListener('click', () => {
+        showTimeRemaining = !showTimeRemaining;
+        updateProgress();
+      });
+    }
+
+    // Progress bar seeking
+    if (progressInput) {
+      progressInput.addEventListener('mousedown', () => {
+        isSeeking = true;
+      });
+
+      progressInput.addEventListener('mousemove', (e) => {
+        if (isSeeking && audio.duration) {
+          const percent = e.target.value;
+          const time = (percent / 100) * audio.duration;
+          audio.currentTime = time;
+        }
+      });
+
+      progressInput.addEventListener('mouseup', (e) => {
+        if (audio.duration) {
+          const percent = e.target.value;
+          const time = (percent / 100) * audio.duration;
+          audio.currentTime = time;
+        }
+        isSeeking = false;
+      });
+
+      progressInput.addEventListener('touchstart', () => {
+        isSeeking = true;
+      });
+
+      progressInput.addEventListener('touchmove', (e) => {
+        if (isSeeking && audio.duration && e.target.value !== undefined) {
+          const percent = e.target.value;
+          const time = (percent / 100) * audio.duration;
+          audio.currentTime = time;
+        }
+      });
+
+      progressInput.addEventListener('touchend', (e) => {
+        if (audio.duration && e.target.value !== undefined) {
+          const percent = e.target.value;
+          const time = (percent / 100) * audio.duration;
+          audio.currentTime = time;
+        }
+        isSeeking = false;
+      });
+    }
+
+    // Episode list buttons
+    buttons.forEach((button) => {
+      button.addEventListener('click', () => {
+        if (button === currentButton && !audio.paused) {
+          audio.pause();
+        } else {
+          playEpisode(button);
+        }
+      });
+    });
+
+    // Audio events
+    audio.addEventListener('timeupdate', updateProgress);
+    audio.addEventListener('loadedmetadata', () => {
+      if (progressInput) progressInput.max = 100;
+    });
+
+    audio.addEventListener('play', () => {
+      if (playBtn) {
+        playBtn.querySelector('.pocketcasts-play-icon-large').style.display = 'none';
+        playBtn.querySelector('.pocketcasts-pause-icon-large').style.display = 'block';
+      }
+      buttons.forEach((b) => {
+        if (b === currentButton) b.dataset.state = 'playing';
+        else delete b.dataset.state;
+      });
+    });
+
+    audio.addEventListener('pause', () => {
+      if (playBtn) {
+        playBtn.querySelector('.pocketcasts-play-icon-large').style.display = 'block';
+        playBtn.querySelector('.pocketcasts-pause-icon-large').style.display = 'none';
+      }
+      if (currentButton) currentButton.dataset.state = 'paused';
+    });
+  })();
+</script>
+{{- end -}}
