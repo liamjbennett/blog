@@ -19,11 +19,11 @@ Writing all the time (see: [writing](/pages#writing))
 
 ## Reading
 
-* [House of Huawei: The Secret History of China's Most Powerful Company](https://www.goodreads.com/book/show/214490408-house-of-huawei)
+{{< bookcover src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1719031646i/214490408.jpg" title="House of Huawei: The Secret History of China's Most Powerful Company" url="https://www.goodreads.com/book/show/214490408-house-of-huawei" >}}
 
 ## Watching
 
-* [Small Prophets - S01](https://www.imdb.com/title/tt38504111/)
+{{< bookcover src="https://m.media-amazon.com/images/M/MV5BYmVhMjQzNzYtNzc5ZC00NTA1LWI2OWQtNjNjZDU5MjUwOWIxXkEyXkFqcGc@._V1_.jpg" title="Small Prophets - S01" url="https://www.imdb.com/title/tt38504111/" >}}
 
 ## Listening
 
@@ -34,4 +34,4 @@ Writing all the time (see: [writing](/pages#writing))
 {{< spotify url="https://open.spotify.com/playlist/7dd6lGDBBm2f7fs3lPlNEu" title="Spotify Listening" height="370" >}}
 
 ---
-Last Updated: 01-Apr-2026
+Last Updated: 02-Apr-2026

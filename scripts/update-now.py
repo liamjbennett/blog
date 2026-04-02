@@ -3,9 +3,14 @@
 from __future__ import annotations
 
 from datetime import date, datetime
+from html import unescape
+import json
 from pathlib import Path
 import re
 import sys
+from urllib.parse import urlparse
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
 
 
 WEEKNOTE_DIR = Path("content/weeknotes")
@@ -13,6 +18,11 @@ NOW_FILE = Path("content/now.md")
 READING_HEADING = "## Reading"
 WATCHING_HEADING = "## Watching"
 BOOK_PAGES_PATTERN = re.compile(r"^\* \d+ book pages read \((.+?) - p\d+-p\d+\)(?: - Finished)?$")
+MARKDOWN_LINK_PATTERN = re.compile(r"^\[(.+?)\]\((https?://[^)]+)\)$")
+OG_IMAGE_PATTERN = re.compile(
+    r'<meta\s+property="og:image"\s+content="([^"]+)"\s*/?>', re.IGNORECASE
+)
+IMDB_TITLE_PATTERN = re.compile(r"/title/(tt\d+)")
 WEEKNOTE_WATCHING_HEADING = "📺 - This weeks background entertainment:"
 
 
@@ -74,6 +84,81 @@ def extract_reading_items(weeknote_path: Path) -> list[str]:
     raise RuntimeError(f"No reading item found in {weeknote_path}")
 
 
+def fetch_og_image_url(page_url: str) -> str | None:
+    request = Request(
+        page_url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        },
+    )
+
+    try:
+        with urlopen(request, timeout=10) as response:
+            html = response.read().decode("utf-8", errors="ignore")
+    except (HTTPError, URLError, TimeoutError):
+        return None
+
+    match = OG_IMAGE_PATTERN.search(html)
+    if not match:
+        return fetch_imdb_image_url(page_url)
+
+    return unescape(match.group(1))
+
+
+def fetch_imdb_image_url(page_url: str) -> str | None:
+    parsed_url = urlparse(page_url)
+    if "imdb.com" not in parsed_url.netloc:
+        return None
+
+    title_match = IMDB_TITLE_PATTERN.search(parsed_url.path)
+    if not title_match:
+        return None
+
+    title_id = title_match.group(1)
+    suggestion_url = f"https://v2.sg.media-imdb.com/suggestion/{title_id[0]}/{title_id}.json"
+
+    try:
+        with urlopen(suggestion_url, timeout=10) as response:
+            payload = json.load(response)
+    except (HTTPError, URLError, TimeoutError, json.JSONDecodeError):
+        return None
+
+    for item in payload.get("d", []):
+        image = item.get("i")
+        if image and image.get("imageUrl"):
+            return image["imageUrl"]
+
+    return None
+
+
+def format_media_item(item: str) -> str:
+    content = item.strip()
+    if content.startswith("* "):
+        content = content[2:]
+    match = MARKDOWN_LINK_PATTERN.match(content)
+    if not match:
+        return content
+
+    title = match.group(1).strip()
+    url = match.group(2).strip()
+    cover_url = fetch_og_image_url(url)
+
+    if cover_url:
+        return f'{{{{< bookcover src="{cover_url}" title="{title}" url="{url}" >}}}}'
+
+    return f"[{title}]({url})"
+
+
+def build_reading_section_items(weeknote_path: Path) -> list[str]:
+    extracted_items = extract_reading_items(weeknote_path)
+    return [format_media_item(item) for item in extracted_items]
+
+
+def build_watching_section_items(weeknote_path: Path) -> list[str]:
+    extracted_items = extract_watching_items(weeknote_path)
+    return [format_media_item(item) for item in extracted_items]
+
+
 def replace_section(now_lines: list[str], heading: str, items: list[str]) -> list[str]:
     section_start: int | None = None
     section_end: int | None = None
@@ -119,8 +204,8 @@ def main() -> int:
     updated_on = today.strftime("%d-%b-%Y")
 
     latest_weeknote = find_latest_weeknote(today)
-    reading_items = extract_reading_items(latest_weeknote)
-    watching_items = extract_watching_items(latest_weeknote)
+    reading_items = build_reading_section_items(latest_weeknote)
+    watching_items = build_watching_section_items(latest_weeknote)
 
     now_lines = NOW_FILE.read_text().splitlines()
     updated_lines = replace_section(now_lines, READING_HEADING, reading_items)
