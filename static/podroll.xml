@@ -5,223 +5,86 @@
         <title>OPML file of all the podcasts I'm subscribed to:</title>
     </head>
     <body>
-        <outline title="Priority Queue" text="Priority Queue (5 podcasts)">
-            <outline text="AWS Morning Brief"
-                description="The latest in AWS news, sprinkled with snark."
-                icon="https://podcastaddict.com/cache/artwork/thumb/2382583" 
-                type="rss"
-                xmlUrl="https://feeds.transistor.fm/aws-morning-brief"/>
-            <outline title="Eat Sleep Work Repeat" text="Eat Sleep Work Repeat"
-                description="Conversations about workplace culture, psychology and life, hosted by Bruce Daisley"
-                icon="https://podcastaddict.com/cache/artwork/thumb/3590205" 
-                type="rss"
-                xmlUrl="https://feeds.acast.com/public/shows/a3c828c3-73ec-4a4b-995c-958894896ec0"/>
-            <outline title="Working It" text="Working It"
-                description="Isabel Berwick with expert analysis and watercooler chat about ahead-of-the-curve workplace trends, the big ideas shaping work today"
-                icon="https://podcastaddict.com/cache/artwork/thumb/3852319" 
-                type="rss"
-                xmlUrl="https://feeds.acast.com/public/shows/68c48326-7dc0-4ef7-8b41-33c38cf596fb"/>
-            <outline title="A Bit of Optimism" text="A Bit of Optimism"
-                description="Simon Sinek talks to inspiring people who teach me more about life, leadership and general interesting things. "
-                icon="https://podcastaddict.com/cache/artwork/thumb/4708670" 
-                type="rss"
-                xmlUrl="https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/f942844a-2418-455b-b939-b0a6011cc1a5/c752e78f-5005-4826-bf3a-b0a6011cc1cf/podcast.rss"
-                videoUrl="https://www.youtube.com/playlist?list=PLgCOAz4cqZMTQ4Blgkfr4IqU2YAJWJzN1"/>
-            <outline title="Acquired" text="Acquired"
-                description="Every company has a story. Learn the playbooks that built the world’s greatest companies."
-                icon="https://podcastaddict.com/cache/artwork/thumb/4289303" 
-                type="rss"
-                xmlUrl="https://feeds.transistor.fm/acquired"
-                videoUrl="https://www.youtube.com/playlist?list=PLjZkFWu3rWSE2cZ8L2CbiRMmHtJeF0kHh"/>
+        <outline title="Priority Queue" text="Priority Queue (3 podcasts)">
+            <outline text="Last Week In AWS Podcast" description="The latest in AWS news, sprinkled with snark. Posts about AWS come out over sixty times a day. We filter through it all to find the hidden gems, the community contributions--the stuff worth hearing about! Then we summarize it with snark and share it with you--minus the nonsense." type="rss" xmlUrl="https://www.lastweekinaws.com"/>
+            <outline text="Acquired" description="Every company has a story. Learn the playbooks that built the world’s greatest companies — and how you can apply them." type="rss" xmlUrl="https://acquired.fm"/>
+            <outline text="Risky Business" description="Risky Business is a weekly information security podcast featuring news and in-depth interviews with industry luminaries. Launched in February 2007, Risky Business is a must-listen digest for information security pros. With a running time of approximately 50-60 minutes, Risky Business is pacy; a security podcast without the waffle." type="rss" xmlUrl="https://risky.biz/"/>
         </outline>
-        <outline title="Scheduled Queue" text="Scheduled Queue (9 podcasts)">
-            <outline text="Arrested DevOps"
-                description="Arested DevOps is the podcast that helps you achieve understanding, develop good practices"
-                icon="https://podcastaddict.com/cache/artwork/thumb/509259" 
-                type="rss"
-                xmlUrl="http://feeds.podtrac.com/VGAulpN7MY1U"
-                videoUrl="https://www.youtube.com/@Arresteddevops/videos"/>
-            <outline text="a16z Podcast"
-                description="The a16z Podcast discusses tech and culture trends, news, and the future "
-                icon="https://podcastaddict.com/cache/artwork/thumb/2436095" 
-                type="rss"
-                xmlUrl="https://feeds.simplecast.com/JGE3yC0V"
-                videoUrl="https://www.youtube.com/playlist?list=PLM4u6XbiXf5rnUvH5NLdV_It2QLgbHBDZ"/>
-            <outline text="Squiggly Careers"
-                description="Squiggly Careers is a weekly podcast that will help you take control of your career development. "
-                icon="https://podcastaddict.com/cache/artwork/thumb/3590037" 
-                type="rss"
-                xmlUrl="https://feeds.acast.com/public/shows/82cdef27-a3c7-4751-94fd-f9c01d2a7f60"
-                videoUrl="https://www.youtube.com/playlist?list=PLNQl9gsac8BX_ZOor0DfPUUNRzHBlW0L8"/>
-            <outline text="Cloud Unplugged"
-                description="A light-hearted look at cloud engineering under the lens of platform teams"
-                icon="https://podcastaddict.com/cache/artwork/thumb/4246958" 
-                type="rss"
-                xmlUrl="https://feeds.bcast.fm/cloud-unplugged"
-                videoUrl="https://www.youtube.com/@cloudunplugged/videos"/>
-            <outline text="Software Defined Talk"
-                description="A weekly dose of all things Enterprise Software and Cloud Computing"
-                icon="https://podcastaddict.com/cache/artwork/thumb/2246023" 
-                type="rss"
-                xmlUrl="https://www.softwaredefinedtalk.com/rss"
-                videoUrl="https://www.youtube.com/playlist?list=PLk19Plf_pEnSdwXf_fSSBSZ2gH9v8Hg0l"/>
-            <outline text="Screaming in the Cloud"
-                description="Corey Quinn hosts conversations with domain experts in the world of Cloud Computing."
-                icon="https://m.media-amazon.com/images/I/41XwXNgUaBL.jpg" 
-                type="rss"
-                xmlUrl="https://feeds.transistor.fm/screaming-in-the-cloud"
-                videoUrl="https://www.youtube.com/playlist?list=PL637Bgczhi1zVuLFwkT4GLgdcKpMN1BmH"/>
-            <outline text="The New Way We Work"
-                description="Kathleen Davis takes listeners on a journey through the changing landscape of our work lives"
-                icon="https://podcastaddict.com/cache/artwork/thumb/2416333" 
-                type="rss"
-                xmlUrl="https://feeds.megaphone.fm/MANV3867221972"/>
-            <outline text="WorkLife with Adam Grant"
-                description="Adam Grant takes you inside the minds of some of the world’s most unusual professionals to discover the keys to a better work life."
-                icon="https://podcastaddict.com/cache/artwork/thumb/2156565" 
-                type="rss"
-                xmlUrl="https://feeds.feedburner.com/WorklifeWithAdamGrant"
-                videoUrl="https://www.youtube.com/playlist?list=PLAWu34VO7OtLBbm3PLlGrnjnxlrMVCn6Q"/>
-            <outline text="Unlocking Us with Brené Brown"
-                description="Brené Brown's conversation with people about what it means to be human"
-                icon="https://podcastaddict.com/cache/artwork/thumb/4856569" 
-                type="rss"
-                xmlUrl="https://feeds.megaphone.fm/GLT4889391284"/>
+        <outline title="Scheduled Queue" text="Scheduled Queue (8 podcasts)">
+            <outline text="Arrested DevOps" description="Arrested DevOps is the podcast that helps you achieve understanding, develop good practices, and operate your team and organization for maximum DevOps awesomeness." type="rss" xmlUrl="https://www.arresteddevops.com/"/>
+            <outline text="Screaming in the Cloud" description="Screaming in the Cloud with Corey Quinn features conversations with domain experts in the world of Cloud Computing. Topics discussed include AWS, GCP, Azure, Oracle Cloud, and the &quot;why&quot; behind how businesses are coming to think about the Cloud." type="rss" xmlUrl="https://screaminginthecloud.com"/>
+            <outline text="The New Way We Work" description="Fast Company deputy editor Kathleen Davis takes listeners on a journey through the changing landscape of our work lives. Each episode explores the future of work, including the state of remote and hybrid work amid the return-to-office battle; how AI will change the way we do our jobs; the status of gender equity and DEI efforts; rethinking career ladders and ambition; motivation and what makes work meaningful; and the progress on mental health and disability issues at work. And as if all that isn’t enough, she also shares practical advice for interviews, résumés, and salary negotiations, as well as the latest office jargon, just how useful personality tests really are, and more." type="rss" xmlUrl="http://www.fastcompany.com/"/>
+            <outline text="Last Week in AI" description="Weekly summaries of the AI news that matters!" type="rss" xmlUrl="https://art19.com/shows/last-week-in-ai"/>
+            <outline text="What's new in Cloud FinOps?" description="Stephen Old and Frank Contrepois get together to discuss what's new in the world of cloud when it comes to FinOps. There are two monthly episodes, one where we'll discuss the top stories we've found from this month and a second episode where we bring in a friend of the show to talk to us about a topic of their choosing." type="rss" xmlUrl="https://whatsnewincloudfinops.buzzsprout.com"/>
+            <outline text="Wrong Turns with Jameela Jamil" description="For anyone who feels like their life is one disaster after another: good news–you’re not alone. Jameela Jamil (The Good Place, She-Hulk) gathers her funny friends and they share their most mortifying and embarrassing stories. Crucially, there are no morals and no silver linings. They are simply here to revel in each others’ misfortune. Wrong Turns: where dignity goes to die.Please share your own Wrong Turns with us for possible inclusion in the show, just email a voice memo to PersonalDisasterStories@gmail.com. Wrong Turns takes over from iWeigh and Bad Dates as Jameela’s home in podcasting. You can still find the entire archive of I Weigh right here.Wrong Turns was created and produced by Jameela Jamil and Stewart Bailey, our consulting producer is Colin Anderson.Listen to Wrong Turns on Amazon Music or wherever you find your podcasts.Wrong Turns takes over from I Weigh and Bad Dates as Jameela’s home in podcasting. You can still find the entire archive of I Weigh right here in the Wrong Turns feed. Hosted on Acast. See acast.com/privacy for more information." type="rss" xmlUrl="https://shows.acast.com/wrong-turns-with-jameela-jamil"/>
+            <outline text="Off Menu with Ed Gamble and James Acaster" description="Comedians Ed Gamble and James Acaster invite special guests into their magical restaurant to each choose their favourite starter, main course, side dish, dessert and drink. Ever wanted to eat your dream meal? It's time to order Off Menu. Hosted on Acast. See acast.com/privacy for more information." type="rss" xmlUrl="https://www.offmenupodcast.co.uk"/>
+            <outline text="Ignore That Feeling with Fern Brady and Alison Spittle" description="Comedians Fern Brady and Alison Spittle reunite for a brand-new podcast, Ignore That Feeling. This time round there's no theme, no boundaries, no rules. Just two ex-Catholic women who have never learned to acknowledge a single emotion. New episodes out weekly, starting Tuesday 10 February.Hosted by Fern Brady (Taskmaster, Autistic Bikini Queen (Netflix), 8 Out of 10 Cats, House of Games, The Last Leg, Wheel of Misfortune) and Alison Spittle (Nowhere Fast, The Tommy Tiernan Show, House of Games, Pointless Celebrities, Wheel of Misfortune, The Guilty Feminist).Have a question for Alison and Fern, or a great story to tell? Send us a voice note on WhatsApp to +447751441372 or email us at ignorethatfeelingpod@gmail.com.Watch the podcast on YouTube.For ad-free listening, bonus content and to support the podcast, sign up to our Patreon at patreon.com/ignorethatfeelingpod.Follow Ignore That Feeling on Instagram @ignorethatfeelingpod and TikTok @ignorethatfeelingpodProduced by Plosive. Music by Fern Brady, Alison Spittle and Aniya Das.Photos by Paul Gilbey.Design by Welcome Studio. Hosted on Acast. See acast.com/privacy for more information." type="rss" xmlUrl="https://shows.acast.com/ignore-that-feeling-with-fern-brady-and-alison-spittle"/>
         </outline>
-        <outline title="Occasioanl Queue" text="Occasioanl Queue (26 podcasts)">
-            <outline text="Level-up Engineering"
-                description="Reveals actionable management secrets from some of the most successful engineering leaders"
-                icon="https://podcastaddict.com/cache/artwork/thumb/2476351" 
-                type="rss"
-                xmlUrl="https://feeds.captivate.fm/level-up-engineering/"/>
-            <outline text="The Engineering Leadership Podcast"
-                description="We share the most critical perspectives, habits &amp; examples of great software engineering leaders"
-                icon="https://podcastaddict.com/cache/artwork/thumb/3710712" 
-                type="rss"
-                xmlUrl="https://feeds.simplecast.com/Z8Dl_qAv"/>
-            <outline text="Joe Beasley | Modern CTO"
-                description="Hang out with interesting and popular CTOs in Aerospace, Artificial Intelligence, Robotics + Many more industries"
-                icon="https://podcastaddict.com/cache/artwork/thumb/3158346" 
-                type="rss"
-                xmlUrl="https://feeds.megaphone.fm/LDB8042666505"/>
-            <outline text="Oddly Influenced"
-                description="A podcast about how people have applied ideas from outside software to software."
-                icon="https://podcastaddict.com/cache/artwork/thumb/4035999" 
-                type="rss"
-                xmlUrl="https://feeds.transistor.fm/oddly-influenced"/>
-            <outline text="Tech Lead Journal"
-                description="Experienced technical leaders sharing their journey and philosophy for building great technical teams and achieving technical excellence."
-                icon="https://podcastaddict.com/cache/artwork/thumb/3063255" 
-                type="rss"
-                xmlUrl="https://anchor.fm/s/265d7c64/podcast/rss"/>
-            <outline text="WSJ's The Future of Everything"
-                description="The Future of Everything offers a kaleidoscope view of the nascent trends that will shape our world"
-                icon="https://podcastaddict.com/cache/artwork/thumb/2399247" 
-                type="rss"
-                xmlUrl="http://video-api.wsj.com/podcast/rss/wsj/wsj-the-future-of-everything"/>
-            <outline text="Ctrl Alt Delete"
-                description="Focus is work, wellbeing and creativity"
-                icon="https://podcastaddict.com/cache/artwork/thumb/3749629" 
-                type="rss"
-                xmlUrl="https://feeds.acast.com/public/shows/697c0a71-b5ac-4b39-9f34-80efbe4a7fa7"/>
-            <outline text="Change by Attraction"
-                description="Esther Derby on Change Management"
-                icon="https://podcastaddict.com/cache/artwork/thumb/3076198" 
-                type="rss"
-                xmlUrl="https://feeds.simplecast.com/O2h6jdM1"/>
-            <outline text="FinOpsPod"
-                description="Official FinOps Foundation podcast"
-                icon="https://podcastaddict.com/cache/artwork/thumb/3872856" 
-                type="rss"
-                xmlUrl="https://feeds.captivate.fm/finopspod/"/>
-            <outline text="Mik + One: The Official Project to Product Podcast by Dr. Mik Kersten"
-                description="The Official Project to Product Podcast by Dr. Mik Kersten"
-                icon="https://podcastaddict.com/cache/artwork/thumb/3617406" 
-                type="rss"
-                xmlUrl="https://feed.podbean.com/podcast8w/feed.xml"/>
-            <outline text="Shit You Don't Learn in School"
-                description="Stories, insights, and resources designed to help you improve the quality of your personal and professional life"
-                icon="https://podcastaddict.com/cache/artwork/thumb/2861017" 
-                type="rss"
-                xmlUrl="https://feeds.buzzsprout.com/987811.rss"/>
-
-
-            <outline text="ASOS Tech Podcast"
-                description="we're going to be sharing what it's like to work at an online destination for fashion-loving 20-somethings around the world."
-                icon="https://storage.pinecast.net/podcasts/covers/c2a04619-b863-45d0-85d2-cc4f5a47007c/MicrosoftTeams-image__1_.png" 
-                type="rss"
-                xmlUrl="https://pinecast.com/feed/asostechpodcast"/>
-            <outline text="The Changelog: Software Development, Open Source"
-                description="Software’s best weekly news brief, deep technical interviews &amp; talk show. "
-                icon="https://podcastaddict.com/cache/artwork/thumb/1839434" 
-                type="rss"
-                xmlUrl="https://changelog.com/podcast/feed"/>
-            <outline text="The Technology Chiefs Podcast"
-                description="Sharing the insights, learning and experience of today’s technology leaders through informal chats."
-                icon="https://m.media-amazon.com/images/S/dmp-catalog-images-prod/images/70958769-14f4-4ce1-9d0c-91e98ffcdded/70958769-14f4-4ce1-9d0c-91e98ffcdded--848866099._SX768_SY768_BL0_QL100_FMpng__UX716_FMpng_QL85_.png" 
-                type="rss"
-                xmlUrl="https://feed.podbean.com/technologychiefs/feed.xml"/>
-            <outline text="HBR IdeaCast"
-                description="A weekly podcast featuring the leading thinkers in business and management. "
-                icon="https://podcastaddict.com/cache/artwork/thumb/2531" 
-                type="rss"
-                xmlUrl="http://feeds.harvardbusiness.org/harvardbusiness/ideacast\"/>
-            <outline text="Moonpig Technology Podcast"
-                description="A podcast from the tech team at Moonpig."
-                icon="https://podcastaddict.com/cache/artwork/thumb/4126859" 
-                type="rss"
-                xmlUrl="https://anchor.fm/s/c422c634/podcast/rss"/>
-            <outline text="AWS Podcast"
-                description="The Official AWS Podcast is a podcast for developers and IT professionals looking for the latest news and trends in storage, security, infrastructure, serverless, and more."
-                icon="https://podcastaddict.com/cache/artwork/thumb/2007949" 
-                type="rss"
-                xmlUrl="https://d3gih7jbfe3jlq.cloudfront.net/aws-podcast.rss"/>
-            <outline text="The Azure Podcast"
-                description="Cynthia Kreng, Kendall Roden, Cale Teeter, Evan Basalik, Russell Young &amp; Sujit D'Mello work at Microsoft in the cloud and services area. "
-                icon="https://podcastaddict.com/cache/artwork/thumb/431021" 
-                type="rss"
-                xmlUrl="https://feeds.feedburner.com/TheAzurePodcast"/>
-            <outline text="Google Cloud Platform Podcast"
-                description="Discussing everything on Google Cloud Platform from App Engine to Big Query. "
-                icon="https://podcastaddict.com/cache/artwork/thumb/3261870" 
-                type="rss"
-                xmlUrl="https://anchor.fm/s/10af7df4/podcast/rss"/>
-            <outline text="The Diary of a CEO with Steven Bartlett"
-                description="An unfiltered journey into the remarkable stories and untold dimensions of the world’s most influential people, experts and thinkers"
-                icon="https://podcastaddict.com/cache/artwork/thumb/4603334" 
-                type="rss"
-                xmlUrl="https://feeds.megaphone.fm/thediaryofaceo"/>
-            <outline text="Managing Managers"
-                description="How top tech leaders made the leap from manager to manging managers"
-                icon="https://podcastaddict.com/cache/artwork/thumb/4619393" 
-                type="rss"
-                xmlUrl="https://anchor.fm/s/e8cb8a98/podcast/rss"/>
-
-            <outline text="Huberman Lab"
-                description="Neuroscience podcast"
-                icon="https://podcastaddict.com/cache/artwork/thumb/3795736" 
-                type="rss"
-                xmlUrl="https://feeds.megaphone.fm/hubermanlab"/>
-            <outline text="The Work Item"
-                description="Conversations on careers in tech and tech-adjacent fields, hosted by Den Delimarsky"
-                icon="https://cdn.theworkitem.com/art/the-work-item-main.png" 
-                type="rss"
-                xmlUrl="https://raw.githubusercontent.com/theworkitem/feeds/master/xml/theworkitem-itunes.xml"/>
-            <outline text="How To Fail With Elizabeth Day"
-                description="Celebrates the things in life that haven’t gone right and what we might learn from them along the way"
-                icon="https://podcastaddict.com/cache/artwork/thumb/4828213" 
-                type="rss"
-                xmlUrl="https://feeds.megaphone.fm/howtofail"/>
-            <outline text="Unconfuse Me with Bill Gates"
-                description="Bill Gates talks to smart people who can help me understand the subject better."
-                icon="https://podcastaddict.com/cache/artwork/thumb/4531838" 
-                type="rss"
-                xmlUrl="https://feed.unconfuseme.com/"/>
-            <outline text="Risky Business"
-                description="Tthe security news of the last few days"
-                icon="https://podcastaddict.com/cache/artwork/thumb/537441" 
-                type="rss"
-                xmlUrl="http://risky.biz/rss.xml"/>
+        <outline title="Occasional Queue" text="Occasional Queue (25 podcasts)">
+            <outline text="The Engineering Leadership Podcast" description="We share the most critical perspectives, habits &amp; examples of great software engineering leaders to help evolve leadership in the tech industry. Join our community of software engineering leaders @ www.sfelc.com!" type="rss" xmlUrl="https://sfelc.com/podcasts"/>
+            <outline text="Modern CTO" description="Modern CTO is the #1 place where technology leaders and CTOs hang out. We live to bring tech leaders value. Listen in on our fun, intelligent and engaging podcast. We hang out with interesting and popular CTOs in Aerospace, Artificial Intelligence, Robotics + Many more industries. All of this, right here, right now, on the Modern CTO Podcast. What do you think of the show? Let us know here!" type="rss" xmlUrl="https://moderncto.io"/>
+            <outline text="Oddly Influenced" description="A podcast about how people have applied ideas from outside software to software." type="rss" xmlUrl="http://podcast.oddly-influenced.dev"/>
+            <outline text="Tech Lead Journal" description="Great technical leadership requires more than just great coding skills. It requires a variety of other skills that are not well-defined, and they are not something that we can fully learn in any school or book. Hear from experienced technical leaders sharing their journey and philosophy for building great technical teams and achieving technical excellence. Find out what makes them great and how to apply those lessons to your work and team." type="rss" xmlUrl="https://techleadjournal.dev"/>
+            <outline text="Bold Names" description="WSJ’s Bold Names brings you conversations with the leaders of the bold-named companies featured in the pages of The Wall Street Journal. Hosts Tim Higgins and Christopher Mims speak to CEOs and business leaders in interviews that challenge conventional wisdom and take you inside the decisions being made in the C-suite and beyond." type="rss" xmlUrl="https://www.wsj.com/podcasts/wsj-the-future-of-everything"/>
+            <outline text="Ctrl Alt Delete" description="Ctrl Alt Delete subverts the traditional career show. Instead, it's for people who are more interested in shaping their work rather than letting their work shape them. The main focus is work, wellbeing and creativity. Hosted by bestselling author Emma Gannon, she has a gentle line of questioning that starts with work, and ends up wherever the conversations lead. Named Best Business podcast by Vuelio, Webby award nominee and named 50 Best Podcasts by Sunday Times, Ctrl Alt Delete is a gateway into new ideas – with past guests varying far and wide including Elizabeth Gilbert, Reni Eddo-Lodge, Jacqueline Wilson, Lena Dunham, Julia Cameron, Priyanka Chopra-Jonas, Ava DuVernay, Gillian Anderson and Mrs Hinch. Hosted on Acast. See acast.com/privacy for more information." type="rss" xmlUrl="http://emmagannon.co.uk/"/>
+            <outline text="Change by Attraction" description="Join Esther Derby, author of 7 Rules for Positive Productive Change: Micro Shifts, Macro Results for Change by Attraction--because you don't have to push, prod, persuade or punish people to create change in your organization. This podcast is for people who want to bring change to their team, department, or organization-- whether or not they have change management in their job title. Listen strategies, stories of success, and stories of mess. I'll talk about what makes change possible in modern organizations. You’ll gain insights and inspiration you can use. Check in on the last Wednesday of every other month for new episodes. I've got several intense projects going on, so I'm switching to bi-monthly for a while. Join my online course Change by Attraction to hone your ability to catalyze change. https://estherderby.teachable.com/p/change-by-attraction-live" type="rss" xmlUrl="https://changebyattraction.simplecast.com"/>
+            <outline text="FinOpsPod" description="FinOpsPod connects practitioners with the rest of the FinOps Foundation community. Real world practitioners will share their experiences and the Foundation team will share the latest news about the community. Learn more about the FinOps Foundation at www.finops.org." type="rss" xmlUrl="https://finopspod.captivate.fm"/>
+            <outline text="Mik + One: The Official Project to Product Podcast by Dr. Mik Kersten" description="Since publishing best-selling book, Project to Product, technology business leader, Dr. Mik Kersten, has introduced transformative frameworks and ideas for delivering software at scale. He has given numerous standing room only keynotes and presentations worldwide and is an internationally recognized thought-leader. In this podcast, Mik + One, nothing is off the record as Mik sits down with industry-leading guests and delves into how they deliver value and drive digital transformations in their organizations. Tune in for a new episode every two weeks! Subscribe to the Mik + One podcast today so you never miss an episode. Follow Mik on Twitter: @mik_kersten #MikPlusOne www.projecttoproduct.org" type="rss" xmlUrl="https://podcast8w.podbean.com"/>
+            <outline text="Shit You Don't Learn in School" description="Formal schooling does a terrible job of preparing you to thrive as an adult. The Shit You Don't Learn in School podcast exists to make up for this societal failure. In this show, Calvin Rosser and Steph Smith share stories, insights, and resources designed to help you improve the quality of your personal and professional life. If all works out, you'll be at least 1% better at navigating the waters." type="rss" xmlUrl="https://keeplearning.buzzsprout.com"/>
+            <outline text="ASOS Tech Podcast" description="Welcome to the ASOS Tech Podcast, where we're going to be sharing what it's like to work at an online destination for fashion-loving 20-somethings around the world. You may have bought some clothes from us, but have you ever wondered what happens behind the screens? Find out all about our tech and ways of working as we bring you regular content with a diverse group of hosts and guests every 2 weeks on #TechTuesday." type="rss" xmlUrl="http://podcast.asos.tech"/>
+            <outline text="The Changelog: Software Development, Open Source" description="Software's best weekly news brief, deep technical interviews &amp; talk show." type="rss" xmlUrl="https://changelog.com/podcast"/>
+            <outline text="The Technology Chiefs Podcast" description="Sharing the insights, learning and experience of today’s technology leaders through informal chats." type="rss" xmlUrl="https://technologychiefs.podbean.com"/>
+            <outline text="HBR IdeaCast" description="A weekly podcast featuring the leading thinkers in business and management." type="rss" xmlUrl="https://hbr.org/podcasts/ideacast"/>
+            <outline text="Moonpig Technology Podcast" description="A podcast from the tech team at Moonpig. We'll focus on technology, and how we support our business - from design, implementation, delivery and career growth perspectives." type="rss" xmlUrl="https://engineering.moonpig.com/"/>
+            <outline text="AWS Podcast" description="The Official AWS Podcast is a podcast for developers and IT professionals looking for the latest news and trends in storage, security, infrastructure, serverless, and more. Join Simon Elisha and Hawn Nguyen-Loughren for regular updates, deep dives, launches, and interviews. Whether you’re training machine learning models, developing open source projects, or building cloud solutions, the Official AWS Podcast has something for you." type="rss" xmlUrl="https://aws.amazon.com/podcasts/aws-podcast/"/>
+            <outline text="Google Cloud Platform Podcast" description="The Google Cloud Platform Podcast, coming to you every week. Discussing everything on Google Cloud Platform from App Engine to BigQuery." type="rss" xmlUrl="https://www.gcppodcast.com"/>
+            <outline text="Managing Managers" description="Stepping up from an IC to managing other ICs is no easy feat. But brace yourself because the real surprise comes when you level up again—to managing managers! Curious to know how top tech leaders made this leap? Join our host, the experienced Pat Kua, as he delves into the strategies and stories of leaders in tech who’ve mastered the art of managing managers. 🎙️💡" type="rss" xmlUrl="https://managingmanagers.tech"/>
+            <outline text="The Work Item - Real Talk on Tech's Toughest Career Choices" description="The web is full of podcasts that dole out generic career advice - “Follow your passion!”, “Keep learning!”, “Set clear goals!” This is all good if you're just starting out, but the pointers start to lose their luster quickly as you progress and start hitting invisible walls in your growth. All of a sudden, it's harder to get promoted, opportunities to advance become more ambiguous, and the choices in front of you aren't as obvious as they were when you first started your job. What does it take to get to the Staff engineer level? If you want to become an executive in the future, what should you do now to maximize your chances of hitting that goal? Should you have a time-bound career map or focus on unique opportunities that pop up serendipitously? Should you try your hand at entrepreneurship, and if so - how do you build a robust safety net? For these questions and more, The Work Item is the podcast where I attempt to answer them with help from folks that went through trial by fire. They are not social media thought leaders - they are actual practitioners who have first-hand experience dealing with some of the more thorny challenges in this industry. With folks like Jason Lengstorf (Founder, Learn With Jason), Craig Hewitt (Founder, Castos), Saron Yitbarek (Founder, CodeNewbie), Rob Walling (Founder, MicroConf), Cedric Chin (Founder, CommonCog), Jason Fried (CEO, 37signals), Gennadiy Korol (CEO, Moon Studios), Mayuko Inoue (iOS Engineer, Apple), Camille Fournier, and many, many more you will get extraordinary insights that will help you unlock your career potential beyond the basics you'll learn elsewhere." type="rss" xmlUrl="https://theworkitem.com"/>
+            <outline text="How To Fail With Elizabeth Day" description="How To Fail with Elizabeth Day is a podcast that celebrates the things in life that haven’t gone right and what we might learn from them along the way. Every week, Elizabeth’s guest explores three failures, and what these failures have taught them about how to grow and succeed, better. We’d love to hear from you! Get in touch with Elizabeth to share your failures, problems or questions - anonymously or otherwise. She'll go through these each week with the help of her very special guests. And remember: a fail shared is a fail halved. Click here to get in touch. An Elizabeth Day and Sony Music Entertainment Original Production. Find more great podcasts from Sony Music Entertainment at sonymusic.com/podcasts and follow @sonypodcasts To bring your brand to life in this podcast, email podcastadsales@sonymusic.com" type="rss" xmlUrl="https://forms.sonymusicfans.com/campaign/how-to-fail-uk-2023/#"/>
+            <outline text="Unconfuse Me with Bill Gates" description="What do you do when you can’t solve a problem? I like to talk to smart people who can help me understand the subject better. I call this process “getting unconfused”—and I think it is one of the best ways to learn something new. In my new podcast, I try to get unconfused about some of the things that fascinate me. Join me on my learning journey as I talk to brilliant guests about Alzheimer’s disease, marijuana, plant-based meat, the evolution of language, and more." type="rss" xmlUrl="https://www.gatesnotes.com/Podcast"/>
+            <outline text="Software Defined Interviews" description="Deep discussions about technology, enterprise IT, and the like" type="rss" xmlUrl="https://www.softwaredefinedinterviews.com"/>
+            <outline text="The a16z Show" description="The a16z Show discusses tech and culture trends, news, and the future – especially as ‘software eats the world’. It features industry experts, business leaders, and other interesting thinkers and voices from around the world. This show is produced by Andreessen Horowitz (aka “a16z”), a Silicon Valley-based venture capital firm. Multiple episodes are released every week; visit a16z.com for more details and to sign up for our newsletters and other content as well!" type="rss" xmlUrl="https://a16z.simplecast.com"/>
+            <outline text="Eat Sleep Work Repeat - better workplace culture" description="MAKE WORK BETTER. Eat Sleep Work Repeat is the best podcast about workplace culture - it's been listened to millions of times.Bruce Daisley brings a curious mind to discussions about our jobs and the role they play in our lives.Sign up for the newsletter Hosted on Acast. See acast.com/privacy for more information." type="rss" xmlUrl="https://www.eatsleepworkrepeat.com"/>
+            <outline text="Practical AI" description="Making artificial intelligence practical, productive &amp; accessible to everyone. Practical AI is a show in which technology professionals, business people, students, enthusiasts, and expert guests engage in lively discussions about Artificial Intelligence and related topics (Machine Learning, Deep Learning, Neural Networks, GANs, MLOps, AIOps, LLMs &amp; more). The focus is on productive implementations and real-world scenarios that are accessible to everyone. If you want to keep up with the latest advances in AI, while keeping one foot in the real world, then this is the show for you!" type="rss" xmlUrl="https://practicalai.fm"/>
+        </outline>
+        <outline title="Review" text="Review (37 podcasts)">
+            <outline text="Authority Issues" description="Welcome to Authority Issues, a podcast about leadership, management, and competitive prescription writing. Hosted by Rachel Perkins (aka piebob), and Kendall Miller" type="rss" xmlUrl="http://www.authorityissu.es"/>
+            <outline text="Console DevTools" description="Interviews with interesting people in the devtools space. From security to dev focused infrastructure, and from homomorphic encryption to privacy and decentralization, we discuss the technical details around devtools." type="rss" xmlUrl="https://podcast.console.dev"/>
+            <outline text="Boundaryless Conversations Podcast" description="Boundaryless Conversations Podcast is an ongoing exploration of the future of Platforms &amp; Ecosystems. Here we explore new perspectives about how we organise at scale in a rapidly changing world. From Boundaryless SRL Hosted by Simone Cicero and Shruthi Prakash" type="rss" xmlUrl="https://boundaryless.io/resources/podcast/"/>
+            <outline text="The Cloud Pod | Weekly AI &amp; Cloud News on AWS, Azure &amp; GCP" description="The Cloud Pod delivers weekly cloud computing and AI news for engineers, architects, and technology leaders. Join Justin Brodley, Jonathan Baker, Ryan Lucas, and Matt Kohn as they break down the latest from AWS, Azure, and Google Cloud — covering new services, platform updates, FinOps strategies, and the AI innovations reshaping the industry. Stay ahead of the cloud landscape with one of the longest-running cloud computing podcasts available." type="rss" xmlUrl="https://www.thecloudpod.net/series/the-cloud-pod/"/>
+            <outline text="Ctrl+Alt+Azure" description="Weekly conversations for cloud architects, developers, CIOs, and CISOs navigating Microsoft Azure, cloud adoption strategy, security governance, identity, and agentic AI. Hosted by industry experts Tobias Zimmergren and Jussi Roine." type="rss" xmlUrl="https://CtrlAltAzure.com"/>
+            <outline text="DevOps Paradox" description="What is DevOps? We will attempt to answer this and many more questions." type="rss" xmlUrl="https://www.devopsparadox.com/"/>
+            <outline text="Exponent" description="Exponent, a production of Stratechery.com, is hosted by Ben Thompson and James Allworth. In this program we seek to explore the massive effect technology is having not just on technology companies, but also on society as a whole. Ben Thompson is the author of Stratechery, a blog about the business and strategy of technology. James Allworth is the co-author with Clay Christensen of &quot;How Will You Measure Your Life&quot; and a writer for the Harvard Business Review. Visit the website at https://exponent.fm for show notes and to subscribe. To see old Stratechery.FM episodes, please visit http://stratechery.fm" type="rss" xmlUrl="https://exponent.fm"/>
+            <outline text="Fearless Creative Leadership" description="We talk to leaders of the world's most disruptive companies about how they are jumping into the fire, crossing the chasm and blowing up the status quo. Leaders who've mastered the art of turning the impossible into the profitable." type="rss" xmlUrl="http://fearlesscreativeleadership.com"/>
+            <outline text="Leadermorphosis" description="Leadermorphosis is a podcast exploring the emerging world of self-managing teams and progressive organisations. Hosted by Lisa Gill, who was named on the Thinkers50 Radar 2020 list, each episode features a guest thought leader or practitioner offering a unique perspective on new and innovative ways of working. &quot;Turning self-managed teams from a good idea into reality is a big challenge and Lisa Gill is leading the way in making it happen.&quot; – Thinkers50 Leadermorphosis is powered by Tuff Leadership Training, a team of consultants and coaches who specialise in transformational leadership training, shifting working climates and supporting organisations to become self-managing." type="rss" xmlUrl="http://tuffleadershiptraining.com"/>
+            <outline text="Leaders &amp; Founders" description="Leaders &amp; Founders brings you advice, tips and amazing stories from some of the world's most successful Technology Leaders and Founders of today. We unveil the curtain on the most successful technology companies, those who lead them and give you real-life information and stories on how they have been successful, what has worked for them, and also - what hasn't! Powered by Gathered &amp; Found, a leading Software Delivery partner based in London, UK. We build incredible digital products for the world's leading tech firms and drive forwards innovative technology initiatives globally." type="rss" xmlUrl="https://www.gatheredandfound.co.uk"/>
+            <outline text="The Pod Presents: Primarily Context-Based" description="Primarily Context Based is the Tech Leader's Guide to questions with more than one right answer, from the creators of CTO Craft and Skiller Whale. We talk about what needs to be considered when you're tackling tech decision topics like: &quot;should we use Kubernetes?&quot;, or management topics like &quot;how do I address diversity in my team?&quot; or process topics like &quot;are daily stand-ups a total waste of time?&quot;" type="rss" xmlUrl="https://skillerwhale.podbean.com"/>
+            <outline text="Product Thinking" description="Successful product management isn’t just about training the product managers who work side by side with developers everyday to build better products. It’s about taking a step back, approaching the systems within organizations as a whole, and leveling up product leadership to improve these systems. This is the Product Thinking Podcast, where Melissa Perri will connect with industry leading experts in the product management space, AND answer your most pressing questions about everything product. Join us each week to level up your skillset and invest in yourself as a product leader." type="rss" xmlUrl="https://www.produxlabs.com/product-thinking"/>
+            <outline text="Profound" description="Ramblings about W. Edwards Deming in the digital transformation era. The general idea of the podcast is derived from Dr. Demming's seminal work described in his New Economics book - System of Profound Knowledge ( SoPK ). We'll try and get a mix of interviews from IT, Healthcare, and Manufacturing with the goal of aligning these ideas with Digital Transformation possibilities. Everything related to Dr. Deming's ideas is on the table (e.g., Goldratt, C.I. Lewis, Ohno, Shingo, Lean, Agile, and DevOps)." type="rss" xmlUrl="https://profound.buzzsprout.com"/>
+            <outline text="The Safety of Work" description="Do you know the science behind what works and doesn’t work when it comes to keeping people safe in your organisation? Each week join Dr Drew Rae and Dr David Provan from the Safety Science Innovation Lab at Griffith University as they break down the latest safety research and provide you with practical management tips." type="rss" xmlUrl="https://safetyofwork.com"/>
+            <outline text="This New Way" description="This New Way (formerly Supermanagers) is a show hosted by Aydin Mirzaee (CEO of Fellow–#1 AI Meeting Assistant) about how real companies are using AI at work. No theory, no fluff — just straight talk with leaders who are testing, implementing, and learning as they go. What you’ll get: How leaders are integrating AI into their teams and processes Honest takes on what’s working, what’s not, and what’s changing Live AI tool demos 👉 Want episode summaries, AI workflow templates, and quick tips from guests? Subscribe to the newsletter: https://thisnewway.com/" type="rss" xmlUrl="https://thisnewway.com/"/>
+            <outline text="The Tech Debt Burndown Podcast" description="Chris Swan and Nick Selby, two long-time technology industry and information security leaders, discuss issues related to reducing technical debt." type="rss" xmlUrl="https://techdebtburndown.com"/>
+            <outline text="Developing Leadership" description="Follow Jason Warner (MD at Redpoint Ventures and former CTO of GitHub) and Eiso Kant (Founder and CEO of Athenian) as they chat about the biggest lessons they’ve learned about Engineering Leadership throughout the years." type="rss" xmlUrl="https://podcast.developingleadership.co"/>
+            <outline text="The Weekly Show with Jon Stewart" description="On Mondays, Jon Stewart hosts The Daily Show, but on Thursdays, he's back in your ears with The Weekly Show -- a podcast featuring in-depth conversations with a range of special guests. From experts and advocates, to stakeholders and thought leaders, we discuss the challenges, changes, and ideas that are shaping our world." type="rss" xmlUrl="https://art19.com/shows/jon-stewart"/>
+            <outline text="Brain Science: Neuroscience, Behavior" description="For the curious! We're exploring the inner-workings of the human brain to understand behavior change, habit formation, mental health, and being human. It’s Brain Science applied — not just &quot;how does the brain work,&quot; but how do we apply what we know about the brain to transform our lives?" type="rss" xmlUrl="https://changelog.com/brainscience"/>
+            <outline text="The Guilty Feminist" description="Ever felt like you should be better at feminism? Join comedian Deborah Frances-White and her guests for this comedy podcast, recorded in front of a live audience. Each week they discuss our noble goals as 21st century feminists and the hypocrisies and insecurities that undermine them. Deborah Frances-White is the 2016 Writers' Guild Award Winner for Best Radio Comedy for her hit BBC Radio 4 series Deborah Frances-White Rolls the Dice. She is an Edinburgh Fringe regular, a screenwriter and is in huge demand for her corporate seminars. Hosted on Acast. See acast.com/privacy for more information." type="rss" xmlUrl="https://guiltyfeminist.com/"/>
+            <outline text="The Troubles Podcast" description="The Troubles were a period of time in Northern Ireland which many people today do not know a lot about. In this podcast we will delve into each individual bombing and attack that happened during the 30-year period. This is a non-partisan podcast that focuses solely on the facts and the accounts of the individuals involved." type="rss" xmlUrl="https://www.spreaker.com/show/the-troubles-podcast"/>
+            <outline text="The Scaling Tech Podcast" description="Host Arin Sime, along with his guests, brings you the insights you need to handle all the human and technical aspects of managing a growing software team. Whether your team is 5 engineers or 100 engineers, you’ll find the inspiration and tips to navigate the challenges of complex technical teams. When in season, new episodes drop every other Tuesday!" type="rss" xmlUrl="https://scalingtechpod.com/podcasts/the-scaling-tech-podcast/"/>
+            <outline text="Behind The Tech with Kevin Scott" description="Behind the Tech invites listeners to geek out with an amazing line-up of tech heroes, inventors and innovators. Microsoft CTO Kevin Scott takes tech enthusiasts behind-the-scenes to meet AI experts, computer scientists, authors, musicians, digital leaders, bioengineers and neuroscientists who have made discoveries, built tools, and literally helped make our modern world possible." type="rss" xmlUrl="http://sites.libsyn.com/121695/site"/>
+            <outline text="Engineering Enablement by DX" description="The show focused on developer productivity and the teams and leaders dedicated to improving it. Each episode features in-depth interviews with Platform and DevEx teams, along with the latest research and approaches for measuring developer productivity. Presented by DX (getdx.com), the developer intelligence platform designed by researchers." type="rss" xmlUrl="https://getdx.com/engineering-enablement-podcast"/>
+            <outline text="Security Now (Audio)" description="Cybersecurity guru Steve Gibson joins Leo Laporte every Tuesday. Steve and Leo break down the latest cybercrime and hacking stories, offering a deep understanding of what's happening and how to protect yourself and your business. Security Now is a must listen for security professionals every week. You can join Club TWiT for $10 per month and get ad-free audio and video feeds for all our shows plus everything else the club offers...or get just this podcast ad-free for $5 per month. New episodes every Tuesday." type="rss" xmlUrl="https://twit.tv/shows/security-now"/>
+            <outline text="Lenny's Podcast: Product | Career | Growth" description="Interviews with world-class product leaders and growth experts to uncover concrete, actionable, and tactical advice to help you build, launch, and grow your own product." type="rss" xmlUrl="https://www.lennysnewsletter.com/podcast"/>
+            <outline text="Jon Myer Podcast" description="Welcome to The Jon Myer Podcast… Now I know what you’re thinking, “Not another freaking podcast”! But I promise you this is anything but a normal podcast. What is this show about? I’m bringing weird quirkiness to the podcasting industry for tech and public cloud. I’m the Ellen of Tech and the Luke Bryan of podcasting. This show isn’t for everyone but one thing it is, it’s a show that allows us to be ourselves while providing fun, entertaining, educational content around public cloud topics." type="rss" xmlUrl="https://jonmyer.com"/>
+            <outline text="Where Should We Begin? with Esther Perel" description="Every Monday morning step into the office of iconic psychotherapist Esther Perel and listen in as real people in search of insight bare the raw, intimate, and profound details of their stories. From breakups and open relationships to workplace conflicts and fractures in the family, it’s a place to hear our own stories reflected in the lives of others. So…where should we begin? Part of the Vox Media Podcast Network." type="rss" xmlUrl="https://estherperel.com/podcast"/>
+            <outline text="Lex Fridman Podcast" description="Conversations that explore technology, history, philosophy, physics, mathematics, biology, chemistry, engineering, AI, robotics, programming, music, film, art, sports, psychology, neuroscience, geopolitics, business, economics, religion, astronomy, and the human condition with people from all walks of life." type="rss" xmlUrl="https://lexfridman.com/"/>
+            <outline text="The TED AI Show" description="Sure, some predictions about AI are just hype – but others suggest that everything we know is about to fundamentally change. Creative technologist Bilawal Sidhu talks with the world’s leading experts, artists, journalists, and more to explore the thrilling, sometimes terrifying, future ahead.Interested in learning more about upcoming TED events? Follow these links:TEDNext: ted.com/futureyou Hosted on Acast. See acast.com/privacy for more information." type="rss" xmlUrl="https://play.prx.org/listen?uf=https%3A%2F%2Fpodcasts.ted.com%2FtheTEDAIshow"/>
+            <outline text="The Important Thing" description="The Important Thing with Michael (&quot;Rands&quot;) Lopp and Lyle Troxell. Let's spend a few minutes of your life listening and learning about an Important Thing." type="rss" xmlUrl="https://randsinrepose.com/archives/category/the-important-thing/"/>
+            <outline text="AI For Humans: Weekly AI News, Tools &amp; Trends" description="Fast Company called AI For Humans 'the most entertaining way to learn about artificial intelligence.' Every Thursday, hosts Kevin Pereira and Gavin Purcell break down the biggest AI news, tools, and breakthroughs, so you can stay ahead without losing your mind. Whether you're AI-curious or deep in the game, this is your weekly reset on everything that matters in artificial intelligence." type="rss" xmlUrl="https://www.aiforhumans.show/"/>
+            <outline text="The Pulse" description="Go on an adventure into unexpected corners of the health and science world each week with award-winning host Maiken Scott. The Pulse takes you behind the doors of operating rooms, into the lab with some of the world's foremost scientists, and back in time to explore life-changing innovations. The Pulse delivers stories in ways that matter to you, and answers questions you never knew you had." type="rss" xmlUrl="https://whyy.org/programs/the-pulse/"/>
+            <outline text="Oxide and Friends" description="Oxide hosts a weekly Discord show where we discuss a wide range of topics: computer history, startups, Oxide hardware bringup, and other topics du jour. These are the recordings in podcast form. Join us live (usually Mondays at 5pm PT) https://discord.gg/gcQxNHAKCB Subscribe to our calendar: https://calendar.google.com/calendar/ical/c_318925f4185aa71c4524d0d6127f31058c9e21f29f017d48a0fca6f564969cd0%40group.calendar.google.com/public/basic.ics" type="rss" xmlUrl="http://oxide.computer"/>
+            <outline text="How Do You Cope?" description="With one in six people experiencing symptoms of depression or anxiety, it’s never been more important to find out how people are dealing with these challenges. In this podcast, comedian and broadcaster John Robins brings his trademark approach of heart and humour to the conversation, sitting down with guests and experts each week to ask the very simple question - How Do You Cope? A Significant Production Hosted on Acast. See acast.com/privacy for more information." type="rss" xmlUrl="https://shows.acast.com/how-do-you-cope"/>
+            <outline text="Brydon &amp;" description="Well done. You’ve sorted through the embarrassment of riches that is the modern podcast landscape and found me, Rob Brydon, on my podcast. It’s terrific conversation, full of anecdotes and reminiscence where appropriate.Listen to Brydon &amp; on the Wondery App or wherever you get your podcasts. You can listen ad-free on Wondery+. Join Wondery+ in the Wondery App, Apple Podcasts or Spotify. Start your free trial by visiting wondery.com/links/brydon/ now." type="rss" xmlUrl="https://wondery.com/shows/brydon/?utm_source=rss"/>
+            <outline text="The Debrief by incident.io" description="In The Debrief, you'll hear conversations with engineers, product managers and founders about the ins and outs of incident response. Whether you're looking for actionable advice from folks who have been there or relatable stories, you'll find it on The Debrief." type="rss" xmlUrl="https://incident.io"/>
         </outline>
     </body>
 </opml>
