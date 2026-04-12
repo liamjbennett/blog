@@ -1,44 +1,62 @@
 [
   {
     "show": "Ignore That Feeling with Fern Brady and Alison Spittle",
-    "episode": "Indie sleeze, meeting Pete Doherty and making a better Amy Winehouse film",
-    "url": "https://sphinx.acast.com/p/open/s/694c1ed009314afbec95a3a6/e/69ca601fcb79a114e29582e5/media.mp3",
-    "duration": "46:05"
-  },
-  {
-    "show": "Ignore That Feeling with Fern Brady and Alison Spittle",
-    "episode": "Inside The Manosphere and the monkey-sphere",
-    "url": "https://sphinx.acast.com/p/open/s/694c1ed009314afbec95a3a6/e/69bc24b162f6c66afe513be9/media.mp3",
-    "duration": "38:42"
+    "episode": "Starting HRT and quitting Chat GPT",
+    "url": "https://sphinx.acast.com/p/open/s/694c1ed009314afbec95a3a6/e/69cd47943908885dc4d1eddc/media.mp3",
+    "duration": "45:39"
   },
   {
     "show": "Last Week In AWS Podcast",
-    "episode": "Aurora PostgreSQL: Now Free Enough to Be Dangerous",
-    "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/d0f74891/4770d07a.mp3",
-    "duration": "4:23"
+    "episode": "S3 Gets Vectors, CloudFront Gets SHA-256, You Get the Bill",
+    "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/2c2f91fd/0e92ac03.mp3",
+    "duration": "5:15"
   },
   {
-    "show": "The Louis Theroux Podcast",
-    "episode": "Stewart Lee on \"Netflix comedians\", disastrous gigs, and Elon Musk",
-    "url": "https://traffic.megaphone.fm/GLT7834114936.mp3?updated=1774276853",
-    "duration": "1:38:52"
+    "show": "Off Menu with Ed Gamble and James Acaster",
+    "episode": "Reg\u00e9-Jean Page",
+    "url": "https://sphinx.acast.com/p/acast/s/offmenu/e/69cbb90416bd65d0698a738d/media.mp3",
+    "duration": "1:32:04"
+  },
+  {
+    "show": "Off Menu with Ed Gamble and James Acaster",
+    "episode": "Ixta Belfrage",
+    "url": "https://sphinx.acast.com/p/acast/s/offmenu/e/69c16cf0d832f1da93c19359/media.mp3",
+    "duration": "1:34:45"
   },
   {
     "show": "The Rest Is Entertainment",
-    "episode": "Disney's $100m Mistake",
-    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT7424990486.mp3?updated=1774903821",
-    "duration": "51:29"
+    "episode": "The Toughest Job In Entertainment",
+    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT4299523512.mp3?updated=1775662219",
+    "duration": "31:12"
   },
   {
     "show": "The Rest Is Entertainment",
-    "episode": "Buffy, Michael Sheen & MacGuffins",
-    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT6502336454.mp3?updated=1774458269",
-    "duration": "35:59"
+    "episode": "The Wild West of Noughties Reality TV",
+    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT4464669729.mp3?updated=1775467745",
+    "duration": "45:06"
   },
   {
-    "show": "What's new in Cloud FinOps?",
-    "episode": "WNiCF - February 2026 - News",
-    "url": "https://www.buzzsprout.com/1397218/episodes/18914169-wnicf-february-2026-news.mp3",
-    "duration": "34:59"
+    "show": "Wrong Turns with Jameela Jamil",
+    "episode": "Kat Bird and Ava Bunn",
+    "url": "https://sphinx.acast.com/p/open/s/686302e79951fac41b1d2418/e/69d6bab502639f375c753ead/media.mp3",
+    "duration": "48:45"
+  },
+  {
+    "show": "Wrong Turns with Jameela Jamil",
+    "episode": "Olivia Lee and Cariad Lloyd",
+    "url": "https://sphinx.acast.com/p/open/s/686302e79951fac41b1d2418/e/69cda7831ada36b7ad3f12fe/media.mp3",
+    "duration": "55:04"
+  },
+  {
+    "show": "Wrong Turns with Jameela Jamil",
+    "episode": "Daphnique Springs and Matt Braunger",
+    "url": "https://sphinx.acast.com/p/open/s/686302e79951fac41b1d2418/e/69c0b94c1a160b44db74e4c6/media.mp3",
+    "duration": "49:23"
+  },
+  {
+    "show": "Wrong Turns with Jameela Jamil",
+    "episode": "Alan Tudyk and Jade Catta-Preta",
+    "url": "https://sphinx.acast.com/p/open/s/686302e79951fac41b1d2418/e/69b9024dd21529adf82da1a4/media.mp3",
+    "duration": "42:44"
   }
 ]
