@@ -19,6 +19,7 @@ READING_HEADING = "## Reading"
 WATCHING_HEADING = "## Watching"
 BOOK_PAGES_PATTERN = re.compile(r"^\* \d+ book pages read \((.+?) - p\d+-p\d+\)(?: - Finished)?$")
 MARKDOWN_LINK_PATTERN = re.compile(r"^\[(.+?)\]\((https?://[^)]+)\)$")
+BOOKCOVER_SHORTCODE_PATTERN = re.compile(r"^\{\{<\s*bookcover\b")
 OG_IMAGE_PATTERN = re.compile(
     r'<meta\s+property="og:image"\s+content="([^"]+)"\s*/?>', re.IGNORECASE
 )
@@ -149,14 +150,24 @@ def format_media_item(item: str) -> str:
     return f"[{title}]({url})"
 
 
+def apply_bookcover_grid(items: list[str]) -> list[str]:
+    if len(items) <= 1:
+        return items
+
+    if not all(BOOKCOVER_SHORTCODE_PATTERN.match(item.strip()) for item in items):
+        return items
+
+    return ["{{< bookcovergrid >}}", *items, "{{< /bookcovergrid >}}"]
+
+
 def build_reading_section_items(weeknote_path: Path) -> list[str]:
     extracted_items = extract_reading_items(weeknote_path)
-    return [format_media_item(item) for item in extracted_items]
+    return apply_bookcover_grid([format_media_item(item) for item in extracted_items])
 
 
 def build_watching_section_items(weeknote_path: Path) -> list[str]:
     extracted_items = extract_watching_items(weeknote_path)
-    return [format_media_item(item) for item in extracted_items]
+    return apply_bookcover_grid([format_media_item(item) for item in extracted_items])
 
 
 def replace_section(now_lines: list[str], heading: str, items: list[str]) -> list[str]:
