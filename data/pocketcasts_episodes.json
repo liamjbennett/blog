@@ -1,62 +1,56 @@
 [
   {
+    "show": "Acquired",
+    "episode": "Ferrari",
+    "url": "https://pscrb.fm/rss/p/media.transistor.fm/9ca1df08/e400ba0d.mp3",
+    "duration": "3:59:19"
+  },
+  {
     "show": "Ignore That Feeling with Fern Brady and Alison Spittle",
-    "episode": "Starting HRT and quitting Chat GPT",
-    "url": "https://sphinx.acast.com/p/open/s/694c1ed009314afbec95a3a6/e/69cd47943908885dc4d1eddc/media.mp3",
-    "duration": "45:39"
+    "episode": "Bad auditions, priests and the Take That documentary",
+    "url": "https://sphinx.acast.com/p/open/s/694c1ed009314afbec95a3a6/e/69de1758ae33864715e2fe43/media.mp3",
+    "duration": "58:47"
   },
   {
     "show": "Last Week In AWS Podcast",
-    "episode": "S3 Gets Vectors, CloudFront Gets SHA-256, You Get the Bill",
-    "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/2c2f91fd/0e92ac03.mp3",
-    "duration": "5:15"
+    "episode": "Multicloud Interconnect and the Great CVE Hunt",
+    "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/a45facba/da15b2ef.mp3",
+    "duration": "5:31"
   },
   {
-    "show": "Off Menu with Ed Gamble and James Acaster",
-    "episode": "Reg\u00e9-Jean Page",
-    "url": "https://sphinx.acast.com/p/acast/s/offmenu/e/69cbb90416bd65d0698a738d/media.mp3",
-    "duration": "1:32:04"
+    "show": "Risky Business",
+    "episode": "Risky Business #833 -- The Great Mythos Freakout of 2026",
+    "url": "https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RB833.mp3",
+    "duration": "59:45"
   },
   {
-    "show": "Off Menu with Ed Gamble and James Acaster",
-    "episode": "Ixta Belfrage",
-    "url": "https://sphinx.acast.com/p/acast/s/offmenu/e/69c16cf0d832f1da93c19359/media.mp3",
-    "duration": "1:34:45"
+    "show": "Risky Business",
+    "episode": "How the World Got Owned Episode 2: The 1990s, Part One",
+    "url": "https://dts.podtrac.com/redirect.mp3/media3.risky.biz/HTWGO2.mp3",
+    "duration": "46:46"
+  },
+  {
+    "show": "Screaming in the Cloud",
+    "episode": "The Power of Saying No: Growing by Narrowing Your Focus with Corey Quinn",
+    "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/460681f1/31a9cea3.mp3",
+    "duration": "28:57"
   },
   {
     "show": "The Rest Is Entertainment",
-    "episode": "The Toughest Job In Entertainment",
-    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT4299523512.mp3?updated=1775662219",
-    "duration": "31:12"
+    "episode": "Rupert Murdoch Is A Messy Bitch",
+    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT7452239728.mp3?updated=1776719851",
+    "duration": "53:44"
   },
   {
-    "show": "The Rest Is Entertainment",
-    "episode": "The Wild West of Noughties Reality TV",
-    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT4464669729.mp3?updated=1775467745",
-    "duration": "45:06"
-  },
-  {
-    "show": "Wrong Turns with Jameela Jamil",
-    "episode": "Kat Bird and Ava Bunn",
-    "url": "https://sphinx.acast.com/p/open/s/686302e79951fac41b1d2418/e/69d6bab502639f375c753ead/media.mp3",
-    "duration": "48:45"
+    "show": "What's new in Cloud FinOps?",
+    "episode": "WNiCF - March 2026 - News",
+    "url": "https://www.buzzsprout.com/1397218/episodes/19044528-wnicf-march-2026-news.mp3",
+    "duration": "22:39"
   },
   {
     "show": "Wrong Turns with Jameela Jamil",
-    "episode": "Olivia Lee and Cariad Lloyd",
-    "url": "https://sphinx.acast.com/p/open/s/686302e79951fac41b1d2418/e/69cda7831ada36b7ad3f12fe/media.mp3",
-    "duration": "55:04"
-  },
-  {
-    "show": "Wrong Turns with Jameela Jamil",
-    "episode": "Daphnique Springs and Matt Braunger",
-    "url": "https://sphinx.acast.com/p/open/s/686302e79951fac41b1d2418/e/69c0b94c1a160b44db74e4c6/media.mp3",
-    "duration": "49:23"
-  },
-  {
-    "show": "Wrong Turns with Jameela Jamil",
-    "episode": "Alan Tudyk and Jade Catta-Preta",
-    "url": "https://sphinx.acast.com/p/open/s/686302e79951fac41b1d2418/e/69b9024dd21529adf82da1a4/media.mp3",
-    "duration": "42:44"
+    "episode": "Ian Lara and Michael Blieden",
+    "url": "https://sphinx.acast.com/p/open/s/686302e79951fac41b1d2418/e/69e041db907e5a7cc23655dd/media.mp3",
+    "duration": "54:33"
   }
 ]

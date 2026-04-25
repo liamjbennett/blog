@@ -17,7 +17,9 @@ WEEKNOTE_DIR = Path("content/weeknotes")
 NOW_FILE = Path("content/now.md")
 READING_HEADING = "## Reading"
 WATCHING_HEADING = "## Watching"
-BOOK_PAGES_PATTERN = re.compile(r"^\* \d+ book pages read \((.+?) - p\d+-p\d+\)(?: - Finished)?$")
+BOOK_PAGES_PATTERN = re.compile(
+    r"^\* [0-9A-Za-z]+ book pages read \((.+?) - p[0-9A-Za-z]+-p[0-9A-Za-z]+\)(?: - Finished)?$"
+)
 MARKDOWN_LINK_PATTERN = re.compile(r"^\[(.+?)\]\((https?://[^)]+)\)$")
 BOOKCOVER_SHORTCODE_PATTERN = re.compile(r"^\{\{<\s*bookcover\b")
 OG_IMAGE_PATTERN = re.compile(
