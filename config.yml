@@ -13,12 +13,15 @@ enableEmoji: true
 
 googleAnalytics: G-DFMYZ5KKFV
 
-ignoreLogs: ['warning-goldmark-raw-html']
-
 minify:
     disableXML: true
 
 languageCode: en-gb
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 outputs:
     home:
