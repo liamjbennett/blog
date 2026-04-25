@@ -41,3 +41,22 @@
   </defs>
 </svg>
 {{ end }}
+{{ with (eq $name "Radar") }}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+  <rect width="20" height="20" rx="2" fill="#0E2233"/>
+  <g fill="none" stroke="#2A3D4F" stroke-width="0.5">
+    <circle cx="10" cy="10" r="8"/>
+    <circle cx="10" cy="10" r="5.5"/>
+    <circle cx="10" cy="10" r="3"/>
+    <line x1="2" y1="10" x2="18" y2="10"/>
+    <line x1="10" y1="2" x2="10" y2="18"/>
+  </g>
+  <line x1="10" y1="10" x2="16.2" y2="3.8" stroke="#FFFFFF" stroke-width="0.9" stroke-linecap="round"/>
+  <circle cx="10" cy="10" r="1.4" fill="none" stroke="#FFFFFF" stroke-width="0.9"/>
+  <circle cx="11.2" cy="4.2" r="1.05" fill="#E4002B" stroke="#FFFFFF" stroke-width="0.45"/>
+  <circle cx="6.5" cy="6.2" r="1.05" fill="#8B2D7C" stroke="#FFFFFF" stroke-width="0.45"/>
+  <circle cx="5.2" cy="10.2" r="1.05" fill="#00A88E" stroke="#FFFFFF" stroke-width="0.45"/>
+  <circle cx="7.6" cy="13.6" r="1.05" fill="#1FA9E0" stroke="#FFFFFF" stroke-width="0.45"/>
+  <circle cx="13.5" cy="11.5" r="1.05" fill="#F7B500" stroke="#FFFFFF" stroke-width="0.45"/>
+</svg>
+{{ end }}
