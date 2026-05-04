@@ -44,25 +44,25 @@ draft: true
 ---
 
 XXX
-<p/>
+<br></br>
 
 * -
-<p/>
+<br></br>
  
 * -
-<p/>
+<br></br>
 
 * -
-<p/>
+<br></br>
 
 * -
-<p/>
+<br></br>
 
 📈 - This weeks stats:
 * XX minutes of podcasts
 * XX average weekly steps
 * XX book pages read
-<p/>
+<br></br>
 
 <!-- vale off -->
 📺 - This weeks background entertainment:
