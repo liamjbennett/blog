@@ -1,0 +1,13 @@
+/* Override h2 margin-bottom for increased spacing in content */
+h2 {
+    margin-bottom: 8px !important;
+}
+
+.md-content h2 {
+    margin-bottom: 8px !important;
+}
+
+/* Add spacing after h2 */
+h2 + p {
+    margin-top: 16px !important;
+}

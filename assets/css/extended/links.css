@@ -1,0 +1,42 @@
+.post-content a {
+  text-decoration: none;
+  text-underline-offset: 0.3rem;
+}
+
+.post-content a.internal-link {
+  text-decoration: underline;
+}
+
+.post-content a[href^="#"] {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.post-content a.external-link {
+  font-weight: 700;
+}
+
+.post-content a.external-link .external-link-icon {
+  display: inline-block;
+  margin-inline-start: 0.2em;
+  line-height: 0;
+  vertical-align: text-top;
+}
+
+.post-content a.external-link .external-link-icon svg {
+  width: 0.85em;
+  height: 0.85em;
+}
+
+.post-content p {
+  margin-bottom: 1rem;
+}
+
+.post-content li p {
+  margin-bottom: 0.75rem;
+}
+
+.post-content p:last-child,
+.post-content li p:last-child {
+  margin-bottom: 0;
+}

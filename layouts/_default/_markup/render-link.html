@@ -1,0 +1,10 @@
+{{- $destination := .Destination -}}
+{{- $isHttp := or (hasPrefix $destination "http://") (hasPrefix $destination "https://") -}}
+{{- $baseHost := (urls.Parse site.BaseURL).Host -}}
+{{- $destHost := "" -}}
+{{- if $isHttp -}}
+  {{- $destHost = (urls.Parse $destination).Host -}}
+{{- end -}}
+{{- $isExternal := and $isHttp (ne $destHost "") (ne $destHost $baseHost) -}}
+{{- $linkClass := cond $isExternal "external-link" "internal-link" -}}
+<a href="{{ $destination | safeURL }}" class="{{ $linkClass }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text }}{{- if $isExternal -}}<span class="external-link-icon" aria-hidden="true">{{ partial "icons/external-link.html" . }}</span>{{- end -}}</a>
