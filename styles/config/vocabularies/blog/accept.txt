@@ -109,6 +109,14 @@ Vandewiele
 [Vv]e
 Velasquez
 Zuniga
+Telstra
+Woollacott
+Keepit
+Weick
+Hollnagel
+Leveson
+Allspaw
+Edmondson
 
 # Brand and product names
 Automattic
@@ -282,6 +290,8 @@ Windows_scheduled_task
 [Ww]mic
 [Xx]ml
 [Yy]aml
+[Rr]unbooks?
+[Hh]yperscalers?
 
 # Informal language
 [Cc]leanup
