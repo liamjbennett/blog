@@ -12,7 +12,7 @@ categories:
 ---
 
 ## Hardware
-* MacBook Pro M1
+* MacBook Air M5
 * Mac Keyboard (A1243)
 * Wired Mouse 
 * LG 27UK650-W 27-Inch Monitor
@@ -29,6 +29,7 @@ categories:
 * Todoist
 * VSCode
 * Ghostty
+* Copilot Cowork
 
 ## Other
 * Yo Yo Desk Riser
