@@ -16,7 +16,7 @@ googleAnalytics: G-DFMYZ5KKFV
 minify:
     disableXML: true
 
-languageCode: en-gb
+locale: en-gb
 
 markup:
   goldmark:
@@ -27,7 +27,6 @@ outputs:
     home:
       - HTML
       - RSS
-      - JSON
       - AUDIO
       - WEEKNOTES
       - DEVLOG
