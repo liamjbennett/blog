@@ -193,6 +193,7 @@ performant
 taggable
 [Tt]o[Dd]o
 Heartbleed
+uptick
 
 # Technical terms
 ami_id
