@@ -4,8 +4,8 @@
 {{- $episodes := "" -}}
 {{- if $episodesJson -}}
   {{- $episodes = unmarshal $episodesJson -}}
-{{- else if .Site.Data.pocketcasts_episodes -}}
-  {{- $episodes = .Site.Data.pocketcasts_episodes -}}
+{{- else if hugo.Data.pocketcasts_episodes -}}
+  {{- $episodes = hugo.Data.pocketcasts_episodes -}}
 {{- end -}}
 
 <div class="pocketcasts-player">
