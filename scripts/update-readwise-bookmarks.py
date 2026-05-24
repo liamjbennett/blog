@@ -16,6 +16,7 @@ from urllib import error, parse, request
 
 
 READWISE_API = "https://readwise.io/api/v3/list/"
+READWISE_BULK_UPDATE_API = "https://readwise.io/api/v3/bulk_update/"
 SNIPPETS_DIR = Path("content/snippets")
 DEFAULT_OP_REFERENCE = "op://Private/Readwise/token"
 
@@ -116,6 +117,57 @@ def fetch_page(token: str, params: dict[str, Any]) -> dict[str, Any]:
         raise RuntimeError("Readwise API response format was unexpected")
 
     return data
+
+
+def bulk_archive_documents(token: str, document_ids: list[str]) -> tuple[int, int]:
+    archived_count = 0
+    failed_count = 0
+
+    # Readwise bulk update supports up to 50 documents per request.
+    for start in range(0, len(document_ids), 50):
+        chunk = document_ids[start : start + 50]
+        payload = {
+            "updates": [{"id": doc_id, "location": "archive"} for doc_id in chunk]
+        }
+        req = request.Request(
+            READWISE_BULK_UPDATE_API,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={
+                "Authorization": f"Token {token}",
+                "Accept": "application/json",
+                "Content-Type": "application/json",
+                "User-Agent": "blog-readwise-bookmarks-script/1.0",
+            },
+            method="PATCH",
+        )
+
+        try:
+            with request.urlopen(req, timeout=30) as response:
+                body = response.read().decode("utf-8")
+        except error.HTTPError as exc:
+            message = exc.read().decode("utf-8", errors="replace")
+            raise RuntimeError(
+                f"Readwise archive request failed with HTTP {exc.code}: {message.strip()[:200]}"
+            ) from exc
+        except error.URLError as exc:
+            raise RuntimeError(f"Could not connect to Readwise API for archive update: {exc}") from exc
+
+        try:
+            data = json.loads(body)
+        except json.JSONDecodeError as exc:
+            raise RuntimeError("Readwise bulk archive API returned invalid JSON") from exc
+
+        results = data.get("results") if isinstance(data, dict) else None
+        if isinstance(results, list):
+            for result in results:
+                if isinstance(result, dict) and result.get("success") is True:
+                    archived_count += 1
+                else:
+                    failed_count += 1
+        else:
+            archived_count += len(chunk)
+
+    return archived_count, failed_count
 
 
 def fetch_bookmarks(token: str, tag: str, limit: int) -> list[dict[str, Any]]:
@@ -286,6 +338,7 @@ def main() -> int:
 
     created_count = 0
     skipped_count = 0
+    created_item_ids: list[str] = []
 
     for item in items:
         output_path = snippet_output_path_for_item(item)
@@ -297,11 +350,28 @@ def main() -> int:
         content = build_front_matter(date_for_item(item), args.tag) + render_snippet_body(item)
         output_path.write_text(content, encoding="utf-8")
         created_count += 1
+        item_id = safe_text(item.get("id"), "")
+        if item_id:
+            created_item_ids.append(item_id)
         print(f"Created snippet: {output_path}")
+
+    archived_count = 0
+    archive_failed_count = 0
+    if created_item_ids:
+        try:
+            archived_count, archive_failed_count = bulk_archive_documents(token, created_item_ids)
+        except RuntimeError as exc:
+            print(f"Error: {exc}", file=sys.stderr)
+            return 1
 
     print(
         f"Processed {len(items)} item(s): created {created_count}, skipped {skipped_count} existing file(s)."
     )
+    if created_item_ids:
+        print(
+            f"Archived {archived_count} created item(s) in Readwise"
+            + (f"; {archive_failed_count} failed." if archive_failed_count else ".")
+        )
     return 0
 
 
