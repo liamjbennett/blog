@@ -185,6 +185,12 @@ def snippet_filename_for_item(item: dict[str, Any]) -> str:
     return f"{timestamp}-{identifier}.md"
 
 
+def snippet_output_path_for_item(item: dict[str, Any]) -> Path:
+    created_at = parse_iso_datetime(item.get("created_at"))
+    year = (created_at or datetime.now()).strftime("%Y")
+    return SNIPPETS_DIR / year / snippet_filename_for_item(item)
+
+
 def build_front_matter(date_value: str, tag: str) -> str:
     return "\n".join(
         [
@@ -236,10 +242,14 @@ def render_snippet_body(item: dict[str, Any]) -> str:
 
     lines: list[str] = []
     if image_url:
-        lines.append(f'{{{{< figure src="{image_url}" title="{title}" width="600px" >}}}}')
-        lines.append("")
-
-    if url:
+        if url:
+            lines.append(
+                f'{{{{< figure src="{image_url}" width="350px" link="{url}" >}}}}'
+            )
+            lines.extend(["", f"[{title}]({url})"])
+        else:
+            lines.append(f'{{{{< figure src="{image_url}" width="350px" >}}}}')
+    elif url:
         lines.append(f"[{title}]({url})")
     else:
         lines.append(title)
@@ -274,17 +284,16 @@ def main() -> int:
         print(f"No Reader items found for tag '{args.tag}'.")
         return 0
 
-    SNIPPETS_DIR.mkdir(parents=True, exist_ok=True)
     created_count = 0
     skipped_count = 0
 
     for item in items:
-        filename = snippet_filename_for_item(item)
-        output_path = SNIPPETS_DIR / filename
+        output_path = snippet_output_path_for_item(item)
         if output_path.exists():
             skipped_count += 1
             continue
 
+        output_path.parent.mkdir(parents=True, exist_ok=True)
         content = build_front_matter(date_for_item(item), args.tag) + render_snippet_body(item)
         output_path.write_text(content, encoding="utf-8")
         created_count += 1
