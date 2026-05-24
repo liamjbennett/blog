@@ -23,8 +23,9 @@ except ImportError:
     sys.exit(1)
 
 
-NOW_FILE = Path("content/now.md")
-EPISODES_FILE = Path("data/pocketcasts_episodes.json")
+BASE_DIR = Path(__file__).resolve().parents[1]
+NOW_FILE = BASE_DIR / "content/now.md"
+EPISODES_FILE = BASE_DIR / "data/pocketcasts_episodes.json"
 POCKETCASTS_API = "https://api.pocketcasts.com"
 AUDIO_FETCH_HEADERS = {
     "User-Agent": (

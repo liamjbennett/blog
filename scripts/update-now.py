@@ -13,12 +13,13 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 
-WEEKNOTE_DIR = Path("content/weeknotes")
-NOW_FILE = Path("content/now.md")
+BASE_DIR = Path(__file__).resolve().parents[1]
+WEEKNOTE_DIR = BASE_DIR / "content/weeknotes"
+NOW_FILE = BASE_DIR / "content/now.md"
 READING_HEADING = "## Reading"
 WATCHING_HEADING = "## Watching"
 BOOK_PAGES_PATTERN = re.compile(
-    r"^\* [0-9A-Za-z]+ book pages read \((.+?) - p[0-9A-Za-z]+-p[0-9A-Za-z]+\)(?: - Finished)?$"
+    r"^\* [0-9A-Za-z,]+ book pages read \((.+?) - p?[0-9A-Za-z,]+-p?[0-9A-Za-z,]+\)(?: - Finished)?$"
 )
 MARKDOWN_LINK_PATTERN = re.compile(r"^\[(.+?)\]\((https?://[^)]+)\)$")
 BOOKCOVER_SHORTCODE_PATTERN = re.compile(r"^\{\{<\s*bookcover\b")
