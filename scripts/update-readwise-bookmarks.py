@@ -17,7 +17,8 @@ from urllib import error, parse, request
 
 READWISE_API = "https://readwise.io/api/v3/list/"
 READWISE_BULK_UPDATE_API = "https://readwise.io/api/v3/bulk_update/"
-SNIPPETS_DIR = Path("content/snippets")
+REPO_ROOT = Path(__file__).resolve().parents[1]
+SNIPPETS_DIR = REPO_ROOT / "content" / "snippets"
 DEFAULT_OP_REFERENCE = "op://Private/Readwise/token"
 
 

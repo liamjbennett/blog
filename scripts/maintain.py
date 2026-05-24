@@ -11,6 +11,7 @@ UPDATE_SCRIPTS = [
     "update-now.py",
     "update-pocketcasts.py",
     "update-podroll.py",
+    "update-readwise-bookmarks.py",
     "update-theme.py",
 ]
 
