@@ -1,56 +1,62 @@
 [
   {
     "show": "Acquired",
-    "episode": "Ferrari",
-    "url": "https://pscrb.fm/rss/p/media.transistor.fm/9ca1df08/e400ba0d.mp3",
-    "duration": "3:59:19"
+    "episode": "Vanguard",
+    "url": "https://pscrb.fm/rss/p/media.transistor.fm/ee9d0817/c12627bd.mp3",
+    "duration": "3:48:04"
   },
   {
     "show": "Ignore That Feeling with Fern Brady and Alison Spittle",
-    "episode": "Bad auditions, priests and the Take That documentary",
-    "url": "https://sphinx.acast.com/p/open/s/694c1ed009314afbec95a3a6/e/69de1758ae33864715e2fe43/media.mp3",
-    "duration": "58:47"
+    "episode": "The monarchy, This Morning and the weird-womenosphere",
+    "url": "https://sphinx.acast.com/p/open/s/694c1ed009314afbec95a3a6/e/6a072645efd1f558b0998a9c/media.mp3",
+    "duration": "51:14"
   },
   {
     "show": "Last Week In AWS Podcast",
-    "episode": "Multicloud Interconnect and the Great CVE Hunt",
-    "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/a45facba/da15b2ef.mp3",
-    "duration": "5:31"
+    "episode": "M3 Ultra Macs, Claude Platform, and 619 New APIs Walk Into a Bar",
+    "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/1e314c3b/27e7dc91.mp3",
+    "duration": "7:05"
   },
   {
     "show": "Risky Business",
-    "episode": "Risky Business #833 -- The Great Mythos Freakout of 2026",
-    "url": "https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RB833.mp3",
-    "duration": "59:45"
+    "episode": "Risky Business #838 -- GitHub investigates possible breach",
+    "url": "https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RB838.mp3",
+    "duration": "1:02:49"
   },
   {
     "show": "Risky Business",
-    "episode": "How the World Got Owned Episode 2: The 1990s, Part One",
-    "url": "https://dts.podtrac.com/redirect.mp3/media3.risky.biz/HTWGO2.mp3",
-    "duration": "46:46"
+    "episode": "Risky Business #837 -- GitHub Actions footgun claims TanStack",
+    "url": "https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RB837.mp3",
+    "duration": "1:05:15"
   },
   {
     "show": "Screaming in the Cloud",
-    "episode": "The Power of Saying No: Growing by Narrowing Your Focus with Corey Quinn",
-    "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/460681f1/31a9cea3.mp3",
-    "duration": "28:57"
+    "episode": "The Rise of Autonomous Ops: Inside AWS\u2019s DevOps Agent with David Yanacek",
+    "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/93b09d04/5319b7ca.mp3",
+    "duration": "30:32"
   },
   {
     "show": "The Rest Is Entertainment",
-    "episode": "Rupert Murdoch Is A Messy Bitch",
-    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT7452239728.mp3?updated=1776719851",
-    "duration": "53:44"
+    "episode": "Marina Is Wrong About The Best Bond Theme",
+    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT8844958522.mp3",
+    "duration": "36:35"
+  },
+  {
+    "show": "The Rest Is Entertainment",
+    "episode": "Have Tradwives Killed Feminism?",
+    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT2691209789.mp3",
+    "duration": "27:37"
+  },
+  {
+    "show": "The Rest Is Entertainment",
+    "episode": "Elon Musk vs Christopher Nolan",
+    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT1004190235.mp3",
+    "duration": "48:31"
   },
   {
     "show": "What's new in Cloud FinOps?",
-    "episode": "WNiCF - March 2026 - News",
-    "url": "https://www.buzzsprout.com/1397218/episodes/19044528-wnicf-march-2026-news.mp3",
-    "duration": "22:39"
-  },
-  {
-    "show": "Wrong Turns with Jameela Jamil",
-    "episode": "Ian Lara and Michael Blieden",
-    "url": "https://sphinx.acast.com/p/open/s/686302e79951fac41b1d2418/e/69e041db907e5a7cc23655dd/media.mp3",
-    "duration": "54:33"
+    "episode": "WNiCF - April 2026 - News",
+    "url": "https://www.buzzsprout.com/1397218/episodes/19221176-wnicf-april-2026-news.mp3",
+    "duration": "54:58"
   }
 ]

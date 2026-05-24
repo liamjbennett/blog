@@ -19,11 +19,16 @@ Writing all the time (see: [writing](/pages#writing))
 
 ## Reading
 
-{{< bookcover src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1349673129i/954674.jpg" title="Little Brother" url="https://www.goodreads.com/book/show/954674.Little_Brother" >}}
+{{< bookcover src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1340259004i/12917338.jpg" title="Homeland" url="https://www.goodreads.com/book/show/12917338-homeland" >}}
 
 ## Watching
 
-{{< bookcover src="https://m.media-amazon.com/images/M/MV5BZjQ4YmM4MzgtZTZkNS00N2FlLTg1MTgtZmVjNjI5OTY0MDA2XkEyXkFqcGc@._V1_.jpg" title="The Capture - S03" url="https://www.imdb.com/title/tt8201186/" >}}
+{{< bookcovergrid >}}
+{{< bookcover src="https://m.media-amazon.com/images/M/MV5BNzNkZmJkODUtOTA5Ni00ZDg3LWIzMTktNTMwYmU3NDdmNzgyXkEyXkFqcGc@._V1_.jpg" title="Amandaland - S02" url="https://www.imdb.com/title/tt33305711/" >}}
+{{< bookcover src="https://m.media-amazon.com/images/M/MV5BY2ZlNDBmOTctM2RhMS00NmU4LTg4NWQtZTA2ODdmMDNlZDg2XkEyXkFqcGc@._V1_.jpg" title="Four Seasons - S01" url="https://www.imdb.com/title/tt30826447/" >}}
+{{< bookcover src="https://m.media-amazon.com/images/M/MV5BZjU4OWNiYzQtMzc1NS00NjZlLTgyYTctZWY4ZmEzMTkxYjA4XkEyXkFqcGc@._V1_.jpg" title="The Boys - S05" url="https://www.imdb.com/title/tt1190634/" >}}
+{{< bookcover src="https://m.media-amazon.com/images/M/MV5BYTVjNWVhYTctMGJkMS00NWFjLWE2N2QtNmQ1Y2FhZDFkNzUwXkEyXkFqcGc@._V1_.jpg" title="Grey's Anatomy - S22" url="https://www.imdb.com/title/tt0413573/" >}}
+{{< /bookcovergrid >}}
 
 ## Listening
 
@@ -34,4 +39,4 @@ Writing all the time (see: [writing](/pages#writing))
 {{< spotify url="https://open.spotify.com/playlist/7dd6lGDBBm2f7fs3lPlNEu" title="Spotify Listening" height="370" >}}
 
 ---
-Last Updated: 25-Apr-2026
+Last Updated: 24-May-2026
