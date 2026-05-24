@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch Readwise Reader bookmarks and create a new snippet post."""
+"""Fetch Readwise Reader bookmarks and create one snippet post per bookmark."""
 
 from __future__ import annotations
 
@@ -17,12 +17,12 @@ from urllib import error, parse, request
 
 READWISE_API = "https://readwise.io/api/v3/list/"
 SNIPPETS_DIR = Path("content/snippets")
-DEFAULT_OP_REFERENCE = "op://Personal/readwise/token"
+DEFAULT_OP_REFERENCE = "op://Private/Readwise/token"
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Create a snippet from Readwise Reader items tagged 'bookmarks'."
+        description="Create one snippet per Readwise Reader item tagged 'bookmarks'."
     )
     parser.add_argument(
         "--tag",
@@ -33,7 +33,7 @@ def parse_args() -> argparse.Namespace:
         "--limit",
         type=int,
         default=25,
-        help="Maximum number of Reader items to include in the snippet (default: 25).",
+        help="Maximum number of Reader items to process (default: 25).",
     )
     parser.add_argument(
         "--token",
@@ -167,62 +167,31 @@ def safe_text(value: Any, fallback: str) -> str:
     return fallback
 
 
-def render_snippet_body(items: list[dict[str, Any]], tag: str) -> str:
-    lines = [
-        f"Pulled {len(items)} Readwise Reader item(s) tagged '{tag}'.",
-        "",
-    ]
-
-    for item in items:
-        title = safe_text(item.get("title"), "Untitled")
-        url = safe_text(item.get("url"), "")
-        author = safe_text(item.get("author"), "")
-        created_at = parse_iso_datetime(item.get("created_at"))
-        created_on = created_at.strftime("%Y-%m-%d") if created_at else ""
-
-        line = f"- [{title}]({url})" if url else f"- {title}"
-        details: list[str] = []
-        if author:
-            details.append(author)
-        if created_on:
-            details.append(created_on)
-        if details:
-            line += f" ({', '.join(details)})"
-
-        lines.append(line)
-
-    return "\n".join(lines) + "\n"
+def slugify(text: str, fallback: str = "bookmark") -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", text.strip().lower())
+    slug = re.sub(r"-+", "-", slug).strip("-")
+    return slug or fallback
 
 
-def snippet_filename(items: list[dict[str, Any]]) -> str:
-    first = items[0] if items else {}
-    created_at = parse_iso_datetime(first.get("created_at") if isinstance(first, dict) else None)
-    timestamp = created_at or datetime.now()
-    return timestamp.strftime("%Y-%m-%d-%H-%M") + ".md"
+def snippet_filename_for_item(item: dict[str, Any]) -> str:
+    created_at = parse_iso_datetime(item.get("created_at"))
+    timestamp = (created_at or datetime.now()).strftime("%Y-%m-%d-%H-%M")
+    item_id = str(item.get("id", "")).strip()
+    if item_id:
+        identifier = slugify(item_id, "item")
+    else:
+        title = safe_text(item.get("title"), "bookmark")
+        identifier = slugify(title)
+    return f"{timestamp}-{identifier}.md"
 
 
-def unique_snippet_path(filename: str) -> Path:
-    target = SNIPPETS_DIR / filename
-    if not target.exists():
-        return target
-
-    stem = target.stem
-    suffix = target.suffix
-    counter = 2
-    while True:
-        candidate = SNIPPETS_DIR / f"{stem}-{counter}{suffix}"
-        if not candidate.exists():
-            return candidate
-        counter += 1
-
-
-def build_front_matter(date_value: str) -> str:
+def build_front_matter(date_value: str, tag: str) -> str:
     return "\n".join(
         [
             "---",
             'author: "liamjbennett"',
             f'date: "{date_value}"',
-            'tags: ["bookmarks"]',
+            f'tags: ["{tag}"]',
             "ShowToc: false",
             "ShowBreadCrumbs: false",
             'thumbnail: "/img/main/profile.jpg"',
@@ -234,11 +203,51 @@ def build_front_matter(date_value: str) -> str:
     )
 
 
-def extract_date_from_filename(filename: str) -> str:
-    match = re.match(r"^(\d{4}-\d{2}-\d{2})-\d{2}-\d{2}.*\\.md$", filename)
-    if match:
-        return match.group(1)
+def date_for_item(item: dict[str, Any]) -> str:
+    created_at = parse_iso_datetime(item.get("created_at"))
+    if created_at:
+        return created_at.strftime("%Y-%m-%d")
     return datetime.now().strftime("%Y-%m-%d")
+
+
+def bookmark_url(item: dict[str, Any]) -> str:
+    # Prefer the original/source URL when available; fall back to Reader URL.
+    for key in ("source_url", "original_url", "canonical_url", "url"):
+        value = safe_text(item.get(key), "")
+        if value:
+            return value
+    return ""
+
+
+def bookmark_preview_image_url(item: dict[str, Any]) -> str:
+    # Readwise often exposes page preview images using one of these fields.
+    for key in ("image_url", "cover_image_url", "summary_image_url", "thumbnail_url"):
+        value = safe_text(item.get(key), "")
+        if value:
+            return value
+    return ""
+
+
+def render_snippet_body(item: dict[str, Any]) -> str:
+    title = safe_text(item.get("title"), "Untitled")
+    url = bookmark_url(item)
+    image_url = bookmark_preview_image_url(item)
+    author = safe_text(item.get("author"), "")
+
+    lines: list[str] = []
+    if image_url:
+        lines.append(f'{{{{< figure src="{image_url}" title="{title}" width="600px" >}}}}')
+        lines.append("")
+
+    if url:
+        lines.append(f"[{title}]({url})")
+    else:
+        lines.append(title)
+
+    if author:
+        lines.extend(["", f"Author: {author}"])
+
+    return "\n".join(lines).rstrip() + "\n"
 
 
 def main() -> int:
@@ -265,16 +274,25 @@ def main() -> int:
         print(f"No Reader items found for tag '{args.tag}'.")
         return 0
 
-    filename = snippet_filename(items)
-    output_path = unique_snippet_path(filename)
-    date_value = extract_date_from_filename(output_path.name)
-
-    content = build_front_matter(date_value) + render_snippet_body(items, args.tag)
     SNIPPETS_DIR.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(content, encoding="utf-8")
+    created_count = 0
+    skipped_count = 0
 
-    print(f"Created snippet: {output_path}")
-    print(f"Included {len(items)} item(s).")
+    for item in items:
+        filename = snippet_filename_for_item(item)
+        output_path = SNIPPETS_DIR / filename
+        if output_path.exists():
+            skipped_count += 1
+            continue
+
+        content = build_front_matter(date_for_item(item), args.tag) + render_snippet_body(item)
+        output_path.write_text(content, encoding="utf-8")
+        created_count += 1
+        print(f"Created snippet: {output_path}")
+
+    print(
+        f"Processed {len(items)} item(s): created {created_count}, skipped {skipped_count} existing file(s)."
+    )
     return 0
 
 
