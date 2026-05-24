@@ -14,7 +14,9 @@ categories:
 ## Future
 * Update pages to use internet archive links
 * Add additional rss feeds for snippets
-* Automate bookmarks from Readwise
+
+## May 2026
+* Creating snippets from Readwise bookmarks
 
 ## Mar 2026
 * Added [vale](https://vale.sh/) for spelling and british english checks.
