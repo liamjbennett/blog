@@ -41,6 +41,7 @@ Visio
 VMware
 [Ww]ardley
 Wipro
+Broadcomm
 
 # People names from posts
 Apeldoorn
@@ -153,6 +154,7 @@ vCloud
 [Ww]in[Oo]ps
 [Yy]ou[Tt]ube?s?
 [Cc]o[Ww]ork
+OpenShift
 
 # Abbreviations
 ADRs?
