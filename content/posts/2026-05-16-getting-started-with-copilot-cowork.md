@@ -71,13 +71,37 @@ What this also means is that when I have a problem I want to solve with Copilot 
 
 ## What I use it for
 
-So by now you're probably wanting to know what things I am using Cowork for (and how I found all the edge cases). So here are some examples:
+So by now you're probably wanting to know what things I am using Cowork for (and how I found all the edge cases). So here are some examples.
 
-* Branded documents
-* Organising meetings
-* Arranging focus time
-* 1:1 management
-* Timesheets
+### Branded documents
+This is almost certaintly the first skill that every Cowork user will try and create. Given that the docx, excel and pptx skills for the actual content creation are already built in, this is about building a skill that focuses on your company branding, your colours, your text style, your iconography - you do already have a brand guide right?!
+
+**Lesson learnt**: your typical corporate brand guide probably won't cut it on it's own. Claude needs to know about accessibility rules like don't but red text on a black background and some common design rules like don't but things with round corners next to things with square corners. Also, it's worth noting that Claude has a very particular visual style built into the default skills - you have even seen some of it's generated content already. Expect to spend some time really tuning your skills so that they feel less like Claude and more like the corporate branding you want it to be - heck! maybe even get your existing designers to focus on this.
+
+### Organising meetings
+Organising meetings is such a common task that Cowork has the prompt already built in to help with this task, which is a great first start but I found it didn't go far enough. There are a lot of small decisions I make when managing my calendar manually: what types of meetings to move, when to shrink a meeting and when not to, what meetings to cancel, what meetings to mark as follow, how to handle clashes. All of these rules are decisions I make based on how I categories events, who it is and what my prirorities are; suffice to say these are unique to me. Creating a skill that is unique to your calendar management workfolow is one of the biggest gifts you can give yourself - this is one of the things that has contributed significantly my increase in productivity.
+
+**Lesson learnt**: be explict about what events it can cancel automatically and which will require your approval before hand. The same goes for emails. In fact you may need to be explicit in the future if Microsoft start enforcing some of that behaviour due to the recent [exfilation issue](https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files).
+
+### Arranging focus time
+Time blocking has been a productivity technique for knowledge workers for many years. Microsoft has supported [creating focus time blockers in your calendar for you since 2019](https://www.microsoft.com/en-us/microsoft-365/blog/2019/05/06/build-2019-people-centered-experiences-microsoft-365-productivity-cloud/), way before the Copilot was launched. I've used this technique for a long time and it is very useful, but it also used to take a quite a bit of effort to actually manage - oh the irony! Actions from meetings going onto my TODO list, making sure that I had focus time for each of those actions, and moving those meeting around, it was a lot of work sometimes. 
+
+With Cowork and a little Power Automate, I've now been able to automate the entire process. Tasks get added to Planner based on meeting transcriptions and I get a daily overview of any tasks that don't currently have focus time assigned. Cowork will also create focus time blocks for me, link those blocks to the planner task and with the meeting organising skill I mentioned above also make sure it fits in with the rest of my calendar. This was by far this biggest productivity gain for me.
+
+**Lesson learnt**: Cowork and Copilot chat are two seperate worlds in the same interface. You can't use Copilot agents in Cowork and Cowork at the moment has a limited set of integrations. It can send emails, create events and create basic planner tasks - those are your only integration points. File created within Cowork also only live with the session, so in order to get them out - you need to email them to yourself. I have been using emails and calendar events as the the trigger points for some of the Power Automate that really makes this skill sing. The real lesson for me here has been that any sufficiently complex skill will eventually require you to spend time in Power Automate, just like any sufficiently complex Copilot work will eventually require you to get into Copilot Studio.
+
+### 1:1 management
+I am a manager with currently 13 direct reports, which means on average I got 4.5 hours of 1:1s every week, plus ad-hoc 1:1s with many other people across the business which somtimes being that total up to closer to a day per week. That's fine, it's part of my job, but that also means a lot of meeting transcripts and a lot of actions. I now have a skill that reads the transcript, provides a summary, creates actions on a planner board shared between me and the other person and exports the summary, actions and transcript to a word document, also shared with the other person, to be used as a perment record of the meeting.
+
+Hold on, doesn't that sound like [Copilot Facilitator](https://support.microsoft.com/en-us/teams/copilot/facilitator-in-microsoft-teams-meetings)? Well that didn't really work for me and there were a few lessons along to way in putting this one together.
+
+**Lesson learnt**: You can't automate Microsoft Loop. It doesn't have an API and the only way to get data out of it is a manual print to pdf export. When Copilot Facilitator is added to a meeting it automatically transcribes, summarises and creates actions - so far so good. However it creates those actions in a Loop page per meeting, however critically it doesn't assign those actions. When assigned, it's great because they appear as tasks in planner, but it requires manually going to every loop page to review and assign tasks. It somewhat negates the productivity gains Facilitator thinks it's giving you.
+
+**Lesson learnt**: Transcript only
+
+**Lesson learnt**: Still need to review actions.
+
+### Timesheets
 
 ## Where Cowork fits into the wider Copilot ecosystem
 
