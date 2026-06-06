@@ -92,6 +92,9 @@ params:
         - name: rss
           url: "audio.xml"
 
+    permalinks:
+        posts: /posts/:slug/
+
 menu:
   main:
     - identifier: about
