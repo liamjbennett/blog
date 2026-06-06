@@ -11,6 +11,8 @@ audio_url: ""
 audio_length: ""
 audio_bytes: ""
 draft: true
+aliases:
+  - /posts/2026-05-16-getting-started-with-copilot-cowork
 ---
 
 I've been using Microsoft Copilot Cowork since it's first day of release into the [Frontier programme](). It has had a significant impact on my productivity and for those few of us in the organisation going through out internal pilot of the tool. I've had so many conversations about it over the past six weeks that I felt the need to share my experience in the hope that you find it useful and get to share the experience with others.

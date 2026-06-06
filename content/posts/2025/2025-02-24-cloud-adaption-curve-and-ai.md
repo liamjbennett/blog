@@ -10,6 +10,8 @@ thumbnail: "/img/main/profile.jpg"
 audio_url: ""
 audio_length: ""
 audio_bytes: ""
+aliases:
+  - /posts/2025-02-24-cloud-adaption-curve-and-ai
 ---
 
 ![Cloud vs AI adoption](/img/2025/cloud-and-ai-adoption.png)

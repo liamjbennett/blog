@@ -10,6 +10,8 @@ thumbnail: "/img/main/profile.jpg"
 audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2022-02-16%20-%20my%20experiences%20building%20teams%20-%20Final.m4a"
 audio_length: "00:08:53"
 audio_bytes: 17077730
+aliases:
+  - /posts/2022-02-16-experiences-building-teams
 ---
 
 I started writing again in order to get some of those 1:1 conversations and email threads out into the public where some of the conversations, learning and titbits of  information can be useful to others. On that same theme I wanted to write down some of those learnings I’ve had building teams over the past 5 years.

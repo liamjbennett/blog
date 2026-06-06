@@ -7,6 +7,8 @@ tags: ["talks"]
 ShowToc: false
 ShowBreadCrumbs: false
 expiryDate: "2015-12-01"
+aliases:
+  - /posts/2015-09-11-windows-talk
 ---
 
 I gave another talk this week to the folks over at [Ve Interactive](http://www.veinteractive.com/).

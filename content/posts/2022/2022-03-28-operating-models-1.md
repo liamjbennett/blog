@@ -11,6 +11,8 @@ thumbnail: "/img/main/profile.jpg"
 audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2022-03-28%20-%20mixed%20operating%20models%20-%20part%201%20-%20Final.m4a"
 audio_length: "00:09:54"
 audio_bytes: "19027927"
+aliases:
+  - /posts/2022-03-28-operating-models-1
 ---
 
 This month I wanted to start discussing a topic that has been going around and around in circles of conversation and thoughts for several years now - mixed operating models in IT organisations. There is a lot of ground to cover so stick with me over the next couple of posts and I’ll show you how and why this comes about and what we can do about it.

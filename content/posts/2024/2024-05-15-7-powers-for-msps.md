@@ -9,6 +9,8 @@ thumbnail: "/img/main/profile.jpg"
 audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2024-05-15-7-powers-for-msps%20-%20Final.m4a"
 audio_length: "00:16:20"
 audio_bytes: "31534938"
+aliases:
+  - /posts/2024-05-15-7-powers-for-msps
 ---
 
 Hamilton Helmer introduces the concept of “7 Powers” in his book titled [“7 Powers: The Foundations of Business Strategy”](https://www.amazon.co.uk/7-Powers-Foundations-Business-Strategy/dp/0998116319). In that book he identifies seven areas of business strategy that when executed well, create the potential for persistent differential returns (i.e., the company consistently outperforms it’s competitors and creates lasting financial value).

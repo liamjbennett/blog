@@ -7,6 +7,8 @@ tags: ["puppet"]
 ShowToc: false
 ShowBreadCrumbs: false
 expiryDate: "2015-12-01"
+aliases:
+  - /posts/2013-10-06-puppet-on-windows-part-1
 ---
 
 I have recently spent some time working with puppet, in particular working on writing modules for Windows and I wanted to share some of my thoughts and experiences that I learnt along the way.

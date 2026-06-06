@@ -6,6 +6,8 @@ description: ""
 ShowToc: false
 ShowBreadCrumbs: false
 expiryDate: "2015-12-01"
+aliases:
+  - /posts/2015-03-23-quick-update
 ---
 
 Ok, so you’ve seen the date of this post. I’m not exactly as regular with these posts as I would like but it seems that I do in fact still have things to write about.

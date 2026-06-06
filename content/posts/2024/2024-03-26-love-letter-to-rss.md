@@ -9,6 +9,8 @@ thumbnail: "/img/main/profile.jpg"
 audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2024-03-26%20-%20love%20letter%20to%20rss%20-%20Final.m4a"
 audio_length: "00:02:39"
 audio_bytes: "5094004"
+aliases:
+  - /posts/2024-03-26-love-letter-to-rss
 ---
 
 # A love letter to RSS

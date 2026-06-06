@@ -9,6 +9,8 @@ thumbnail: "/img/main/profile.jpg"
 audio_url: ""
 audio_length: ""
 audio_bytes: ""
+aliases:
+  - /posts/2024-08-10-lessons-learnt-weeknotes
 ---
 
 ## Why I started Weeknotes

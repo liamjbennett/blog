@@ -10,6 +10,8 @@ thumbnail: "/img/main/profile.jpg"
 audio_url: ""
 audio_length: ""
 audio_bytes: ""
+aliases:
+  - /posts/2025-09-06-why-I-hate-product-roadmaps
 ---
 
 ![Broken roadmap](/img/2025/why-i-hate-roadmaps.png)

@@ -7,6 +7,8 @@ tags: ["cucumber","bdd","testing"]
 ShowToc: false
 ShowBreadCrumbs: false
 expiryDate: "2015-12-01"
+aliases:
+  - /posts/2013-09-08-thoughts-on-scaling-cucumber
 ---
 
 I have been spending a lot of time lately working with Ruby and in particular a reasonably large suite of cucumber tests. Cucumber has been adapted by several teams within Mimecast to varying degrees of success and maturity, mostly dependent on each individual teams' experience with Ruby.

@@ -11,6 +11,8 @@ thumbnail: "/img/main/profile.jpg"
 audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2022-08-22%20-%20mixed%20operating%20models%20-%20part%203%20-%20Final.m4a"
 audio_length: "00:08:40"
 audio_bytes: "16649739"
+aliases:
+  - /posts/2022-08-22-operating-models-3
 ---
 
 ![](/img/2022/operatingmodel-3-titlepage.jpeg)

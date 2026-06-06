@@ -10,6 +10,8 @@ thumbnail: "/img/main/profile.jpg"
 audio_url: ""
 audio_length: ""
 audio_bytes: ""
+aliases:
+  - /posts/2025-01-12-goals-values-and-purpose
 ---
 
 I have been fortunate enough over the past few years to have some excellent coaching, some helpful mentors and one or two pretty good therapists. As a result I have been able to get to know myself quite well and as part of one of my goals of 2025 I want to do a little bit more sharing of my thoughts, my ideas and therefore more of myself in public.

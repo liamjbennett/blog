@@ -7,6 +7,8 @@ tags: ["puppet"]
 ShowToc: false
 ShowBreadCrumbs: false
 expiryDate: "2015-12-01"
+aliases:
+  - /posts/2014-10-06-puppetconf-2014-part-2
 ---
 
 The second instalment of my review of the 2014 Puppet conference.

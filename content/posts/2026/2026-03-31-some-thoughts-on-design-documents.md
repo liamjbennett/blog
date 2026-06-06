@@ -10,6 +10,8 @@ thumbnail: "/img/main/profile.jpg"
 audio_url: ""
 audio_length: ""
 audio_bytes: ""
+aliases:
+  - /posts/2026-03-31-some-thoughts-on-design-documents
 ---
 
 ![Design document post banner](/img/2026/Design_document_post_banner.png)

@@ -10,6 +10,8 @@ thumbnail: "/img/main/profile.jpg"
 audio_url: ""
 audio_length: ""
 audio_bytes: ""
+aliases:
+  - /posts/2024-05-31-walking-treadmill
 ---
 
 *"Are you walking?" - Yes*

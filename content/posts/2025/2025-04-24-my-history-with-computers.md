@@ -10,6 +10,8 @@ thumbnail: "/img/main/profile.jpg"
 audio_url: ""
 audio_length: ""
 audio_bytes: ""
+aliases:
+  - /posts/2025-04-24-my-history-with-computers
 ---
 
 As one of my lighter blog posts, I'll be telling that story that every engineer gets to tell as some point: the reason why I got into this whole thing in the first place. It's a topic that comes up from time to time so I thought I'd write it here for posterity. 

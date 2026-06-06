@@ -7,6 +7,8 @@ tags: ["puppet"]
 ShowToc: false
 ShowBreadCrumbs: false
 expiryDate: "2015-12-01"
+aliases:
+  - /posts/2013-12-11-profiles-roles-stacks-and-clouds
 ---
 
 One of the more recent patterns in structuring out puppet manifests is: roles and profiles [[1]](#968504594f013f0067f2c0f7ec5c5fb8) [[2]](#9031aeaf735f6dffb9872a8328853a5f). The summary is this: profiles are a collection of classes/modules and roles are a collection of profiles. Having started to re-factor our own infrastructure with this pattern recently there was one question that cam immediately to mind .. what's next?

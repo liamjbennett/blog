@@ -6,6 +6,8 @@ description: ""
 ShowToc: false
 ShowBreadCrumbs: false
 expiryDate: "2015-12-01"
+aliases:
+  - /posts/2015-03-12-quick-update
 ---
 
 It has recently been commented by a few individuals that I am a poor communicator of some of the interesting things that I am usually hacking on. I guess they are right and I thought that rather than wait and do a big-bang style blog post of the usual multi-thousand word variety that I would start trying to write these little posts in about 30 minutes and see how that works out. By the time your reading this I will have likely already written several and managed to build up a least a little motivation in writing again.

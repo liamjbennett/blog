@@ -10,6 +10,8 @@ thumbnail: "/img/main/profile.jpg"
 audio_url: ""
 audio_length: ""
 audio_bytes: ""
+aliases:
+  - /posts/2026-04-19-operational-reslience
 ---
 
 The topic of operational resilience has been around for decades, with extensive research following not just the technical aspects of IT failures and cyber-security incidents but also the contributing human factors and organisational behaviours. With all these years of research and review you might think it surprising that it's such a hot topic again. Like many things in IT, there is a cycle of major incident, learning, new technology trend, and major incident again. From the early days like [Y2K](#ref-y2k) and [ILOVEYOU](#ref-iloveyou), through [Heartbleed](#ref-heartbleed) and [WannaCry](#ref-wannacry) to the more public [AWS](#ref-aws-oct2025) and [Azure](#ref-azure-oct2025) global outages, the pattern is consistent. Ensuring that we have systems in place to prevent mistakes and malicious intent continues to be a priority but the repetition of the large-scale events, not to name the millions of smaller ones, makes clear that prevention is not sufficient. 

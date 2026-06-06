@@ -22,9 +22,3 @@
   to = "/podroll.xml"
   status = 301
   force = true
-
-[[redirects]]
-  from = "/posts/:slug/"
-  to = "/posts/*/:slug/"
-  status = 301
-  force = true

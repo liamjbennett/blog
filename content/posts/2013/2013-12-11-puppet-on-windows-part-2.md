@@ -7,6 +7,8 @@ tags: ["puppet"]
 ShowToc: false
 ShowBreadCrumbs: false
 expiryDate: "2015-12-01"
+aliases:
+  - /posts/2013-12-11-puppet-on-windows-part-2
 ---
 
 In <a href="/blog/2013/10/06/puppet-on-windows-part-1">part 1</a> of this series of posts I discussed some of the challenges when writing modules for puppet on windows: documentation, packaging, ISOs and reboots. In part 2 I will discuss how I learnt about this, about the modules that I have written, the learning outcomes and about contributing to the forge.

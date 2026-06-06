@@ -7,6 +7,8 @@ tags: ["puppet","testing"]
 ShowToc: false
 ShowBreadCrumbs: false
 expiryDate: "2015-12-01"
+aliases:
+  - /posts/2014-09-02-testing-puppet-with-beaker-pt-dot-3-testing-roles
 ---
 
 The third installation in this series cover the use-case of testing roles and profiles.

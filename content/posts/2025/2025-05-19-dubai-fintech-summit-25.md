@@ -10,6 +10,8 @@ thumbnail: "/img/main/profile.jpg"
 audio_url: ""
 audio_length: ""
 audio_bytes: ""
+aliases:
+  - /posts/2025-05-19-dubai-fintech-summit-25
 ---
 
 ![Dubai FinTech Summit 2025](https://d1nzzttg89jj6.cloudfront.net/assets/articles/1718351284/1718351284.jpg)

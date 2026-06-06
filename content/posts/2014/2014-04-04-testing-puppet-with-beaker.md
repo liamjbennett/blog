@@ -7,6 +7,8 @@ tags: ["puppet","testing"]
 ShowToc: false
 ShowBreadCrumbs: false
 expiryDate: "2015-12-01"
+aliases:
+  - /posts/2014-04-04-testing-puppet-with-beaker
 ---
 
 The first instalment of a series of posts covering the Puppet testing tool Beaker (https://github.com/puppetlabs/beaker)

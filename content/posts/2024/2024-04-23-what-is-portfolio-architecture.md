@@ -9,6 +9,8 @@ thumbnail: "/img/main/profile.jpg"
 audio_url: "https://dd1bd01h7j6z1.cloudfront.net/2024-04-23%20-%20what%20is%20portfolio%20architecture%20-%20Final.m4a"
 audio_length: "00:03:45"
 audio_bytes: "7233955"
+aliases:
+  - /posts/2024-04-23-what-is-portfolio-architecture
 ---
 
 # What is Portfolio Architecture?
