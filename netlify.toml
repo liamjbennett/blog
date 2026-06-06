@@ -25,6 +25,6 @@
 
 [[redirects]]
   from = "/posts/:slug/"
-  to = "/posts/:year/:slug/"
+  to = "/posts/*/:slug/"
   status = 301
   force = true
