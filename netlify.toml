@@ -24,7 +24,7 @@
   force = true
 
 [[redirects]]
-  from = "/posts/:year/:slug/"
-  to = "/posts/:slug/"
+  from = "/posts/:slug/"
+  to = "/posts/:year/:slug/"
   status = 301
   force = true
