@@ -1,62 +1,56 @@
 [
   {
-    "show": "Acquired",
-    "episode": "Vanguard",
-    "url": "https://pscrb.fm/rss/p/media.transistor.fm/ee9d0817/c12627bd.mp3",
-    "duration": "3:48:04"
-  },
-  {
-    "show": "Ignore That Feeling with Fern Brady and Alison Spittle",
-    "episode": "The monarchy, This Morning and the weird-womenosphere",
-    "url": "https://sphinx.acast.com/p/open/s/694c1ed009314afbec95a3a6/e/6a072645efd1f558b0998a9c/media.mp3",
-    "duration": "51:14"
-  },
-  {
     "show": "Last Week In AWS Podcast",
-    "episode": "M3 Ultra Macs, Claude Platform, and 619 New APIs Walk Into a Bar",
-    "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/1e314c3b/27e7dc91.mp3",
-    "duration": "7:05"
+    "episode": "The Week AWS Remembered GovCloud Exists",
+    "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/a9c90392/120bb14f.mp3",
+    "duration": "6:27"
+  },
+  {
+    "show": "Off Menu with Ed Gamble and James Acaster",
+    "episode": "Harry Enfield",
+    "url": "https://sphinx.acast.com/p/acast/s/offmenu/e/6a1854c271443cf04aac6383/media.mp3",
+    "duration": "1:25:13"
   },
   {
     "show": "Risky Business",
-    "episode": "Risky Business #838 -- GitHub investigates possible breach",
-    "url": "https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RB838.mp3",
-    "duration": "1:02:49"
+    "episode": "Risky Business #840 -- Microsoft walks back researcher threats",
+    "url": "https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RB840.mp3",
+    "duration": "1:06:03"
   },
   {
     "show": "Risky Business",
-    "episode": "Risky Business #837 -- GitHub Actions footgun claims TanStack",
-    "url": "https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RB837.mp3",
-    "duration": "1:05:15"
+    "episode": "Risky Business #839 -- TeamPCP stole GitHub's internal repos",
+    "url": "https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RB839.mp3",
+    "duration": "1:00:23"
   },
   {
     "show": "Screaming in the Cloud",
-    "episode": "The Rise of Autonomous Ops: Inside AWS\u2019s DevOps Agent with David Yanacek",
-    "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/93b09d04/5319b7ca.mp3",
-    "duration": "30:32"
+    "episode": "Coding Agents, Chaos, and the Future of Dev Work with Dexter Horthy",
+    "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/fd3e5aed/3c3d3018.mp3",
+    "duration": "32:47"
   },
   {
     "show": "The Rest Is Entertainment",
-    "episode": "Marina Is Wrong About The Best Bond Theme",
-    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT8844958522.mp3",
-    "duration": "36:35"
+    "episode": "Kylie Minogue, Sherlock Holmes & Venezuela Fury",
+    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT6480181541.mp3",
+    "duration": "31:23"
   },
   {
     "show": "The Rest Is Entertainment",
-    "episode": "Have Tradwives Killed Feminism?",
-    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT2691209789.mp3",
-    "duration": "27:37"
+    "episode": "Backrooms: Has YouTube Just Saved Hollywood?",
+    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT5112993968.mp3",
+    "duration": "51:43"
   },
   {
-    "show": "The Rest Is Entertainment",
-    "episode": "Elon Musk vs Christopher Nolan",
-    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT1004190235.mp3",
-    "duration": "48:31"
+    "show": "Wrong Turns with Jameela Jamil",
+    "episode": "Rachel Feinstein and Ben Gleib",
+    "url": "https://sphinx.acast.com/p/open/s/686302e79951fac41b1d2418/e/6a176e2130535b3e18907566/media.mp3",
+    "duration": "56:58"
   },
   {
-    "show": "What's new in Cloud FinOps?",
-    "episode": "WNiCF - April 2026 - News",
-    "url": "https://www.buzzsprout.com/1397218/episodes/19221176-wnicf-april-2026-news.mp3",
-    "duration": "54:58"
+    "show": "Wrong Turns with Jameela Jamil",
+    "episode": "Rory Scovel and James Adomian",
+    "url": "https://sphinx.acast.com/p/open/s/686302e79951fac41b1d2418/e/6a0ca67bb23d275dceada5ba/media.mp3",
+    "duration": "1:00:34"
   }
 ]
