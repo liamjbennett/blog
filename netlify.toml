@@ -27,4 +27,4 @@
   from = "/posts/:year/:slug/"
   to = "/posts/:slug/"
   status = 301
-  force = false
+  force = true
