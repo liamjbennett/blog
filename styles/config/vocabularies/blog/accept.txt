@@ -42,6 +42,7 @@ VMware
 [Ww]ardley
 Wipro
 Broadcomm
+Harlaquins
 
 # People names from posts
 Apeldoorn
@@ -118,6 +119,7 @@ Hollnagel
 Leveson
 Allspaw
 Edmondson
+Kildunne
 
 # Brand and product names
 Automattic
