@@ -99,15 +99,33 @@ Hold on, doesn't that sound like [Copilot Facilitator](https://support.microsoft
 
 **Lesson learnt**: You can't automate Microsoft Loop. It doesn't have an API and the only way to get data out of it is a manual print to pdf export. When Copilot Facilitator is added to a meeting it automatically transcribes, summarises and creates actions - so far so good. However it creates those actions in a Loop page per meeting, however critically it doesn't assign those actions. When assigned, it's great because they appear as tasks in planner, but it requires manually going to every loop page to review and assign tasks. It somewhat negates the productivity gains Facilitator thinks it's giving you.
 
-**Lesson learnt**: Transcript only
+**Lesson learnt**: Most folks, especially in 1:1 are ok with transcript but don't really like recordings. Having transcript enabled is the minimum requirement to make this automation work effectively. While I was developing this, it mean having to manually enable transcript at the start of each meeting (which I didn't always remember to do), however at the time of writing Microsoft has now released a meeting setting for "Transcript only" (even if it did have a bit of a [buggy role out](https://learn.microsoft.com/en-au/answers/questions/5890165/unable-to-select-transcribe-only-in-teams-meetings)) which can be set on each scheduled event.
 
-**Lesson learnt**: Still need to review actions.
+**Lesson learnt**: One thing I didn't like about using Facilitator was that it didn't assign the tasks that it created despite knowing who the person was because it would always include a persons name in the task description. This was something that I wanted to solve when creating this skill, and did so with Power Automate, however translating from AI to actions didn't improve much and there still remains the manual activity for me to sanity check the actions in creates on the planner. This might be one of those things that after having spent time reviewing actions for a few months I might have a better idea on how to improve the automation based on rules - at the moment it's just a little too complex for that.
 
 ### Timesheets
 
+Given that I work in a organisation that delivers professional services, timesheets on a core part of our day-to-day life, be that filling them in or approving them. This is one skill that I developed, which was very quick to put together, but also requires a very specific set of supporting workflow that might not be for everyone. 
+
+Before I get into explaining the skill let me explain how I manage my time. I have for many years now used [time blocking](https://ctl.stanford.edu/weekly-planning-time-blocking-method) and [event colour coding](https://blog.splibrarian.com/2021/01/25/pro-work-tip-for-2021-build-a-color-coded-work-calendar/) to great effect. Looking at a calendar at the start of a week if often a rainbow of colours. This is not something that is a difficult to set-up and maintain as it sounds - set once of recurring events, a few email rules here and there and most of it is done. The background context of having this workflow is important because this event-to-category mapping is meta data that my timesheet skill will use later.
+
+Putting together a timesheet is generally pretty straightforward. What I need to know is how much time I spent on certain projects or internal activities, sounds like the time blocking I'm already doing, right? Well all I needed this new skill to do was map my time categories to projects, go through all the events in my calendar to calculate the total time spent and produce a little summarised comment for each time record. Nice and easy (mostly!).
+
+**Lesson learnt**: rules on conflict. This took a bit of tuning to align to my own working habits. Examples such as how to handle "tentative" or "following" meetings, how to handle meetings where you join only for a few minutes and then do something else and how to handle sensitive meetings where you don't want details to appears in the commentry summary. Also, how to handle gaps in the calendar - that one took some head scratching. All of these have nothing to do with the technology of developing the skills but speak quite a lot to the fact that most of the effort that goes into skill writing is writing down all of those rules about how you work, how you want things to happen and how you handle edge cases - lots more thinking time than actual keyboard time.
+
 ## Where Cowork fits into the wider Copilot ecosystem
 
-* Copilot Chat, Copilot in Office, Cowork, GitHub Copilot
+The Copilot ecosystem is now large and quite complex: [Copilot Chat](https://copilot.microsoft.com/), [Microsoft 365 Copilot Chat](https://m365.cloud.microsoft/chat/), [Microsoft 365 Copilot in Office](https://support.microsoft.com/en-gb/topic/get-started-editing-with-copilot-in-office-6d043333-6eeb-49d8-a80c-681d29ab7c04), [Copilot Cowork](https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/) and [GitHub Copilot](https://github.com/features/copilot) and [Microsoft Scout](https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/)
+
+The best way to understand these and how you can use them is through four different modes:
+
+1. **Chat Mode** - your day-to-day chat interface, question-and-response, likely replacing search for most people (primarily OpenAI-backed).
+2. **Code Mode** - 
+
+chat mode, your Q&A chatbot (primarily OpenAI-backed)
+code mode, Your developer environment (GitHub Copilot)
+cowork mode, Your on-demand, multi-step task delegator (Anthropic-backed)
+scout mode, your automated background assistant (OpenClaw-backed)
 
 ## What's up next
 

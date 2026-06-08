@@ -43,6 +43,7 @@ VMware
 Wipro
 Broadcomm
 Harlaquins
+Facilitator
 
 # People names from posts
 Apeldoorn
@@ -299,6 +300,7 @@ Windows_scheduled_task
 [Yy]aml
 [Rr]unbooks?
 [Hh]yperscalers?
+delegator
 
 # Informal language
 [Cc]leanup
