@@ -3,7 +3,7 @@ author: "liamjbennett"
 title: "Getting started with Copilot Cowork"
 date: "2026-05-16"
 description: ""
-tags: [""]
+tags: ["productivity", "ai", "copilot", "cowork"]
 ShowToc: false
 ShowBreadCrumbs: false
 thumbnail: "/img/main/profile.jpg"
@@ -15,11 +15,11 @@ aliases:
   - /posts/2026-05-16-getting-started-with-copilot-cowork
 ---
 
-I've been using Microsoft Copilot Cowork since it's first day of release into the [Frontier programme](). It has had a significant impact on my productivity and for those few of us in the organisation going through out internal pilot of the tool. I've had so many conversations about it over the past six weeks that I felt the need to share my experience in the hope that you find it useful and get to share the experience with others.
+I've been using Microsoft Copilot Cowork since it's first day of release into the [Frontier programme](https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program). It has had a significant impact on my productivity and for those few of us in the organisation going through out internal pilot of the tool. I've had so many conversations about it over the past six weeks that I felt the need to share my experience in the hope that you find it useful and get to share the experience with others.
 
-I'm going to assume for the rest of this post that you have some experience with Microsoft Copilot, or at least experience with other similar tools like Anthropic Claude or ChatGPT. If you don't then there is some [great content out there]() that will help you [get started with Copilot]().
+I'm going to assume for the rest of this post that you have some experience with Microsoft Copilot, or at least experience with other similar tools like Anthropic Claude or ChatGPT. If you don't then there is some great content out there that will help you [get started with Copilot](https://www.youtube.com/watch?v=0_mqsU7yh5Q).
 
-I started using Microsoft Copilot at work during the first part of 2024 and during the next 18-months it mostly replaced my use of enterprise search and google search. I'm not here to wade into [the AI debate](), I found early on that it aided in my productivity and I started using it for initial content drafting, although I wasn't too happy with the content because I could never get it to look like something I might write for myself. Honestly, after a lot of use I wasn't really a huge fan of the GPT models (either personally or professionally). With the release of the newer Anthropic models in the summer of 2024 and after plenty of conversations with people about these models I moved most of my usage over to an internal chat interface that used Sonnet (LibreChat using Azure Foundry). It wasn't quite a smooth as using Copilot and didn't have integration with enterprise search yet, but the output was just better, or at least I felt so for my use cases.
+I started using Microsoft Copilot at work during the first part of 2024 and during the next 18-months it mostly replaced my use of enterprise search and google search. I'm not here to wade into [the AI debate](https://www.britannica.com/procon/artificial-intelligence-AI-debate), I found early on that it aided in my productivity and I started using it for initial content drafting, although I wasn't too happy with the content because I could never get it to look like something I might write for myself. Honestly, after a lot of use I wasn't really a huge fan of the GPT models (either personally or professionally). With the release of the newer Anthropic models in the summer of 2024 and after plenty of conversations with people about these models I moved most of my usage over to an internal chat interface that used Sonnet (LibreChat using Azure Foundry). It wasn't quite a smooth as using Copilot and didn't have integration with enterprise search yet, but the output was just better, or at least I felt so for my use cases.
 
 ## Introduction to Cowork
 
@@ -120,15 +120,20 @@ The Copilot ecosystem is now large and quite complex: [Copilot Chat](https://cop
 The best way to understand these and how you can use them is through four different modes:
 
 1. **Chat Mode** - your day-to-day chat interface, question-and-response, likely replacing search for most people (primarily OpenAI-backed).
-2. **Code Mode** - 
+2. **Code Mode** - your development environment, writing and editing code on your behalf (using GitHub Copilot)
+3. **Cowork Mode** - your on-demand, multi-step assistant. Delegate and move on (Anthropic Claude-based)
+4. **Scout Mode** - your automated, background assistant (OpenClaw-based)
 
-chat mode, your Q&A chatbot (primarily OpenAI-backed)
-code mode, Your developer environment (GitHub Copilot)
-cowork mode, Your on-demand, multi-step task delegator (Anthropic-backed)
-scout mode, your automated background assistant (OpenClaw-backed)
+It is important to understand these modes for many reasons, first because each will have a different role in your day-to-day depending upon the requirements of your job, but it's likely that each will be used at different times. Also, because each is backed by different models, the economics of each will be quite different so at scale this will be a consideration. Finally, how each of these is developed, with skills, agents, and prompts will be slightly different.
+
+As usage of AI matures it is important to understand each of these operating modes as well as when it's best to use a skill, when it's best to use an agent, when you should use traditional automation and when you should write software. Each of these are tools with a specific trade-off in terms of speed, security, stability and economics and each will have it's place in our futures.
 
 ## What's up next
 
-* Project Opal
-* More agents
-* More MCPs
+I am far with finishing my experimentation with Copilot and Cowork and both tools also have a long way to go. There are a few areas however where I intend to spend a bit more time
+
+* **Windows 365 / Project Opal** - taking the AI output and using that to automate systems through the browser using a Windows Cloud PC. For things like my timesheet skill this will be where it will actually complete the timesheet on my behalf or complete expenses for me. A huge time saver.
+* **More agents** - I am particularly interested in the QA agent pattern. Using Cowork for document generation, with me in the loop for editing and then a agent that runs a standardised QA process before releasing it. I guess this is similar to a more traditional continuous delivery process. The limitation in Cowork now is that it doesn't really support many agents, especially even those that the main Copilot interface does - I expect this to change soon
+* **More MCPs** - Cowork is currently limited by it's out-the-box integration with a lot of tools, unlike it's big brother, however I do expect more of these to be validated and released as this moves out of Frontier.
+
+Finally, I would expect things to change a bit as Copilot evolves into the [new unified interface](https://robquickenden.blog/2026/06/what-is-microsoft-scout/), so despite all the challenges I have mentioned here the overall direction is very clear - lots more skills, lots more integrations, lot more automations, lots more money but plenty of time saved. 
