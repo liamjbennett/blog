@@ -179,6 +179,7 @@ VPNs?
 [Vv][Ss]
 WTFs?
 MCPs?
+NDAs?
 
 # Other
 [Aa]gentic
