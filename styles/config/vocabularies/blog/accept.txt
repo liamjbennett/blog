@@ -122,6 +122,7 @@ Leveson
 Allspaw
 Edmondson
 Kildunne
+[Bb]enedict
 
 # Brand and product names
 Automattic
