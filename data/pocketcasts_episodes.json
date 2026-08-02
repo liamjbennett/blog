@@ -1,32 +1,68 @@
 [
   {
+    "show": "Ignore That Feeling with Fern Brady and Alison Spittle",
+    "episode": "Nun-cast, becoming an aunt and Bonnie Blue revisited",
+    "url": "https://sphinx.acast.com/p/open/s/694c1ed009314afbec95a3a6/e/6a6730f63e2f0b6f92d4baaa/media.mp3",
+    "duration": "41:26"
+  },
+  {
     "show": "Last Week In AWS Podcast",
-    "episode": "OpenAI on Bedrock and Other Strange Bedfellows",
-    "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/961684b8/c9f78bd8.mp3",
-    "duration": "7:24"
+    "episode": "New Tools, Ancient Failures, Same Old AWS",
+    "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/15e70e8e/fac70457.mp3",
+    "duration": "7:50"
+  },
+  {
+    "show": "Off Menu with Ed Gamble and James Acaster",
+    "episode": "Sindhu Vee (Tasting Menu)",
+    "url": "https://sphinx.acast.com/p/acast/s/offmenu/e/6a4b9e203b774de65a10065a/media.mp3",
+    "duration": "1:23:19"
+  },
+  {
+    "show": "Off Menu with Ed Gamble and James Acaster",
+    "episode": "Nish Kumar (Tasting Menu \u2013 Live at the Royal Albert Hall)",
+    "url": "https://sphinx.acast.com/p/acast/s/offmenu/e/6a3bad0997b52d9936248e4e/media.mp3",
+    "duration": "1:16:45"
   },
   {
     "show": "Risky Business",
-    "episode": "Risky Business #841 -- Microsoft gets owned and 0day'd",
-    "url": "https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RB841.mp3",
-    "duration": "1:03:02"
+    "episode": "Risky Business #846 -- OpenAI built a fireplace out of wood",
+    "url": "https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RB846.mp3",
+    "duration": "1:02:00"
   },
   {
     "show": "Risky Business",
-    "episode": "Risky Business #840 -- Microsoft walks back researcher threats",
-    "url": "https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RB840.mp3",
-    "duration": "1:06:03"
+    "episode": "Risky Business #845 -- OpenAI's Skynet moment",
+    "url": "https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RB845.mp3",
+    "duration": "1:09:31"
   },
   {
     "show": "The Rest Is Entertainment",
-    "episode": "The Steven Bartlett Podcast Pile-On",
-    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT8171511487.mp3",
-    "duration": "1:01:15"
+    "episode": "Take A Break's AI Fake Mistake",
+    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT3270982563.mp3",
+    "duration": "38:45"
+  },
+  {
+    "show": "The Rest Is Entertainment",
+    "episode": "Has Charli XCX Escaped Brat Summer?",
+    "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT6339782313.mp3",
+    "duration": "50:20"
+  },
+  {
+    "show": "What's new in Cloud FinOps?",
+    "episode": "WNiCF - June 2026 - News",
+    "url": "https://www.buzzsprout.com/1397218/episodes/19581145-wnicf-june-2026-news.mp3",
+    "duration": "48:57"
   },
   {
     "show": "Wrong Turns with Jameela Jamil",
-    "episode": "Garcelle Beauvais and Ron Funches",
-    "url": "https://sphinx.acast.com/p/open/s/686302e79951fac41b1d2418/e/6a20b4c73ab59ca4e2d82dc5/media.mp3",
-    "duration": "30:21"
+    "episode": "Emily Wilson and Erica Hernandez",
+    "url": "https://sphinx.acast.com/p/open/s/686302e79951fac41b1d2418/e/6a6541d4d19896314206b3ee/media.mp3",
+    "duration": "43:41"
+  },
+  {
+    "show": "Wrong Turns with Jameela Jamil",
+    "episode": "Laurie Kilmartin and Sydney Kane",
+    "url": "https://sphinx.acast.com/p/open/s/686302e79951fac41b1d2418/e/6a5e8d1c8327d8bdc7662763/media.mp3",
+    "duration": "41:43"
   }
 ]
