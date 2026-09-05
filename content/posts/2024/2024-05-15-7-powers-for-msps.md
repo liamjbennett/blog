@@ -39,7 +39,7 @@ MSPs have historically focused on this almost more than anything else. Contracts
 
 The reason I say some of these practices are historical, is not because they are completely eradicated (far from it), but because there are less customer-hostile methods of implementing a switching costs strategy available. 
 
-One of those methods is actually something that the MSP organisation want’s to achieve anyway - deeper integration. By having a portfolio of services that are tightly integrated and focusing on the customer adopting more of that portfolio, as well as increasing revenue you also increase value the customer gets from the service. The more value they get and the more services they consume the more emotional investment they have in that value. 
+One of those methods is actually something that the MSP organisation wants to achieve anyway - deeper integration. By having a portfolio of services that are tightly integrated and focusing on the customer adopting more of that portfolio, as well as increasing revenue you also increase value the customer gets from the service. The more value they get and the more services they consume the more emotional investment they have in that value. 
 
 A second related method is by combining offerings into a single platform. The platform approach focuses on building new products on top of your existing products effectively building an economic moat based on value, so that the customer will find it difficult to exit because they would have to replace all products in one go, not just single point solutions.
 

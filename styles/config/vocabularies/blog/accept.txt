@@ -181,6 +181,7 @@ VPNs?
 WTFs?
 MCPs?
 NDAs?
+CIs?
 
 # Other
 [Aa]gentic

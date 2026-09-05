@@ -201,7 +201,7 @@ This was a good introduction to r10k and the reasons you would want to use it. T
     - not having to wait for all role tests to run
     - deploying everything to all masters (even hiera)
 * workflow
-    - ci per module
+    - CI per module
     - release job per module (tags)
     - deploy job per module (cap task to wrap r10k for masters/nodes)
 
