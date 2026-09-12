@@ -19,15 +19,11 @@ Writing all the time (see: [writing](/pages#writing))
 
 ## Reading
 
-{{< bookcover src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1590618607i/53518409.jpg" title="Good Services" url="https://www.goodreads.com/book/show/53518409-good-services" >}}
+{{< bookcover src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1645792082i/60493708.jpg" title="36 Streets" url="https://www.goodreads.com/en/book/show/60493708-36-streets" >}}
 
 ## Watching
 
-{{< bookcovergrid >}}
-{{< bookcover src="https://m.media-amazon.com/images/M/MV5BYjIxM2VhNmQtN2QyYy00MmY4LWFlZmUtMDY4YmFmZWQ2OTQ5XkEyXkFqcGc@._V1_.jpg" title="Industry - S04" url="https://www.imdb.com/title/tt7671070/" >}}
-{{< bookcover src="https://m.media-amazon.com/images/M/MV5BMWYyNDk0NGItMDIxYS00YmIwLTkwNDctNjZjODA3NDI0ODcwXkEyXkFqcGc@._V1_.jpg" title="Undeclared War - S02" url="https://www.imdb.com/title/tt7939800/" >}}
-{{< bookcover src="https://m.media-amazon.com/images/M/MV5BMGVmMWZjNzItY2RmNi00Yjc3LThiOWQtMzYzMmY1MDgxMjgyXkEyXkFqcGc@._V1_.jpg" title="Tip Toe" url="https://www.imdb.com/title/tt35768911/" >}}
-{{< /bookcovergrid >}}
+{{< bookcover src="https://m.media-amazon.com/images/M/MV5BMDkxOTA2MGMtNjI1NC00ZWU1LWIzM2QtZDU5ZGM4ODczNjcxXkEyXkFqcGc@._V1_.jpg" title="Steal" url="https://www.imdb.com/title/tt32499731/" >}}
 
 ## Listening
 
@@ -38,4 +34,4 @@ Writing all the time (see: [writing](/pages#writing))
 {{< spotify url="https://open.spotify.com/playlist/7dd6lGDBBm2f7fs3lPlNEu" title="Spotify Listening" height="370" >}}
 
 ---
-Last Updated: 02-Aug-2026
+Last Updated: 12-Sep-2026
